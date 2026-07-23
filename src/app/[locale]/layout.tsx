@@ -7,6 +7,7 @@ import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { routing } from "@/i18n/routing";
+import { siteUrl } from "@/lib/seo";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -64,7 +65,7 @@ export async function generateMetadata({
   const tHeader = await getTranslations({ locale, namespace: "Header" });
 
   return {
-    metadataBase: new URL("https://mylifeimg.com"),
+    metadataBase: new URL(siteUrl),
     title: {
       default: t("title"),
       template: `%s | ${tHeader("brand")}`,

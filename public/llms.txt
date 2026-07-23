@@ -1,0 +1,19 @@
+# mylifeimg (mylifeimg.com)
+
+> Free online image editing tools: compress, resize, crop, convert, rotate, watermark, and meme generator. No sign-up or account required. Uploaded images are processed on the server and deleted automatically afterward. Available in 26 languages: Korean (ko, default), English (en), Japanese (ja), Simplified Chinese (zh), Traditional Chinese (zh-TW), Spanish (es), French (fr), German (de), Portuguese (pt), Russian (ru), Italian (it), Dutch (nl), Polish (pl), Swedish (sv), Turkish (tr), Ukrainian (uk), Vietnamese (vi), Thai (th), Indonesian (id), Malay (ms), Hindi (hi), Bulgarian (bg), Catalan (ca), Greek (el), Swahili (sw), and Arabic (ar).
+
+## Tools
+
+- Compress Image — https://mylifeimg.com/en/compress_image — Shrink JPG, PNG, WEBP, and TIFF file sizes while keeping the quality.
+- Resize Image — https://mylifeimg.com/en/resize_image — Resize images to any pixel size or percentage.
+- Crop Image — https://mylifeimg.com/en/crop_image — Crop images to any area by specifying pixel coordinates.
+- Convert Image — https://mylifeimg.com/en/convert_image — Convert freely between JPG, PNG, WEBP, GIF, BMP, and TIFF.
+- Rotate Image — https://mylifeimg.com/en/rotate_image — Rotate images to any angle or flip them horizontally/vertically.
+- Add Watermark — https://mylifeimg.com/en/watermark_image — Add a text watermark to an image with adjustable opacity and position.
+- Meme Generator — https://mylifeimg.com/en/meme_generator — Add top and bottom text to quickly create a meme image.
+
+## Notes
+
+- All 7 tools are free, with no usage account or sign-up required.
+- Every tool is available under all 26 locale prefixes (e.g. https://mylifeimg.com/ko/compress_image, https://mylifeimg.com/ja/compress_image).
+- Sitemap: https://mylifeimg.com/sitemap.xml
