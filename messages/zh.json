@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | 免费在线图片编辑工具",
+    "description": "无需注册，免费压缩、调整大小、裁剪和转换图片。"
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "所有工具",
+    "freeBadge": "免费使用，无需注册",
+    "quickCompress": "压缩图片",
+    "quickResize": "调整图片大小",
+    "quickConvert": "转换图片格式"
+  },
+  "Footer": {
+    "notice": "上传的图片将在处理后自动删除。"
+  },
+  "Categories": {
+    "optimize": "优化",
+    "edit": "编辑",
+    "create": "创建"
+  },
+  "Home": {
+    "badge": "{count}个免费图片编辑工具",
+    "title": "免费在线图片编辑工具",
+    "subtitle": "无需注册，免费压缩、转换和编辑图片。上传后立即处理，并自动删除。"
+  },
+  "Common": {
+    "dropzoneSingle": "将图片拖放到此处，或点击选择",
+    "dropzoneMultiple": "将多张图片拖放到此处，或点击选择",
+    "dropzoneCountSelected": "已选择{count}张图片",
+    "dropzoneChangeHint": "点击选择其他文件",
+    "dropzoneAddHint": "点击或拖放以添加更多",
+    "removeFile": "移除文件",
+    "comingSoon": "即将推出",
+    "genericError": "处理时发生错误。"
+  },
+  "Tools": {
+    "compress_image": { "name": "压缩图片", "description": "在保持画质的同时减小JPG、PNG、WEBP图片的体积。" },
+    "resize_image": { "name": "调整图片大小", "description": "按像素或百分比自由调整图片尺寸。" },
+    "crop_image": { "name": "裁剪图片", "description": "指定像素坐标，只裁剪出图片中你需要的区域。" },
+    "convert_image": { "name": "转换图片格式", "description": "在JPG、PNG、WEBP、GIF、BMP、TIFF之间自由转换。" },
+    "rotate_image": { "name": "旋转图片", "description": "将图片旋转到任意角度，或进行左右/上下翻转。" },
+    "watermark_image": { "name": "添加水印", "description": "为图片添加文字水印，并可调整透明度和位置。" },
+    "meme_generator": { "name": "表情包生成器", "description": "添加上下文字，轻松制作表情包图片。" }
+  },
+  "CompressImagePage": {
+    "title": "压缩图片",
+    "description": "在保持画质的同时减小JPG、PNG、WEBP、TIFF图片的体积。支持批量处理多张图片。",
+    "qualityLabel": "压缩质量",
+    "qualityHint": "数值越低，文件越小，但画质也会随之下降。",
+    "submit": "压缩图片",
+    "converting": "正在压缩...",
+    "error": "压缩时发生错误。"
+  },
+  "ResizeImagePage": {
+    "title": "调整图片大小",
+    "description": "按像素或百分比自由调整图片尺寸。支持批量处理多张图片。",
+    "modePixel": "按像素指定",
+    "modePercent": "按百分比指定",
+    "widthLabel": "宽度 (px)",
+    "widthPlaceholder": "例如：800",
+    "heightLabel": "高度 (px)",
+    "heightPlaceholder": "例如：600",
+    "percentLabel": "比例 (%)",
+    "percentPlaceholder": "例如：50",
+    "percentHint": "小于100为缩小，大于100为放大。",
+    "keepAspectLabel": "保持原始宽高比（只填一项也会自动计算另一项）",
+    "submit": "调整图片大小",
+    "converting": "正在调整大小...",
+    "error": "调整大小时发生错误。"
+  },
+  "CropImagePage": {
+    "title": "裁剪图片",
+    "description": "指定像素坐标，只裁剪出图片中你需要的区域。",
+    "previewAlt": "预览",
+    "originalSize": "原始尺寸：{width} x {height}px",
+    "xLabel": "X（左边距）",
+    "yLabel": "Y（上边距）",
+    "widthLabel": "宽度 (px)",
+    "heightLabel": "高度 (px)",
+    "submit": "裁剪图片",
+    "cropping": "正在裁剪...",
+    "error": "裁剪时发生错误。"
+  },
+  "ConvertImagePage": {
+    "title": "转换图片格式",
+    "description": "在JPG、PNG、WEBP、GIF、BMP、TIFF之间自由转换。支持批量处理多张图片。",
+    "formatLabel": "转换为",
+    "submit": "转换为{format}格式",
+    "converting": "正在转换...",
+    "error": "转换时发生错误。"
+  },
+  "RotateImagePage": {
+    "title": "旋转图片",
+    "description": "将图片旋转到任意角度，或进行左右/上下翻转。支持批量处理多张图片。",
+    "angleLabel": "旋转角度",
+    "flipHLabel": "左右翻转",
+    "flipVLabel": "上下翻转",
+    "submit": "旋转图片",
+    "converting": "正在旋转...",
+    "error": "旋转时发生错误。"
+  },
+  "WatermarkImagePage": {
+    "title": "添加水印",
+    "description": "为图片添加文字水印，并可调整透明度和位置。",
+    "textLabel": "水印文字",
+    "positionLabel": "位置",
+    "opacityLabel": "透明度",
+    "fontSizeLabel": "字体大小",
+    "submit": "添加水印",
+    "converting": "正在添加水印...",
+    "error": "添加水印时发生错误。"
+  },
+  "MemeGeneratorPage": {
+    "title": "表情包生成器",
+    "description": "添加上下文字，轻松制作表情包图片。",
+    "topTextLabel": "上方文字",
+    "topTextPlaceholder": "例如：WHEN THE CODE",
+    "bottomTextLabel": "下方文字",
+    "bottomTextPlaceholder": "例如：FINALLY WORKS",
+    "submit": "制作表情包",
+    "converting": "正在制作...",
+    "error": "生成表情包时发生错误。"
+  },
+  "LanguageSwitcher": {
+    "label": "语言"
+  }
+}

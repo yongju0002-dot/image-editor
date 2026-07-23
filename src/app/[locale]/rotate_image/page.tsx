@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { RotateCw } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { ToolPageShell } from "@/components/ui/ToolPageShell";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { ImageDropzone } from "@/components/ui/ImageDropzone";
@@ -10,6 +11,7 @@ import { SubmitButton } from "@/components/ui/SubmitButton";
 import { Callout } from "@/components/ui/Callout";
 
 export default function RotateImagePage() {
+  const t = useTranslations("RotateImagePage");
   const [files, setFiles] = useState<File[]>([]);
   const [angle, setAngle] = useState("90");
   const [flipH, setFlipH] = useState(false);
@@ -35,7 +37,7 @@ export default function RotateImagePage() {
       });
       if (!res.ok) {
         const data = await res.json().catch(() => null);
-        throw new Error(data?.error ?? "회전 중 오류가 발생했습니다.");
+        throw new Error(data?.error ?? t("error"));
       }
       const blob = await res.blob();
       const disposition = res.headers.get("Content-Disposition") ?? "";
@@ -49,7 +51,7 @@ export default function RotateImagePage() {
       a.click();
       URL.revokeObjectURL(url);
     } catch (e) {
-      setError(e instanceof Error ? e.message : "회전 중 오류가 발생했습니다.");
+      setError(e instanceof Error ? e.message : t("error"));
     } finally {
       setLoading(false);
     }
@@ -59,8 +61,8 @@ export default function RotateImagePage() {
     <ToolPageShell>
       <PageHeader
         icon={RotateCw}
-        title="이미지 회전"
-        description="이미지를 원하는 각도로 회전하거나 좌우/상하로 반전하세요. 여러 장을 한 번에 처리할 수 있어요."
+        title={t("title")}
+        description={t("description")}
       />
 
       <div className="space-y-5">
@@ -68,7 +70,7 @@ export default function RotateImagePage() {
 
         <div>
           <label className="text-sm font-medium text-zinc-700 dark:text-zinc-300">
-            회전 각도
+            {t("angleLabel")}
           </label>
           <div className="mt-1.5">
             <ToggleGroup
@@ -91,7 +93,7 @@ export default function RotateImagePage() {
               onChange={(e) => setFlipH(e.target.checked)}
               className="h-4 w-4 rounded border-zinc-300 accent-green-600 dark:border-zinc-700"
             />
-            좌우 반전
+            {t("flipHLabel")}
           </label>
           <label className="flex items-center gap-2 text-sm text-zinc-600 dark:text-zinc-300">
             <input
@@ -100,14 +102,14 @@ export default function RotateImagePage() {
               onChange={(e) => setFlipV(e.target.checked)}
               className="h-4 w-4 rounded border-zinc-300 accent-green-600 dark:border-zinc-700"
             />
-            상하 반전
+            {t("flipVLabel")}
           </label>
         </div>
 
         {error && <Callout variant="error">{error}</Callout>}
 
         <SubmitButton disabled={files.length === 0 || loading} onClick={handleSubmit}>
-          {loading ? "회전하는 중..." : "이미지 회전하기"}
+          {loading ? t("converting") : t("submit")}
         </SubmitButton>
       </div>
     </ToolPageShell>

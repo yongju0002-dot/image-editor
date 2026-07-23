@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | Eines gratuïtes d'edició d'imatges en línia",
+    "description": "Comprimeix, redimensiona, retalla i converteix imatges gratis, sense necessitat de registre."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "Totes les eines",
+    "freeBadge": "Gratis, sense registre",
+    "quickCompress": "Comprimir imatge",
+    "quickResize": "Redimensionar imatge",
+    "quickConvert": "Convertir imatge"
+  },
+  "Footer": {
+    "notice": "Les imatges pujades s'esborren automàticament després de processar-se."
+  },
+  "Categories": {
+    "optimize": "Optimitzar",
+    "edit": "Editar",
+    "create": "Crear"
+  },
+  "Home": {
+    "badge": "{count} eines gratuïtes d'edició d'imatges",
+    "title": "Eines gratuïtes d'edició d'imatges en línia",
+    "subtitle": "Comprimeix, converteix i edita imatges gratis, sense registre. Tot es processa just en pujar-ho i s'esborra automàticament."
+  },
+  "Common": {
+    "dropzoneSingle": "Arrossega i deixa anar una imatge aquí, o clica per seleccionar-la",
+    "dropzoneMultiple": "Arrossega i deixa anar imatges aquí, o clica per seleccionar-les",
+    "dropzoneCountSelected": "{count} imatges seleccionades",
+    "dropzoneChangeHint": "Clica per triar un altre fitxer",
+    "dropzoneAddHint": "Clica o arrossega per afegir-ne més",
+    "removeFile": "Eliminar fitxer",
+    "comingSoon": "Properament",
+    "genericError": "S'ha produït un error durant el processament."
+  },
+  "Tools": {
+    "compress_image": { "name": "Comprimir imatge", "description": "Redueix la mida d'imatges JPG, PNG i WEBP mantenint la qualitat." },
+    "resize_image": { "name": "Redimensionar imatge", "description": "Canvia la mida de les imatges en píxels o percentatge." },
+    "crop_image": { "name": "Retallar imatge", "description": "Retalla l'àrea que necessitis indicant coordenades en píxels." },
+    "convert_image": { "name": "Convertir imatge", "description": "Converteix lliurement entre JPG, PNG, WEBP, GIF, BMP i TIFF." },
+    "rotate_image": { "name": "Girar imatge", "description": "Gira les imatges a l'angle que vulguis o inverteix-les horitzontalment/verticalment." },
+    "watermark_image": { "name": "Afegir marca d'aigua", "description": "Afegeix una marca d'aigua de text amb opacitat i posició ajustables." },
+    "meme_generator": { "name": "Generador de mems", "description": "Afegeix text a dalt i a baix per crear un mem fàcilment." }
+  },
+  "CompressImagePage": {
+    "title": "Comprimir imatge",
+    "description": "Redueix la mida d'imatges JPG, PNG, WEBP i TIFF mantenint la qualitat. Processa diverses imatges alhora.",
+    "qualityLabel": "Qualitat de compressió",
+    "qualityHint": "Valors més baixos redueixen la mida del fitxer, però també la qualitat.",
+    "submit": "Comprimir imatge",
+    "converting": "Comprimint...",
+    "error": "S'ha produït un error en comprimir."
+  },
+  "ResizeImagePage": {
+    "title": "Redimensionar imatge",
+    "description": "Canvia la mida de les imatges en píxels o percentatge. Processa diverses imatges alhora.",
+    "modePixel": "En píxels",
+    "modePercent": "En percentatge",
+    "widthLabel": "Amplada (px)",
+    "widthPlaceholder": "p. ex. 800",
+    "heightLabel": "Alçada (px)",
+    "heightPlaceholder": "p. ex. 600",
+    "percentLabel": "Escala (%)",
+    "percentPlaceholder": "p. ex. 50",
+    "percentHint": "Per sota de 100 redueix la imatge, per sobre l'amplia.",
+    "keepAspectLabel": "Mantenir la relació d'aspecte original (deixar un camp buit es calcula automàticament)",
+    "submit": "Redimensionar imatge",
+    "converting": "Redimensionant...",
+    "error": "S'ha produït un error en redimensionar."
+  },
+  "CropImagePage": {
+    "title": "Retallar imatge",
+    "description": "Retalla l'àrea que necessitis indicant coordenades en píxels.",
+    "previewAlt": "Vista prèvia",
+    "originalSize": "Mida original: {width} x {height}px",
+    "xLabel": "X (marge esquerre)",
+    "yLabel": "Y (marge superior)",
+    "widthLabel": "Amplada (px)",
+    "heightLabel": "Alçada (px)",
+    "submit": "Retallar imatge",
+    "cropping": "Retallant...",
+    "error": "S'ha produït un error en retallar."
+  },
+  "ConvertImagePage": {
+    "title": "Convertir imatge",
+    "description": "Converteix lliurement entre JPG, PNG, WEBP, GIF, BMP i TIFF. Processa diverses imatges alhora.",
+    "formatLabel": "Convertir a",
+    "submit": "Convertir a {format}",
+    "converting": "Convertint...",
+    "error": "S'ha produït un error en convertir."
+  },
+  "RotateImagePage": {
+    "title": "Girar imatge",
+    "description": "Gira les imatges a l'angle que vulguis o inverteix-les horitzontalment/verticalment. Processa diverses imatges alhora.",
+    "angleLabel": "Angle de gir",
+    "flipHLabel": "Invertir horitzontalment",
+    "flipVLabel": "Invertir verticalment",
+    "submit": "Girar imatge",
+    "converting": "Girant...",
+    "error": "S'ha produït un error en girar."
+  },
+  "WatermarkImagePage": {
+    "title": "Afegir marca d'aigua",
+    "description": "Afegeix una marca d'aigua de text a la imatge amb opacitat i posició ajustables.",
+    "textLabel": "Text de la marca d'aigua",
+    "positionLabel": "Posició",
+    "opacityLabel": "Opacitat",
+    "fontSizeLabel": "Mida del text",
+    "submit": "Afegir marca d'aigua",
+    "converting": "Afegint marca d'aigua...",
+    "error": "S'ha produït un error en afegir la marca d'aigua."
+  },
+  "MemeGeneratorPage": {
+    "title": "Generador de mems",
+    "description": "Afegeix text a dalt i a baix per crear una imatge de mem fàcilment.",
+    "topTextLabel": "Text superior",
+    "topTextPlaceholder": "p. ex. WHEN THE CODE",
+    "bottomTextLabel": "Text inferior",
+    "bottomTextPlaceholder": "p. ex. FINALLY WORKS",
+    "submit": "Crear mem",
+    "converting": "Creant el mem...",
+    "error": "S'ha produït un error en generar el mem."
+  },
+  "LanguageSwitcher": {
+    "label": "Idioma"
+  }
+}

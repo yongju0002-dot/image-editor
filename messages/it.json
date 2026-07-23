@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | Strumenti gratuiti di editing immagini online",
+    "description": "Comprimi, ridimensiona, ritaglia e converti immagini gratis, senza registrazione."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "Tutti gli strumenti",
+    "freeBadge": "Gratis, senza registrazione",
+    "quickCompress": "Comprimi immagine",
+    "quickResize": "Ridimensiona immagine",
+    "quickConvert": "Converti immagine"
+  },
+  "Footer": {
+    "notice": "Le immagini caricate vengono eliminate automaticamente dopo l'elaborazione."
+  },
+  "Categories": {
+    "optimize": "Ottimizza",
+    "edit": "Modifica",
+    "create": "Crea"
+  },
+  "Home": {
+    "badge": "{count} strumenti gratuiti di editing immagini",
+    "title": "Strumenti gratuiti di editing immagini online",
+    "subtitle": "Comprimi, converti e modifica immagini gratis, senza registrazione. Tutto viene elaborato non appena carichi il file ed eliminato automaticamente."
+  },
+  "Common": {
+    "dropzoneSingle": "Trascina qui un'immagine o clicca per selezionarla",
+    "dropzoneMultiple": "Trascina qui le immagini o clicca per selezionarle",
+    "dropzoneCountSelected": "{count} immagini selezionate",
+    "dropzoneChangeHint": "Clicca per scegliere un altro file",
+    "dropzoneAddHint": "Clicca o trascina per aggiungerne altre",
+    "removeFile": "Rimuovi file",
+    "comingSoon": "Prossimamente",
+    "genericError": "Si è verificato un errore durante l'elaborazione."
+  },
+  "Tools": {
+    "compress_image": { "name": "Comprimi immagine", "description": "Riduci il peso di immagini JPG, PNG e WEBP mantenendo la qualità." },
+    "resize_image": { "name": "Ridimensiona immagine", "description": "Ridimensiona le immagini in pixel o percentuale." },
+    "crop_image": { "name": "Ritaglia immagine", "description": "Ritaglia l'area desiderata indicando le coordinate in pixel." },
+    "convert_image": { "name": "Converti immagine", "description": "Converti liberamente tra JPG, PNG, WEBP, GIF, BMP e TIFF." },
+    "rotate_image": { "name": "Ruota immagine", "description": "Ruota le immagini all'angolazione desiderata o capovolgile in orizzontale/verticale." },
+    "watermark_image": { "name": "Aggiungi filigrana", "description": "Aggiungi una filigrana testuale con opacità e posizione regolabili." },
+    "meme_generator": { "name": "Generatore di meme", "description": "Aggiungi testo in alto e in basso per creare facilmente un meme." }
+  },
+  "CompressImagePage": {
+    "title": "Comprimi immagine",
+    "description": "Riduci il peso di immagini JPG, PNG, WEBP e TIFF mantenendo la qualità. Elabora più immagini contemporaneamente.",
+    "qualityLabel": "Qualità di compressione",
+    "qualityHint": "Valori più bassi riducono il peso del file, ma anche la qualità.",
+    "submit": "Comprimi immagine",
+    "converting": "Compressione in corso...",
+    "error": "Si è verificato un errore durante la compressione."
+  },
+  "ResizeImagePage": {
+    "title": "Ridimensiona immagine",
+    "description": "Ridimensiona le immagini in pixel o percentuale. Elabora più immagini contemporaneamente.",
+    "modePixel": "In pixel",
+    "modePercent": "In percentuale",
+    "widthLabel": "Larghezza (px)",
+    "widthPlaceholder": "es. 800",
+    "heightLabel": "Altezza (px)",
+    "heightPlaceholder": "es. 600",
+    "percentLabel": "Scala (%)",
+    "percentPlaceholder": "es. 50",
+    "percentHint": "Sotto 100 riduce l'immagine, sopra 100 la ingrandisce.",
+    "keepAspectLabel": "Mantieni le proporzioni originali (lasciando un campo vuoto viene calcolato automaticamente)",
+    "submit": "Ridimensiona immagine",
+    "converting": "Ridimensionamento in corso...",
+    "error": "Si è verificato un errore durante il ridimensionamento."
+  },
+  "CropImagePage": {
+    "title": "Ritaglia immagine",
+    "description": "Ritaglia l'area desiderata indicando le coordinate in pixel.",
+    "previewAlt": "Anteprima",
+    "originalSize": "Dimensione originale: {width} x {height}px",
+    "xLabel": "X (margine sinistro)",
+    "yLabel": "Y (margine superiore)",
+    "widthLabel": "Larghezza (px)",
+    "heightLabel": "Altezza (px)",
+    "submit": "Ritaglia immagine",
+    "cropping": "Ritaglio in corso...",
+    "error": "Si è verificato un errore durante il ritaglio."
+  },
+  "ConvertImagePage": {
+    "title": "Converti immagine",
+    "description": "Converti liberamente tra JPG, PNG, WEBP, GIF, BMP e TIFF. Elabora più immagini contemporaneamente.",
+    "formatLabel": "Converti in",
+    "submit": "Converti in {format}",
+    "converting": "Conversione in corso...",
+    "error": "Si è verificato un errore durante la conversione."
+  },
+  "RotateImagePage": {
+    "title": "Ruota immagine",
+    "description": "Ruota le immagini all'angolazione desiderata o capovolgile in orizzontale/verticale. Elabora più immagini contemporaneamente.",
+    "angleLabel": "Angolo di rotazione",
+    "flipHLabel": "Capovolgi orizzontalmente",
+    "flipVLabel": "Capovolgi verticalmente",
+    "submit": "Ruota immagine",
+    "converting": "Rotazione in corso...",
+    "error": "Si è verificato un errore durante la rotazione."
+  },
+  "WatermarkImagePage": {
+    "title": "Aggiungi filigrana",
+    "description": "Aggiungi una filigrana testuale all'immagine con opacità e posizione regolabili.",
+    "textLabel": "Testo della filigrana",
+    "positionLabel": "Posizione",
+    "opacityLabel": "Opacità",
+    "fontSizeLabel": "Dimensione del testo",
+    "submit": "Aggiungi filigrana",
+    "converting": "Aggiunta della filigrana in corso...",
+    "error": "Si è verificato un errore durante l'aggiunta della filigrana."
+  },
+  "MemeGeneratorPage": {
+    "title": "Generatore di meme",
+    "description": "Aggiungi testo in alto e in basso per creare facilmente un'immagine meme.",
+    "topTextLabel": "Testo superiore",
+    "topTextPlaceholder": "es. WHEN THE CODE",
+    "bottomTextLabel": "Testo inferiore",
+    "bottomTextPlaceholder": "es. FINALLY WORKS",
+    "submit": "Crea meme",
+    "converting": "Creazione del meme in corso...",
+    "error": "Si è verificato un errore durante la creazione del meme."
+  },
+  "LanguageSwitcher": {
+    "label": "Lingua"
+  }
+}

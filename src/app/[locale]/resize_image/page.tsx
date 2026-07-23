@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ImagePlus } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { ToolPageShell } from "@/components/ui/ToolPageShell";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { ImageDropzone } from "@/components/ui/ImageDropzone";
@@ -13,6 +14,7 @@ import { Callout } from "@/components/ui/Callout";
 type Mode = "pixel" | "percent";
 
 export default function ResizeImagePage() {
+  const t = useTranslations("ResizeImagePage");
   const [files, setFiles] = useState<File[]>([]);
   const [mode, setMode] = useState<Mode>("pixel");
   const [width, setWidth] = useState("");
@@ -42,7 +44,7 @@ export default function ResizeImagePage() {
       });
       if (!res.ok) {
         const data = await res.json().catch(() => null);
-        throw new Error(data?.error ?? "크기 조절 중 오류가 발생했습니다.");
+        throw new Error(data?.error ?? t("error"));
       }
       const blob = await res.blob();
       const disposition = res.headers.get("Content-Disposition") ?? "";
@@ -56,7 +58,7 @@ export default function ResizeImagePage() {
       a.click();
       URL.revokeObjectURL(url);
     } catch (e) {
-      setError(e instanceof Error ? e.message : "크기 조절 중 오류가 발생했습니다.");
+      setError(e instanceof Error ? e.message : t("error"));
     } finally {
       setLoading(false);
     }
@@ -66,8 +68,8 @@ export default function ResizeImagePage() {
     <ToolPageShell>
       <PageHeader
         icon={ImagePlus}
-        title="이미지 크기 조절"
-        description="픽셀 또는 퍼센트로 이미지 크기를 원하는 대로 조절하세요. 여러 장을 한 번에 처리할 수 있어요."
+        title={t("title")}
+        description={t("description")}
       />
 
       <div className="space-y-5">
@@ -75,8 +77,8 @@ export default function ResizeImagePage() {
 
         <ToggleGroup
           options={[
-            { value: "pixel", label: "픽셀로 지정" },
-            { value: "percent", label: "퍼센트로 지정" },
+            { value: "pixel", label: t("modePixel") },
+            { value: "percent", label: t("modePercent") },
           ]}
           value={mode}
           onChange={setMode}
@@ -85,28 +87,28 @@ export default function ResizeImagePage() {
         {mode === "pixel" ? (
           <div className="grid grid-cols-2 gap-3">
             <TextField
-              label="너비 (px)"
+              label={t("widthLabel")}
               type="number"
               value={width}
               onChange={setWidth}
-              placeholder="예: 800"
+              placeholder={t("widthPlaceholder")}
             />
             <TextField
-              label="높이 (px)"
+              label={t("heightLabel")}
               type="number"
               value={height}
               onChange={setHeight}
-              placeholder="예: 600"
+              placeholder={t("heightPlaceholder")}
             />
           </div>
         ) : (
           <TextField
-            label="비율 (%)"
+            label={t("percentLabel")}
             type="number"
             value={percent}
             onChange={setPercent}
-            placeholder="예: 50"
-            hint="100보다 작으면 축소, 크면 확대됩니다."
+            placeholder={t("percentPlaceholder")}
+            hint={t("percentHint")}
           />
         )}
 
@@ -118,7 +120,7 @@ export default function ResizeImagePage() {
               onChange={(e) => setKeepAspect(e.target.checked)}
               className="h-4 w-4 rounded border-zinc-300 accent-green-600 dark:border-zinc-700"
             />
-            원본 비율 유지 (한쪽 값만 채워도 자동 계산돼요)
+            {t("keepAspectLabel")}
           </label>
         )}
 
@@ -128,7 +130,7 @@ export default function ResizeImagePage() {
           disabled={files.length === 0 || loading}
           onClick={handleSubmit}
         >
-          {loading ? "크기 조절하는 중..." : "이미지 크기 조절하기"}
+          {loading ? t("converting") : t("submit")}
         </SubmitButton>
       </div>
     </ToolPageShell>

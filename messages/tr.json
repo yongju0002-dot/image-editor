@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | Ücretsiz Çevrimiçi Görsel Düzenleme Araçları",
+    "description": "Görselleri kayıt olmadan ücretsiz olarak sıkıştırın, yeniden boyutlandırın, kırpın ve dönüştürün."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "Tüm Araçlar",
+    "freeBadge": "Ücretsiz, kayıt gerektirmez",
+    "quickCompress": "Görsel Sıkıştır",
+    "quickResize": "Görsel Yeniden Boyutlandır",
+    "quickConvert": "Görsel Dönüştür"
+  },
+  "Footer": {
+    "notice": "Yüklenen görseller işlendikten sonra otomatik olarak silinir."
+  },
+  "Categories": {
+    "optimize": "Optimize Et",
+    "edit": "Düzenle",
+    "create": "Oluştur"
+  },
+  "Home": {
+    "badge": "{count} ücretsiz görsel düzenleme aracı",
+    "title": "Ücretsiz Çevrimiçi Görsel Düzenleme Araçları",
+    "subtitle": "Görselleri kayıt olmadan ücretsiz olarak sıkıştırın, dönüştürün ve düzenleyin. Her şey yüklendiği anda işlenir ve otomatik olarak silinir."
+  },
+  "Common": {
+    "dropzoneSingle": "Bir görseli buraya sürükleyip bırakın veya seçmek için tıklayın",
+    "dropzoneMultiple": "Görselleri buraya sürükleyip bırakın veya seçmek için tıklayın",
+    "dropzoneCountSelected": "{count} görsel seçildi",
+    "dropzoneChangeHint": "Farklı bir dosya seçmek için tıklayın",
+    "dropzoneAddHint": "Daha fazla eklemek için tıklayın veya sürükleyin",
+    "removeFile": "Dosyayı kaldır",
+    "comingSoon": "Yakında",
+    "genericError": "İşlem sırasında bir hata oluştu."
+  },
+  "Tools": {
+    "compress_image": { "name": "Görsel Sıkıştır", "description": "Kaliteyi koruyarak JPG, PNG ve WEBP dosya boyutunu küçültün." },
+    "resize_image": { "name": "Görsel Yeniden Boyutlandır", "description": "Görselleri piksel veya yüzde olarak yeniden boyutlandırın." },
+    "crop_image": { "name": "Görsel Kırp", "description": "Piksel koordinatları belirterek istediğiniz alanı kırpın." },
+    "convert_image": { "name": "Görsel Dönüştür", "description": "JPG, PNG, WEBP, GIF, BMP ve TIFF arasında serbestçe dönüştürün." },
+    "rotate_image": { "name": "Görsel Döndür", "description": "Görselleri istediğiniz açıyla döndürün veya yatay/dikey çevirin." },
+    "watermark_image": { "name": "Filigran Ekle", "description": "Ayarlanabilir opaklık ve konumla metin filigranı ekleyin." },
+    "meme_generator": { "name": "Meme Oluşturucu", "description": "Üst ve alt metin ekleyerek hızlıca meme oluşturun." }
+  },
+  "CompressImagePage": {
+    "title": "Görsel Sıkıştır",
+    "description": "Kaliteyi koruyarak JPG, PNG, WEBP ve TIFF dosya boyutunu küçültün. Birden fazla görseli tek seferde işleyin.",
+    "qualityLabel": "Sıkıştırma Kalitesi",
+    "qualityHint": "Değer düştükçe dosya boyutu küçülür, ancak kalite de düşer.",
+    "submit": "Görseli Sıkıştır",
+    "converting": "Sıkıştırılıyor...",
+    "error": "Sıkıştırma sırasında bir hata oluştu."
+  },
+  "ResizeImagePage": {
+    "title": "Görsel Yeniden Boyutlandır",
+    "description": "Görselleri piksel veya yüzde olarak yeniden boyutlandırın. Birden fazla görseli tek seferde işleyin.",
+    "modePixel": "Piksel olarak",
+    "modePercent": "Yüzde olarak",
+    "widthLabel": "Genişlik (px)",
+    "widthPlaceholder": "örn. 800",
+    "heightLabel": "Yükseklik (px)",
+    "heightPlaceholder": "örn. 600",
+    "percentLabel": "Oran (%)",
+    "percentPlaceholder": "örn. 50",
+    "percentHint": "100'ün altı küçültür, üstü büyütür.",
+    "keepAspectLabel": "Orijinal en-boy oranını koru (bir alanı boş bırakmak otomatik hesaplanır)",
+    "submit": "Görseli Yeniden Boyutlandır",
+    "converting": "Yeniden boyutlandırılıyor...",
+    "error": "Yeniden boyutlandırma sırasında bir hata oluştu."
+  },
+  "CropImagePage": {
+    "title": "Görsel Kırp",
+    "description": "Piksel koordinatları belirterek istediğiniz alanı kırpın.",
+    "previewAlt": "Önizleme",
+    "originalSize": "Orijinal boyut: {width} x {height}px",
+    "xLabel": "X (sol boşluk)",
+    "yLabel": "Y (üst boşluk)",
+    "widthLabel": "Genişlik (px)",
+    "heightLabel": "Yükseklik (px)",
+    "submit": "Görseli Kırp",
+    "cropping": "Kırpılıyor...",
+    "error": "Kırpma sırasında bir hata oluştu."
+  },
+  "ConvertImagePage": {
+    "title": "Görsel Dönüştür",
+    "description": "JPG, PNG, WEBP, GIF, BMP ve TIFF arasında serbestçe dönüştürün. Birden fazla görseli tek seferde işleyin.",
+    "formatLabel": "Şuna dönüştür",
+    "submit": "{format} olarak dönüştür",
+    "converting": "Dönüştürülüyor...",
+    "error": "Dönüştürme sırasında bir hata oluştu."
+  },
+  "RotateImagePage": {
+    "title": "Görsel Döndür",
+    "description": "Görselleri istediğiniz açıyla döndürün veya yatay/dikey çevirin. Birden fazla görseli tek seferde işleyin.",
+    "angleLabel": "Döndürme Açısı",
+    "flipHLabel": "Yatay çevir",
+    "flipVLabel": "Dikey çevir",
+    "submit": "Görseli Döndür",
+    "converting": "Döndürülüyor...",
+    "error": "Döndürme sırasında bir hata oluştu."
+  },
+  "WatermarkImagePage": {
+    "title": "Filigran Ekle",
+    "description": "Ayarlanabilir opaklık ve konumla görsele metin filigranı ekleyin.",
+    "textLabel": "Filigran metni",
+    "positionLabel": "Konum",
+    "opacityLabel": "Opaklık",
+    "fontSizeLabel": "Yazı boyutu",
+    "submit": "Filigran Ekle",
+    "converting": "Filigran ekleniyor...",
+    "error": "Filigran eklenirken bir hata oluştu."
+  },
+  "MemeGeneratorPage": {
+    "title": "Meme Oluşturucu",
+    "description": "Üst ve alt metin ekleyerek hızlıca bir meme görseli oluşturun.",
+    "topTextLabel": "Üst metin",
+    "topTextPlaceholder": "örn. WHEN THE CODE",
+    "bottomTextLabel": "Alt metin",
+    "bottomTextPlaceholder": "örn. FINALLY WORKS",
+    "submit": "Meme Oluştur",
+    "converting": "Meme oluşturuluyor...",
+    "error": "Meme oluşturulurken bir hata oluştu."
+  },
+  "LanguageSwitcher": {
+    "label": "Dil"
+  }
+}

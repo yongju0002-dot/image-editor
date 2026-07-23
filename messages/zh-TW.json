@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | 免費線上圖片編輯工具",
+    "description": "無需註冊，免費壓縮、調整大小、裁切和轉換圖片。"
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "所有工具",
+    "freeBadge": "免費使用，無需註冊",
+    "quickCompress": "壓縮圖片",
+    "quickResize": "調整圖片大小",
+    "quickConvert": "轉換圖片格式"
+  },
+  "Footer": {
+    "notice": "上傳的圖片將在處理後自動刪除。"
+  },
+  "Categories": {
+    "optimize": "最佳化",
+    "edit": "編輯",
+    "create": "建立"
+  },
+  "Home": {
+    "badge": "{count}個免費圖片編輯工具",
+    "title": "免費線上圖片編輯工具",
+    "subtitle": "無需註冊，免費壓縮、轉換和編輯圖片。上傳後立即處理，並自動刪除。"
+  },
+  "Common": {
+    "dropzoneSingle": "將圖片拖放到此處，或點擊選擇",
+    "dropzoneMultiple": "將多張圖片拖放到此處，或點擊選擇",
+    "dropzoneCountSelected": "已選擇{count}張圖片",
+    "dropzoneChangeHint": "點擊選擇其他檔案",
+    "dropzoneAddHint": "點擊或拖放以新增更多",
+    "removeFile": "移除檔案",
+    "comingSoon": "即將推出",
+    "genericError": "處理時發生錯誤。"
+  },
+  "Tools": {
+    "compress_image": { "name": "壓縮圖片", "description": "在保持畫質的同時減少JPG、PNG、WEBP圖片的容量。" },
+    "resize_image": { "name": "調整圖片大小", "description": "依像素或百分比自由調整圖片尺寸。" },
+    "crop_image": { "name": "裁切圖片", "description": "指定像素座標，只裁切出圖片中你需要的區域。" },
+    "convert_image": { "name": "轉換圖片格式", "description": "在JPG、PNG、WEBP、GIF、BMP、TIFF之間自由轉換。" },
+    "rotate_image": { "name": "旋轉圖片", "description": "將圖片旋轉至任意角度，或進行左右/上下翻轉。" },
+    "watermark_image": { "name": "新增浮水印", "description": "為圖片新增文字浮水印，並可調整透明度與位置。" },
+    "meme_generator": { "name": "迷因產生器", "description": "新增上下文字，輕鬆製作迷因圖片。" }
+  },
+  "CompressImagePage": {
+    "title": "壓縮圖片",
+    "description": "在保持畫質的同時減少JPG、PNG、WEBP、TIFF圖片的容量。支援批次處理多張圖片。",
+    "qualityLabel": "壓縮品質",
+    "qualityHint": "數值越低，檔案越小，但畫質也會隨之下降。",
+    "submit": "壓縮圖片",
+    "converting": "壓縮中...",
+    "error": "壓縮時發生錯誤。"
+  },
+  "ResizeImagePage": {
+    "title": "調整圖片大小",
+    "description": "依像素或百分比自由調整圖片尺寸。支援批次處理多張圖片。",
+    "modePixel": "以像素指定",
+    "modePercent": "以百分比指定",
+    "widthLabel": "寬度 (px)",
+    "widthPlaceholder": "例如：800",
+    "heightLabel": "高度 (px)",
+    "heightPlaceholder": "例如：600",
+    "percentLabel": "比例 (%)",
+    "percentPlaceholder": "例如：50",
+    "percentHint": "小於100為縮小，大於100為放大。",
+    "keepAspectLabel": "保持原始長寬比（只填一項也會自動計算另一項）",
+    "submit": "調整圖片大小",
+    "converting": "調整大小中...",
+    "error": "調整大小時發生錯誤。"
+  },
+  "CropImagePage": {
+    "title": "裁切圖片",
+    "description": "指定像素座標，只裁切出圖片中你需要的區域。",
+    "previewAlt": "預覽",
+    "originalSize": "原始尺寸：{width} x {height}px",
+    "xLabel": "X（左邊距）",
+    "yLabel": "Y（上邊距）",
+    "widthLabel": "寬度 (px)",
+    "heightLabel": "高度 (px)",
+    "submit": "裁切圖片",
+    "cropping": "裁切中...",
+    "error": "裁切時發生錯誤。"
+  },
+  "ConvertImagePage": {
+    "title": "轉換圖片格式",
+    "description": "在JPG、PNG、WEBP、GIF、BMP、TIFF之間自由轉換。支援批次處理多張圖片。",
+    "formatLabel": "轉換為",
+    "submit": "轉換為{format}格式",
+    "converting": "轉換中...",
+    "error": "轉換時發生錯誤。"
+  },
+  "RotateImagePage": {
+    "title": "旋轉圖片",
+    "description": "將圖片旋轉至任意角度，或進行左右/上下翻轉。支援批次處理多張圖片。",
+    "angleLabel": "旋轉角度",
+    "flipHLabel": "左右翻轉",
+    "flipVLabel": "上下翻轉",
+    "submit": "旋轉圖片",
+    "converting": "旋轉中...",
+    "error": "旋轉時發生錯誤。"
+  },
+  "WatermarkImagePage": {
+    "title": "新增浮水印",
+    "description": "為圖片新增文字浮水印，並可調整透明度與位置。",
+    "textLabel": "浮水印文字",
+    "positionLabel": "位置",
+    "opacityLabel": "透明度",
+    "fontSizeLabel": "字型大小",
+    "submit": "新增浮水印",
+    "converting": "新增浮水印中...",
+    "error": "新增浮水印時發生錯誤。"
+  },
+  "MemeGeneratorPage": {
+    "title": "迷因產生器",
+    "description": "新增上下文字，輕鬆製作迷因圖片。",
+    "topTextLabel": "上方文字",
+    "topTextPlaceholder": "例如：WHEN THE CODE",
+    "bottomTextLabel": "下方文字",
+    "bottomTextPlaceholder": "例如：FINALLY WORKS",
+    "submit": "製作迷因",
+    "converting": "製作中...",
+    "error": "產生迷因時發生錯誤。"
+  },
+  "LanguageSwitcher": {
+    "label": "語言"
+  }
+}

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Droplets } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { ToolPageShell } from "@/components/ui/ToolPageShell";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { ImageDropzone } from "@/components/ui/ImageDropzone";
@@ -23,6 +24,7 @@ const POSITIONS = [
 ] as const;
 
 export default function WatermarkImagePage() {
+  const t = useTranslations("WatermarkImagePage");
   const [files, setFiles] = useState<File[]>([]);
   const [text, setText] = useState("Sample Watermark");
   const [opacity, setOpacity] = useState(50);
@@ -50,7 +52,7 @@ export default function WatermarkImagePage() {
       });
       if (!res.ok) {
         const data = await res.json().catch(() => null);
-        throw new Error(data?.error ?? "워터마크 추가 중 오류가 발생했습니다.");
+        throw new Error(data?.error ?? t("error"));
       }
       const blob = await res.blob();
       const disposition = res.headers.get("Content-Disposition") ?? "";
@@ -64,7 +66,7 @@ export default function WatermarkImagePage() {
       a.click();
       URL.revokeObjectURL(url);
     } catch (e) {
-      setError(e instanceof Error ? e.message : "워터마크 추가 중 오류가 발생했습니다.");
+      setError(e instanceof Error ? e.message : t("error"));
     } finally {
       setLoading(false);
     }
@@ -74,18 +76,18 @@ export default function WatermarkImagePage() {
     <ToolPageShell>
       <PageHeader
         icon={Droplets}
-        title="워터마크 추가"
-        description="텍스트 워터마크로 이미지에 투명도와 위치를 조절해 삽입하세요."
+        title={t("title")}
+        description={t("description")}
       />
 
       <div className="space-y-5">
         <ImageDropzone files={files} onChange={setFiles} />
 
-        <TextField label="워터마크 텍스트" value={text} onChange={setText} />
+        <TextField label={t("textLabel")} value={text} onChange={setText} />
 
         <div>
           <label className="text-sm font-medium text-zinc-700 dark:text-zinc-300">
-            위치
+            {t("positionLabel")}
           </label>
           <div className="mt-1.5 grid grid-cols-3 gap-2">
             {POSITIONS.map((pos) => (
@@ -105,7 +107,7 @@ export default function WatermarkImagePage() {
         </div>
 
         <SliderField
-          label="투명도"
+          label={t("opacityLabel")}
           valueLabel={`${opacity}%`}
           min={5}
           max={100}
@@ -114,7 +116,7 @@ export default function WatermarkImagePage() {
         />
 
         <SliderField
-          label="글자 크기"
+          label={t("fontSizeLabel")}
           valueLabel={`${fontSize}px`}
           min={10}
           max={150}
@@ -125,7 +127,7 @@ export default function WatermarkImagePage() {
         {error && <Callout variant="error">{error}</Callout>}
 
         <SubmitButton disabled={files.length === 0 || !text.trim() || loading} onClick={handleSubmit}>
-          {loading ? "워터마크 추가하는 중..." : "워터마크 추가하기"}
+          {loading ? t("converting") : t("submit")}
         </SubmitButton>
       </div>
     </ToolPageShell>

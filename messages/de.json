@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | Kostenlose Online-Bildbearbeitungstools",
+    "description": "Komprimiere, skaliere, schneide und konvertiere Bilder kostenlos, ohne Anmeldung."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "Alle Tools",
+    "freeBadge": "Kostenlos, ohne Anmeldung",
+    "quickCompress": "Bild komprimieren",
+    "quickResize": "Bildgröße ändern",
+    "quickConvert": "Bild konvertieren"
+  },
+  "Footer": {
+    "notice": "Hochgeladene Bilder werden nach der Verarbeitung automatisch gelöscht."
+  },
+  "Categories": {
+    "optimize": "Optimieren",
+    "edit": "Bearbeiten",
+    "create": "Erstellen"
+  },
+  "Home": {
+    "badge": "{count} kostenlose Bildbearbeitungstools",
+    "title": "Kostenlose Online-Bildbearbeitungstools",
+    "subtitle": "Komprimiere, konvertiere und bearbeite Bilder kostenlos, ohne Anmeldung. Alles wird sofort beim Hochladen verarbeitet und automatisch gelöscht."
+  },
+  "Common": {
+    "dropzoneSingle": "Bild hierher ziehen oder klicken, um es auszuwählen",
+    "dropzoneMultiple": "Bilder hierher ziehen oder klicken, um sie auszuwählen",
+    "dropzoneCountSelected": "{count} Bilder ausgewählt",
+    "dropzoneChangeHint": "Klicken, um eine andere Datei zu wählen",
+    "dropzoneAddHint": "Klicken oder ziehen, um weitere hinzuzufügen",
+    "removeFile": "Datei entfernen",
+    "comingSoon": "Demnächst verfügbar",
+    "genericError": "Bei der Verarbeitung ist ein Fehler aufgetreten."
+  },
+  "Tools": {
+    "compress_image": { "name": "Bild komprimieren", "description": "Verkleinere JPG-, PNG- und WEBP-Dateien bei erhaltener Qualität." },
+    "resize_image": { "name": "Bildgröße ändern", "description": "Ändere die Bildgröße in Pixeln oder Prozent." },
+    "crop_image": { "name": "Bild zuschneiden", "description": "Schneide einen bestimmten Bereich per Pixelkoordinaten zu." },
+    "convert_image": { "name": "Bild konvertieren", "description": "Konvertiere frei zwischen JPG, PNG, WEBP, GIF, BMP und TIFF." },
+    "rotate_image": { "name": "Bild drehen", "description": "Drehe Bilder um einen beliebigen Winkel oder spiegle sie horizontal/vertikal." },
+    "watermark_image": { "name": "Wasserzeichen hinzufügen", "description": "Füge ein Text-Wasserzeichen mit einstellbarer Deckkraft und Position hinzu." },
+    "meme_generator": { "name": "Meme-Generator", "description": "Füge Text oben und unten hinzu, um schnell ein Meme zu erstellen." }
+  },
+  "CompressImagePage": {
+    "title": "Bild komprimieren",
+    "description": "Verkleinere JPG-, PNG-, WEBP- und TIFF-Dateien bei erhaltener Qualität. Mehrere Bilder gleichzeitig verarbeiten.",
+    "qualityLabel": "Komprimierungsqualität",
+    "qualityHint": "Niedrigere Werte verkleinern die Datei, verringern aber auch die Bildqualität.",
+    "submit": "Bild komprimieren",
+    "converting": "Wird komprimiert...",
+    "error": "Beim Komprimieren ist ein Fehler aufgetreten."
+  },
+  "ResizeImagePage": {
+    "title": "Bildgröße ändern",
+    "description": "Ändere die Bildgröße in Pixeln oder Prozent. Mehrere Bilder gleichzeitig verarbeiten.",
+    "modePixel": "Nach Pixeln",
+    "modePercent": "Nach Prozent",
+    "widthLabel": "Breite (px)",
+    "widthPlaceholder": "z. B. 800",
+    "heightLabel": "Höhe (px)",
+    "heightPlaceholder": "z. B. 600",
+    "percentLabel": "Skalierung (%)",
+    "percentPlaceholder": "z. B. 50",
+    "percentHint": "Unter 100 verkleinert das Bild, über 100 vergrößert es.",
+    "keepAspectLabel": "Seitenverhältnis beibehalten (ein leeres Feld wird automatisch berechnet)",
+    "submit": "Bildgröße ändern",
+    "converting": "Größe wird geändert...",
+    "error": "Beim Ändern der Größe ist ein Fehler aufgetreten."
+  },
+  "CropImagePage": {
+    "title": "Bild zuschneiden",
+    "description": "Schneide einen bestimmten Bereich per Pixelkoordinaten zu.",
+    "previewAlt": "Vorschau",
+    "originalSize": "Originalgröße: {width} x {height}px",
+    "xLabel": "X (Abstand links)",
+    "yLabel": "Y (Abstand oben)",
+    "widthLabel": "Breite (px)",
+    "heightLabel": "Höhe (px)",
+    "submit": "Bild zuschneiden",
+    "cropping": "Wird zugeschnitten...",
+    "error": "Beim Zuschneiden ist ein Fehler aufgetreten."
+  },
+  "ConvertImagePage": {
+    "title": "Bild konvertieren",
+    "description": "Konvertiere frei zwischen JPG, PNG, WEBP, GIF, BMP und TIFF. Mehrere Bilder gleichzeitig verarbeiten.",
+    "formatLabel": "Konvertieren nach",
+    "submit": "In {format} konvertieren",
+    "converting": "Wird konvertiert...",
+    "error": "Beim Konvertieren ist ein Fehler aufgetreten."
+  },
+  "RotateImagePage": {
+    "title": "Bild drehen",
+    "description": "Drehe Bilder um einen beliebigen Winkel oder spiegle sie horizontal/vertikal. Mehrere Bilder gleichzeitig verarbeiten.",
+    "angleLabel": "Drehwinkel",
+    "flipHLabel": "Horizontal spiegeln",
+    "flipVLabel": "Vertikal spiegeln",
+    "submit": "Bild drehen",
+    "converting": "Wird gedreht...",
+    "error": "Beim Drehen ist ein Fehler aufgetreten."
+  },
+  "WatermarkImagePage": {
+    "title": "Wasserzeichen hinzufügen",
+    "description": "Füge dem Bild ein Text-Wasserzeichen mit einstellbarer Deckkraft und Position hinzu.",
+    "textLabel": "Wasserzeichentext",
+    "positionLabel": "Position",
+    "opacityLabel": "Deckkraft",
+    "fontSizeLabel": "Schriftgröße",
+    "submit": "Wasserzeichen hinzufügen",
+    "converting": "Wasserzeichen wird hinzugefügt...",
+    "error": "Beim Hinzufügen des Wasserzeichens ist ein Fehler aufgetreten."
+  },
+  "MemeGeneratorPage": {
+    "title": "Meme-Generator",
+    "description": "Füge Text oben und unten hinzu, um schnell ein Meme-Bild zu erstellen.",
+    "topTextLabel": "Text oben",
+    "topTextPlaceholder": "z. B. WHEN THE CODE",
+    "bottomTextLabel": "Text unten",
+    "bottomTextPlaceholder": "z. B. FINALLY WORKS",
+    "submit": "Meme erstellen",
+    "converting": "Meme wird erstellt...",
+    "error": "Beim Erstellen des Memes ist ein Fehler aufgetreten."
+  },
+  "LanguageSwitcher": {
+    "label": "Sprache"
+  }
+}

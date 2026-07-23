@@ -1,17 +1,20 @@
 "use client";
 
 import { useState } from "react";
-import { Shrink } from "lucide-react";
+import { Combine } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { ToolPageShell } from "@/components/ui/ToolPageShell";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { ImageDropzone } from "@/components/ui/ImageDropzone";
-import { SliderField } from "@/components/ui/SliderField";
+import { TextField } from "@/components/ui/TextField";
 import { SubmitButton } from "@/components/ui/SubmitButton";
 import { Callout } from "@/components/ui/Callout";
 
-export default function CompressImagePage() {
+export default function MemeGeneratorPage() {
+  const t = useTranslations("MemeGeneratorPage");
   const [files, setFiles] = useState<File[]>([]);
-  const [quality, setQuality] = useState(70);
+  const [topText, setTopText] = useState("");
+  const [bottomText, setBottomText] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -21,22 +24,23 @@ export default function CompressImagePage() {
     setError(null);
 
     const formData = new FormData();
-    files.forEach((file) => formData.append("files", file));
-    formData.append("quality", String(quality));
+    formData.append("file", files[0]);
+    formData.append("topText", topText);
+    formData.append("bottomText", bottomText);
 
     try {
-      const res = await fetch("/api/compress-image", {
+      const res = await fetch("/api/meme-generator", {
         method: "POST",
         body: formData,
       });
       if (!res.ok) {
         const data = await res.json().catch(() => null);
-        throw new Error(data?.error ?? "압축 중 오류가 발생했습니다.");
+        throw new Error(data?.error ?? t("error"));
       }
       const blob = await res.blob();
       const disposition = res.headers.get("Content-Disposition") ?? "";
       const match = disposition.match(/filename="?([^"]+)"?/);
-      const filename = match ? decodeURIComponent(match[1]) : "compressed.zip";
+      const filename = match ? decodeURIComponent(match[1]) : "meme.jpg";
 
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
@@ -45,7 +49,7 @@ export default function CompressImagePage() {
       a.click();
       URL.revokeObjectURL(url);
     } catch (e) {
-      setError(e instanceof Error ? e.message : "압축 중 오류가 발생했습니다.");
+      setError(e instanceof Error ? e.message : t("error"));
     } finally {
       setLoading(false);
     }
@@ -54,31 +58,34 @@ export default function CompressImagePage() {
   return (
     <ToolPageShell>
       <PageHeader
-        icon={Shrink}
-        title="이미지 압축"
-        description="화질은 유지하면서 JPG, PNG, WEBP, TIFF 이미지 용량을 줄여보세요. 여러 장을 한 번에 처리할 수 있어요."
+        icon={Combine}
+        title={t("title")}
+        description={t("description")}
       />
 
       <div className="space-y-5">
-        <ImageDropzone files={files} onChange={setFiles} multiple />
+        <ImageDropzone files={files} onChange={setFiles} />
 
-        <SliderField
-          label="압축 품질"
-          valueLabel={`${quality}%`}
-          min={10}
-          max={95}
-          value={quality}
-          onChange={setQuality}
-          hint="값이 낮을수록 용량은 줄지만 화질도 함께 낮아져요."
+        <TextField
+          label={t("topTextLabel")}
+          value={topText}
+          onChange={setTopText}
+          placeholder={t("topTextPlaceholder")}
+        />
+        <TextField
+          label={t("bottomTextLabel")}
+          value={bottomText}
+          onChange={setBottomText}
+          placeholder={t("bottomTextPlaceholder")}
         />
 
         {error && <Callout variant="error">{error}</Callout>}
 
         <SubmitButton
-          disabled={files.length === 0 || loading}
+          disabled={files.length === 0 || (!topText.trim() && !bottomText.trim()) || loading}
           onClick={handleSubmit}
         >
-          {loading ? "압축하는 중..." : "이미지 압축하기"}
+          {loading ? t("converting") : t("submit")}
         </SubmitButton>
       </div>
     </ToolPageShell>

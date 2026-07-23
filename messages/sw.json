@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | Zana Bure za Kuhariri Picha Mtandaoni",
+    "description": "Punguza ukubwa, badilisha vipimo, kata, na badilisha muundo wa picha bila malipo, bila kujisajili."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "Zana Zote",
+    "freeBadge": "Bure, hakuna usajili",
+    "quickCompress": "Punguza Ukubwa wa Picha",
+    "quickResize": "Badilisha Vipimo vya Picha",
+    "quickConvert": "Badilisha Muundo wa Picha"
+  },
+  "Footer": {
+    "notice": "Picha zilizopakiwa hufutwa kiotomatiki baada ya kuchakatwa."
+  },
+  "Categories": {
+    "optimize": "Boresha",
+    "edit": "Hariri",
+    "create": "Unda"
+  },
+  "Home": {
+    "badge": "Zana {count} bure za kuhariri picha",
+    "title": "Zana Bure za Kuhariri Picha Mtandaoni",
+    "subtitle": "Punguza ukubwa, badilisha, na hariri picha bila malipo, bila kujisajili. Kila kitu huchakatwa mara tu unapopakia na kufutwa kiotomatiki."
+  },
+  "Common": {
+    "dropzoneSingle": "Buruta na uache picha hapa, au bofya kuchagua",
+    "dropzoneMultiple": "Buruta na uache picha hapa, au bofya kuchagua",
+    "dropzoneCountSelected": "Picha {count} zimechaguliwa",
+    "dropzoneChangeHint": "Bofya kuchagua faili nyingine",
+    "dropzoneAddHint": "Bofya au buruta ili kuongeza zaidi",
+    "removeFile": "Ondoa faili",
+    "comingSoon": "Inakuja hivi karibuni",
+    "genericError": "Hitilafu imetokea wakati wa kuchakata."
+  },
+  "Tools": {
+    "compress_image": { "name": "Punguza Ukubwa wa Picha", "description": "Punguza ukubwa wa faili za JPG, PNG na WEBP huku ukidumisha ubora." },
+    "resize_image": { "name": "Badilisha Vipimo vya Picha", "description": "Badilisha vipimo vya picha kwa pikseli au asilimia." },
+    "crop_image": { "name": "Kata Picha", "description": "Kata eneo unalotaka kwa kubainisha kuratibu za pikseli." },
+    "convert_image": { "name": "Badilisha Muundo wa Picha", "description": "Badilisha kwa uhuru kati ya JPG, PNG, WEBP, GIF, BMP na TIFF." },
+    "rotate_image": { "name": "Zungusha Picha", "description": "Zungusha picha kwa pembe yoyote au uigeuze kwa mlalo/wima." },
+    "watermark_image": { "name": "Ongeza Alama ya Maji", "description": "Ongeza alama ya maji ya maandishi na uwazi na nafasi zinazoweza kurekebishwa." },
+    "meme_generator": { "name": "Kitengenezea Meme", "description": "Ongeza maandishi juu na chini ili kutengeneza meme haraka." }
+  },
+  "CompressImagePage": {
+    "title": "Punguza Ukubwa wa Picha",
+    "description": "Punguza ukubwa wa faili za JPG, PNG, WEBP na TIFF huku ukidumisha ubora. Chakata picha kadhaa kwa wakati mmoja.",
+    "qualityLabel": "Ubora wa Ubanaji",
+    "qualityHint": "Thamani ya chini hupunguza ukubwa wa faili, lakini pia hupunguza ubora wa picha.",
+    "submit": "Punguza Ukubwa wa Picha",
+    "converting": "Inabana...",
+    "error": "Hitilafu imetokea wakati wa kubana."
+  },
+  "ResizeImagePage": {
+    "title": "Badilisha Vipimo vya Picha",
+    "description": "Badilisha vipimo vya picha kwa pikseli au asilimia. Chakata picha kadhaa kwa wakati mmoja.",
+    "modePixel": "Kwa pikseli",
+    "modePercent": "Kwa asilimia",
+    "widthLabel": "Upana (px)",
+    "widthPlaceholder": "mf. 800",
+    "heightLabel": "Urefu (px)",
+    "heightPlaceholder": "mf. 600",
+    "percentLabel": "Kipimo (%)",
+    "percentPlaceholder": "mf. 50",
+    "percentHint": "Chini ya 100 hupunguza picha, zaidi ya 100 huikuza.",
+    "keepAspectLabel": "Dumisha uwiano wa asili (kuacha uga mmoja wazi hukokotolewa kiotomatiki)",
+    "submit": "Badilisha Vipimo vya Picha",
+    "converting": "Inabadilisha vipimo...",
+    "error": "Hitilafu imetokea wakati wa kubadilisha vipimo."
+  },
+  "CropImagePage": {
+    "title": "Kata Picha",
+    "description": "Kata eneo unalotaka kwa kubainisha kuratibu za pikseli.",
+    "previewAlt": "Muhtasari",
+    "originalSize": "Ukubwa asili: {width} x {height}px",
+    "xLabel": "X (pembezoni mwa kushoto)",
+    "yLabel": "Y (pembezoni mwa juu)",
+    "widthLabel": "Upana (px)",
+    "heightLabel": "Urefu (px)",
+    "submit": "Kata Picha",
+    "cropping": "Inakata...",
+    "error": "Hitilafu imetokea wakati wa kukata."
+  },
+  "ConvertImagePage": {
+    "title": "Badilisha Muundo wa Picha",
+    "description": "Badilisha kwa uhuru kati ya JPG, PNG, WEBP, GIF, BMP na TIFF. Chakata picha kadhaa kwa wakati mmoja.",
+    "formatLabel": "Badilisha kuwa",
+    "submit": "Badilisha kuwa {format}",
+    "converting": "Inabadilisha...",
+    "error": "Hitilafu imetokea wakati wa kubadilisha."
+  },
+  "RotateImagePage": {
+    "title": "Zungusha Picha",
+    "description": "Zungusha picha kwa pembe yoyote au uigeuze kwa mlalo/wima. Chakata picha kadhaa kwa wakati mmoja.",
+    "angleLabel": "Pembe ya Kuzungusha",
+    "flipHLabel": "Geuza kwa mlalo",
+    "flipVLabel": "Geuza kwa wima",
+    "submit": "Zungusha Picha",
+    "converting": "Inazungusha...",
+    "error": "Hitilafu imetokea wakati wa kuzungusha."
+  },
+  "WatermarkImagePage": {
+    "title": "Ongeza Alama ya Maji",
+    "description": "Ongeza alama ya maji ya maandishi kwenye picha na uwazi na nafasi zinazoweza kurekebishwa.",
+    "textLabel": "Maandishi ya alama ya maji",
+    "positionLabel": "Nafasi",
+    "opacityLabel": "Uwazi",
+    "fontSizeLabel": "Ukubwa wa fonti",
+    "submit": "Ongeza Alama ya Maji",
+    "converting": "Inaongeza alama ya maji...",
+    "error": "Hitilafu imetokea wakati wa kuongeza alama ya maji."
+  },
+  "MemeGeneratorPage": {
+    "title": "Kitengenezea Meme",
+    "description": "Ongeza maandishi juu na chini ili kutengeneza picha ya meme haraka.",
+    "topTextLabel": "Maandishi ya juu",
+    "topTextPlaceholder": "mf. WHEN THE CODE",
+    "bottomTextLabel": "Maandishi ya chini",
+    "bottomTextPlaceholder": "mf. FINALLY WORKS",
+    "submit": "Tengeneza Meme",
+    "converting": "Inatengeneza meme...",
+    "error": "Hitilafu imetokea wakati wa kutengeneza meme."
+  },
+  "LanguageSwitcher": {
+    "label": "Lugha"
+  }
+}

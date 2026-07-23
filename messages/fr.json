@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | Outils gratuits d'édition d'images en ligne",
+    "description": "Compressez, redimensionnez, recadrez et convertissez des images gratuitement, sans inscription."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "Tous les outils",
+    "freeBadge": "Gratuit, sans inscription",
+    "quickCompress": "Compresser une image",
+    "quickResize": "Redimensionner une image",
+    "quickConvert": "Convertir une image"
+  },
+  "Footer": {
+    "notice": "Les images envoyées sont automatiquement supprimées après traitement."
+  },
+  "Categories": {
+    "optimize": "Optimiser",
+    "edit": "Modifier",
+    "create": "Créer"
+  },
+  "Home": {
+    "badge": "{count} outils gratuits d'édition d'images",
+    "title": "Outils gratuits d'édition d'images en ligne",
+    "subtitle": "Compressez, convertissez et modifiez des images gratuitement, sans inscription. Tout est traité dès l'envoi et supprimé automatiquement."
+  },
+  "Common": {
+    "dropzoneSingle": "Glissez-déposez une image ici, ou cliquez pour la sélectionner",
+    "dropzoneMultiple": "Glissez-déposez des images ici, ou cliquez pour les sélectionner",
+    "dropzoneCountSelected": "{count} images sélectionnées",
+    "dropzoneChangeHint": "Cliquez pour choisir un autre fichier",
+    "dropzoneAddHint": "Cliquez ou glissez pour en ajouter",
+    "removeFile": "Supprimer le fichier",
+    "comingSoon": "Bientôt disponible",
+    "genericError": "Une erreur est survenue pendant le traitement."
+  },
+  "Tools": {
+    "compress_image": { "name": "Compresser une image", "description": "Réduisez la taille des images JPG, PNG et WEBP tout en conservant la qualité." },
+    "resize_image": { "name": "Redimensionner une image", "description": "Redimensionnez vos images en pixels ou en pourcentage." },
+    "crop_image": { "name": "Recadrer une image", "description": "Recadrez la zone souhaitée en indiquant des coordonnées en pixels." },
+    "convert_image": { "name": "Convertir une image", "description": "Convertissez librement entre JPG, PNG, WEBP, GIF, BMP et TIFF." },
+    "rotate_image": { "name": "Pivoter une image", "description": "Faites pivoter vos images selon l'angle souhaité ou retournez-les horizontalement/verticalement." },
+    "watermark_image": { "name": "Ajouter un filigrane", "description": "Ajoutez un filigrane texte avec opacité et position réglables." },
+    "meme_generator": { "name": "Générateur de mèmes", "description": "Ajoutez du texte en haut et en bas pour créer facilement un mème." }
+  },
+  "CompressImagePage": {
+    "title": "Compresser une image",
+    "description": "Réduisez la taille des images JPG, PNG, WEBP et TIFF tout en conservant la qualité. Traitez plusieurs images à la fois.",
+    "qualityLabel": "Qualité de compression",
+    "qualityHint": "Une valeur plus basse réduit la taille du fichier, mais aussi la qualité.",
+    "submit": "Compresser l'image",
+    "converting": "Compression en cours...",
+    "error": "Une erreur est survenue lors de la compression."
+  },
+  "ResizeImagePage": {
+    "title": "Redimensionner une image",
+    "description": "Redimensionnez vos images en pixels ou en pourcentage. Traitez plusieurs images à la fois.",
+    "modePixel": "En pixels",
+    "modePercent": "En pourcentage",
+    "widthLabel": "Largeur (px)",
+    "widthPlaceholder": "ex. 800",
+    "heightLabel": "Hauteur (px)",
+    "heightPlaceholder": "ex. 600",
+    "percentLabel": "Échelle (%)",
+    "percentPlaceholder": "ex. 50",
+    "percentHint": "En dessous de 100, l'image est réduite ; au-dessus, elle est agrandie.",
+    "keepAspectLabel": "Conserver les proportions d'origine (laisser un champ vide le calcule automatiquement)",
+    "submit": "Redimensionner l'image",
+    "converting": "Redimensionnement en cours...",
+    "error": "Une erreur est survenue lors du redimensionnement."
+  },
+  "CropImagePage": {
+    "title": "Recadrer une image",
+    "description": "Recadrez la zone souhaitée en indiquant des coordonnées en pixels.",
+    "previewAlt": "Aperçu",
+    "originalSize": "Taille d'origine : {width} x {height}px",
+    "xLabel": "X (marge gauche)",
+    "yLabel": "Y (marge haute)",
+    "widthLabel": "Largeur (px)",
+    "heightLabel": "Hauteur (px)",
+    "submit": "Recadrer l'image",
+    "cropping": "Recadrage en cours...",
+    "error": "Une erreur est survenue lors du recadrage."
+  },
+  "ConvertImagePage": {
+    "title": "Convertir une image",
+    "description": "Convertissez librement entre JPG, PNG, WEBP, GIF, BMP et TIFF. Traitez plusieurs images à la fois.",
+    "formatLabel": "Convertir vers",
+    "submit": "Convertir en {format}",
+    "converting": "Conversion en cours...",
+    "error": "Une erreur est survenue lors de la conversion."
+  },
+  "RotateImagePage": {
+    "title": "Pivoter une image",
+    "description": "Faites pivoter vos images selon l'angle souhaité ou retournez-les horizontalement/verticalement. Traitez plusieurs images à la fois.",
+    "angleLabel": "Angle de rotation",
+    "flipHLabel": "Retourner horizontalement",
+    "flipVLabel": "Retourner verticalement",
+    "submit": "Pivoter l'image",
+    "converting": "Rotation en cours...",
+    "error": "Une erreur est survenue lors de la rotation."
+  },
+  "WatermarkImagePage": {
+    "title": "Ajouter un filigrane",
+    "description": "Ajoutez un filigrane texte à l'image avec opacité et position réglables.",
+    "textLabel": "Texte du filigrane",
+    "positionLabel": "Position",
+    "opacityLabel": "Opacité",
+    "fontSizeLabel": "Taille du texte",
+    "submit": "Ajouter le filigrane",
+    "converting": "Ajout du filigrane en cours...",
+    "error": "Une erreur est survenue lors de l'ajout du filigrane."
+  },
+  "MemeGeneratorPage": {
+    "title": "Générateur de mèmes",
+    "description": "Ajoutez du texte en haut et en bas pour créer facilement un mème.",
+    "topTextLabel": "Texte du haut",
+    "topTextPlaceholder": "ex. WHEN THE CODE",
+    "bottomTextLabel": "Texte du bas",
+    "bottomTextPlaceholder": "ex. FINALLY WORKS",
+    "submit": "Créer le mème",
+    "converting": "Création en cours...",
+    "error": "Une erreur est survenue lors de la création du mème."
+  },
+  "LanguageSwitcher": {
+    "label": "Langue"
+  }
+}

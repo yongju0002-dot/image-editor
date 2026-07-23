@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | 無料オンライン画像編集ツール",
+    "description": "登録不要・無料で画像を圧縮、リサイズ、切り抜き、変換できます。"
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "すべてのツール",
+    "freeBadge": "登録不要・無料で利用",
+    "quickCompress": "画像圧縮",
+    "quickResize": "画像リサイズ",
+    "quickConvert": "画像形式変換"
+  },
+  "Footer": {
+    "notice": "アップロードされた画像は処理後、自動的に削除されます。"
+  },
+  "Categories": {
+    "optimize": "最適化",
+    "edit": "編集",
+    "create": "作成"
+  },
+  "Home": {
+    "badge": "{count}個の無料画像編集ツール",
+    "title": "無料オンライン画像編集ツール",
+    "subtitle": "登録不要・無料で画像を圧縮、変換、編集できます。アップロードするとすぐに処理され、自動的に削除されます。"
+  },
+  "Common": {
+    "dropzoneSingle": "ここに画像をドラッグ&ドロップ、またはクリックして選択",
+    "dropzoneMultiple": "ここに複数の画像をドラッグ&ドロップ、またはクリックして選択",
+    "dropzoneCountSelected": "画像を{count}枚選択しました",
+    "dropzoneChangeHint": "クリックして別のファイルを選択",
+    "dropzoneAddHint": "クリックまたはドラッグして追加",
+    "removeFile": "ファイルを削除",
+    "comingSoon": "近日公開",
+    "genericError": "処理中にエラーが発生しました。"
+  },
+  "Tools": {
+    "compress_image": { "name": "画像圧縮", "description": "画質を保ちながらJPG、PNG、WEBP画像の容量を減らします。" },
+    "resize_image": { "name": "画像リサイズ", "description": "ピクセルまたはパーセントで画像サイズを自由に変更します。" },
+    "crop_image": { "name": "画像切り抜き", "description": "ピクセル座標を指定して画像の必要な部分だけを切り抜きます。" },
+    "convert_image": { "name": "画像形式変換", "description": "JPG、PNG、WEBP、GIF、BMP、TIFF間で自由に変換します。" },
+    "rotate_image": { "name": "画像回転", "description": "画像を好きな角度で回転したり、左右/上下に反転したりします。" },
+    "watermark_image": { "name": "透かしを追加", "description": "テキストの透かしを不透明度と位置を調整して挿入します。" },
+    "meme_generator": { "name": "ミーム作成", "description": "上下にテキストを入れて簡単にミーム画像を作成します。" }
+  },
+  "CompressImagePage": {
+    "title": "画像圧縮",
+    "description": "画質を保ちながらJPG、PNG、WEBP、TIFF画像の容量を減らします。複数枚を一度に処理できます。",
+    "qualityLabel": "圧縮品質",
+    "qualityHint": "値が低いほど容量は減りますが、画質も低下します。",
+    "submit": "画像を圧縮する",
+    "converting": "圧縮中...",
+    "error": "圧縮中にエラーが発生しました。"
+  },
+  "ResizeImagePage": {
+    "title": "画像リサイズ",
+    "description": "ピクセルまたはパーセントで画像サイズを自由に変更します。複数枚を一度に処理できます。",
+    "modePixel": "ピクセルで指定",
+    "modePercent": "パーセントで指定",
+    "widthLabel": "幅 (px)",
+    "widthPlaceholder": "例: 800",
+    "heightLabel": "高さ (px)",
+    "heightPlaceholder": "例: 600",
+    "percentLabel": "倍率 (%)",
+    "percentPlaceholder": "例: 50",
+    "percentHint": "100未満で縮小、100より大きいと拡大します。",
+    "keepAspectLabel": "元の縦横比を維持する(片方だけ入力しても自動計算されます)",
+    "submit": "画像をリサイズする",
+    "converting": "リサイズ中...",
+    "error": "リサイズ中にエラーが発生しました。"
+  },
+  "CropImagePage": {
+    "title": "画像切り抜き",
+    "description": "ピクセル座標を指定して画像の必要な部分だけを切り抜きます。",
+    "previewAlt": "プレビュー",
+    "originalSize": "元のサイズ: {width} x {height}px",
+    "xLabel": "X (左の余白)",
+    "yLabel": "Y (上の余白)",
+    "widthLabel": "幅 (px)",
+    "heightLabel": "高さ (px)",
+    "submit": "画像を切り抜く",
+    "cropping": "切り抜き中...",
+    "error": "切り抜き中にエラーが発生しました。"
+  },
+  "ConvertImagePage": {
+    "title": "画像形式変換",
+    "description": "JPG、PNG、WEBP、GIF、BMP、TIFF間で自由に変換します。複数枚を一度に処理できます。",
+    "formatLabel": "変換する形式",
+    "submit": "{format}形式に変換する",
+    "converting": "変換中...",
+    "error": "変換中にエラーが発生しました。"
+  },
+  "RotateImagePage": {
+    "title": "画像回転",
+    "description": "画像を好きな角度で回転したり、左右/上下に反転したりします。複数枚を一度に処理できます。",
+    "angleLabel": "回転角度",
+    "flipHLabel": "左右反転",
+    "flipVLabel": "上下反転",
+    "submit": "画像を回転する",
+    "converting": "回転中...",
+    "error": "回転中にエラーが発生しました。"
+  },
+  "WatermarkImagePage": {
+    "title": "透かしを追加",
+    "description": "テキストの透かしを不透明度と位置を調整して画像に挿入します。",
+    "textLabel": "透かしテキスト",
+    "positionLabel": "位置",
+    "opacityLabel": "不透明度",
+    "fontSizeLabel": "文字サイズ",
+    "submit": "透かしを追加する",
+    "converting": "透かしを追加中...",
+    "error": "透かしの追加中にエラーが発生しました。"
+  },
+  "MemeGeneratorPage": {
+    "title": "ミーム作成",
+    "description": "上下にテキストを入れて簡単にミーム画像を作成します。",
+    "topTextLabel": "上部テキスト",
+    "topTextPlaceholder": "例: WHEN THE CODE",
+    "bottomTextLabel": "下部テキスト",
+    "bottomTextPlaceholder": "例: FINALLY WORKS",
+    "submit": "ミームを作成する",
+    "converting": "ミームを作成中...",
+    "error": "ミームの作成中にエラーが発生しました。"
+  },
+  "LanguageSwitcher": {
+    "label": "言語"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | Ferramentas gratuitas de edição de imagens online",
+    "description": "Comprima, redimensione, corte e converta imagens gratuitamente, sem necessidade de cadastro."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "Todas as ferramentas",
+    "freeBadge": "Grátis, sem cadastro",
+    "quickCompress": "Comprimir imagem",
+    "quickResize": "Redimensionar imagem",
+    "quickConvert": "Converter imagem"
+  },
+  "Footer": {
+    "notice": "As imagens enviadas são excluídas automaticamente após o processamento."
+  },
+  "Categories": {
+    "optimize": "Otimizar",
+    "edit": "Editar",
+    "create": "Criar"
+  },
+  "Home": {
+    "badge": "{count} ferramentas gratuitas de edição de imagens",
+    "title": "Ferramentas gratuitas de edição de imagens online",
+    "subtitle": "Comprima, converta e edite imagens gratuitamente, sem cadastro. Tudo é processado assim que você envia e excluído automaticamente."
+  },
+  "Common": {
+    "dropzoneSingle": "Arraste e solte uma imagem aqui, ou clique para selecionar",
+    "dropzoneMultiple": "Arraste e solte imagens aqui, ou clique para selecionar",
+    "dropzoneCountSelected": "{count} imagens selecionadas",
+    "dropzoneChangeHint": "Clique para escolher outro arquivo",
+    "dropzoneAddHint": "Clique ou arraste para adicionar mais",
+    "removeFile": "Remover arquivo",
+    "comingSoon": "Em breve",
+    "genericError": "Ocorreu um erro durante o processamento."
+  },
+  "Tools": {
+    "compress_image": { "name": "Comprimir imagem", "description": "Reduza o tamanho de imagens JPG, PNG e WEBP mantendo a qualidade." },
+    "resize_image": { "name": "Redimensionar imagem", "description": "Redimensione imagens em pixels ou porcentagem." },
+    "crop_image": { "name": "Cortar imagem", "description": "Corte a área desejada informando coordenadas em pixels." },
+    "convert_image": { "name": "Converter imagem", "description": "Converta livremente entre JPG, PNG, WEBP, GIF, BMP e TIFF." },
+    "rotate_image": { "name": "Girar imagem", "description": "Gire imagens no ângulo desejado ou espelhe-as na horizontal/vertical." },
+    "watermark_image": { "name": "Adicionar marca d'água", "description": "Adicione uma marca d'água de texto com opacidade e posição ajustáveis." },
+    "meme_generator": { "name": "Gerador de memes", "description": "Adicione texto na parte superior e inferior para criar um meme facilmente." }
+  },
+  "CompressImagePage": {
+    "title": "Comprimir imagem",
+    "description": "Reduza o tamanho de imagens JPG, PNG, WEBP e TIFF mantendo a qualidade. Processe várias imagens de uma vez.",
+    "qualityLabel": "Qualidade de compressão",
+    "qualityHint": "Valores mais baixos reduzem o tamanho do arquivo, mas também a qualidade.",
+    "submit": "Comprimir imagem",
+    "converting": "Comprimindo...",
+    "error": "Ocorreu um erro ao comprimir."
+  },
+  "ResizeImagePage": {
+    "title": "Redimensionar imagem",
+    "description": "Redimensione imagens em pixels ou porcentagem. Processe várias imagens de uma vez.",
+    "modePixel": "Por pixels",
+    "modePercent": "Por porcentagem",
+    "widthLabel": "Largura (px)",
+    "widthPlaceholder": "ex.: 800",
+    "heightLabel": "Altura (px)",
+    "heightPlaceholder": "ex.: 600",
+    "percentLabel": "Escala (%)",
+    "percentPlaceholder": "ex.: 50",
+    "percentHint": "Abaixo de 100 reduz a imagem, acima de 100 aumenta.",
+    "keepAspectLabel": "Manter proporção original (deixar um campo em branco calcula automaticamente)",
+    "submit": "Redimensionar imagem",
+    "converting": "Redimensionando...",
+    "error": "Ocorreu um erro ao redimensionar."
+  },
+  "CropImagePage": {
+    "title": "Cortar imagem",
+    "description": "Corte a área desejada informando coordenadas em pixels.",
+    "previewAlt": "Pré-visualização",
+    "originalSize": "Tamanho original: {width} x {height}px",
+    "xLabel": "X (margem esquerda)",
+    "yLabel": "Y (margem superior)",
+    "widthLabel": "Largura (px)",
+    "heightLabel": "Altura (px)",
+    "submit": "Cortar imagem",
+    "cropping": "Cortando...",
+    "error": "Ocorreu um erro ao cortar."
+  },
+  "ConvertImagePage": {
+    "title": "Converter imagem",
+    "description": "Converta livremente entre JPG, PNG, WEBP, GIF, BMP e TIFF. Processe várias imagens de uma vez.",
+    "formatLabel": "Converter para",
+    "submit": "Converter para {format}",
+    "converting": "Convertendo...",
+    "error": "Ocorreu um erro ao converter."
+  },
+  "RotateImagePage": {
+    "title": "Girar imagem",
+    "description": "Gire imagens no ângulo desejado ou espelhe-as na horizontal/vertical. Processe várias imagens de uma vez.",
+    "angleLabel": "Ângulo de rotação",
+    "flipHLabel": "Inverter horizontalmente",
+    "flipVLabel": "Inverter verticalmente",
+    "submit": "Girar imagem",
+    "converting": "Girando...",
+    "error": "Ocorreu um erro ao girar."
+  },
+  "WatermarkImagePage": {
+    "title": "Adicionar marca d'água",
+    "description": "Adicione uma marca d'água de texto à imagem com opacidade e posição ajustáveis.",
+    "textLabel": "Texto da marca d'água",
+    "positionLabel": "Posição",
+    "opacityLabel": "Opacidade",
+    "fontSizeLabel": "Tamanho da fonte",
+    "submit": "Adicionar marca d'água",
+    "converting": "Adicionando marca d'água...",
+    "error": "Ocorreu um erro ao adicionar a marca d'água."
+  },
+  "MemeGeneratorPage": {
+    "title": "Gerador de memes",
+    "description": "Adicione texto na parte superior e inferior para criar um meme facilmente.",
+    "topTextLabel": "Texto superior",
+    "topTextPlaceholder": "ex.: WHEN THE CODE",
+    "bottomTextLabel": "Texto inferior",
+    "bottomTextPlaceholder": "ex.: FINALLY WORKS",
+    "submit": "Criar meme",
+    "converting": "Criando meme...",
+    "error": "Ocorreu um erro ao gerar o meme."
+  },
+  "LanguageSwitcher": {
+    "label": "Idioma"
+  }
+}

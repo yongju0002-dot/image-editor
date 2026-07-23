@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | Alat Edit Gambar Online Gratis",
+    "description": "Kompres, ubah ukuran, potong, dan konversi gambar secara gratis tanpa perlu mendaftar."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "Semua Alat",
+    "freeBadge": "Gratis, tanpa perlu mendaftar",
+    "quickCompress": "Kompres Gambar",
+    "quickResize": "Ubah Ukuran Gambar",
+    "quickConvert": "Konversi Gambar"
+  },
+  "Footer": {
+    "notice": "Gambar yang diunggah akan otomatis dihapus setelah diproses."
+  },
+  "Categories": {
+    "optimize": "Optimasi",
+    "edit": "Edit",
+    "create": "Buat"
+  },
+  "Home": {
+    "badge": "{count} alat edit gambar gratis",
+    "title": "Alat Edit Gambar Online Gratis",
+    "subtitle": "Kompres, konversi, dan edit gambar secara gratis tanpa perlu mendaftar. Semua diproses begitu diunggah dan otomatis dihapus."
+  },
+  "Common": {
+    "dropzoneSingle": "Seret dan lepas gambar di sini, atau klik untuk memilih",
+    "dropzoneMultiple": "Seret dan lepas gambar di sini, atau klik untuk memilih",
+    "dropzoneCountSelected": "{count} gambar dipilih",
+    "dropzoneChangeHint": "Klik untuk memilih file lain",
+    "dropzoneAddHint": "Klik atau seret untuk menambahkan lagi",
+    "removeFile": "Hapus file",
+    "comingSoon": "Segera hadir",
+    "genericError": "Terjadi kesalahan saat memproses."
+  },
+  "Tools": {
+    "compress_image": { "name": "Kompres Gambar", "description": "Kecilkan ukuran file JPG, PNG, dan WEBP tanpa mengurangi kualitas." },
+    "resize_image": { "name": "Ubah Ukuran Gambar", "description": "Ubah ukuran gambar dalam piksel atau persentase." },
+    "crop_image": { "name": "Potong Gambar", "description": "Potong area yang diinginkan dengan menentukan koordinat piksel." },
+    "convert_image": { "name": "Konversi Gambar", "description": "Konversi bebas antara JPG, PNG, WEBP, GIF, BMP, dan TIFF." },
+    "rotate_image": { "name": "Putar Gambar", "description": "Putar gambar ke sudut mana pun atau balikkan secara horizontal/vertikal." },
+    "watermark_image": { "name": "Tambahkan Watermark", "description": "Tambahkan watermark teks dengan opasitas dan posisi yang dapat diatur." },
+    "meme_generator": { "name": "Pembuat Meme", "description": "Tambahkan teks atas dan bawah untuk membuat meme dengan cepat." }
+  },
+  "CompressImagePage": {
+    "title": "Kompres Gambar",
+    "description": "Kecilkan ukuran file JPG, PNG, WEBP, dan TIFF tanpa mengurangi kualitas. Proses beberapa gambar sekaligus.",
+    "qualityLabel": "Kualitas Kompresi",
+    "qualityHint": "Nilai lebih rendah memperkecil ukuran file, tapi juga menurunkan kualitas gambar.",
+    "submit": "Kompres Gambar",
+    "converting": "Mengompres...",
+    "error": "Terjadi kesalahan saat mengompres."
+  },
+  "ResizeImagePage": {
+    "title": "Ubah Ukuran Gambar",
+    "description": "Ubah ukuran gambar dalam piksel atau persentase. Proses beberapa gambar sekaligus.",
+    "modePixel": "Berdasarkan piksel",
+    "modePercent": "Berdasarkan persentase",
+    "widthLabel": "Lebar (px)",
+    "widthPlaceholder": "cth. 800",
+    "heightLabel": "Tinggi (px)",
+    "heightPlaceholder": "cth. 600",
+    "percentLabel": "Skala (%)",
+    "percentPlaceholder": "cth. 50",
+    "percentHint": "Di bawah 100 memperkecil gambar, di atas 100 memperbesarnya.",
+    "keepAspectLabel": "Pertahankan rasio aspek asli (mengosongkan salah satu kolom akan dihitung otomatis)",
+    "submit": "Ubah Ukuran Gambar",
+    "converting": "Mengubah ukuran...",
+    "error": "Terjadi kesalahan saat mengubah ukuran."
+  },
+  "CropImagePage": {
+    "title": "Potong Gambar",
+    "description": "Potong area yang diinginkan dengan menentukan koordinat piksel.",
+    "previewAlt": "Pratinjau",
+    "originalSize": "Ukuran asli: {width} x {height}px",
+    "xLabel": "X (jarak dari kiri)",
+    "yLabel": "Y (jarak dari atas)",
+    "widthLabel": "Lebar (px)",
+    "heightLabel": "Tinggi (px)",
+    "submit": "Potong Gambar",
+    "cropping": "Memotong...",
+    "error": "Terjadi kesalahan saat memotong."
+  },
+  "ConvertImagePage": {
+    "title": "Konversi Gambar",
+    "description": "Konversi bebas antara JPG, PNG, WEBP, GIF, BMP, dan TIFF. Proses beberapa gambar sekaligus.",
+    "formatLabel": "Konversi ke",
+    "submit": "Konversi ke {format}",
+    "converting": "Mengonversi...",
+    "error": "Terjadi kesalahan saat mengonversi."
+  },
+  "RotateImagePage": {
+    "title": "Putar Gambar",
+    "description": "Putar gambar ke sudut mana pun atau balikkan secara horizontal/vertikal. Proses beberapa gambar sekaligus.",
+    "angleLabel": "Sudut Putar",
+    "flipHLabel": "Balik horizontal",
+    "flipVLabel": "Balik vertikal",
+    "submit": "Putar Gambar",
+    "converting": "Memutar...",
+    "error": "Terjadi kesalahan saat memutar."
+  },
+  "WatermarkImagePage": {
+    "title": "Tambahkan Watermark",
+    "description": "Tambahkan watermark teks ke gambar dengan opasitas dan posisi yang dapat diatur.",
+    "textLabel": "Teks watermark",
+    "positionLabel": "Posisi",
+    "opacityLabel": "Opasitas",
+    "fontSizeLabel": "Ukuran font",
+    "submit": "Tambahkan Watermark",
+    "converting": "Menambahkan watermark...",
+    "error": "Terjadi kesalahan saat menambahkan watermark."
+  },
+  "MemeGeneratorPage": {
+    "title": "Pembuat Meme",
+    "description": "Tambahkan teks atas dan bawah untuk membuat gambar meme dengan cepat.",
+    "topTextLabel": "Teks atas",
+    "topTextPlaceholder": "cth. WHEN THE CODE",
+    "bottomTextLabel": "Teks bawah",
+    "bottomTextPlaceholder": "cth. FINALLY WORKS",
+    "submit": "Buat Meme",
+    "converting": "Membuat meme...",
+    "error": "Terjadi kesalahan saat membuat meme."
+  },
+  "LanguageSwitcher": {
+    "label": "Bahasa"
+  }
+}

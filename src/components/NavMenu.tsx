@@ -1,16 +1,20 @@
 "use client";
 
 import { LayoutGrid } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { HoverDropdown } from "@/components/HoverDropdown";
 import { ToolLink } from "@/components/ToolLink";
-import { categoryMeta, tools, type ToolCategory } from "@/lib/tools";
+import { tools, type ToolCategory } from "@/lib/tools";
 
 const categoryOrder: ToolCategory[] = ["optimize", "edit", "create"];
 
 export function NavMenu() {
+  const t = useTranslations("Header");
+  const tCategories = useTranslations("Categories");
+
   return (
     <HoverDropdown
-      label="모든 도구"
+      label={t("allTools")}
       icon={<LayoutGrid className="h-4 w-4" strokeWidth={1.75} />}
       panelClassName="sm:w-[640px]"
     >
@@ -19,7 +23,7 @@ export function NavMenu() {
           {categoryOrder.map((category) => (
             <div key={category}>
               <h3 className="mb-3 text-xs font-semibold tracking-wide text-zinc-400 uppercase dark:text-zinc-500">
-                {categoryMeta[category].label}
+                {tCategories(category)}
               </h3>
               <ul className="space-y-0.5">
                 {tools

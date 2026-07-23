@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | Darmowe narzędzia do edycji obrazów online",
+    "description": "Kompresuj, zmieniaj rozmiar, przycinaj i konwertuj obrazy za darmo, bez rejestracji."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "Wszystkie narzędzia",
+    "freeBadge": "Za darmo, bez rejestracji",
+    "quickCompress": "Kompresuj obraz",
+    "quickResize": "Zmień rozmiar obrazu",
+    "quickConvert": "Konwertuj obraz"
+  },
+  "Footer": {
+    "notice": "Przesłane obrazy są automatycznie usuwane po przetworzeniu."
+  },
+  "Categories": {
+    "optimize": "Optymalizacja",
+    "edit": "Edycja",
+    "create": "Tworzenie"
+  },
+  "Home": {
+    "badge": "{count} darmowych narzędzi do edycji obrazów",
+    "title": "Darmowe narzędzia do edycji obrazów online",
+    "subtitle": "Kompresuj, konwertuj i edytuj obrazy za darmo, bez rejestracji. Wszystko jest przetwarzane od razu po przesłaniu i automatycznie usuwane."
+  },
+  "Common": {
+    "dropzoneSingle": "Przeciągnij tutaj obraz lub kliknij, aby wybrać",
+    "dropzoneMultiple": "Przeciągnij tutaj obrazy lub kliknij, aby wybrać",
+    "dropzoneCountSelected": "Wybrano obrazów: {count}",
+    "dropzoneChangeHint": "Kliknij, aby wybrać inny plik",
+    "dropzoneAddHint": "Kliknij lub przeciągnij, aby dodać więcej",
+    "removeFile": "Usuń plik",
+    "comingSoon": "Wkrótce",
+    "genericError": "Wystąpił błąd podczas przetwarzania."
+  },
+  "Tools": {
+    "compress_image": { "name": "Kompresuj obraz", "description": "Zmniejsz rozmiar plików JPG, PNG i WEBP z zachowaniem jakości." },
+    "resize_image": { "name": "Zmień rozmiar obrazu", "description": "Zmień rozmiar obrazu w pikselach lub procentach." },
+    "crop_image": { "name": "Przytnij obraz", "description": "Przytnij wybrany obszar, podając współrzędne w pikselach." },
+    "convert_image": { "name": "Konwertuj obraz", "description": "Konwertuj swobodnie między JPG, PNG, WEBP, GIF, BMP i TIFF." },
+    "rotate_image": { "name": "Obróć obraz", "description": "Obróć obraz o dowolny kąt lub odbij go w poziomie/pionie." },
+    "watermark_image": { "name": "Dodaj znak wodny", "description": "Dodaj tekstowy znak wodny z regulowaną przezroczystością i pozycją." },
+    "meme_generator": { "name": "Generator memów", "description": "Dodaj tekst u góry i na dole, aby szybko stworzyć mema." }
+  },
+  "CompressImagePage": {
+    "title": "Kompresuj obraz",
+    "description": "Zmniejsz rozmiar plików JPG, PNG, WEBP i TIFF z zachowaniem jakości. Przetwarzaj kilka obrazów naraz.",
+    "qualityLabel": "Jakość kompresji",
+    "qualityHint": "Niższe wartości zmniejszają rozmiar pliku, ale też obniżają jakość.",
+    "submit": "Kompresuj obraz",
+    "converting": "Kompresowanie...",
+    "error": "Wystąpił błąd podczas kompresji."
+  },
+  "ResizeImagePage": {
+    "title": "Zmień rozmiar obrazu",
+    "description": "Zmień rozmiar obrazu w pikselach lub procentach. Przetwarzaj kilka obrazów naraz.",
+    "modePixel": "W pikselach",
+    "modePercent": "W procentach",
+    "widthLabel": "Szerokość (px)",
+    "widthPlaceholder": "np. 800",
+    "heightLabel": "Wysokość (px)",
+    "heightPlaceholder": "np. 600",
+    "percentLabel": "Skala (%)",
+    "percentPlaceholder": "np. 50",
+    "percentHint": "Poniżej 100 zmniejsza obraz, powyżej 100 powiększa.",
+    "keepAspectLabel": "Zachowaj oryginalne proporcje (pozostawienie jednego pola pustym oblicza je automatycznie)",
+    "submit": "Zmień rozmiar obrazu",
+    "converting": "Zmienianie rozmiaru...",
+    "error": "Wystąpił błąd podczas zmiany rozmiaru."
+  },
+  "CropImagePage": {
+    "title": "Przytnij obraz",
+    "description": "Przytnij wybrany obszar, podając współrzędne w pikselach.",
+    "previewAlt": "Podgląd",
+    "originalSize": "Oryginalny rozmiar: {width} x {height}px",
+    "xLabel": "X (margines lewy)",
+    "yLabel": "Y (margines górny)",
+    "widthLabel": "Szerokość (px)",
+    "heightLabel": "Wysokość (px)",
+    "submit": "Przytnij obraz",
+    "cropping": "Przycinanie...",
+    "error": "Wystąpił błąd podczas przycinania."
+  },
+  "ConvertImagePage": {
+    "title": "Konwertuj obraz",
+    "description": "Konwertuj swobodnie między JPG, PNG, WEBP, GIF, BMP i TIFF. Przetwarzaj kilka obrazów naraz.",
+    "formatLabel": "Konwertuj na",
+    "submit": "Konwertuj na {format}",
+    "converting": "Konwertowanie...",
+    "error": "Wystąpił błąd podczas konwersji."
+  },
+  "RotateImagePage": {
+    "title": "Obróć obraz",
+    "description": "Obróć obraz o dowolny kąt lub odbij go w poziomie/pionie. Przetwarzaj kilka obrazów naraz.",
+    "angleLabel": "Kąt obrotu",
+    "flipHLabel": "Odbij w poziomie",
+    "flipVLabel": "Odbij w pionie",
+    "submit": "Obróć obraz",
+    "converting": "Obracanie...",
+    "error": "Wystąpił błąd podczas obracania."
+  },
+  "WatermarkImagePage": {
+    "title": "Dodaj znak wodny",
+    "description": "Dodaj tekstowy znak wodny do obrazu z regulowaną przezroczystością i pozycją.",
+    "textLabel": "Tekst znaku wodnego",
+    "positionLabel": "Pozycja",
+    "opacityLabel": "Przezroczystość",
+    "fontSizeLabel": "Rozmiar czcionki",
+    "submit": "Dodaj znak wodny",
+    "converting": "Dodawanie znaku wodnego...",
+    "error": "Wystąpił błąd podczas dodawania znaku wodnego."
+  },
+  "MemeGeneratorPage": {
+    "title": "Generator memów",
+    "description": "Dodaj tekst u góry i na dole, aby szybko stworzyć obraz mema.",
+    "topTextLabel": "Tekst górny",
+    "topTextPlaceholder": "np. WHEN THE CODE",
+    "bottomTextLabel": "Tekst dolny",
+    "bottomTextPlaceholder": "np. FINALLY WORKS",
+    "submit": "Stwórz mema",
+    "converting": "Tworzenie mema...",
+    "error": "Wystąpił błąd podczas tworzenia mema."
+  },
+  "LanguageSwitcher": {
+    "label": "Język"
+  }
+}

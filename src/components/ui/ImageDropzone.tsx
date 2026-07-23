@@ -1,6 +1,7 @@
 "use client";
 
 import { ImageIcon, UploadCloud, X } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 import { isImageFile } from "@/lib/imageFormats";
@@ -18,6 +19,8 @@ export function ImageDropzone({
   multiple = false,
   placeholder,
 }: Props) {
+  const t = useTranslations("Common");
+
   const onDrop = useCallback(
     (accepted: File[]) => {
       const images = accepted.filter(isImageFile);
@@ -39,10 +42,7 @@ export function ImageDropzone({
   });
 
   const resolvedPlaceholder =
-    placeholder ??
-    (multiple
-      ? "이미지를 여러 장 드래그하거나 클릭해서 선택하세요"
-      : "이미지를 드래그하거나 클릭해서 선택하세요");
+    placeholder ?? (multiple ? t("dropzoneMultiple") : t("dropzoneSingle"));
 
   function removeFile(index: number) {
     onChange(files.filter((_, i) => i !== index));
@@ -77,10 +77,10 @@ export function ImageDropzone({
             <p className="max-w-full truncate text-sm font-medium text-zinc-700 dark:text-zinc-200">
               {files.length === 1
                 ? files[0].name
-                : `이미지 ${files.length}개 선택됨`}
+                : t("dropzoneCountSelected", { count: files.length })}
             </p>
             <p className="text-xs text-zinc-400 dark:text-zinc-500">
-              {multiple ? "클릭하거나 드래그해서 추가" : "클릭해서 다른 파일로 변경"}
+              {multiple ? t("dropzoneAddHint") : t("dropzoneChangeHint")}
             </p>
           </>
         ) : (
@@ -104,7 +104,7 @@ export function ImageDropzone({
                 type="button"
                 onClick={() => removeFile(index)}
                 className="shrink-0 rounded-full p-1 text-zinc-400 transition-colors hover:bg-zinc-100 hover:text-zinc-600 dark:hover:bg-zinc-800 dark:hover:text-zinc-300"
-                aria-label="파일 제거"
+                aria-label={t("removeFile")}
               >
                 <X className="h-4 w-4" strokeWidth={1.75} />
               </button>

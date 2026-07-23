@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | Gratis online-verktyg för bildredigering",
+    "description": "Komprimera, ändra storlek, beskär och konvertera bilder gratis, utan registrering."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "Alla verktyg",
+    "freeBadge": "Gratis, ingen registrering",
+    "quickCompress": "Komprimera bild",
+    "quickResize": "Ändra bildstorlek",
+    "quickConvert": "Konvertera bild"
+  },
+  "Footer": {
+    "notice": "Uppladdade bilder raderas automatiskt efter bearbetning."
+  },
+  "Categories": {
+    "optimize": "Optimera",
+    "edit": "Redigera",
+    "create": "Skapa"
+  },
+  "Home": {
+    "badge": "{count} gratis verktyg för bildredigering",
+    "title": "Gratis online-verktyg för bildredigering",
+    "subtitle": "Komprimera, konvertera och redigera bilder gratis, utan registrering. Allt bearbetas direkt vid uppladdning och raderas automatiskt."
+  },
+  "Common": {
+    "dropzoneSingle": "Dra och släpp en bild här, eller klicka för att välja",
+    "dropzoneMultiple": "Dra och släpp bilder här, eller klicka för att välja",
+    "dropzoneCountSelected": "{count} bilder valda",
+    "dropzoneChangeHint": "Klicka för att välja en annan fil",
+    "dropzoneAddHint": "Klicka eller dra för att lägga till fler",
+    "removeFile": "Ta bort fil",
+    "comingSoon": "Kommer snart",
+    "genericError": "Ett fel uppstod vid bearbetningen."
+  },
+  "Tools": {
+    "compress_image": { "name": "Komprimera bild", "description": "Minska filstorleken på JPG-, PNG- och WEBP-bilder med bibehållen kvalitet." },
+    "resize_image": { "name": "Ändra bildstorlek", "description": "Ändra bildstorlek i pixlar eller procent." },
+    "crop_image": { "name": "Beskär bild", "description": "Beskär önskat område genom att ange pixelkoordinater." },
+    "convert_image": { "name": "Konvertera bild", "description": "Konvertera fritt mellan JPG, PNG, WEBP, GIF, BMP och TIFF." },
+    "rotate_image": { "name": "Rotera bild", "description": "Rotera bilder i valfri vinkel eller vänd dem horisontellt/vertikalt." },
+    "watermark_image": { "name": "Lägg till vattenstämpel", "description": "Lägg till en textvattenstämpel med justerbar opacitet och position." },
+    "meme_generator": { "name": "Memegenerator", "description": "Lägg till text upptill och nedtill för att snabbt skapa ett meme." }
+  },
+  "CompressImagePage": {
+    "title": "Komprimera bild",
+    "description": "Minska filstorleken på JPG-, PNG-, WEBP- och TIFF-bilder med bibehållen kvalitet. Bearbeta flera bilder samtidigt.",
+    "qualityLabel": "Komprimeringskvalitet",
+    "qualityHint": "Lägre värden minskar filstorleken men sänker även bildkvaliteten.",
+    "submit": "Komprimera bild",
+    "converting": "Komprimerar...",
+    "error": "Ett fel uppstod vid komprimering."
+  },
+  "ResizeImagePage": {
+    "title": "Ändra bildstorlek",
+    "description": "Ändra bildstorlek i pixlar eller procent. Bearbeta flera bilder samtidigt.",
+    "modePixel": "I pixlar",
+    "modePercent": "I procent",
+    "widthLabel": "Bredd (px)",
+    "widthPlaceholder": "t.ex. 800",
+    "heightLabel": "Höjd (px)",
+    "heightPlaceholder": "t.ex. 600",
+    "percentLabel": "Skala (%)",
+    "percentPlaceholder": "t.ex. 50",
+    "percentHint": "Under 100 förminskar bilden, över 100 förstorar den.",
+    "keepAspectLabel": "Behåll originalproportioner (att lämna ett fält tomt beräknas automatiskt)",
+    "submit": "Ändra bildstorlek",
+    "converting": "Ändrar storlek...",
+    "error": "Ett fel uppstod vid storleksändring."
+  },
+  "CropImagePage": {
+    "title": "Beskär bild",
+    "description": "Beskär önskat område genom att ange pixelkoordinater.",
+    "previewAlt": "Förhandsgranskning",
+    "originalSize": "Originalstorlek: {width} x {height}px",
+    "xLabel": "X (vänstermarginal)",
+    "yLabel": "Y (toppmarginal)",
+    "widthLabel": "Bredd (px)",
+    "heightLabel": "Höjd (px)",
+    "submit": "Beskär bild",
+    "cropping": "Beskär...",
+    "error": "Ett fel uppstod vid beskärning."
+  },
+  "ConvertImagePage": {
+    "title": "Konvertera bild",
+    "description": "Konvertera fritt mellan JPG, PNG, WEBP, GIF, BMP och TIFF. Bearbeta flera bilder samtidigt.",
+    "formatLabel": "Konvertera till",
+    "submit": "Konvertera till {format}",
+    "converting": "Konverterar...",
+    "error": "Ett fel uppstod vid konvertering."
+  },
+  "RotateImagePage": {
+    "title": "Rotera bild",
+    "description": "Rotera bilder i valfri vinkel eller vänd dem horisontellt/vertikalt. Bearbeta flera bilder samtidigt.",
+    "angleLabel": "Rotationsvinkel",
+    "flipHLabel": "Vänd horisontellt",
+    "flipVLabel": "Vänd vertikalt",
+    "submit": "Rotera bild",
+    "converting": "Roterar...",
+    "error": "Ett fel uppstod vid rotering."
+  },
+  "WatermarkImagePage": {
+    "title": "Lägg till vattenstämpel",
+    "description": "Lägg till en textvattenstämpel på bilden med justerbar opacitet och position.",
+    "textLabel": "Vattenstämpeltext",
+    "positionLabel": "Position",
+    "opacityLabel": "Opacitet",
+    "fontSizeLabel": "Textstorlek",
+    "submit": "Lägg till vattenstämpel",
+    "converting": "Lägger till vattenstämpel...",
+    "error": "Ett fel uppstod när vattenstämpeln skulle läggas till."
+  },
+  "MemeGeneratorPage": {
+    "title": "Memegenerator",
+    "description": "Lägg till text upptill och nedtill för att snabbt skapa en memebild.",
+    "topTextLabel": "Text upptill",
+    "topTextPlaceholder": "t.ex. WHEN THE CODE",
+    "bottomTextLabel": "Text nedtill",
+    "bottomTextPlaceholder": "t.ex. FINALLY WORKS",
+    "submit": "Skapa meme",
+    "converting": "Skapar meme...",
+    "error": "Ett fel uppstod när memet skulle skapas."
+  },
+  "LanguageSwitcher": {
+    "label": "Språk"
+  }
+}

@@ -1,14 +1,18 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 import { NavMenu } from "@/components/NavMenu";
-
-const quickLinks = [
-  { href: "/compress_image", label: "이미지 압축" },
-  { href: "/resize_image", label: "이미지 크기 조절" },
-  { href: "/convert_image", label: "이미지 형식 변환" },
-];
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 export function Header() {
+  const t = useTranslations("Header");
+
+  const quickLinks = [
+    { href: "/compress_image", label: t("quickCompress") },
+    { href: "/resize_image", label: t("quickResize") },
+    { href: "/convert_image", label: t("quickConvert") },
+  ];
+
   return (
     <header className="sticky top-0 z-10 border-b border-zinc-200/70 bg-white/80 backdrop-blur-md dark:border-zinc-800/70 dark:bg-zinc-950/80">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-3">
@@ -16,7 +20,7 @@ export function Header() {
           <Link href="/" className="mr-2 flex shrink-0 items-center">
             <Image
               src="/logo.png"
-              alt="mylifeimg"
+              alt={t("brand")}
               width={466}
               height={220}
               priority
@@ -43,8 +47,9 @@ export function Header() {
 
         <div className="flex shrink-0 items-center gap-3">
           <span className="hidden items-center gap-1.5 rounded-full bg-green-50 px-3 py-1 text-xs font-medium text-green-600 sm:inline-flex dark:bg-green-500/10 dark:text-green-400">
-            가입 없이 무료로 사용
+            {t("freeBadge")}
           </span>
+          <LanguageSwitcher />
         </div>
       </div>
     </header>

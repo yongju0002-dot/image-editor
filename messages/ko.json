@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | 무료 온라인 이미지 편집 도구",
+    "description": "가입 없이 무료로 이미지를 압축, 크기 조절, 자르기, 변환하세요."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "모든 도구",
+    "freeBadge": "가입 없이 무료로 사용",
+    "quickCompress": "이미지 압축",
+    "quickResize": "이미지 크기 조절",
+    "quickConvert": "이미지 형식 변환"
+  },
+  "Footer": {
+    "notice": "업로드된 이미지는 처리 후 자동으로 삭제됩니다."
+  },
+  "Categories": {
+    "optimize": "최적화",
+    "edit": "편집",
+    "create": "생성"
+  },
+  "Home": {
+    "badge": "{count}개의 무료 이미지 편집 도구",
+    "title": "무료 온라인 이미지 편집 도구",
+    "subtitle": "가입 없이 무료로 이미지를 압축, 변환, 편집하세요. 모든 작업은 업로드 즉시 처리되고 자동으로 삭제됩니다."
+  },
+  "Common": {
+    "dropzoneSingle": "이미지를 드래그하거나 클릭해서 선택하세요",
+    "dropzoneMultiple": "이미지를 여러 장 드래그하거나 클릭해서 선택하세요",
+    "dropzoneCountSelected": "이미지 {count}개 선택됨",
+    "dropzoneChangeHint": "클릭해서 다른 파일로 변경",
+    "dropzoneAddHint": "클릭하거나 드래그해서 추가",
+    "removeFile": "파일 제거",
+    "comingSoon": "준비중",
+    "genericError": "처리 중 오류가 발생했습니다."
+  },
+  "Tools": {
+    "compress_image": { "name": "이미지 압축", "description": "화질은 유지하면서 JPG, PNG, WEBP 이미지 용량을 줄여보세요." },
+    "resize_image": { "name": "이미지 크기 조절", "description": "픽셀 또는 퍼센트로 이미지 크기를 원하는 대로 조절하세요." },
+    "crop_image": { "name": "이미지 자르기", "description": "픽셀 좌표를 지정해 이미지의 원하는 영역만 잘라내세요." },
+    "convert_image": { "name": "이미지 형식 변환", "description": "JPG, PNG, WEBP, GIF, BMP, TIFF 간에 자유롭게 변환하세요." },
+    "rotate_image": { "name": "이미지 회전", "description": "이미지를 원하는 각도로 회전하거나 좌우/상하로 반전하세요." },
+    "watermark_image": { "name": "워터마크 추가", "description": "텍스트 워터마크로 이미지에 투명도와 위치를 조절해 삽입하세요." },
+    "meme_generator": { "name": "밈 만들기", "description": "상단/하단 텍스트를 넣어 간단하게 밈 이미지를 만들어보세요." }
+  },
+  "CompressImagePage": {
+    "title": "이미지 압축",
+    "description": "화질은 유지하면서 JPG, PNG, WEBP, TIFF 이미지 용량을 줄여보세요. 여러 장을 한 번에 처리할 수 있어요.",
+    "qualityLabel": "압축 품질",
+    "qualityHint": "값이 낮을수록 용량은 줄지만 화질도 함께 낮아져요.",
+    "submit": "이미지 압축하기",
+    "converting": "압축하는 중...",
+    "error": "압축 중 오류가 발생했습니다."
+  },
+  "ResizeImagePage": {
+    "title": "이미지 크기 조절",
+    "description": "픽셀 또는 퍼센트로 이미지 크기를 원하는 대로 조절하세요. 여러 장을 한 번에 처리할 수 있어요.",
+    "modePixel": "픽셀로 지정",
+    "modePercent": "퍼센트로 지정",
+    "widthLabel": "너비 (px)",
+    "widthPlaceholder": "예: 800",
+    "heightLabel": "높이 (px)",
+    "heightPlaceholder": "예: 600",
+    "percentLabel": "비율 (%)",
+    "percentPlaceholder": "예: 50",
+    "percentHint": "100보다 작으면 축소, 크면 확대됩니다.",
+    "keepAspectLabel": "원본 비율 유지 (한쪽 값만 채워도 자동 계산돼요)",
+    "submit": "이미지 크기 조절하기",
+    "converting": "크기 조절하는 중...",
+    "error": "크기 조절 중 오류가 발생했습니다."
+  },
+  "CropImagePage": {
+    "title": "이미지 자르기",
+    "description": "픽셀 좌표를 지정해 이미지의 원하는 영역만 잘라내세요.",
+    "previewAlt": "미리보기",
+    "originalSize": "원본 크기: {width} x {height}px",
+    "xLabel": "X (왼쪽 여백)",
+    "yLabel": "Y (위쪽 여백)",
+    "widthLabel": "너비 (px)",
+    "heightLabel": "높이 (px)",
+    "submit": "이미지 자르기",
+    "cropping": "자르는 중...",
+    "error": "자르기 중 오류가 발생했습니다."
+  },
+  "ConvertImagePage": {
+    "title": "이미지 형식 변환",
+    "description": "JPG, PNG, WEBP, GIF, BMP, TIFF 간에 자유롭게 변환하세요. 여러 장을 한 번에 처리할 수 있어요.",
+    "formatLabel": "변환할 형식",
+    "submit": "{format} 형식으로 변환하기",
+    "converting": "변환하는 중...",
+    "error": "변환 중 오류가 발생했습니다."
+  },
+  "RotateImagePage": {
+    "title": "이미지 회전",
+    "description": "이미지를 원하는 각도로 회전하거나 좌우/상하로 반전하세요. 여러 장을 한 번에 처리할 수 있어요.",
+    "angleLabel": "회전 각도",
+    "flipHLabel": "좌우 반전",
+    "flipVLabel": "상하 반전",
+    "submit": "이미지 회전하기",
+    "converting": "회전하는 중...",
+    "error": "회전 중 오류가 발생했습니다."
+  },
+  "WatermarkImagePage": {
+    "title": "워터마크 추가",
+    "description": "텍스트 워터마크로 이미지에 투명도와 위치를 조절해 삽입하세요.",
+    "textLabel": "워터마크 텍스트",
+    "positionLabel": "위치",
+    "opacityLabel": "투명도",
+    "fontSizeLabel": "글자 크기",
+    "submit": "워터마크 추가하기",
+    "converting": "워터마크 추가하는 중...",
+    "error": "워터마크 추가 중 오류가 발생했습니다."
+  },
+  "MemeGeneratorPage": {
+    "title": "밈 만들기",
+    "description": "상단/하단 텍스트를 넣어 간단하게 밈 이미지를 만들어보세요.",
+    "topTextLabel": "상단 텍스트",
+    "topTextPlaceholder": "예: WHEN THE CODE",
+    "bottomTextLabel": "하단 텍스트",
+    "bottomTextPlaceholder": "예: FINALLY WORKS",
+    "submit": "밈 만들기",
+    "converting": "밈 만드는 중...",
+    "error": "밈 생성 중 오류가 발생했습니다."
+  },
+  "LanguageSwitcher": {
+    "label": "언어"
+  }
+}

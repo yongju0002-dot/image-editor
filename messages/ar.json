@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | أدوات مجانية لتحرير الصور عبر الإنترنت",
+    "description": "اضغط وغيّر حجم واقصص وحوّل الصور مجانًا، دون الحاجة للتسجيل."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "جميع الأدوات",
+    "freeBadge": "مجاني، بدون تسجيل",
+    "quickCompress": "ضغط الصورة",
+    "quickResize": "تغيير حجم الصورة",
+    "quickConvert": "تحويل الصورة"
+  },
+  "Footer": {
+    "notice": "يتم حذف الصور التي تم رفعها تلقائيًا بعد المعالجة."
+  },
+  "Categories": {
+    "optimize": "تحسين",
+    "edit": "تحرير",
+    "create": "إنشاء"
+  },
+  "Home": {
+    "badge": "{count} أداة مجانية لتحرير الصور",
+    "title": "أدوات مجانية لتحرير الصور عبر الإنترنت",
+    "subtitle": "اضغط وحوّل وحرّر الصور مجانًا دون تسجيل. تتم معالجة كل شيء فور الرفع ويُحذف تلقائيًا."
+  },
+  "Common": {
+    "dropzoneSingle": "اسحب صورة وأفلتها هنا، أو انقر للاختيار",
+    "dropzoneMultiple": "اسحب الصور وأفلتها هنا، أو انقر للاختيار",
+    "dropzoneCountSelected": "تم اختيار {count} صورة",
+    "dropzoneChangeHint": "انقر لاختيار ملف آخر",
+    "dropzoneAddHint": "انقر أو اسحب لإضافة المزيد",
+    "removeFile": "إزالة الملف",
+    "comingSoon": "قريبًا",
+    "genericError": "حدث خطأ أثناء المعالجة."
+  },
+  "Tools": {
+    "compress_image": { "name": "ضغط الصورة", "description": "قلّل حجم صور JPG وPNG وWEBP مع الحفاظ على الجودة." },
+    "resize_image": { "name": "تغيير حجم الصورة", "description": "غيّر حجم الصور بالبكسل أو النسبة المئوية." },
+    "crop_image": { "name": "قص الصورة", "description": "اقصص المنطقة التي تريدها بتحديد إحداثيات البكسل." },
+    "convert_image": { "name": "تحويل الصورة", "description": "حوّل بحرية بين JPG وPNG وWEBP وGIF وBMP وTIFF." },
+    "rotate_image": { "name": "تدوير الصورة", "description": "دوّر الصورة بأي زاوية أو اقلبها أفقيًا/عموديًا." },
+    "watermark_image": { "name": "إضافة علامة مائية", "description": "أضف علامة مائية نصية مع شفافية وموضع قابلين للتعديل." },
+    "meme_generator": { "name": "مولّد الميمز", "description": "أضف نصًا في الأعلى والأسفل لإنشاء ميم بسرعة." }
+  },
+  "CompressImagePage": {
+    "title": "ضغط الصورة",
+    "description": "قلّل حجم صور JPG وPNG وWEBP وTIFF مع الحفاظ على الجودة. عالج عدة صور دفعة واحدة.",
+    "qualityLabel": "جودة الضغط",
+    "qualityHint": "القيم المنخفضة تقلل حجم الملف، لكنها تقلل الجودة أيضًا.",
+    "submit": "ضغط الصورة",
+    "converting": "جارٍ الضغط...",
+    "error": "حدث خطأ أثناء الضغط."
+  },
+  "ResizeImagePage": {
+    "title": "تغيير حجم الصورة",
+    "description": "غيّر حجم الصور بالبكسل أو النسبة المئوية. عالج عدة صور دفعة واحدة.",
+    "modePixel": "بالبكسل",
+    "modePercent": "بالنسبة المئوية",
+    "widthLabel": "العرض (px)",
+    "widthPlaceholder": "مثال: 800",
+    "heightLabel": "الارتفاع (px)",
+    "heightPlaceholder": "مثال: 600",
+    "percentLabel": "النسبة (%)",
+    "percentPlaceholder": "مثال: 50",
+    "percentHint": "أقل من 100 يصغّر الصورة، وأكثر من 100 يكبّرها.",
+    "keepAspectLabel": "الحفاظ على نسبة الأبعاد الأصلية (ترك أحد الحقلين فارغًا يُحتسب تلقائيًا)",
+    "submit": "تغيير حجم الصورة",
+    "converting": "جارٍ تغيير الحجم...",
+    "error": "حدث خطأ أثناء تغيير الحجم."
+  },
+  "CropImagePage": {
+    "title": "قص الصورة",
+    "description": "اقصص المنطقة التي تريدها بتحديد إحداثيات البكسل.",
+    "previewAlt": "معاينة",
+    "originalSize": "الحجم الأصلي: {width} × {height}px",
+    "xLabel": "X (الهامش الأيسر)",
+    "yLabel": "Y (الهامش العلوي)",
+    "widthLabel": "العرض (px)",
+    "heightLabel": "الارتفاع (px)",
+    "submit": "قص الصورة",
+    "cropping": "جارٍ القص...",
+    "error": "حدث خطأ أثناء القص."
+  },
+  "ConvertImagePage": {
+    "title": "تحويل الصورة",
+    "description": "حوّل بحرية بين JPG وPNG وWEBP وGIF وBMP وTIFF. عالج عدة صور دفعة واحدة.",
+    "formatLabel": "التحويل إلى",
+    "submit": "التحويل إلى {format}",
+    "converting": "جارٍ التحويل...",
+    "error": "حدث خطأ أثناء التحويل."
+  },
+  "RotateImagePage": {
+    "title": "تدوير الصورة",
+    "description": "دوّر الصورة بأي زاوية أو اقلبها أفقيًا/عموديًا. عالج عدة صور دفعة واحدة.",
+    "angleLabel": "زاوية الدوران",
+    "flipHLabel": "قلب أفقي",
+    "flipVLabel": "قلب عمودي",
+    "submit": "تدوير الصورة",
+    "converting": "جارٍ التدوير...",
+    "error": "حدث خطأ أثناء التدوير."
+  },
+  "WatermarkImagePage": {
+    "title": "إضافة علامة مائية",
+    "description": "أضف علامة مائية نصية إلى الصورة مع شفافية وموضع قابلين للتعديل.",
+    "textLabel": "نص العلامة المائية",
+    "positionLabel": "الموضع",
+    "opacityLabel": "الشفافية",
+    "fontSizeLabel": "حجم الخط",
+    "submit": "إضافة علامة مائية",
+    "converting": "جارٍ إضافة العلامة المائية...",
+    "error": "حدث خطأ أثناء إضافة العلامة المائية."
+  },
+  "MemeGeneratorPage": {
+    "title": "مولّد الميمز",
+    "description": "أضف نصًا في الأعلى والأسفل لإنشاء صورة ميم بسرعة.",
+    "topTextLabel": "النص العلوي",
+    "topTextPlaceholder": "مثال: WHEN THE CODE",
+    "bottomTextLabel": "النص السفلي",
+    "bottomTextPlaceholder": "مثال: FINALLY WORKS",
+    "submit": "إنشاء الميم",
+    "converting": "جارٍ إنشاء الميم...",
+    "error": "حدث خطأ أثناء إنشاء الميم."
+  },
+  "LanguageSwitcher": {
+    "label": "اللغة"
+  }
+}

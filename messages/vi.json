@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | Công cụ chỉnh sửa ảnh trực tuyến miễn phí",
+    "description": "Nén, thay đổi kích thước, cắt và chuyển đổi ảnh miễn phí, không cần đăng ký."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "Tất cả công cụ",
+    "freeBadge": "Miễn phí, không cần đăng ký",
+    "quickCompress": "Nén ảnh",
+    "quickResize": "Đổi kích thước ảnh",
+    "quickConvert": "Chuyển đổi ảnh"
+  },
+  "Footer": {
+    "notice": "Ảnh đã tải lên sẽ tự động bị xóa sau khi xử lý."
+  },
+  "Categories": {
+    "optimize": "Tối ưu hóa",
+    "edit": "Chỉnh sửa",
+    "create": "Tạo"
+  },
+  "Home": {
+    "badge": "{count} công cụ chỉnh sửa ảnh miễn phí",
+    "title": "Công cụ chỉnh sửa ảnh trực tuyến miễn phí",
+    "subtitle": "Nén, chuyển đổi và chỉnh sửa ảnh miễn phí, không cần đăng ký. Mọi thứ được xử lý ngay khi tải lên và tự động xóa."
+  },
+  "Common": {
+    "dropzoneSingle": "Kéo và thả một ảnh vào đây, hoặc nhấp để chọn",
+    "dropzoneMultiple": "Kéo và thả nhiều ảnh vào đây, hoặc nhấp để chọn",
+    "dropzoneCountSelected": "Đã chọn {count} ảnh",
+    "dropzoneChangeHint": "Nhấp để chọn tệp khác",
+    "dropzoneAddHint": "Nhấp hoặc kéo để thêm ảnh",
+    "removeFile": "Xóa tệp",
+    "comingSoon": "Sắp ra mắt",
+    "genericError": "Đã xảy ra lỗi trong quá trình xử lý."
+  },
+  "Tools": {
+    "compress_image": { "name": "Nén ảnh", "description": "Giảm dung lượng ảnh JPG, PNG, WEBP trong khi vẫn giữ chất lượng." },
+    "resize_image": { "name": "Đổi kích thước ảnh", "description": "Thay đổi kích thước ảnh theo pixel hoặc phần trăm." },
+    "crop_image": { "name": "Cắt ảnh", "description": "Cắt vùng bạn muốn bằng cách chỉ định tọa độ pixel." },
+    "convert_image": { "name": "Chuyển đổi ảnh", "description": "Chuyển đổi tự do giữa JPG, PNG, WEBP, GIF, BMP và TIFF." },
+    "rotate_image": { "name": "Xoay ảnh", "description": "Xoay ảnh theo góc bất kỳ hoặc lật ngang/dọc." },
+    "watermark_image": { "name": "Thêm hình mờ", "description": "Thêm hình mờ dạng chữ với độ mờ và vị trí có thể điều chỉnh." },
+    "meme_generator": { "name": "Tạo meme", "description": "Thêm chữ ở trên và dưới để nhanh chóng tạo một meme." }
+  },
+  "CompressImagePage": {
+    "title": "Nén ảnh",
+    "description": "Giảm dung lượng ảnh JPG, PNG, WEBP, TIFF trong khi vẫn giữ chất lượng. Xử lý nhiều ảnh cùng lúc.",
+    "qualityLabel": "Chất lượng nén",
+    "qualityHint": "Giá trị càng thấp thì dung lượng càng nhỏ, nhưng chất lượng ảnh cũng giảm.",
+    "submit": "Nén ảnh",
+    "converting": "Đang nén...",
+    "error": "Đã xảy ra lỗi khi nén."
+  },
+  "ResizeImagePage": {
+    "title": "Đổi kích thước ảnh",
+    "description": "Thay đổi kích thước ảnh theo pixel hoặc phần trăm. Xử lý nhiều ảnh cùng lúc.",
+    "modePixel": "Theo pixel",
+    "modePercent": "Theo phần trăm",
+    "widthLabel": "Chiều rộng (px)",
+    "widthPlaceholder": "vd: 800",
+    "heightLabel": "Chiều cao (px)",
+    "heightPlaceholder": "vd: 600",
+    "percentLabel": "Tỷ lệ (%)",
+    "percentPlaceholder": "vd: 50",
+    "percentHint": "Dưới 100 sẽ thu nhỏ, trên 100 sẽ phóng to.",
+    "keepAspectLabel": "Giữ tỷ lệ khung hình gốc (để trống một ô sẽ tự động tính toán)",
+    "submit": "Đổi kích thước ảnh",
+    "converting": "Đang đổi kích thước...",
+    "error": "Đã xảy ra lỗi khi đổi kích thước."
+  },
+  "CropImagePage": {
+    "title": "Cắt ảnh",
+    "description": "Cắt vùng bạn muốn bằng cách chỉ định tọa độ pixel.",
+    "previewAlt": "Xem trước",
+    "originalSize": "Kích thước gốc: {width} x {height}px",
+    "xLabel": "X (lề trái)",
+    "yLabel": "Y (lề trên)",
+    "widthLabel": "Chiều rộng (px)",
+    "heightLabel": "Chiều cao (px)",
+    "submit": "Cắt ảnh",
+    "cropping": "Đang cắt...",
+    "error": "Đã xảy ra lỗi khi cắt ảnh."
+  },
+  "ConvertImagePage": {
+    "title": "Chuyển đổi ảnh",
+    "description": "Chuyển đổi tự do giữa JPG, PNG, WEBP, GIF, BMP và TIFF. Xử lý nhiều ảnh cùng lúc.",
+    "formatLabel": "Chuyển đổi sang",
+    "submit": "Chuyển đổi sang {format}",
+    "converting": "Đang chuyển đổi...",
+    "error": "Đã xảy ra lỗi khi chuyển đổi."
+  },
+  "RotateImagePage": {
+    "title": "Xoay ảnh",
+    "description": "Xoay ảnh theo góc bất kỳ hoặc lật ngang/dọc. Xử lý nhiều ảnh cùng lúc.",
+    "angleLabel": "Góc xoay",
+    "flipHLabel": "Lật ngang",
+    "flipVLabel": "Lật dọc",
+    "submit": "Xoay ảnh",
+    "converting": "Đang xoay...",
+    "error": "Đã xảy ra lỗi khi xoay."
+  },
+  "WatermarkImagePage": {
+    "title": "Thêm hình mờ",
+    "description": "Thêm hình mờ dạng chữ vào ảnh với độ mờ và vị trí có thể điều chỉnh.",
+    "textLabel": "Nội dung hình mờ",
+    "positionLabel": "Vị trí",
+    "opacityLabel": "Độ mờ",
+    "fontSizeLabel": "Cỡ chữ",
+    "submit": "Thêm hình mờ",
+    "converting": "Đang thêm hình mờ...",
+    "error": "Đã xảy ra lỗi khi thêm hình mờ."
+  },
+  "MemeGeneratorPage": {
+    "title": "Tạo meme",
+    "description": "Thêm chữ ở trên và dưới để nhanh chóng tạo ảnh meme.",
+    "topTextLabel": "Chữ phía trên",
+    "topTextPlaceholder": "vd: WHEN THE CODE",
+    "bottomTextLabel": "Chữ phía dưới",
+    "bottomTextPlaceholder": "vd: FINALLY WORKS",
+    "submit": "Tạo meme",
+    "converting": "Đang tạo meme...",
+    "error": "Đã xảy ra lỗi khi tạo meme."
+  },
+  "LanguageSwitcher": {
+    "label": "Ngôn ngữ"
+  }
+}

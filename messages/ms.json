@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | Alat Penyuntingan Imej Dalam Talian Percuma",
+    "description": "Mampatkan, ubah saiz, potong dan tukar imej secara percuma tanpa perlu mendaftar."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "Semua Alat",
+    "freeBadge": "Percuma, tanpa pendaftaran",
+    "quickCompress": "Mampatkan Imej",
+    "quickResize": "Ubah Saiz Imej",
+    "quickConvert": "Tukar Imej"
+  },
+  "Footer": {
+    "notice": "Imej yang dimuat naik akan dipadam secara automatik selepas diproses."
+  },
+  "Categories": {
+    "optimize": "Optimumkan",
+    "edit": "Sunting",
+    "create": "Cipta"
+  },
+  "Home": {
+    "badge": "{count} alat penyuntingan imej percuma",
+    "title": "Alat Penyuntingan Imej Dalam Talian Percuma",
+    "subtitle": "Mampatkan, tukar dan sunting imej secara percuma tanpa perlu mendaftar. Semuanya diproses sebaik sahaja dimuat naik dan dipadam secara automatik."
+  },
+  "Common": {
+    "dropzoneSingle": "Seret dan lepaskan imej di sini, atau klik untuk memilih",
+    "dropzoneMultiple": "Seret dan lepaskan imej di sini, atau klik untuk memilih",
+    "dropzoneCountSelected": "{count} imej dipilih",
+    "dropzoneChangeHint": "Klik untuk memilih fail lain",
+    "dropzoneAddHint": "Klik atau seret untuk menambah lagi",
+    "removeFile": "Alih keluar fail",
+    "comingSoon": "Akan datang",
+    "genericError": "Ralat berlaku semasa pemprosesan."
+  },
+  "Tools": {
+    "compress_image": { "name": "Mampatkan Imej", "description": "Kecilkan saiz fail JPG, PNG dan WEBP sambil mengekalkan kualiti." },
+    "resize_image": { "name": "Ubah Saiz Imej", "description": "Ubah saiz imej mengikut piksel atau peratusan." },
+    "crop_image": { "name": "Potong Imej", "description": "Potong kawasan yang dikehendaki dengan menetapkan koordinat piksel." },
+    "convert_image": { "name": "Tukar Imej", "description": "Tukar dengan bebas antara JPG, PNG, WEBP, GIF, BMP dan TIFF." },
+    "rotate_image": { "name": "Putar Imej", "description": "Putar imej pada sudut yang dikehendaki atau terbalikkan secara mendatar/menegak." },
+    "watermark_image": { "name": "Tambah Tera Air", "description": "Tambah tera air teks dengan kelegapan dan kedudukan yang boleh disesuaikan." },
+    "meme_generator": { "name": "Penjana Meme", "description": "Tambah teks di atas dan bawah untuk mencipta meme dengan cepat." }
+  },
+  "CompressImagePage": {
+    "title": "Mampatkan Imej",
+    "description": "Kecilkan saiz fail JPG, PNG, WEBP dan TIFF sambil mengekalkan kualiti. Proses beberapa imej sekali gus.",
+    "qualityLabel": "Kualiti Mampatan",
+    "qualityHint": "Nilai lebih rendah mengecilkan saiz fail, tetapi turut menurunkan kualiti imej.",
+    "submit": "Mampatkan Imej",
+    "converting": "Sedang memampatkan...",
+    "error": "Ralat berlaku semasa memampatkan."
+  },
+  "ResizeImagePage": {
+    "title": "Ubah Saiz Imej",
+    "description": "Ubah saiz imej mengikut piksel atau peratusan. Proses beberapa imej sekali gus.",
+    "modePixel": "Mengikut piksel",
+    "modePercent": "Mengikut peratusan",
+    "widthLabel": "Lebar (px)",
+    "widthPlaceholder": "cth. 800",
+    "heightLabel": "Tinggi (px)",
+    "heightPlaceholder": "cth. 600",
+    "percentLabel": "Skala (%)",
+    "percentPlaceholder": "cth. 50",
+    "percentHint": "Bawah 100 mengecilkan imej, atas 100 membesarkannya.",
+    "keepAspectLabel": "Kekalkan nisbah bidang asal (biarkan satu medan kosong untuk pengiraan automatik)",
+    "submit": "Ubah Saiz Imej",
+    "converting": "Sedang mengubah saiz...",
+    "error": "Ralat berlaku semasa mengubah saiz."
+  },
+  "CropImagePage": {
+    "title": "Potong Imej",
+    "description": "Potong kawasan yang dikehendaki dengan menetapkan koordinat piksel.",
+    "previewAlt": "Pratonton",
+    "originalSize": "Saiz asal: {width} x {height}px",
+    "xLabel": "X (jidar kiri)",
+    "yLabel": "Y (jidar atas)",
+    "widthLabel": "Lebar (px)",
+    "heightLabel": "Tinggi (px)",
+    "submit": "Potong Imej",
+    "cropping": "Sedang memotong...",
+    "error": "Ralat berlaku semasa memotong."
+  },
+  "ConvertImagePage": {
+    "title": "Tukar Imej",
+    "description": "Tukar dengan bebas antara JPG, PNG, WEBP, GIF, BMP dan TIFF. Proses beberapa imej sekali gus.",
+    "formatLabel": "Tukar kepada",
+    "submit": "Tukar kepada {format}",
+    "converting": "Sedang menukar...",
+    "error": "Ralat berlaku semasa menukar."
+  },
+  "RotateImagePage": {
+    "title": "Putar Imej",
+    "description": "Putar imej pada sudut yang dikehendaki atau terbalikkan secara mendatar/menegak. Proses beberapa imej sekali gus.",
+    "angleLabel": "Sudut Putaran",
+    "flipHLabel": "Terbalik mendatar",
+    "flipVLabel": "Terbalik menegak",
+    "submit": "Putar Imej",
+    "converting": "Sedang memutar...",
+    "error": "Ralat berlaku semasa memutar."
+  },
+  "WatermarkImagePage": {
+    "title": "Tambah Tera Air",
+    "description": "Tambah tera air teks pada imej dengan kelegapan dan kedudukan yang boleh disesuaikan.",
+    "textLabel": "Teks tera air",
+    "positionLabel": "Kedudukan",
+    "opacityLabel": "Kelegapan",
+    "fontSizeLabel": "Saiz fon",
+    "submit": "Tambah Tera Air",
+    "converting": "Sedang menambah tera air...",
+    "error": "Ralat berlaku semasa menambah tera air."
+  },
+  "MemeGeneratorPage": {
+    "title": "Penjana Meme",
+    "description": "Tambah teks di atas dan bawah untuk mencipta imej meme dengan cepat.",
+    "topTextLabel": "Teks atas",
+    "topTextPlaceholder": "cth. WHEN THE CODE",
+    "bottomTextLabel": "Teks bawah",
+    "bottomTextPlaceholder": "cth. FINALLY WORKS",
+    "submit": "Cipta Meme",
+    "converting": "Sedang mencipta meme...",
+    "error": "Ralat berlaku semasa mencipta meme."
+  },
+  "LanguageSwitcher": {
+    "label": "Bahasa"
+  }
+}

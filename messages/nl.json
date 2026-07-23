@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | Gratis online tools voor beeldbewerking",
+    "description": "Comprimeer, wijzig de grootte, snijd bij en converteer afbeeldingen gratis, zonder registratie."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "Alle tools",
+    "freeBadge": "Gratis, geen registratie",
+    "quickCompress": "Afbeelding comprimeren",
+    "quickResize": "Afbeelding formaat wijzigen",
+    "quickConvert": "Afbeelding converteren"
+  },
+  "Footer": {
+    "notice": "Geüploade afbeeldingen worden na verwerking automatisch verwijderd."
+  },
+  "Categories": {
+    "optimize": "Optimaliseren",
+    "edit": "Bewerken",
+    "create": "Maken"
+  },
+  "Home": {
+    "badge": "{count} gratis tools voor beeldbewerking",
+    "title": "Gratis online tools voor beeldbewerking",
+    "subtitle": "Comprimeer, converteer en bewerk afbeeldingen gratis, zonder registratie. Alles wordt direct na uploaden verwerkt en automatisch verwijderd."
+  },
+  "Common": {
+    "dropzoneSingle": "Sleep hier een afbeelding naartoe, of klik om te selecteren",
+    "dropzoneMultiple": "Sleep hier afbeeldingen naartoe, of klik om te selecteren",
+    "dropzoneCountSelected": "{count} afbeeldingen geselecteerd",
+    "dropzoneChangeHint": "Klik om een ander bestand te kiezen",
+    "dropzoneAddHint": "Klik of sleep om meer toe te voegen",
+    "removeFile": "Bestand verwijderen",
+    "comingSoon": "Binnenkort beschikbaar",
+    "genericError": "Er is een fout opgetreden tijdens de verwerking."
+  },
+  "Tools": {
+    "compress_image": { "name": "Afbeelding comprimeren", "description": "Verklein JPG-, PNG- en WEBP-bestanden met behoud van kwaliteit." },
+    "resize_image": { "name": "Afbeelding formaat wijzigen", "description": "Wijzig het formaat van afbeeldingen in pixels of percentage." },
+    "crop_image": { "name": "Afbeelding bijsnijden", "description": "Snijd het gewenste gebied bij met pixelcoördinaten." },
+    "convert_image": { "name": "Afbeelding converteren", "description": "Converteer vrij tussen JPG, PNG, WEBP, GIF, BMP en TIFF." },
+    "rotate_image": { "name": "Afbeelding draaien", "description": "Draai afbeeldingen in elke gewenste hoek of spiegel ze horizontaal/verticaal." },
+    "watermark_image": { "name": "Watermerk toevoegen", "description": "Voeg een tekstwatermerk toe met instelbare dekking en positie." },
+    "meme_generator": { "name": "Memegenerator", "description": "Voeg boven- en ondertekst toe om snel een meme te maken." }
+  },
+  "CompressImagePage": {
+    "title": "Afbeelding comprimeren",
+    "description": "Verklein JPG-, PNG-, WEBP- en TIFF-bestanden met behoud van kwaliteit. Verwerk meerdere afbeeldingen tegelijk.",
+    "qualityLabel": "Compressiekwaliteit",
+    "qualityHint": "Lagere waarden verkleinen het bestand, maar verlagen ook de kwaliteit.",
+    "submit": "Afbeelding comprimeren",
+    "converting": "Bezig met comprimeren...",
+    "error": "Er is een fout opgetreden tijdens het comprimeren."
+  },
+  "ResizeImagePage": {
+    "title": "Afbeelding formaat wijzigen",
+    "description": "Wijzig het formaat van afbeeldingen in pixels of percentage. Verwerk meerdere afbeeldingen tegelijk.",
+    "modePixel": "In pixels",
+    "modePercent": "In percentage",
+    "widthLabel": "Breedte (px)",
+    "widthPlaceholder": "bijv. 800",
+    "heightLabel": "Hoogte (px)",
+    "heightPlaceholder": "bijv. 600",
+    "percentLabel": "Schaal (%)",
+    "percentPlaceholder": "bijv. 50",
+    "percentHint": "Onder 100 verkleint de afbeelding, boven 100 vergroot het.",
+    "keepAspectLabel": "Oorspronkelijke beeldverhouding behouden (één veld leeg laten wordt automatisch berekend)",
+    "submit": "Formaat wijzigen",
+    "converting": "Formaat wordt gewijzigd...",
+    "error": "Er is een fout opgetreden bij het wijzigen van het formaat."
+  },
+  "CropImagePage": {
+    "title": "Afbeelding bijsnijden",
+    "description": "Snijd het gewenste gebied bij met pixelcoördinaten.",
+    "previewAlt": "Voorbeeld",
+    "originalSize": "Oorspronkelijke grootte: {width} x {height}px",
+    "xLabel": "X (marge links)",
+    "yLabel": "Y (marge boven)",
+    "widthLabel": "Breedte (px)",
+    "heightLabel": "Hoogte (px)",
+    "submit": "Afbeelding bijsnijden",
+    "cropping": "Bezig met bijsnijden...",
+    "error": "Er is een fout opgetreden tijdens het bijsnijden."
+  },
+  "ConvertImagePage": {
+    "title": "Afbeelding converteren",
+    "description": "Converteer vrij tussen JPG, PNG, WEBP, GIF, BMP en TIFF. Verwerk meerdere afbeeldingen tegelijk.",
+    "formatLabel": "Converteren naar",
+    "submit": "Converteren naar {format}",
+    "converting": "Bezig met converteren...",
+    "error": "Er is een fout opgetreden tijdens het converteren."
+  },
+  "RotateImagePage": {
+    "title": "Afbeelding draaien",
+    "description": "Draai afbeeldingen in elke gewenste hoek of spiegel ze horizontaal/verticaal. Verwerk meerdere afbeeldingen tegelijk.",
+    "angleLabel": "Draaihoek",
+    "flipHLabel": "Horizontaal spiegelen",
+    "flipVLabel": "Verticaal spiegelen",
+    "submit": "Afbeelding draaien",
+    "converting": "Bezig met draaien...",
+    "error": "Er is een fout opgetreden tijdens het draaien."
+  },
+  "WatermarkImagePage": {
+    "title": "Watermerk toevoegen",
+    "description": "Voeg een tekstwatermerk toe aan de afbeelding met instelbare dekking en positie.",
+    "textLabel": "Watermerktekst",
+    "positionLabel": "Positie",
+    "opacityLabel": "Dekking",
+    "fontSizeLabel": "Tekstgrootte",
+    "submit": "Watermerk toevoegen",
+    "converting": "Watermerk wordt toegevoegd...",
+    "error": "Er is een fout opgetreden bij het toevoegen van het watermerk."
+  },
+  "MemeGeneratorPage": {
+    "title": "Memegenerator",
+    "description": "Voeg boven- en ondertekst toe om snel een meme-afbeelding te maken.",
+    "topTextLabel": "Boventekst",
+    "topTextPlaceholder": "bijv. WHEN THE CODE",
+    "bottomTextLabel": "Ondertekst",
+    "bottomTextPlaceholder": "bijv. FINALLY WORKS",
+    "submit": "Meme maken",
+    "converting": "Meme wordt gemaakt...",
+    "error": "Er is een fout opgetreden bij het maken van de meme."
+  },
+  "LanguageSwitcher": {
+    "label": "Taal"
+  }
+}

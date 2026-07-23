@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "mylifeimg | Free Online Image Editing Tools",
+    "description": "Compress, resize, crop, and convert images for free — no sign-up required."
+  },
+  "Header": {
+    "brand": "mylifeimg",
+    "allTools": "All Tools",
+    "freeBadge": "Free, no sign-up",
+    "quickCompress": "Compress Image",
+    "quickResize": "Resize Image",
+    "quickConvert": "Convert Image"
+  },
+  "Footer": {
+    "notice": "Uploaded images are automatically deleted after processing."
+  },
+  "Categories": {
+    "optimize": "Optimize",
+    "edit": "Edit",
+    "create": "Create"
+  },
+  "Home": {
+    "badge": "{count} free image editing tools",
+    "title": "Free Online Image Editing Tools",
+    "subtitle": "Compress, convert, and edit images for free with no sign-up. Everything is processed the moment you upload and deleted automatically."
+  },
+  "Common": {
+    "dropzoneSingle": "Drag and drop an image, or click to select",
+    "dropzoneMultiple": "Drag and drop images, or click to select",
+    "dropzoneCountSelected": "{count} images selected",
+    "dropzoneChangeHint": "Click to choose a different file",
+    "dropzoneAddHint": "Click or drag to add more",
+    "removeFile": "Remove file",
+    "comingSoon": "Coming soon",
+    "genericError": "Something went wrong while processing."
+  },
+  "Tools": {
+    "compress_image": { "name": "Compress Image", "description": "Shrink JPG, PNG, and WEBP file sizes while keeping the quality." },
+    "resize_image": { "name": "Resize Image", "description": "Resize images to any pixel size or percentage." },
+    "crop_image": { "name": "Crop Image", "description": "Crop images to any area by specifying pixel coordinates." },
+    "convert_image": { "name": "Convert Image", "description": "Convert freely between JPG, PNG, WEBP, GIF, BMP, and TIFF." },
+    "rotate_image": { "name": "Rotate Image", "description": "Rotate images to any angle or flip them horizontally/vertically." },
+    "watermark_image": { "name": "Add Watermark", "description": "Add a text watermark with adjustable opacity and position." },
+    "meme_generator": { "name": "Meme Generator", "description": "Add top and bottom text to quickly create a meme." }
+  },
+  "CompressImagePage": {
+    "title": "Compress Image",
+    "description": "Shrink JPG, PNG, WEBP, and TIFF file sizes while keeping the quality. Process multiple images at once.",
+    "qualityLabel": "Compression Quality",
+    "qualityHint": "Lower values reduce file size but also lower image quality.",
+    "submit": "Compress Image",
+    "converting": "Compressing...",
+    "error": "Something went wrong while compressing."
+  },
+  "ResizeImagePage": {
+    "title": "Resize Image",
+    "description": "Resize images to any pixel size or percentage. Process multiple images at once.",
+    "modePixel": "By pixels",
+    "modePercent": "By percentage",
+    "widthLabel": "Width (px)",
+    "widthPlaceholder": "e.g. 800",
+    "heightLabel": "Height (px)",
+    "heightPlaceholder": "e.g. 600",
+    "percentLabel": "Scale (%)",
+    "percentPlaceholder": "e.g. 50",
+    "percentHint": "Below 100 shrinks the image, above 100 enlarges it.",
+    "keepAspectLabel": "Keep original aspect ratio (leaving one field blank auto-calculates it)",
+    "submit": "Resize Image",
+    "converting": "Resizing...",
+    "error": "Something went wrong while resizing."
+  },
+  "CropImagePage": {
+    "title": "Crop Image",
+    "description": "Crop images to any area by specifying pixel coordinates.",
+    "previewAlt": "Preview",
+    "originalSize": "Original size: {width} x {height}px",
+    "xLabel": "X (left offset)",
+    "yLabel": "Y (top offset)",
+    "widthLabel": "Width (px)",
+    "heightLabel": "Height (px)",
+    "submit": "Crop Image",
+    "cropping": "Cropping...",
+    "error": "Something went wrong while cropping."
+  },
+  "ConvertImagePage": {
+    "title": "Convert Image",
+    "description": "Convert freely between JPG, PNG, WEBP, GIF, BMP, and TIFF. Process multiple images at once.",
+    "formatLabel": "Convert to",
+    "submit": "Convert to {format}",
+    "converting": "Converting...",
+    "error": "Something went wrong while converting."
+  },
+  "RotateImagePage": {
+    "title": "Rotate Image",
+    "description": "Rotate images to any angle or flip them horizontally/vertically. Process multiple images at once.",
+    "angleLabel": "Rotation Angle",
+    "flipHLabel": "Flip horizontally",
+    "flipVLabel": "Flip vertically",
+    "submit": "Rotate Image",
+    "converting": "Rotating...",
+    "error": "Something went wrong while rotating."
+  },
+  "WatermarkImagePage": {
+    "title": "Add Watermark",
+    "description": "Add a text watermark to an image with adjustable opacity and position.",
+    "textLabel": "Watermark text",
+    "positionLabel": "Position",
+    "opacityLabel": "Opacity",
+    "fontSizeLabel": "Font size",
+    "submit": "Add Watermark",
+    "converting": "Adding watermark...",
+    "error": "Something went wrong while adding the watermark."
+  },
+  "MemeGeneratorPage": {
+    "title": "Meme Generator",
+    "description": "Add top and bottom text to quickly create a meme image.",
+    "topTextLabel": "Top text",
+    "topTextPlaceholder": "e.g. WHEN THE CODE",
+    "bottomTextLabel": "Bottom text",
+    "bottomTextPlaceholder": "e.g. FINALLY WORKS",
+    "submit": "Make Meme",
+    "converting": "Making meme...",
+    "error": "Something went wrong while generating the meme."
+  },
+  "LanguageSwitcher": {
+    "label": "Language"
+  }
+}
