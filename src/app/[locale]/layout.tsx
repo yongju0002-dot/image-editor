@@ -82,6 +82,9 @@ export async function generateMetadata({
     verification: {
       google: "9AWth9MrvOPSNLK5sD0KnGW1TWxfJ_rxgCbMbkYKojc",
     },
+    other: {
+      "google-adsense-account": "ca-pub-7993734713843733",
+    },
   };
 }
 
@@ -104,6 +107,13 @@ export default async function RootLayout({
       dir={rtlLocales.has(locale) ? "rtl" : "ltr"}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993734713843733"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="flex min-h-full flex-col bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50">
         <NextIntlClientProvider>
           <Header />
