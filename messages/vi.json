@@ -124,5 +124,10 @@
   },
   "LanguageSwitcher": {
     "label": "Ngôn ngữ"
+  },
+  "SiteMenu": {
+    "otherSitesHeading": "Công cụ khác",
+    "sisterSiteLabel": "Công cụ PDF (mylifepdf.com)",
+    "languageHeading": "Ngôn ngữ"
   }
 }

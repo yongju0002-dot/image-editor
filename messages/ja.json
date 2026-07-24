@@ -124,5 +124,10 @@
   },
   "LanguageSwitcher": {
     "label": "言語"
+  },
+  "SiteMenu": {
+    "otherSitesHeading": "その他のツール",
+    "sisterSiteLabel": "PDFツール (mylifepdf.com)",
+    "languageHeading": "言語"
   }
 }

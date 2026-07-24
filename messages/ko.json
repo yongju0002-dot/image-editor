@@ -124,5 +124,10 @@
   },
   "LanguageSwitcher": {
     "label": "언어"
+  },
+  "SiteMenu": {
+    "otherSitesHeading": "다른 도구",
+    "sisterSiteLabel": "PDF 도구 (mylifepdf.com)",
+    "languageHeading": "언어"
   }
 }

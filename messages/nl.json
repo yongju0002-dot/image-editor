@@ -124,5 +124,10 @@
   },
   "LanguageSwitcher": {
     "label": "Taal"
+  },
+  "SiteMenu": {
+    "otherSitesHeading": "Andere tools",
+    "sisterSiteLabel": "PDF-tools (mylifepdf.com)",
+    "languageHeading": "Taal"
   }
 }

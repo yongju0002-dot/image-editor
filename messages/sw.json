@@ -124,5 +124,10 @@
   },
   "LanguageSwitcher": {
     "label": "Lugha"
+  },
+  "SiteMenu": {
+    "otherSitesHeading": "Zana zingine",
+    "sisterSiteLabel": "Zana za PDF (mylifepdf.com)",
+    "languageHeading": "Lugha"
   }
 }

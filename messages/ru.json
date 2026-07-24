@@ -124,5 +124,10 @@
   },
   "LanguageSwitcher": {
     "label": "Язык"
+  },
+  "SiteMenu": {
+    "otherSitesHeading": "Другие инструменты",
+    "sisterSiteLabel": "Инструменты PDF (mylifepdf.com)",
+    "languageHeading": "Язык"
   }
 }

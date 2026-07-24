@@ -124,5 +124,10 @@
   },
   "LanguageSwitcher": {
     "label": "Bahasa"
+  },
+  "SiteMenu": {
+    "otherSitesHeading": "Alat lainnya",
+    "sisterSiteLabel": "Alat PDF (mylifepdf.com)",
+    "languageHeading": "Bahasa"
   }
 }

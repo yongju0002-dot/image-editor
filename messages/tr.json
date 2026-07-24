@@ -124,5 +124,10 @@
   },
   "LanguageSwitcher": {
     "label": "Dil"
+  },
+  "SiteMenu": {
+    "otherSitesHeading": "Diğer araçlar",
+    "sisterSiteLabel": "PDF araçları (mylifepdf.com)",
+    "languageHeading": "Dil"
   }
 }

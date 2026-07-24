@@ -124,5 +124,10 @@
   },
   "LanguageSwitcher": {
     "label": "Мова"
+  },
+  "SiteMenu": {
+    "otherSitesHeading": "Інші інструменти",
+    "sisterSiteLabel": "Інструменти PDF (mylifepdf.com)",
+    "languageHeading": "Мова"
   }
 }

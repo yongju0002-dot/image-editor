@@ -124,5 +124,10 @@
   },
   "LanguageSwitcher": {
     "label": "भाषा"
+  },
+  "SiteMenu": {
+    "otherSitesHeading": "अन्य टूल्स",
+    "sisterSiteLabel": "PDF टूल्स (mylifepdf.com)",
+    "languageHeading": "भाषा"
   }
 }

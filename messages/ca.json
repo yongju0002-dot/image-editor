@@ -124,5 +124,10 @@
   },
   "LanguageSwitcher": {
     "label": "Idioma"
+  },
+  "SiteMenu": {
+    "otherSitesHeading": "Altres eines",
+    "sisterSiteLabel": "Eines PDF (mylifepdf.com)",
+    "languageHeading": "Idioma"
   }
 }

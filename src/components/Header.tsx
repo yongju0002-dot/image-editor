@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { NavMenu } from "@/components/NavMenu";
-import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { SiteMenu } from "@/components/SiteMenu";
 
 export function Header() {
   const t = useTranslations("Header");
@@ -49,7 +49,7 @@ export function Header() {
           <span className="hidden items-center gap-1.5 rounded-full bg-green-50 px-3 py-1 text-xs font-medium text-green-600 sm:inline-flex dark:bg-green-500/10 dark:text-green-400">
             {t("freeBadge")}
           </span>
-          <LanguageSwitcher />
+          <SiteMenu />
         </div>
       </div>
     </header>

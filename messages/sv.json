@@ -124,5 +124,10 @@
   },
   "LanguageSwitcher": {
     "label": "Språk"
+  },
+  "SiteMenu": {
+    "otherSitesHeading": "Andra verktyg",
+    "sisterSiteLabel": "PDF-verktyg (mylifepdf.com)",
+    "languageHeading": "Språk"
   }
 }

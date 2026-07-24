@@ -124,5 +124,10 @@
   },
   "LanguageSwitcher": {
     "label": "Γλώσσα"
+  },
+  "SiteMenu": {
+    "otherSitesHeading": "Άλλα εργαλεία",
+    "sisterSiteLabel": "Εργαλεία PDF (mylifepdf.com)",
+    "languageHeading": "Γλώσσα"
   }
 }
