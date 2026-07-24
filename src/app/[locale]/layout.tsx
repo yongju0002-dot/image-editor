@@ -79,6 +79,9 @@ export async function generateMetadata({
     twitter: {
       card: "summary",
     },
+    verification: {
+      google: "9AWth9MrvOPSNLK5sD0KnGW1TWxfJ_rxgCbMbkYKojc",
+    },
   };
 }
 
