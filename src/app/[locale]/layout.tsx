@@ -81,6 +81,9 @@ export async function generateMetadata({
     },
     verification: {
       google: "9AWth9MrvOPSNLK5sD0KnGW1TWxfJ_rxgCbMbkYKojc",
+      other: {
+        "msvalidate.01": "1423BDFD9CC904DEFD8D5B96A6116502",
+      },
     },
     other: {
       "google-adsense-account": "ca-pub-7993734713843733",
