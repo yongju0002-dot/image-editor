@@ -129,5 +129,34 @@
     "otherSitesHeading": "Andra verktyg",
     "sisterSiteLabel": "PDF-verktyg (mylifepdf.com)",
     "languageHeading": "Språk"
-  }
+  },
+    "FAQ": {
+      "heading": "Vanliga frågor",
+      "items": [
+        {
+          "q": "Är mylifeimg gratis?",
+          "a": "Ja, alla 7 verktyg är helt gratis och kräver inget konto."
+        },
+        {
+          "q": "Måste jag registrera mig?",
+          "a": "Nej, du kan använda alla funktioner direkt utan registrering."
+        },
+        {
+          "q": "Vad händer med mina uppladdade bilder?",
+          "a": "De bearbetas på servern och raderas sedan automatiskt direkt efteråt - inget sparas."
+        },
+        {
+          "q": "Vilka språk stöds?",
+          "a": "Koreanska, engelska, japanska, kinesiska (förenklad/traditionell), spanska, franska, tyska, portugisiska, ryska, italienska, nederländska, polska, svenska, turkiska, ukrainska, vietnamesiska, thailändska, indonesiska, malajiska, hindi, bulgariska, katalanska, grekiska, swahili och arabiska."
+        },
+        {
+          "q": "Kan jag bearbeta flera bilder samtidigt?",
+          "a": "Ja, verktygen för komprimering, storleksändring, konvertering och rotation låter dig ladda upp och bearbeta flera bilder samtidigt."
+        },
+        {
+          "q": "Vilka bildformat stöds?",
+          "a": "JPG, PNG, WEBP, GIF, BMP och TIFF stöds alla."
+        }
+      ]
+    }
 }

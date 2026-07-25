@@ -129,5 +129,34 @@
     "otherSitesHeading": "Andere tools",
     "sisterSiteLabel": "PDF-tools (mylifepdf.com)",
     "languageHeading": "Taal"
-  }
+  },
+    "FAQ": {
+      "heading": "Veelgestelde vragen",
+      "items": [
+        {
+          "q": "Is mylifeimg gratis?",
+          "a": "Ja, alle 7 tools zijn volledig gratis en vereisen geen registratie."
+        },
+        {
+          "q": "Moet ik me registreren?",
+          "a": "Nee, je kunt direct alle functies gebruiken zonder registratie."
+        },
+        {
+          "q": "Wat gebeurt er met mijn geüploade afbeeldingen?",
+          "a": "Ze worden op de server verwerkt en daarna automatisch verwijderd - er wordt niets opgeslagen."
+        },
+        {
+          "q": "Welke talen worden ondersteund?",
+          "a": "Koreaans, Engels, Japans, Chinees (vereenvoudigd/traditioneel), Spaans, Frans, Duits, Portugees, Russisch, Italiaans, Nederlands, Pools, Zweeds, Turks, Oekraïens, Vietnamees, Thai, Indonesisch, Maleis, Hindi, Bulgaars, Catalaans, Grieks, Swahili en Arabisch."
+        },
+        {
+          "q": "Kan ik meerdere afbeeldingen tegelijk verwerken?",
+          "a": "Ja, met de tools voor comprimeren, formaat wijzigen, converteren en draaien kun je meerdere afbeeldingen tegelijk uploaden en verwerken."
+        },
+        {
+          "q": "Welke afbeeldingsformaten worden ondersteund?",
+          "a": "JPG, PNG, WEBP, GIF, BMP en TIFF worden allemaal ondersteund."
+        }
+      ]
+    }
 }

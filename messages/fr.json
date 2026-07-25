@@ -129,5 +129,34 @@
     "otherSitesHeading": "Autres outils",
     "sisterSiteLabel": "Outils PDF (mylifepdf.com)",
     "languageHeading": "Langue"
-  }
+  },
+    "FAQ": {
+      "heading": "Questions fréquentes",
+      "items": [
+        {
+          "q": "mylifeimg est-il gratuit?",
+          "a": "Oui, les 7 outils sont entièrement gratuits et ne nécessitent aucune inscription."
+        },
+        {
+          "q": "Dois-je créer un compte?",
+          "a": "Non, vous pouvez utiliser toutes les fonctionnalités immédiatement, sans inscription."
+        },
+        {
+          "q": "Que deviennent mes images envoyées?",
+          "a": "Elles sont traitées sur le serveur puis supprimées automatiquement juste après - rien n'est conservé."
+        },
+        {
+          "q": "Quelles langues sont disponibles?",
+          "a": "Coréen, anglais, japonais, chinois (simplifié/traditionnel), espagnol, français, allemand, portugais, russe, italien, néerlandais, polonais, suédois, turc, ukrainien, vietnamien, thaï, indonésien, malais, hindi, bulgare, catalan, grec, swahili et arabe."
+        },
+        {
+          "q": "Puis-je traiter plusieurs images à la fois?",
+          "a": "Oui, les outils de compression, redimensionnement, conversion et rotation permettent d'envoyer et de traiter plusieurs images en même temps."
+        },
+        {
+          "q": "Quels formats d'image sont pris en charge?",
+          "a": "JPG, PNG, WEBP, GIF, BMP et TIFF sont tous pris en charge."
+        }
+      ]
+    }
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { ToolCard } from "@/components/ToolCard";
+import { FaqAccordion } from "@/components/FaqAccordion";
 import { tools } from "@/lib/tools";
 import { localizedAlternates, siteUrl } from "@/lib/seo";
 
@@ -21,9 +22,13 @@ export async function generateMetadata({
   };
 }
 
+type FaqItem = { q: string; a: string };
+
 export default function Home() {
   const t = useTranslations("Home");
   const tTools = useTranslations("Tools");
+  const tFaq = useTranslations("FAQ");
+  const faqItems = tFaq.raw("items") as FaqItem[];
   const availableTools = tools.filter((tool) => tool.available);
 
   const jsonLd = {
@@ -42,11 +47,28 @@ export default function Home() {
     featureList: availableTools.map((tool) => tTools(`${tool.slug}.name`)),
   };
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.a,
+      },
+    })),
+  };
+
   return (
     <div className="mx-auto w-full max-w-7xl flex-1 px-6 py-16 sm:py-20">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <div className="mx-auto max-w-2xl text-center">
         <span className="inline-flex items-center gap-1.5 rounded-full border border-green-100 bg-green-50 px-3 py-1 text-xs font-medium text-green-600 dark:border-green-500/20 dark:bg-green-500/10 dark:text-green-400">
@@ -64,6 +86,20 @@ export default function Home() {
         {availableTools.map((tool) => (
           <ToolCard key={tool.slug} tool={tool} />
         ))}
+      </div>
+
+      <div className="mx-auto mt-24 max-w-2xl">
+        <div className="text-center">
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-green-100 bg-green-50 px-3 py-1 text-xs font-medium text-green-600 dark:border-green-500/20 dark:bg-green-500/10 dark:text-green-400">
+            FAQ
+          </span>
+          <h2 className="mt-4 text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl dark:text-zinc-50">
+            {tFaq("heading")}
+          </h2>
+        </div>
+        <div className="mt-8">
+          <FaqAccordion items={faqItems} />
+        </div>
       </div>
     </div>
   );

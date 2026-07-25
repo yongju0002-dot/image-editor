@@ -129,5 +129,34 @@
     "otherSitesHeading": "Zana zingine",
     "sisterSiteLabel": "Zana za PDF (mylifepdf.com)",
     "languageHeading": "Lugha"
-  }
+  },
+    "FAQ": {
+      "heading": "Maswali Yanayoulizwa Mara kwa Mara",
+      "items": [
+        {
+          "q": "Je, mylifeimg ni bure?",
+          "a": "Ndiyo, zana zote 7 ni bure kabisa na hazihitaji akaunti."
+        },
+        {
+          "q": "Je, ninahitaji kujisajili?",
+          "a": "Hapana, unaweza kutumia vipengele vyote mara moja bila kujisajili."
+        },
+        {
+          "q": "Nini hutokea kwa picha ninazopakia?",
+          "a": "Huchakatwa kwenye seva kisha kufutwa kiotomatiki mara moja baada ya hapo - hakuna kinachohifadhiwa."
+        },
+        {
+          "q": "Ni lugha zipi zinazotumika?",
+          "a": "Zinazotumika ni Kikorea, Kiingereza, Kijapani, Kichina (Rahisi/Asili), Kihispania, Kifaransa, Kijerumani, Kireno, Kirusi, Kiitaliano, Kiholanzi, Kipolandi, Kiswidi, Kituruki, Kiukreni, Kivietinamu, Kithai, Kiindonesia, Kimalei, Kihindi, Kibulgaria, Kikatalani, Kigiriki, Kiswahili na Kiarabu."
+        },
+        {
+          "q": "Je, ninaweza kuchakata picha kadhaa kwa wakati mmoja?",
+          "a": "Ndiyo, zana za kubana, kubadilisha vipimo, kubadilisha muundo, na kuzungusha zote huruhusu kupakia na kuchakata picha kadhaa kwa wakati mmoja."
+        },
+        {
+          "q": "Ni miundo ipi ya picha inayotumika?",
+          "a": "JPG, PNG, WEBP, GIF, BMP, na TIFF zote zinatumika."
+        }
+      ]
+    }
 }

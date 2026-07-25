@@ -129,5 +129,34 @@
     "otherSitesHeading": "Alat lainnya",
     "sisterSiteLabel": "Alat PDF (mylifepdf.com)",
     "languageHeading": "Bahasa"
-  }
+  },
+    "FAQ": {
+      "heading": "Pertanyaan yang Sering Diajukan",
+      "items": [
+        {
+          "q": "Apakah mylifeimg gratis?",
+          "a": "Ya, ketujuh alat sepenuhnya gratis dan tidak memerlukan akun."
+        },
+        {
+          "q": "Apakah saya perlu mendaftar?",
+          "a": "Tidak, Anda dapat langsung menggunakan semua fitur tanpa mendaftar."
+        },
+        {
+          "q": "Apa yang terjadi dengan gambar yang saya unggah?",
+          "a": "Gambar diproses di server lalu langsung dihapus secara otomatis setelahnya - tidak ada yang disimpan."
+        },
+        {
+          "q": "Bahasa apa saja yang didukung?",
+          "a": "Mendukung bahasa Korea, Inggris, Jepang, Tionghoa (Sederhana/Tradisional), Spanyol, Prancis, Jerman, Portugis, Rusia, Italia, Belanda, Polandia, Swedia, Turki, Ukraina, Vietnam, Thailand, Indonesia, Melayu, Hindi, Bulgaria, Katala, Yunani, Swahili, dan Arab."
+        },
+        {
+          "q": "Bisakah saya memproses beberapa gambar sekaligus?",
+          "a": "Ya, alat kompres, ubah ukuran, konversi, dan putar semuanya memungkinkan Anda mengunggah dan memproses beberapa gambar sekaligus."
+        },
+        {
+          "q": "Format gambar apa saja yang didukung?",
+          "a": "JPG, PNG, WEBP, GIF, BMP, dan TIFF semuanya didukung."
+        }
+      ]
+    }
 }

@@ -129,5 +129,16 @@
     "otherSitesHeading": "Other tools",
     "sisterSiteLabel": "PDF tools (mylifepdf.com)",
     "languageHeading": "Language"
+  },
+  "FAQ": {
+    "heading": "Frequently Asked Questions",
+    "items": [
+      { "q": "Is mylifeimg free?", "a": "Yes, all 7 tools are completely free and no account is required." },
+      { "q": "Do I need to sign up?", "a": "No, you can use every feature right away without signing up." },
+      { "q": "What happens to my uploaded images?", "a": "They're processed on the server and deleted automatically right afterward - nothing is stored." },
+      { "q": "What languages are supported?", "a": "Korean, English, Japanese, Chinese (Simplified/Traditional), Spanish, French, German, Portuguese, Russian, Italian, Dutch, Polish, Swedish, Turkish, Ukrainian, Vietnamese, Thai, Indonesian, Malay, Hindi, Bulgarian, Catalan, Greek, Swahili, and Arabic." },
+      { "q": "Can I process multiple images at once?", "a": "Yes - the compress, resize, convert, and rotate tools all let you upload and process several images at the same time." },
+      { "q": "Which image formats are supported?", "a": "JPG, PNG, WEBP, GIF, BMP, and TIFF are all supported." }
+    ]
   }
 }

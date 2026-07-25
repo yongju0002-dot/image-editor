@@ -129,5 +129,34 @@
     "otherSitesHeading": "Altres eines",
     "sisterSiteLabel": "Eines PDF (mylifepdf.com)",
     "languageHeading": "Idioma"
-  }
+  },
+    "FAQ": {
+      "heading": "Preguntes freqüents",
+      "items": [
+        {
+          "q": "És gratuït mylifeimg?",
+          "a": "Sí, les 7 eines són completament gratuïtes i no requereixen cap compte."
+        },
+        {
+          "q": "Cal que em registri?",
+          "a": "No, pots utilitzar totes les funcions immediatament sense registrar-te."
+        },
+        {
+          "q": "Què passa amb les imatges que pujo?",
+          "a": "Es processen al servidor i s'esborren automàticament just després - no es desa res."
+        },
+        {
+          "q": "Quins idiomes estan disponibles?",
+          "a": "Coreà, anglès, japonès, xinès (simplificat/tradicional), espanyol, francès, alemany, portuguès, rus, italià, neerlandès, polonès, suec, turc, ucraïnès, vietnamita, tailandès, indonesi, malai, hindi, búlgar, català, grec, suahili i àrab."
+        },
+        {
+          "q": "Puc processar diverses imatges alhora?",
+          "a": "Sí, les eines de compressió, redimensionament, conversió i gir permeten pujar i processar diverses imatges alhora."
+        },
+        {
+          "q": "Quins formats d'imatge són compatibles?",
+          "a": "JPG, PNG, WEBP, GIF, BMP i TIFF són tots compatibles."
+        }
+      ]
+    }
 }

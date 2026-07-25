@@ -129,5 +129,34 @@
     "otherSitesHeading": "Diğer araçlar",
     "sisterSiteLabel": "PDF araçları (mylifepdf.com)",
     "languageHeading": "Dil"
-  }
+  },
+    "FAQ": {
+      "heading": "Sık Sorulan Sorular",
+      "items": [
+        {
+          "q": "mylifeimg ücretsiz mi?",
+          "a": "Evet, 7 aracın tamamı tamamen ücretsizdir ve hesap gerektirmez."
+        },
+        {
+          "q": "Kayıt olmam gerekiyor mu?",
+          "a": "Hayır, kayıt olmadan tüm özellikleri hemen kullanabilirsiniz."
+        },
+        {
+          "q": "Yüklediğim görsellere ne oluyor?",
+          "a": "Sunucuda işlendikten hemen sonra otomatik olarak silinir - hiçbir şey saklanmaz."
+        },
+        {
+          "q": "Hangi diller destekleniyor?",
+          "a": "Korece, İngilizce, Japonca, Çince (Basitleştirilmiş/Geleneksel), İspanyolca, Fransızca, Almanca, Portekizce, Rusça, İtalyanca, Felemenkçe, Lehçe, İsveççe, Türkçe, Ukraynaca, Vietnamca, Tayca, Endonezce, Malayca, Hintçe, Bulgarca, Katalanca, Yunanca, Svahili ve Arapça desteklenmektedir."
+        },
+        {
+          "q": "Birden fazla görseli aynı anda işleyebilir miyim?",
+          "a": "Evet, sıkıştırma, yeniden boyutlandırma, dönüştürme ve döndürme araçlarının hepsi birden fazla görseli aynı anda yükleyip işlemenize izin verir."
+        },
+        {
+          "q": "Hangi görsel formatları destekleniyor?",
+          "a": "JPG, PNG, WEBP, GIF, BMP ve TIFF formatlarının hepsi desteklenmektedir."
+        }
+      ]
+    }
 }

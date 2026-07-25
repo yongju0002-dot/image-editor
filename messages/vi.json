@@ -129,5 +129,34 @@
     "otherSitesHeading": "Công cụ khác",
     "sisterSiteLabel": "Công cụ PDF (mylifepdf.com)",
     "languageHeading": "Ngôn ngữ"
-  }
+  },
+    "FAQ": {
+      "heading": "Câu hỏi thường gặp",
+      "items": [
+        {
+          "q": "mylifeimg có miễn phí không?",
+          "a": "Có, cả 7 công cụ đều hoàn toàn miễn phí và không yêu cầu tài khoản."
+        },
+        {
+          "q": "Tôi có cần đăng ký không?",
+          "a": "Không, bạn có thể sử dụng ngay tất cả tính năng mà không cần đăng ký."
+        },
+        {
+          "q": "Ảnh tôi tải lên sẽ ra sao?",
+          "a": "Ảnh được xử lý trên máy chủ và tự động xóa ngay sau đó - không có gì được lưu trữ."
+        },
+        {
+          "q": "Trang web hỗ trợ những ngôn ngữ nào?",
+          "a": "Hỗ trợ tiếng Hàn, tiếng Anh, tiếng Nhật, tiếng Trung (giản thể/phồn thể), tiếng Tây Ban Nha, tiếng Pháp, tiếng Đức, tiếng Bồ Đào Nha, tiếng Nga, tiếng Ý, tiếng Hà Lan, tiếng Ba Lan, tiếng Thụy Điển, tiếng Thổ Nhĩ Kỳ, tiếng Ukraina, tiếng Việt, tiếng Thái, tiếng Indonesia, tiếng Mã Lai, tiếng Hindi, tiếng Bulgaria, tiếng Catalan, tiếng Hy Lạp, tiếng Swahili và tiếng Ả Rập."
+        },
+        {
+          "q": "Tôi có thể xử lý nhiều ảnh cùng lúc không?",
+          "a": "Có, các công cụ nén, đổi kích thước, chuyển đổi và xoay đều cho phép tải lên và xử lý nhiều ảnh cùng lúc."
+        },
+        {
+          "q": "Trang web hỗ trợ những định dạng ảnh nào?",
+          "a": "Hỗ trợ các định dạng JPG, PNG, WEBP, GIF, BMP và TIFF."
+        }
+      ]
+    }
 }

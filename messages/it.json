@@ -129,5 +129,34 @@
     "otherSitesHeading": "Altri strumenti",
     "sisterSiteLabel": "Strumenti PDF (mylifepdf.com)",
     "languageHeading": "Lingua"
-  }
+  },
+    "FAQ": {
+      "heading": "Domande frequenti",
+      "items": [
+        {
+          "q": "mylifeimg è gratuito?",
+          "a": "Sì, tutti e 7 gli strumenti sono completamente gratuiti e non richiedono la registrazione."
+        },
+        {
+          "q": "Devo registrarmi?",
+          "a": "No, puoi usare subito tutte le funzionalità senza registrazione."
+        },
+        {
+          "q": "Cosa succede alle immagini caricate?",
+          "a": "Vengono elaborate sul server ed eliminate automaticamente subito dopo - non viene salvato nulla."
+        },
+        {
+          "q": "Quali lingue sono disponibili?",
+          "a": "Coreano, inglese, giapponese, cinese (semplificato/tradizionale), spagnolo, francese, tedesco, portoghese, russo, italiano, olandese, polacco, svedese, turco, ucraino, vietnamita, thailandese, indonesiano, malese, hindi, bulgaro, catalano, greco, swahili e arabo."
+        },
+        {
+          "q": "Posso elaborare più immagini contemporaneamente?",
+          "a": "Sì, gli strumenti di compressione, ridimensionamento, conversione e rotazione permettono di caricare ed elaborare più immagini contemporaneamente."
+        },
+        {
+          "q": "Quali formati immagine sono supportati?",
+          "a": "Sono supportati JPG, PNG, WEBP, GIF, BMP e TIFF."
+        }
+      ]
+    }
 }
