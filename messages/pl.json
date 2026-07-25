@@ -39,15 +39,42 @@
     "trustNotice": "Obrazy są automatycznie usuwane po przetworzeniu, a wszystkie transfery są szyfrowane SSL."
   },
   "Tools": {
-    "compress_image": { "name": "Kompresuj obraz", "description": "Zmniejsz rozmiar plików JPG, PNG i WEBP z zachowaniem jakości." },
-    "resize_image": { "name": "Zmień rozmiar obrazu", "description": "Zmień rozmiar obrazu w pikselach lub procentach." },
-    "crop_image": { "name": "Przytnij obraz", "description": "Przytnij wybrany obszar, podając współrzędne w pikselach." },
-    "convert_image": { "name": "Konwertuj obraz", "description": "Konwertuj swobodnie między JPG, PNG, WEBP, GIF, BMP i TIFF." },
-    "rotate_image": { "name": "Obróć obraz", "description": "Obróć obraz o dowolny kąt lub odbij go w poziomie/pionie." },
-    "watermark_image": { "name": "Dodaj znak wodny", "description": "Dodaj tekstowy znak wodny z regulowaną przezroczystością i pozycją." },
-    "meme_generator": { "name": "Generator memów", "description": "Dodaj tekst u góry i na dole, aby szybko stworzyć mema." },
-    "remove_exif": {"name":"Usuń metadane","description":"Usuń informacje o lokalizacji i urządzeniu (EXIF) ze zdjęć, aby chronić swoją prywatność."},
-    "merge_images": {"name":"Połącz obrazy","description":"Połącz kilka obrazów w jeden - poziomo, pionowo lub w siatce."}
+    "compress_image": {
+      "name": "Kompresuj obraz",
+      "description": "Zmniejsz rozmiar plików JPG, PNG i WEBP z zachowaniem jakości."
+    },
+    "resize_image": {
+      "name": "Zmień rozmiar obrazu",
+      "description": "Zmień rozmiar obrazu w pikselach lub procentach."
+    },
+    "crop_image": {
+      "name": "Przytnij obraz",
+      "description": "Przytnij wybrany obszar, podając współrzędne w pikselach."
+    },
+    "convert_image": {
+      "name": "Konwertuj obraz",
+      "description": "Konwertuj swobodnie między JPG, PNG, WEBP, GIF, BMP i TIFF."
+    },
+    "rotate_image": {
+      "name": "Obróć obraz",
+      "description": "Obróć obraz o dowolny kąt lub odbij go w poziomie/pionie."
+    },
+    "watermark_image": {
+      "name": "Dodaj znak wodny",
+      "description": "Dodaj tekstowy znak wodny z regulowaną przezroczystością i pozycją."
+    },
+    "meme_generator": {
+      "name": "Generator memów",
+      "description": "Dodaj tekst u góry i na dole, aby szybko stworzyć mema."
+    },
+    "remove_exif": {
+      "name": "Usuń metadane",
+      "description": "Usuń informacje o lokalizacji i urządzeniu (EXIF) ze zdjęć, aby chronić swoją prywatność."
+    },
+    "merge_images": {
+      "name": "Połącz obrazy",
+      "description": "Połącz kilka obrazów w jeden - poziomo, pionowo lub w siatce."
+    }
   },
   "CompressImagePage": {
     "title": "Kompresuj obraz",
@@ -128,7 +155,7 @@
     "converting": "Tworzenie mema...",
     "error": "Wystąpił błąd podczas tworzenia mema."
   },
-  "RemoveExifPage":   {
+  "RemoveExifPage": {
     "title": "Usuń metadane",
     "description": "Usuń informacje o lokalizacji i urządzeniu (EXIF) ze zdjęć, aby chronić swoją prywatność. Przetwarzaj kilka obrazów naraz.",
     "infoText": "Lokalizacja GPS, model aparatu, data wykonania zdjęcia i inne ukryte dane zostaną całkowicie usunięte. Jakość i orientacja obrazu pozostaną bez zmian.",
@@ -136,8 +163,7 @@
     "converting": "Usuwanie...",
     "error": "Wystąpił błąd podczas usuwania metadanych."
   },
-
-  "MergeImagesPage":   {
+  "MergeImagesPage": {
     "title": "Połącz obrazy",
     "description": "Połącz kilka obrazów w jeden - poziomo, pionowo lub w siatce.",
     "layoutLabel": "Układ",
@@ -149,7 +175,6 @@
     "converting": "Łączenie...",
     "error": "Wystąpił błąd podczas łączenia obrazów."
   },
-
   "LanguageSwitcher": {
     "label": "Język"
   },
@@ -158,33 +183,33 @@
     "sisterSiteLabel": "Narzędzia PDF (mylifepdf.com)",
     "languageHeading": "Język"
   },
-    "FAQ": {
-      "heading": "Najczęściej zadawane pytania",
-      "items": [
-        {
-          "q": "Czy mylifeimg jest darmowy?",
-          "a": "Tak, wszystkie 7 narzędzi jest całkowicie darmowych i nie wymaga rejestracji."
-        },
-        {
-          "q": "Czy muszę się zarejestrować?",
-          "a": "Nie, możesz od razu korzystać ze wszystkich funkcji bez rejestracji."
-        },
-        {
-          "q": "Co dzieje się z przesłanymi obrazami?",
-          "a": "Są przetwarzane na serwerze i automatycznie usuwane zaraz potem - nic nie jest zapisywane."
-        },
-        {
-          "q": "Jakie języki są obsługiwane?",
-          "a": "Koreański, angielski, japoński, chiński (uproszczony/tradycyjny), hiszpański, francuski, niemiecki, portugalski, rosyjski, włoski, niderlandzki, polski, szwedzki, turecki, ukraiński, wietnamski, tajski, indonezyjski, malajski, hindi, bułgarski, kataloński, grecki, suahili i arabski."
-        },
-        {
-          "q": "Czy mogę przetwarzać kilka obrazów naraz?",
-          "a": "Tak, narzędzia do kompresji, zmiany rozmiaru, konwersji i obracania pozwalają przesłać i przetworzyć kilka obrazów jednocześnie."
-        },
-        {
-          "q": "Jakie formaty obrazów są obsługiwane?",
-          "a": "Obsługiwane są formaty JPG, PNG, WEBP, GIF, BMP i TIFF."
-        }
-      ]
-    }
+  "FAQ": {
+    "heading": "Najczęściej zadawane pytania",
+    "items": [
+      {
+        "q": "Czy mylifeimg jest darmowy?",
+        "a": "Tak, wszystkie 9 narzędzi jest całkowicie darmowych i nie wymaga rejestracji."
+      },
+      {
+        "q": "Czy muszę się zarejestrować?",
+        "a": "Nie, możesz od razu korzystać ze wszystkich funkcji bez rejestracji."
+      },
+      {
+        "q": "Co dzieje się z przesłanymi obrazami?",
+        "a": "Są przetwarzane na serwerze i automatycznie usuwane zaraz potem - nic nie jest zapisywane."
+      },
+      {
+        "q": "Jakie języki są obsługiwane?",
+        "a": "Koreański, angielski, japoński, chiński (uproszczony/tradycyjny), hiszpański, francuski, niemiecki, portugalski, rosyjski, włoski, niderlandzki, polski, szwedzki, turecki, ukraiński, wietnamski, tajski, indonezyjski, malajski, hindi, bułgarski, kataloński, grecki, suahili i arabski."
+      },
+      {
+        "q": "Czy mogę przetwarzać kilka obrazów naraz?",
+        "a": "Tak, narzędzia do kompresji, zmiany rozmiaru, konwersji i obracania pozwalają przesłać i przetworzyć kilka obrazów jednocześnie."
+      },
+      {
+        "q": "Jakie formaty obrazów są obsługiwane?",
+        "a": "Obsługiwane są formaty JPG, PNG, WEBP, GIF, BMP i TIFF."
+      }
+    ]
+  }
 }

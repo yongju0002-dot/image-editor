@@ -39,15 +39,42 @@
     "trustNotice": "Gambar akan otomatis dihapus setelah diproses, dan semua transfer dienkripsi dengan SSL."
   },
   "Tools": {
-    "compress_image": { "name": "Kompres Gambar", "description": "Kecilkan ukuran file JPG, PNG, dan WEBP tanpa mengurangi kualitas." },
-    "resize_image": { "name": "Ubah Ukuran Gambar", "description": "Ubah ukuran gambar dalam piksel atau persentase." },
-    "crop_image": { "name": "Potong Gambar", "description": "Potong area yang diinginkan dengan menentukan koordinat piksel." },
-    "convert_image": { "name": "Konversi Gambar", "description": "Konversi bebas antara JPG, PNG, WEBP, GIF, BMP, dan TIFF." },
-    "rotate_image": { "name": "Putar Gambar", "description": "Putar gambar ke sudut mana pun atau balikkan secara horizontal/vertikal." },
-    "watermark_image": { "name": "Tambahkan Watermark", "description": "Tambahkan watermark teks dengan opasitas dan posisi yang dapat diatur." },
-    "meme_generator": { "name": "Pembuat Meme", "description": "Tambahkan teks atas dan bawah untuk membuat meme dengan cepat." },
-    "remove_exif": {"name":"Hapus Metadata","description":"Hapus informasi lokasi dan perangkat (EXIF) dari foto Anda untuk melindungi privasi."},
-    "merge_images": {"name":"Gabungkan Gambar","description":"Gabungkan beberapa gambar menjadi satu, disusun horizontal, vertikal, atau grid."}
+    "compress_image": {
+      "name": "Kompres Gambar",
+      "description": "Kecilkan ukuran file JPG, PNG, dan WEBP tanpa mengurangi kualitas."
+    },
+    "resize_image": {
+      "name": "Ubah Ukuran Gambar",
+      "description": "Ubah ukuran gambar dalam piksel atau persentase."
+    },
+    "crop_image": {
+      "name": "Potong Gambar",
+      "description": "Potong area yang diinginkan dengan menentukan koordinat piksel."
+    },
+    "convert_image": {
+      "name": "Konversi Gambar",
+      "description": "Konversi bebas antara JPG, PNG, WEBP, GIF, BMP, dan TIFF."
+    },
+    "rotate_image": {
+      "name": "Putar Gambar",
+      "description": "Putar gambar ke sudut mana pun atau balikkan secara horizontal/vertikal."
+    },
+    "watermark_image": {
+      "name": "Tambahkan Watermark",
+      "description": "Tambahkan watermark teks dengan opasitas dan posisi yang dapat diatur."
+    },
+    "meme_generator": {
+      "name": "Pembuat Meme",
+      "description": "Tambahkan teks atas dan bawah untuk membuat meme dengan cepat."
+    },
+    "remove_exif": {
+      "name": "Hapus Metadata",
+      "description": "Hapus informasi lokasi dan perangkat (EXIF) dari foto Anda untuk melindungi privasi."
+    },
+    "merge_images": {
+      "name": "Gabungkan Gambar",
+      "description": "Gabungkan beberapa gambar menjadi satu, disusun horizontal, vertikal, atau grid."
+    }
   },
   "CompressImagePage": {
     "title": "Kompres Gambar",
@@ -128,7 +155,7 @@
     "converting": "Membuat meme...",
     "error": "Terjadi kesalahan saat membuat meme."
   },
-  "RemoveExifPage":   {
+  "RemoveExifPage": {
     "title": "Hapus Metadata",
     "description": "Hapus informasi lokasi dan perangkat (EXIF) dari foto Anda untuk melindungi privasi. Proses beberapa gambar sekaligus.",
     "infoText": "Lokasi GPS, model kamera, tanggal pengambilan, dan data tersembunyi lainnya pada foto Anda akan sepenuhnya dihapus. Kualitas dan orientasi gambar tetap sama.",
@@ -136,8 +163,7 @@
     "converting": "Menghapus...",
     "error": "Terjadi kesalahan saat menghapus metadata."
   },
-
-  "MergeImagesPage":   {
+  "MergeImagesPage": {
     "title": "Gabungkan Gambar",
     "description": "Gabungkan beberapa gambar menjadi satu, disusun horizontal, vertikal, atau grid.",
     "layoutLabel": "Tata Letak",
@@ -149,7 +175,6 @@
     "converting": "Menggabungkan...",
     "error": "Terjadi kesalahan saat menggabungkan gambar."
   },
-
   "LanguageSwitcher": {
     "label": "Bahasa"
   },
@@ -158,33 +183,33 @@
     "sisterSiteLabel": "Alat PDF (mylifepdf.com)",
     "languageHeading": "Bahasa"
   },
-    "FAQ": {
-      "heading": "Pertanyaan yang Sering Diajukan",
-      "items": [
-        {
-          "q": "Apakah mylifeimg gratis?",
-          "a": "Ya, ketujuh alat sepenuhnya gratis dan tidak memerlukan akun."
-        },
-        {
-          "q": "Apakah saya perlu mendaftar?",
-          "a": "Tidak, Anda dapat langsung menggunakan semua fitur tanpa mendaftar."
-        },
-        {
-          "q": "Apa yang terjadi dengan gambar yang saya unggah?",
-          "a": "Gambar diproses di server lalu langsung dihapus secara otomatis setelahnya - tidak ada yang disimpan."
-        },
-        {
-          "q": "Bahasa apa saja yang didukung?",
-          "a": "Mendukung bahasa Korea, Inggris, Jepang, Tionghoa (Sederhana/Tradisional), Spanyol, Prancis, Jerman, Portugis, Rusia, Italia, Belanda, Polandia, Swedia, Turki, Ukraina, Vietnam, Thailand, Indonesia, Melayu, Hindi, Bulgaria, Katala, Yunani, Swahili, dan Arab."
-        },
-        {
-          "q": "Bisakah saya memproses beberapa gambar sekaligus?",
-          "a": "Ya, alat kompres, ubah ukuran, konversi, dan putar semuanya memungkinkan Anda mengunggah dan memproses beberapa gambar sekaligus."
-        },
-        {
-          "q": "Format gambar apa saja yang didukung?",
-          "a": "JPG, PNG, WEBP, GIF, BMP, dan TIFF semuanya didukung."
-        }
-      ]
-    }
+  "FAQ": {
+    "heading": "Pertanyaan yang Sering Diajukan",
+    "items": [
+      {
+        "q": "Apakah mylifeimg gratis?",
+        "a": "Ya, kesembilan alat sepenuhnya gratis dan tidak memerlukan akun."
+      },
+      {
+        "q": "Apakah saya perlu mendaftar?",
+        "a": "Tidak, Anda dapat langsung menggunakan semua fitur tanpa mendaftar."
+      },
+      {
+        "q": "Apa yang terjadi dengan gambar yang saya unggah?",
+        "a": "Gambar diproses di server lalu langsung dihapus secara otomatis setelahnya - tidak ada yang disimpan."
+      },
+      {
+        "q": "Bahasa apa saja yang didukung?",
+        "a": "Mendukung bahasa Korea, Inggris, Jepang, Tionghoa (Sederhana/Tradisional), Spanyol, Prancis, Jerman, Portugis, Rusia, Italia, Belanda, Polandia, Swedia, Turki, Ukraina, Vietnam, Thailand, Indonesia, Melayu, Hindi, Bulgaria, Katala, Yunani, Swahili, dan Arab."
+      },
+      {
+        "q": "Bisakah saya memproses beberapa gambar sekaligus?",
+        "a": "Ya, alat kompres, ubah ukuran, konversi, dan putar semuanya memungkinkan Anda mengunggah dan memproses beberapa gambar sekaligus."
+      },
+      {
+        "q": "Format gambar apa saja yang didukung?",
+        "a": "JPG, PNG, WEBP, GIF, BMP, dan TIFF semuanya didukung."
+      }
+    ]
+  }
 }

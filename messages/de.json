@@ -39,15 +39,42 @@
     "trustNotice": "Bilder werden nach der Verarbeitung automatisch gelöscht, und alle Übertragungen sind SSL-verschlüsselt."
   },
   "Tools": {
-    "compress_image": { "name": "Bild komprimieren", "description": "Verkleinere JPG-, PNG- und WEBP-Dateien bei erhaltener Qualität." },
-    "resize_image": { "name": "Bildgröße ändern", "description": "Ändere die Bildgröße in Pixeln oder Prozent." },
-    "crop_image": { "name": "Bild zuschneiden", "description": "Schneide einen bestimmten Bereich per Pixelkoordinaten zu." },
-    "convert_image": { "name": "Bild konvertieren", "description": "Konvertiere frei zwischen JPG, PNG, WEBP, GIF, BMP und TIFF." },
-    "rotate_image": { "name": "Bild drehen", "description": "Drehe Bilder um einen beliebigen Winkel oder spiegle sie horizontal/vertikal." },
-    "watermark_image": { "name": "Wasserzeichen hinzufügen", "description": "Füge ein Text-Wasserzeichen mit einstellbarer Deckkraft und Position hinzu." },
-    "meme_generator": { "name": "Meme-Generator", "description": "Füge Text oben und unten hinzu, um schnell ein Meme zu erstellen." },
-    "remove_exif": {"name":"Metadaten entfernen","description":"Entferne Standort- und Geräteinformationen (EXIF) aus deinen Fotos, um deine Privatsphäre zu schützen."},
-    "merge_images": {"name":"Bilder zusammenfügen","description":"Kombiniere mehrere Bilder zu einem - horizontal, vertikal oder als Raster."}
+    "compress_image": {
+      "name": "Bild komprimieren",
+      "description": "Verkleinere JPG-, PNG- und WEBP-Dateien bei erhaltener Qualität."
+    },
+    "resize_image": {
+      "name": "Bildgröße ändern",
+      "description": "Ändere die Bildgröße in Pixeln oder Prozent."
+    },
+    "crop_image": {
+      "name": "Bild zuschneiden",
+      "description": "Schneide einen bestimmten Bereich per Pixelkoordinaten zu."
+    },
+    "convert_image": {
+      "name": "Bild konvertieren",
+      "description": "Konvertiere frei zwischen JPG, PNG, WEBP, GIF, BMP und TIFF."
+    },
+    "rotate_image": {
+      "name": "Bild drehen",
+      "description": "Drehe Bilder um einen beliebigen Winkel oder spiegle sie horizontal/vertikal."
+    },
+    "watermark_image": {
+      "name": "Wasserzeichen hinzufügen",
+      "description": "Füge ein Text-Wasserzeichen mit einstellbarer Deckkraft und Position hinzu."
+    },
+    "meme_generator": {
+      "name": "Meme-Generator",
+      "description": "Füge Text oben und unten hinzu, um schnell ein Meme zu erstellen."
+    },
+    "remove_exif": {
+      "name": "Metadaten entfernen",
+      "description": "Entferne Standort- und Geräteinformationen (EXIF) aus deinen Fotos, um deine Privatsphäre zu schützen."
+    },
+    "merge_images": {
+      "name": "Bilder zusammenfügen",
+      "description": "Kombiniere mehrere Bilder zu einem - horizontal, vertikal oder als Raster."
+    }
   },
   "CompressImagePage": {
     "title": "Bild komprimieren",
@@ -128,7 +155,7 @@
     "converting": "Meme wird erstellt...",
     "error": "Beim Erstellen des Memes ist ein Fehler aufgetreten."
   },
-  "RemoveExifPage":   {
+  "RemoveExifPage": {
     "title": "Metadaten entfernen",
     "description": "Entferne Standort- und Geräteinformationen (EXIF) aus deinen Fotos, um deine Privatsphäre zu schützen. Mehrere Bilder gleichzeitig verarbeiten.",
     "infoText": "GPS-Standort, Kameramodell, Aufnahmedatum und andere versteckte Daten in deinen Fotos werden vollständig entfernt. Bildqualität und Ausrichtung bleiben unverändert.",
@@ -136,8 +163,7 @@
     "converting": "Wird entfernt...",
     "error": "Beim Entfernen der Metadaten ist ein Fehler aufgetreten."
   },
-
-  "MergeImagesPage":   {
+  "MergeImagesPage": {
     "title": "Bilder zusammenfügen",
     "description": "Kombiniere mehrere Bilder zu einem - horizontal, vertikal oder als Raster.",
     "layoutLabel": "Anordnung",
@@ -149,7 +175,6 @@
     "converting": "Wird zusammengefügt...",
     "error": "Beim Zusammenfügen der Bilder ist ein Fehler aufgetreten."
   },
-
   "LanguageSwitcher": {
     "label": "Sprache"
   },
@@ -158,33 +183,33 @@
     "sisterSiteLabel": "PDF-Tools (mylifepdf.com)",
     "languageHeading": "Sprache"
   },
-    "FAQ": {
-      "heading": "Häufig gestellte Fragen",
-      "items": [
-        {
-          "q": "Ist mylifeimg kostenlos?",
-          "a": "Ja, alle 7 Tools sind vollständig kostenlos und erfordern kein Konto."
-        },
-        {
-          "q": "Muss ich mich registrieren?",
-          "a": "Nein, du kannst alle Funktionen sofort ohne Registrierung nutzen."
-        },
-        {
-          "q": "Was passiert mit meinen hochgeladenen Bildern?",
-          "a": "Sie werden auf dem Server verarbeitet und danach automatisch gelöscht - es wird nichts gespeichert."
-        },
-        {
-          "q": "Welche Sprachen werden unterstützt?",
-          "a": "Koreanisch, Englisch, Japanisch, Chinesisch (vereinfacht/traditionell), Spanisch, Französisch, Deutsch, Portugiesisch, Russisch, Italienisch, Niederländisch, Polnisch, Schwedisch, Türkisch, Ukrainisch, Vietnamesisch, Thailändisch, Indonesisch, Malaiisch, Hindi, Bulgarisch, Katalanisch, Griechisch, Suaheli und Arabisch."
-        },
-        {
-          "q": "Kann ich mehrere Bilder gleichzeitig verarbeiten?",
-          "a": "Ja, die Tools zum Komprimieren, Skalieren, Konvertieren und Drehen erlauben das Hochladen und Verarbeiten mehrerer Bilder gleichzeitig."
-        },
-        {
-          "q": "Welche Bildformate werden unterstützt?",
-          "a": "JPG, PNG, WEBP, GIF, BMP und TIFF werden alle unterstützt."
-        }
-      ]
-    }
+  "FAQ": {
+    "heading": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "q": "Ist mylifeimg kostenlos?",
+        "a": "Ja, alle 9 Tools sind vollständig kostenlos und erfordern kein Konto."
+      },
+      {
+        "q": "Muss ich mich registrieren?",
+        "a": "Nein, du kannst alle Funktionen sofort ohne Registrierung nutzen."
+      },
+      {
+        "q": "Was passiert mit meinen hochgeladenen Bildern?",
+        "a": "Sie werden auf dem Server verarbeitet und danach automatisch gelöscht - es wird nichts gespeichert."
+      },
+      {
+        "q": "Welche Sprachen werden unterstützt?",
+        "a": "Koreanisch, Englisch, Japanisch, Chinesisch (vereinfacht/traditionell), Spanisch, Französisch, Deutsch, Portugiesisch, Russisch, Italienisch, Niederländisch, Polnisch, Schwedisch, Türkisch, Ukrainisch, Vietnamesisch, Thailändisch, Indonesisch, Malaiisch, Hindi, Bulgarisch, Katalanisch, Griechisch, Suaheli und Arabisch."
+      },
+      {
+        "q": "Kann ich mehrere Bilder gleichzeitig verarbeiten?",
+        "a": "Ja, die Tools zum Komprimieren, Skalieren, Konvertieren und Drehen erlauben das Hochladen und Verarbeiten mehrerer Bilder gleichzeitig."
+      },
+      {
+        "q": "Welche Bildformate werden unterstützt?",
+        "a": "JPG, PNG, WEBP, GIF, BMP und TIFF werden alle unterstützt."
+      }
+    ]
+  }
 }

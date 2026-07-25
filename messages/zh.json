@@ -39,15 +39,42 @@
     "trustNotice": "图片在处理后会自动删除，所有传输均采用SSL加密。"
   },
   "Tools": {
-    "compress_image": { "name": "压缩图片", "description": "在保持画质的同时减小JPG、PNG、WEBP图片的体积。" },
-    "resize_image": { "name": "调整图片大小", "description": "按像素或百分比自由调整图片尺寸。" },
-    "crop_image": { "name": "裁剪图片", "description": "指定像素坐标，只裁剪出图片中你需要的区域。" },
-    "convert_image": { "name": "转换图片格式", "description": "在JPG、PNG、WEBP、GIF、BMP、TIFF之间自由转换。" },
-    "rotate_image": { "name": "旋转图片", "description": "将图片旋转到任意角度，或进行左右/上下翻转。" },
-    "watermark_image": { "name": "添加水印", "description": "为图片添加文字水印，并可调整透明度和位置。" },
-    "meme_generator": { "name": "表情包生成器", "description": "添加上下文字，轻松制作表情包图片。" },
-    "remove_exif": {"name":"移除元数据","description":"删除照片中的位置和设备信息(EXIF)，保护您的隐私。"},
-    "merge_images": {"name":"合并图片","description":"将多张图片横向、纵向或以网格方式合并为一张。"}
+    "compress_image": {
+      "name": "压缩图片",
+      "description": "在保持画质的同时减小JPG、PNG、WEBP图片的体积。"
+    },
+    "resize_image": {
+      "name": "调整图片大小",
+      "description": "按像素或百分比自由调整图片尺寸。"
+    },
+    "crop_image": {
+      "name": "裁剪图片",
+      "description": "指定像素坐标，只裁剪出图片中你需要的区域。"
+    },
+    "convert_image": {
+      "name": "转换图片格式",
+      "description": "在JPG、PNG、WEBP、GIF、BMP、TIFF之间自由转换。"
+    },
+    "rotate_image": {
+      "name": "旋转图片",
+      "description": "将图片旋转到任意角度，或进行左右/上下翻转。"
+    },
+    "watermark_image": {
+      "name": "添加水印",
+      "description": "为图片添加文字水印，并可调整透明度和位置。"
+    },
+    "meme_generator": {
+      "name": "表情包生成器",
+      "description": "添加上下文字，轻松制作表情包图片。"
+    },
+    "remove_exif": {
+      "name": "移除元数据",
+      "description": "删除照片中的位置和设备信息(EXIF)，保护您的隐私。"
+    },
+    "merge_images": {
+      "name": "合并图片",
+      "description": "将多张图片横向、纵向或以网格方式合并为一张。"
+    }
   },
   "CompressImagePage": {
     "title": "压缩图片",
@@ -128,7 +155,7 @@
     "converting": "正在制作...",
     "error": "生成表情包时发生错误。"
   },
-  "RemoveExifPage":   {
+  "RemoveExifPage": {
     "title": "移除元数据",
     "description": "删除照片中的位置和设备信息(EXIF)，保护您的隐私。支持批量处理多张图片。",
     "infoText": "照片中的 GPS 位置、拍摄设备、拍摄日期等附加信息都将被删除，图片质量和方向保持不变。",
@@ -136,8 +163,7 @@
     "converting": "正在移除...",
     "error": "移除元数据时发生错误。"
   },
-
-  "MergeImagesPage":   {
+  "MergeImagesPage": {
     "title": "合并图片",
     "description": "将多张图片横向、纵向或以网格方式合并为一张。",
     "layoutLabel": "排列方式",
@@ -149,7 +175,6 @@
     "converting": "正在合并...",
     "error": "合并图片时发生错误。"
   },
-
   "LanguageSwitcher": {
     "label": "语言"
   },
@@ -158,33 +183,33 @@
     "sisterSiteLabel": "PDF工具 (mylifepdf.com)",
     "languageHeading": "语言"
   },
-    "FAQ": {
-      "heading": "常见问题",
-      "items": [
-        {
-          "q": "mylifeimg 是免费的吗?",
-          "a": "是的，全部 7 个工具完全免费，无需注册账号。"
-        },
-        {
-          "q": "需要注册吗?",
-          "a": "不需要，无需注册即可立即使用所有功能。"
-        },
-        {
-          "q": "上传的图片会怎么处理?",
-          "a": "服务器处理完成后会立即自动删除，不会另外保存。"
-        },
-        {
-          "q": "支持哪些语言?",
-          "a": "支持韩语、英语、日语、中文(简体/繁体)、西班牙语、法语、德语、葡萄牙语、俄语、意大利语、荷兰语、波兰语、瑞典语、土耳其语、乌克兰语、越南语、泰语、印尼语、马来语、印地语、保加利亚语、加泰罗尼亚语、希腊语、斯瓦希里语和阿拉伯语。"
-        },
-        {
-          "q": "可以一次处理多张图片吗?",
-          "a": "可以，压缩、调整大小、格式转换和旋转工具都支持一次上传并处理多张图片。"
-        },
-        {
-          "q": "支持哪些图片格式?",
-          "a": "支持 JPG、PNG、WEBP、GIF、BMP、TIFF 格式。"
-        }
-      ]
-    }
+  "FAQ": {
+    "heading": "常见问题",
+    "items": [
+      {
+        "q": "mylifeimg 是免费的吗?",
+        "a": "是的，全部 9 个工具完全免费，无需注册账号。"
+      },
+      {
+        "q": "需要注册吗?",
+        "a": "不需要，无需注册即可立即使用所有功能。"
+      },
+      {
+        "q": "上传的图片会怎么处理?",
+        "a": "服务器处理完成后会立即自动删除，不会另外保存。"
+      },
+      {
+        "q": "支持哪些语言?",
+        "a": "支持韩语、英语、日语、中文(简体/繁体)、西班牙语、法语、德语、葡萄牙语、俄语、意大利语、荷兰语、波兰语、瑞典语、土耳其语、乌克兰语、越南语、泰语、印尼语、马来语、印地语、保加利亚语、加泰罗尼亚语、希腊语、斯瓦希里语和阿拉伯语。"
+      },
+      {
+        "q": "可以一次处理多张图片吗?",
+        "a": "可以，压缩、调整大小、格式转换和旋转工具都支持一次上传并处理多张图片。"
+      },
+      {
+        "q": "支持哪些图片格式?",
+        "a": "支持 JPG、PNG、WEBP、GIF、BMP、TIFF 格式。"
+      }
+    ]
+  }
 }

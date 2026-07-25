@@ -39,15 +39,42 @@
     "trustNotice": "Les imatges s'eliminen automàticament després del processament i totes les transferències estan xifrades amb SSL."
   },
   "Tools": {
-    "compress_image": { "name": "Comprimir imatge", "description": "Redueix la mida d'imatges JPG, PNG i WEBP mantenint la qualitat." },
-    "resize_image": { "name": "Redimensionar imatge", "description": "Canvia la mida de les imatges en píxels o percentatge." },
-    "crop_image": { "name": "Retallar imatge", "description": "Retalla l'àrea que necessitis indicant coordenades en píxels." },
-    "convert_image": { "name": "Convertir imatge", "description": "Converteix lliurement entre JPG, PNG, WEBP, GIF, BMP i TIFF." },
-    "rotate_image": { "name": "Girar imatge", "description": "Gira les imatges a l'angle que vulguis o inverteix-les horitzontalment/verticalment." },
-    "watermark_image": { "name": "Afegir marca d'aigua", "description": "Afegeix una marca d'aigua de text amb opacitat i posició ajustables." },
-    "meme_generator": { "name": "Generador de mems", "description": "Afegeix text a dalt i a baix per crear un mem fàcilment." },
-    "remove_exif": {"name":"Eliminar metadades","description":"Elimina la ubicació i la informació del dispositiu (EXIF) de les teves fotos per protegir la teva privadesa."},
-    "merge_images": {"name":"Combinar imatges","description":"Combina diverses imatges en una de sola, en horitzontal, vertical o en graella."}
+    "compress_image": {
+      "name": "Comprimir imatge",
+      "description": "Redueix la mida d'imatges JPG, PNG i WEBP mantenint la qualitat."
+    },
+    "resize_image": {
+      "name": "Redimensionar imatge",
+      "description": "Canvia la mida de les imatges en píxels o percentatge."
+    },
+    "crop_image": {
+      "name": "Retallar imatge",
+      "description": "Retalla l'àrea que necessitis indicant coordenades en píxels."
+    },
+    "convert_image": {
+      "name": "Convertir imatge",
+      "description": "Converteix lliurement entre JPG, PNG, WEBP, GIF, BMP i TIFF."
+    },
+    "rotate_image": {
+      "name": "Girar imatge",
+      "description": "Gira les imatges a l'angle que vulguis o inverteix-les horitzontalment/verticalment."
+    },
+    "watermark_image": {
+      "name": "Afegir marca d'aigua",
+      "description": "Afegeix una marca d'aigua de text amb opacitat i posició ajustables."
+    },
+    "meme_generator": {
+      "name": "Generador de mems",
+      "description": "Afegeix text a dalt i a baix per crear un mem fàcilment."
+    },
+    "remove_exif": {
+      "name": "Eliminar metadades",
+      "description": "Elimina la ubicació i la informació del dispositiu (EXIF) de les teves fotos per protegir la teva privadesa."
+    },
+    "merge_images": {
+      "name": "Combinar imatges",
+      "description": "Combina diverses imatges en una de sola, en horitzontal, vertical o en graella."
+    }
   },
   "CompressImagePage": {
     "title": "Comprimir imatge",
@@ -128,7 +155,7 @@
     "converting": "Creant el mem...",
     "error": "S'ha produït un error en generar el mem."
   },
-  "RemoveExifPage":   {
+  "RemoveExifPage": {
     "title": "Eliminar metadades",
     "description": "Elimina la ubicació i la informació del dispositiu (EXIF) de les teves fotos per protegir la teva privadesa. Processa diverses imatges alhora.",
     "infoText": "La ubicació GPS, el model de càmera, la data de captura i altres dades ocultes de les teves fotos s'eliminaran completament. La qualitat i l'orientació de la imatge no canvien.",
@@ -136,8 +163,7 @@
     "converting": "Eliminant...",
     "error": "S'ha produït un error en eliminar les metadades."
   },
-
-  "MergeImagesPage":   {
+  "MergeImagesPage": {
     "title": "Combinar imatges",
     "description": "Combina diverses imatges en una de sola, en horitzontal, vertical o en graella.",
     "layoutLabel": "Disposició",
@@ -149,7 +175,6 @@
     "converting": "Combinant...",
     "error": "S'ha produït un error en combinar les imatges."
   },
-
   "LanguageSwitcher": {
     "label": "Idioma"
   },
@@ -158,33 +183,33 @@
     "sisterSiteLabel": "Eines PDF (mylifepdf.com)",
     "languageHeading": "Idioma"
   },
-    "FAQ": {
-      "heading": "Preguntes freqüents",
-      "items": [
-        {
-          "q": "És gratuït mylifeimg?",
-          "a": "Sí, les 7 eines són completament gratuïtes i no requereixen cap compte."
-        },
-        {
-          "q": "Cal que em registri?",
-          "a": "No, pots utilitzar totes les funcions immediatament sense registrar-te."
-        },
-        {
-          "q": "Què passa amb les imatges que pujo?",
-          "a": "Es processen al servidor i s'esborren automàticament just després - no es desa res."
-        },
-        {
-          "q": "Quins idiomes estan disponibles?",
-          "a": "Coreà, anglès, japonès, xinès (simplificat/tradicional), espanyol, francès, alemany, portuguès, rus, italià, neerlandès, polonès, suec, turc, ucraïnès, vietnamita, tailandès, indonesi, malai, hindi, búlgar, català, grec, suahili i àrab."
-        },
-        {
-          "q": "Puc processar diverses imatges alhora?",
-          "a": "Sí, les eines de compressió, redimensionament, conversió i gir permeten pujar i processar diverses imatges alhora."
-        },
-        {
-          "q": "Quins formats d'imatge són compatibles?",
-          "a": "JPG, PNG, WEBP, GIF, BMP i TIFF són tots compatibles."
-        }
-      ]
-    }
+  "FAQ": {
+    "heading": "Preguntes freqüents",
+    "items": [
+      {
+        "q": "És gratuït mylifeimg?",
+        "a": "Sí, les 9 eines són completament gratuïtes i no requereixen cap compte."
+      },
+      {
+        "q": "Cal que em registri?",
+        "a": "No, pots utilitzar totes les funcions immediatament sense registrar-te."
+      },
+      {
+        "q": "Què passa amb les imatges que pujo?",
+        "a": "Es processen al servidor i s'esborren automàticament just després - no es desa res."
+      },
+      {
+        "q": "Quins idiomes estan disponibles?",
+        "a": "Coreà, anglès, japonès, xinès (simplificat/tradicional), espanyol, francès, alemany, portuguès, rus, italià, neerlandès, polonès, suec, turc, ucraïnès, vietnamita, tailandès, indonesi, malai, hindi, búlgar, català, grec, suahili i àrab."
+      },
+      {
+        "q": "Puc processar diverses imatges alhora?",
+        "a": "Sí, les eines de compressió, redimensionament, conversió i gir permeten pujar i processar diverses imatges alhora."
+      },
+      {
+        "q": "Quins formats d'imatge són compatibles?",
+        "a": "JPG, PNG, WEBP, GIF, BMP i TIFF són tots compatibles."
+      }
+    ]
+  }
 }

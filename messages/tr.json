@@ -39,15 +39,42 @@
     "trustNotice": "Görseller işlendikten sonra otomatik olarak silinir ve tüm aktarımlar SSL ile şifrelenir."
   },
   "Tools": {
-    "compress_image": { "name": "Görsel Sıkıştır", "description": "Kaliteyi koruyarak JPG, PNG ve WEBP dosya boyutunu küçültün." },
-    "resize_image": { "name": "Görsel Yeniden Boyutlandır", "description": "Görselleri piksel veya yüzde olarak yeniden boyutlandırın." },
-    "crop_image": { "name": "Görsel Kırp", "description": "Piksel koordinatları belirterek istediğiniz alanı kırpın." },
-    "convert_image": { "name": "Görsel Dönüştür", "description": "JPG, PNG, WEBP, GIF, BMP ve TIFF arasında serbestçe dönüştürün." },
-    "rotate_image": { "name": "Görsel Döndür", "description": "Görselleri istediğiniz açıyla döndürün veya yatay/dikey çevirin." },
-    "watermark_image": { "name": "Filigran Ekle", "description": "Ayarlanabilir opaklık ve konumla metin filigranı ekleyin." },
-    "meme_generator": { "name": "Meme Oluşturucu", "description": "Üst ve alt metin ekleyerek hızlıca meme oluşturun." },
-    "remove_exif": {"name":"Meta Verileri Kaldır","description":"Gizliliğinizi korumak için fotoğraflarınızdaki konum ve cihaz bilgilerini (EXIF) kaldırın."},
-    "merge_images": {"name":"Görselleri Birleştir","description":"Birden fazla görseli yatay, dikey veya ızgara şeklinde tek bir görselde birleştirin."}
+    "compress_image": {
+      "name": "Görsel Sıkıştır",
+      "description": "Kaliteyi koruyarak JPG, PNG ve WEBP dosya boyutunu küçültün."
+    },
+    "resize_image": {
+      "name": "Görsel Yeniden Boyutlandır",
+      "description": "Görselleri piksel veya yüzde olarak yeniden boyutlandırın."
+    },
+    "crop_image": {
+      "name": "Görsel Kırp",
+      "description": "Piksel koordinatları belirterek istediğiniz alanı kırpın."
+    },
+    "convert_image": {
+      "name": "Görsel Dönüştür",
+      "description": "JPG, PNG, WEBP, GIF, BMP ve TIFF arasında serbestçe dönüştürün."
+    },
+    "rotate_image": {
+      "name": "Görsel Döndür",
+      "description": "Görselleri istediğiniz açıyla döndürün veya yatay/dikey çevirin."
+    },
+    "watermark_image": {
+      "name": "Filigran Ekle",
+      "description": "Ayarlanabilir opaklık ve konumla metin filigranı ekleyin."
+    },
+    "meme_generator": {
+      "name": "Meme Oluşturucu",
+      "description": "Üst ve alt metin ekleyerek hızlıca meme oluşturun."
+    },
+    "remove_exif": {
+      "name": "Meta Verileri Kaldır",
+      "description": "Gizliliğinizi korumak için fotoğraflarınızdaki konum ve cihaz bilgilerini (EXIF) kaldırın."
+    },
+    "merge_images": {
+      "name": "Görselleri Birleştir",
+      "description": "Birden fazla görseli yatay, dikey veya ızgara şeklinde tek bir görselde birleştirin."
+    }
   },
   "CompressImagePage": {
     "title": "Görsel Sıkıştır",
@@ -128,7 +155,7 @@
     "converting": "Meme oluşturuluyor...",
     "error": "Meme oluşturulurken bir hata oluştu."
   },
-  "RemoveExifPage":   {
+  "RemoveExifPage": {
     "title": "Meta Verileri Kaldır",
     "description": "Gizliliğinizi korumak için fotoğraflarınızdaki konum ve cihaz bilgilerini (EXIF) kaldırın. Birden fazla görseli tek seferde işleyin.",
     "infoText": "Fotoğraflarınızdaki GPS konumu, kamera modeli, çekim tarihi ve diğer gizli veriler tamamen kaldırılır. Görsel kalitesi ve yönü aynı kalır.",
@@ -136,8 +163,7 @@
     "converting": "Kaldırılıyor...",
     "error": "Meta veriler kaldırılırken bir hata oluştu."
   },
-
-  "MergeImagesPage":   {
+  "MergeImagesPage": {
     "title": "Görselleri Birleştir",
     "description": "Birden fazla görseli yatay, dikey veya ızgara şeklinde tek bir görselde birleştirin.",
     "layoutLabel": "Düzen",
@@ -149,7 +175,6 @@
     "converting": "Birleştiriliyor...",
     "error": "Görseller birleştirilirken bir hata oluştu."
   },
-
   "LanguageSwitcher": {
     "label": "Dil"
   },
@@ -158,33 +183,33 @@
     "sisterSiteLabel": "PDF araçları (mylifepdf.com)",
     "languageHeading": "Dil"
   },
-    "FAQ": {
-      "heading": "Sık Sorulan Sorular",
-      "items": [
-        {
-          "q": "mylifeimg ücretsiz mi?",
-          "a": "Evet, 7 aracın tamamı tamamen ücretsizdir ve hesap gerektirmez."
-        },
-        {
-          "q": "Kayıt olmam gerekiyor mu?",
-          "a": "Hayır, kayıt olmadan tüm özellikleri hemen kullanabilirsiniz."
-        },
-        {
-          "q": "Yüklediğim görsellere ne oluyor?",
-          "a": "Sunucuda işlendikten hemen sonra otomatik olarak silinir - hiçbir şey saklanmaz."
-        },
-        {
-          "q": "Hangi diller destekleniyor?",
-          "a": "Korece, İngilizce, Japonca, Çince (Basitleştirilmiş/Geleneksel), İspanyolca, Fransızca, Almanca, Portekizce, Rusça, İtalyanca, Felemenkçe, Lehçe, İsveççe, Türkçe, Ukraynaca, Vietnamca, Tayca, Endonezce, Malayca, Hintçe, Bulgarca, Katalanca, Yunanca, Svahili ve Arapça desteklenmektedir."
-        },
-        {
-          "q": "Birden fazla görseli aynı anda işleyebilir miyim?",
-          "a": "Evet, sıkıştırma, yeniden boyutlandırma, dönüştürme ve döndürme araçlarının hepsi birden fazla görseli aynı anda yükleyip işlemenize izin verir."
-        },
-        {
-          "q": "Hangi görsel formatları destekleniyor?",
-          "a": "JPG, PNG, WEBP, GIF, BMP ve TIFF formatlarının hepsi desteklenmektedir."
-        }
-      ]
-    }
+  "FAQ": {
+    "heading": "Sık Sorulan Sorular",
+    "items": [
+      {
+        "q": "mylifeimg ücretsiz mi?",
+        "a": "Evet, 9 aracın tamamı tamamen ücretsizdir ve hesap gerektirmez."
+      },
+      {
+        "q": "Kayıt olmam gerekiyor mu?",
+        "a": "Hayır, kayıt olmadan tüm özellikleri hemen kullanabilirsiniz."
+      },
+      {
+        "q": "Yüklediğim görsellere ne oluyor?",
+        "a": "Sunucuda işlendikten hemen sonra otomatik olarak silinir - hiçbir şey saklanmaz."
+      },
+      {
+        "q": "Hangi diller destekleniyor?",
+        "a": "Korece, İngilizce, Japonca, Çince (Basitleştirilmiş/Geleneksel), İspanyolca, Fransızca, Almanca, Portekizce, Rusça, İtalyanca, Felemenkçe, Lehçe, İsveççe, Türkçe, Ukraynaca, Vietnamca, Tayca, Endonezce, Malayca, Hintçe, Bulgarca, Katalanca, Yunanca, Svahili ve Arapça desteklenmektedir."
+      },
+      {
+        "q": "Birden fazla görseli aynı anda işleyebilir miyim?",
+        "a": "Evet, sıkıştırma, yeniden boyutlandırma, dönüştürme ve döndürme araçlarının hepsi birden fazla görseli aynı anda yükleyip işlemenize izin verir."
+      },
+      {
+        "q": "Hangi görsel formatları destekleniyor?",
+        "a": "JPG, PNG, WEBP, GIF, BMP ve TIFF formatlarının hepsi desteklenmektedir."
+      }
+    ]
+  }
 }

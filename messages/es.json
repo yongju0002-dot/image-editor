@@ -39,15 +39,42 @@
     "trustNotice": "Las imágenes se eliminan automáticamente después del procesamiento y todas las transferencias están cifradas con SSL."
   },
   "Tools": {
-    "compress_image": { "name": "Comprimir imagen", "description": "Reduce el tamaño de imágenes JPG, PNG y WEBP conservando la calidad." },
-    "resize_image": { "name": "Redimensionar imagen", "description": "Cambia el tamaño de las imágenes en píxeles o porcentaje." },
-    "crop_image": { "name": "Recortar imagen", "description": "Recorta el área que necesites indicando coordenadas en píxeles." },
-    "convert_image": { "name": "Convertir imagen", "description": "Convierte libremente entre JPG, PNG, WEBP, GIF, BMP y TIFF." },
-    "rotate_image": { "name": "Rotar imagen", "description": "Rota imágenes al ángulo que quieras o inviértelas horizontal/verticalmente." },
-    "watermark_image": { "name": "Añadir marca de agua", "description": "Añade una marca de agua de texto con opacidad y posición ajustables." },
-    "meme_generator": { "name": "Generador de memes", "description": "Añade texto arriba y abajo para crear un meme fácilmente." },
-    "remove_exif": {"name":"Eliminar metadatos","description":"Elimina la ubicación y la información del dispositivo (EXIF) de tus fotos para proteger tu privacidad."},
-    "merge_images": {"name":"Combinar imágenes","description":"Combina varias imágenes en una sola, en horizontal, vertical o en cuadrícula."}
+    "compress_image": {
+      "name": "Comprimir imagen",
+      "description": "Reduce el tamaño de imágenes JPG, PNG y WEBP conservando la calidad."
+    },
+    "resize_image": {
+      "name": "Redimensionar imagen",
+      "description": "Cambia el tamaño de las imágenes en píxeles o porcentaje."
+    },
+    "crop_image": {
+      "name": "Recortar imagen",
+      "description": "Recorta el área que necesites indicando coordenadas en píxeles."
+    },
+    "convert_image": {
+      "name": "Convertir imagen",
+      "description": "Convierte libremente entre JPG, PNG, WEBP, GIF, BMP y TIFF."
+    },
+    "rotate_image": {
+      "name": "Rotar imagen",
+      "description": "Rota imágenes al ángulo que quieras o inviértelas horizontal/verticalmente."
+    },
+    "watermark_image": {
+      "name": "Añadir marca de agua",
+      "description": "Añade una marca de agua de texto con opacidad y posición ajustables."
+    },
+    "meme_generator": {
+      "name": "Generador de memes",
+      "description": "Añade texto arriba y abajo para crear un meme fácilmente."
+    },
+    "remove_exif": {
+      "name": "Eliminar metadatos",
+      "description": "Elimina la ubicación y la información del dispositivo (EXIF) de tus fotos para proteger tu privacidad."
+    },
+    "merge_images": {
+      "name": "Combinar imágenes",
+      "description": "Combina varias imágenes en una sola, en horizontal, vertical o en cuadrícula."
+    }
   },
   "CompressImagePage": {
     "title": "Comprimir imagen",
@@ -128,7 +155,7 @@
     "converting": "Creando meme...",
     "error": "Ocurrió un error al generar el meme."
   },
-  "RemoveExifPage":   {
+  "RemoveExifPage": {
     "title": "Eliminar metadatos",
     "description": "Elimina la ubicación y la información del dispositivo (EXIF) de tus fotos para proteger tu privacidad. Procesa varias imágenes a la vez.",
     "infoText": "Se eliminará toda la información oculta de tus fotos, como la ubicación GPS, el modelo de cámara y la fecha de captura. La calidad y la orientación de la imagen no cambian.",
@@ -136,8 +163,7 @@
     "converting": "Eliminando...",
     "error": "Ocurrió un error al eliminar los metadatos."
   },
-
-  "MergeImagesPage":   {
+  "MergeImagesPage": {
     "title": "Combinar imágenes",
     "description": "Combina varias imágenes en una sola, en horizontal, vertical o en cuadrícula.",
     "layoutLabel": "Disposición",
@@ -149,7 +175,6 @@
     "converting": "Combinando...",
     "error": "Ocurrió un error al combinar las imágenes."
   },
-
   "LanguageSwitcher": {
     "label": "Idioma"
   },
@@ -158,33 +183,33 @@
     "sisterSiteLabel": "Herramientas PDF (mylifepdf.com)",
     "languageHeading": "Idioma"
   },
-    "FAQ": {
-      "heading": "Preguntas frecuentes",
-      "items": [
-        {
-          "q": "¿mylifeimg es gratis?",
-          "a": "Sí, las 7 herramientas son completamente gratuitas y no requieren registro."
-        },
-        {
-          "q": "¿Necesito registrarme?",
-          "a": "No, puedes usar todas las funciones de inmediato sin registrarte."
-        },
-        {
-          "q": "¿Qué pasa con las imágenes que subo?",
-          "a": "Se procesan en el servidor y se eliminan automáticamente justo después; no se guarda nada."
-        },
-        {
-          "q": "¿Qué idiomas están disponibles?",
-          "a": "Coreano, inglés, japonés, chino (simplificado/tradicional), español, francés, alemán, portugués, ruso, italiano, neerlandés, polaco, sueco, turco, ucraniano, vietnamita, tailandés, indonesio, malayo, hindi, búlgaro, catalán, griego, suajili y árabe."
-        },
-        {
-          "q": "¿Puedo procesar varias imágenes a la vez?",
-          "a": "Sí, las herramientas de compresión, redimensión, conversión y rotación permiten subir y procesar varias imágenes al mismo tiempo."
-        },
-        {
-          "q": "¿Qué formatos de imagen son compatibles?",
-          "a": "Son compatibles JPG, PNG, WEBP, GIF, BMP y TIFF."
-        }
-      ]
-    }
+  "FAQ": {
+    "heading": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿mylifeimg es gratis?",
+        "a": "Sí, las 9 herramientas son completamente gratuitas y no requieren registro."
+      },
+      {
+        "q": "¿Necesito registrarme?",
+        "a": "No, puedes usar todas las funciones de inmediato sin registrarte."
+      },
+      {
+        "q": "¿Qué pasa con las imágenes que subo?",
+        "a": "Se procesan en el servidor y se eliminan automáticamente justo después; no se guarda nada."
+      },
+      {
+        "q": "¿Qué idiomas están disponibles?",
+        "a": "Coreano, inglés, japonés, chino (simplificado/tradicional), español, francés, alemán, portugués, ruso, italiano, neerlandés, polaco, sueco, turco, ucraniano, vietnamita, tailandés, indonesio, malayo, hindi, búlgaro, catalán, griego, suajili y árabe."
+      },
+      {
+        "q": "¿Puedo procesar varias imágenes a la vez?",
+        "a": "Sí, las herramientas de compresión, redimensión, conversión y rotación permiten subir y procesar varias imágenes al mismo tiempo."
+      },
+      {
+        "q": "¿Qué formatos de imagen son compatibles?",
+        "a": "Son compatibles JPG, PNG, WEBP, GIF, BMP y TIFF."
+      }
+    ]
+  }
 }

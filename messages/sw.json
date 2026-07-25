@@ -39,15 +39,42 @@
     "trustNotice": "Picha hufutwa kiotomatiki baada ya kuchakatwa, na uhamishaji wote unalindwa kwa usimbaji wa SSL."
   },
   "Tools": {
-    "compress_image": { "name": "Punguza Ukubwa wa Picha", "description": "Punguza ukubwa wa faili za JPG, PNG na WEBP huku ukidumisha ubora." },
-    "resize_image": { "name": "Badilisha Vipimo vya Picha", "description": "Badilisha vipimo vya picha kwa pikseli au asilimia." },
-    "crop_image": { "name": "Kata Picha", "description": "Kata eneo unalotaka kwa kubainisha kuratibu za pikseli." },
-    "convert_image": { "name": "Badilisha Muundo wa Picha", "description": "Badilisha kwa uhuru kati ya JPG, PNG, WEBP, GIF, BMP na TIFF." },
-    "rotate_image": { "name": "Zungusha Picha", "description": "Zungusha picha kwa pembe yoyote au uigeuze kwa mlalo/wima." },
-    "watermark_image": { "name": "Ongeza Alama ya Maji", "description": "Ongeza alama ya maji ya maandishi na uwazi na nafasi zinazoweza kurekebishwa." },
-    "meme_generator": { "name": "Kitengenezea Meme", "description": "Ongeza maandishi juu na chini ili kutengeneza meme haraka." },
-    "remove_exif": {"name":"Ondoa Metadata","description":"Ondoa taarifa za mahali na kifaa (EXIF) kutoka kwenye picha zako ili kulinda faragha yako."},
-    "merge_images": {"name":"Unganisha Picha","description":"Unganisha picha kadhaa kuwa moja, kwa mpangilio wa mlalo, wima, au gridi."}
+    "compress_image": {
+      "name": "Punguza Ukubwa wa Picha",
+      "description": "Punguza ukubwa wa faili za JPG, PNG na WEBP huku ukidumisha ubora."
+    },
+    "resize_image": {
+      "name": "Badilisha Vipimo vya Picha",
+      "description": "Badilisha vipimo vya picha kwa pikseli au asilimia."
+    },
+    "crop_image": {
+      "name": "Kata Picha",
+      "description": "Kata eneo unalotaka kwa kubainisha kuratibu za pikseli."
+    },
+    "convert_image": {
+      "name": "Badilisha Muundo wa Picha",
+      "description": "Badilisha kwa uhuru kati ya JPG, PNG, WEBP, GIF, BMP na TIFF."
+    },
+    "rotate_image": {
+      "name": "Zungusha Picha",
+      "description": "Zungusha picha kwa pembe yoyote au uigeuze kwa mlalo/wima."
+    },
+    "watermark_image": {
+      "name": "Ongeza Alama ya Maji",
+      "description": "Ongeza alama ya maji ya maandishi na uwazi na nafasi zinazoweza kurekebishwa."
+    },
+    "meme_generator": {
+      "name": "Kitengenezea Meme",
+      "description": "Ongeza maandishi juu na chini ili kutengeneza meme haraka."
+    },
+    "remove_exif": {
+      "name": "Ondoa Metadata",
+      "description": "Ondoa taarifa za mahali na kifaa (EXIF) kutoka kwenye picha zako ili kulinda faragha yako."
+    },
+    "merge_images": {
+      "name": "Unganisha Picha",
+      "description": "Unganisha picha kadhaa kuwa moja, kwa mpangilio wa mlalo, wima, au gridi."
+    }
   },
   "CompressImagePage": {
     "title": "Punguza Ukubwa wa Picha",
@@ -128,7 +155,7 @@
     "converting": "Inatengeneza meme...",
     "error": "Hitilafu imetokea wakati wa kutengeneza meme."
   },
-  "RemoveExifPage":   {
+  "RemoveExifPage": {
     "title": "Ondoa Metadata",
     "description": "Ondoa taarifa za mahali na kifaa (EXIF) kutoka kwenye picha zako ili kulinda faragha yako. Chakata picha kadhaa kwa wakati mmoja.",
     "infoText": "Mahali pa GPS, aina ya kamera, tarehe ya kupiga picha, na data nyingine iliyofichwa kwenye picha zako itaondolewa kabisa. Ubora na mwelekeo wa picha havitabadilika.",
@@ -136,8 +163,7 @@
     "converting": "Inaondoa...",
     "error": "Hitilafu imetokea wakati wa kuondoa metadata."
   },
-
-  "MergeImagesPage":   {
+  "MergeImagesPage": {
     "title": "Unganisha Picha",
     "description": "Unganisha picha kadhaa kuwa moja, kwa mpangilio wa mlalo, wima, au gridi.",
     "layoutLabel": "Mpangilio",
@@ -149,7 +175,6 @@
     "converting": "Inaunganisha...",
     "error": "Hitilafu imetokea wakati wa kuunganisha picha."
   },
-
   "LanguageSwitcher": {
     "label": "Lugha"
   },
@@ -158,33 +183,33 @@
     "sisterSiteLabel": "Zana za PDF (mylifepdf.com)",
     "languageHeading": "Lugha"
   },
-    "FAQ": {
-      "heading": "Maswali Yanayoulizwa Mara kwa Mara",
-      "items": [
-        {
-          "q": "Je, mylifeimg ni bure?",
-          "a": "Ndiyo, zana zote 7 ni bure kabisa na hazihitaji akaunti."
-        },
-        {
-          "q": "Je, ninahitaji kujisajili?",
-          "a": "Hapana, unaweza kutumia vipengele vyote mara moja bila kujisajili."
-        },
-        {
-          "q": "Nini hutokea kwa picha ninazopakia?",
-          "a": "Huchakatwa kwenye seva kisha kufutwa kiotomatiki mara moja baada ya hapo - hakuna kinachohifadhiwa."
-        },
-        {
-          "q": "Ni lugha zipi zinazotumika?",
-          "a": "Zinazotumika ni Kikorea, Kiingereza, Kijapani, Kichina (Rahisi/Asili), Kihispania, Kifaransa, Kijerumani, Kireno, Kirusi, Kiitaliano, Kiholanzi, Kipolandi, Kiswidi, Kituruki, Kiukreni, Kivietinamu, Kithai, Kiindonesia, Kimalei, Kihindi, Kibulgaria, Kikatalani, Kigiriki, Kiswahili na Kiarabu."
-        },
-        {
-          "q": "Je, ninaweza kuchakata picha kadhaa kwa wakati mmoja?",
-          "a": "Ndiyo, zana za kubana, kubadilisha vipimo, kubadilisha muundo, na kuzungusha zote huruhusu kupakia na kuchakata picha kadhaa kwa wakati mmoja."
-        },
-        {
-          "q": "Ni miundo ipi ya picha inayotumika?",
-          "a": "JPG, PNG, WEBP, GIF, BMP, na TIFF zote zinatumika."
-        }
-      ]
-    }
+  "FAQ": {
+    "heading": "Maswali Yanayoulizwa Mara kwa Mara",
+    "items": [
+      {
+        "q": "Je, mylifeimg ni bure?",
+        "a": "Ndiyo, zana zote 9 ni bure kabisa na hazihitaji akaunti."
+      },
+      {
+        "q": "Je, ninahitaji kujisajili?",
+        "a": "Hapana, unaweza kutumia vipengele vyote mara moja bila kujisajili."
+      },
+      {
+        "q": "Nini hutokea kwa picha ninazopakia?",
+        "a": "Huchakatwa kwenye seva kisha kufutwa kiotomatiki mara moja baada ya hapo - hakuna kinachohifadhiwa."
+      },
+      {
+        "q": "Ni lugha zipi zinazotumika?",
+        "a": "Zinazotumika ni Kikorea, Kiingereza, Kijapani, Kichina (Rahisi/Asili), Kihispania, Kifaransa, Kijerumani, Kireno, Kirusi, Kiitaliano, Kiholanzi, Kipolandi, Kiswidi, Kituruki, Kiukreni, Kivietinamu, Kithai, Kiindonesia, Kimalei, Kihindi, Kibulgaria, Kikatalani, Kigiriki, Kiswahili na Kiarabu."
+      },
+      {
+        "q": "Je, ninaweza kuchakata picha kadhaa kwa wakati mmoja?",
+        "a": "Ndiyo, zana za kubana, kubadilisha vipimo, kubadilisha muundo, na kuzungusha zote huruhusu kupakia na kuchakata picha kadhaa kwa wakati mmoja."
+      },
+      {
+        "q": "Ni miundo ipi ya picha inayotumika?",
+        "a": "JPG, PNG, WEBP, GIF, BMP, na TIFF zote zinatumika."
+      }
+    ]
+  }
 }

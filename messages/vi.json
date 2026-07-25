@@ -39,15 +39,42 @@
     "trustNotice": "Hình ảnh sẽ tự động bị xóa sau khi xử lý và mọi quá trình truyền tải đều được mã hóa SSL."
   },
   "Tools": {
-    "compress_image": { "name": "Nén ảnh", "description": "Giảm dung lượng ảnh JPG, PNG, WEBP trong khi vẫn giữ chất lượng." },
-    "resize_image": { "name": "Đổi kích thước ảnh", "description": "Thay đổi kích thước ảnh theo pixel hoặc phần trăm." },
-    "crop_image": { "name": "Cắt ảnh", "description": "Cắt vùng bạn muốn bằng cách chỉ định tọa độ pixel." },
-    "convert_image": { "name": "Chuyển đổi ảnh", "description": "Chuyển đổi tự do giữa JPG, PNG, WEBP, GIF, BMP và TIFF." },
-    "rotate_image": { "name": "Xoay ảnh", "description": "Xoay ảnh theo góc bất kỳ hoặc lật ngang/dọc." },
-    "watermark_image": { "name": "Thêm hình mờ", "description": "Thêm hình mờ dạng chữ với độ mờ và vị trí có thể điều chỉnh." },
-    "meme_generator": { "name": "Tạo meme", "description": "Thêm chữ ở trên và dưới để nhanh chóng tạo một meme." },
-    "remove_exif": {"name":"Xóa siêu dữ liệu","description":"Xóa thông tin vị trí và thiết bị (EXIF) khỏi ảnh của bạn để bảo vệ quyền riêng tư."},
-    "merge_images": {"name":"Ghép ảnh","description":"Ghép nhiều ảnh thành một, sắp xếp theo hàng ngang, hàng dọc hoặc dạng lưới."}
+    "compress_image": {
+      "name": "Nén ảnh",
+      "description": "Giảm dung lượng ảnh JPG, PNG, WEBP trong khi vẫn giữ chất lượng."
+    },
+    "resize_image": {
+      "name": "Đổi kích thước ảnh",
+      "description": "Thay đổi kích thước ảnh theo pixel hoặc phần trăm."
+    },
+    "crop_image": {
+      "name": "Cắt ảnh",
+      "description": "Cắt vùng bạn muốn bằng cách chỉ định tọa độ pixel."
+    },
+    "convert_image": {
+      "name": "Chuyển đổi ảnh",
+      "description": "Chuyển đổi tự do giữa JPG, PNG, WEBP, GIF, BMP và TIFF."
+    },
+    "rotate_image": {
+      "name": "Xoay ảnh",
+      "description": "Xoay ảnh theo góc bất kỳ hoặc lật ngang/dọc."
+    },
+    "watermark_image": {
+      "name": "Thêm hình mờ",
+      "description": "Thêm hình mờ dạng chữ với độ mờ và vị trí có thể điều chỉnh."
+    },
+    "meme_generator": {
+      "name": "Tạo meme",
+      "description": "Thêm chữ ở trên và dưới để nhanh chóng tạo một meme."
+    },
+    "remove_exif": {
+      "name": "Xóa siêu dữ liệu",
+      "description": "Xóa thông tin vị trí và thiết bị (EXIF) khỏi ảnh của bạn để bảo vệ quyền riêng tư."
+    },
+    "merge_images": {
+      "name": "Ghép ảnh",
+      "description": "Ghép nhiều ảnh thành một, sắp xếp theo hàng ngang, hàng dọc hoặc dạng lưới."
+    }
   },
   "CompressImagePage": {
     "title": "Nén ảnh",
@@ -128,7 +155,7 @@
     "converting": "Đang tạo meme...",
     "error": "Đã xảy ra lỗi khi tạo meme."
   },
-  "RemoveExifPage":   {
+  "RemoveExifPage": {
     "title": "Xóa siêu dữ liệu",
     "description": "Xóa thông tin vị trí và thiết bị (EXIF) khỏi ảnh của bạn để bảo vệ quyền riêng tư. Xử lý nhiều ảnh cùng lúc.",
     "infoText": "Vị trí GPS, model máy ảnh, ngày chụp và các dữ liệu ẩn khác trong ảnh sẽ được xóa hoàn toàn. Chất lượng và hướng của ảnh không thay đổi.",
@@ -136,8 +163,7 @@
     "converting": "Đang xóa...",
     "error": "Đã xảy ra lỗi khi xóa siêu dữ liệu."
   },
-
-  "MergeImagesPage":   {
+  "MergeImagesPage": {
     "title": "Ghép ảnh",
     "description": "Ghép nhiều ảnh thành một, sắp xếp theo hàng ngang, hàng dọc hoặc dạng lưới.",
     "layoutLabel": "Bố cục",
@@ -149,7 +175,6 @@
     "converting": "Đang ghép...",
     "error": "Đã xảy ra lỗi khi ghép ảnh."
   },
-
   "LanguageSwitcher": {
     "label": "Ngôn ngữ"
   },
@@ -158,33 +183,33 @@
     "sisterSiteLabel": "Công cụ PDF (mylifepdf.com)",
     "languageHeading": "Ngôn ngữ"
   },
-    "FAQ": {
-      "heading": "Câu hỏi thường gặp",
-      "items": [
-        {
-          "q": "mylifeimg có miễn phí không?",
-          "a": "Có, cả 7 công cụ đều hoàn toàn miễn phí và không yêu cầu tài khoản."
-        },
-        {
-          "q": "Tôi có cần đăng ký không?",
-          "a": "Không, bạn có thể sử dụng ngay tất cả tính năng mà không cần đăng ký."
-        },
-        {
-          "q": "Ảnh tôi tải lên sẽ ra sao?",
-          "a": "Ảnh được xử lý trên máy chủ và tự động xóa ngay sau đó - không có gì được lưu trữ."
-        },
-        {
-          "q": "Trang web hỗ trợ những ngôn ngữ nào?",
-          "a": "Hỗ trợ tiếng Hàn, tiếng Anh, tiếng Nhật, tiếng Trung (giản thể/phồn thể), tiếng Tây Ban Nha, tiếng Pháp, tiếng Đức, tiếng Bồ Đào Nha, tiếng Nga, tiếng Ý, tiếng Hà Lan, tiếng Ba Lan, tiếng Thụy Điển, tiếng Thổ Nhĩ Kỳ, tiếng Ukraina, tiếng Việt, tiếng Thái, tiếng Indonesia, tiếng Mã Lai, tiếng Hindi, tiếng Bulgaria, tiếng Catalan, tiếng Hy Lạp, tiếng Swahili và tiếng Ả Rập."
-        },
-        {
-          "q": "Tôi có thể xử lý nhiều ảnh cùng lúc không?",
-          "a": "Có, các công cụ nén, đổi kích thước, chuyển đổi và xoay đều cho phép tải lên và xử lý nhiều ảnh cùng lúc."
-        },
-        {
-          "q": "Trang web hỗ trợ những định dạng ảnh nào?",
-          "a": "Hỗ trợ các định dạng JPG, PNG, WEBP, GIF, BMP và TIFF."
-        }
-      ]
-    }
+  "FAQ": {
+    "heading": "Câu hỏi thường gặp",
+    "items": [
+      {
+        "q": "mylifeimg có miễn phí không?",
+        "a": "Có, cả 9 công cụ đều hoàn toàn miễn phí và không yêu cầu tài khoản."
+      },
+      {
+        "q": "Tôi có cần đăng ký không?",
+        "a": "Không, bạn có thể sử dụng ngay tất cả tính năng mà không cần đăng ký."
+      },
+      {
+        "q": "Ảnh tôi tải lên sẽ ra sao?",
+        "a": "Ảnh được xử lý trên máy chủ và tự động xóa ngay sau đó - không có gì được lưu trữ."
+      },
+      {
+        "q": "Trang web hỗ trợ những ngôn ngữ nào?",
+        "a": "Hỗ trợ tiếng Hàn, tiếng Anh, tiếng Nhật, tiếng Trung (giản thể/phồn thể), tiếng Tây Ban Nha, tiếng Pháp, tiếng Đức, tiếng Bồ Đào Nha, tiếng Nga, tiếng Ý, tiếng Hà Lan, tiếng Ba Lan, tiếng Thụy Điển, tiếng Thổ Nhĩ Kỳ, tiếng Ukraina, tiếng Việt, tiếng Thái, tiếng Indonesia, tiếng Mã Lai, tiếng Hindi, tiếng Bulgaria, tiếng Catalan, tiếng Hy Lạp, tiếng Swahili và tiếng Ả Rập."
+      },
+      {
+        "q": "Tôi có thể xử lý nhiều ảnh cùng lúc không?",
+        "a": "Có, các công cụ nén, đổi kích thước, chuyển đổi và xoay đều cho phép tải lên và xử lý nhiều ảnh cùng lúc."
+      },
+      {
+        "q": "Trang web hỗ trợ những định dạng ảnh nào?",
+        "a": "Hỗ trợ các định dạng JPG, PNG, WEBP, GIF, BMP và TIFF."
+      }
+    ]
+  }
 }

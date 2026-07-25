@@ -39,15 +39,42 @@
     "trustNotice": "Bilder raderas automatiskt efter bearbetning, och alla överföringar är SSL-krypterade."
   },
   "Tools": {
-    "compress_image": { "name": "Komprimera bild", "description": "Minska filstorleken på JPG-, PNG- och WEBP-bilder med bibehållen kvalitet." },
-    "resize_image": { "name": "Ändra bildstorlek", "description": "Ändra bildstorlek i pixlar eller procent." },
-    "crop_image": { "name": "Beskär bild", "description": "Beskär önskat område genom att ange pixelkoordinater." },
-    "convert_image": { "name": "Konvertera bild", "description": "Konvertera fritt mellan JPG, PNG, WEBP, GIF, BMP och TIFF." },
-    "rotate_image": { "name": "Rotera bild", "description": "Rotera bilder i valfri vinkel eller vänd dem horisontellt/vertikalt." },
-    "watermark_image": { "name": "Lägg till vattenstämpel", "description": "Lägg till en textvattenstämpel med justerbar opacitet och position." },
-    "meme_generator": { "name": "Memegenerator", "description": "Lägg till text upptill och nedtill för att snabbt skapa ett meme." },
-    "remove_exif": {"name":"Ta bort metadata","description":"Ta bort plats- och enhetsinformation (EXIF) från dina bilder för att skydda din integritet."},
-    "merge_images": {"name":"Slå ihop bilder","description":"Kombinera flera bilder till en, horisontellt, vertikalt eller i ett rutnät."}
+    "compress_image": {
+      "name": "Komprimera bild",
+      "description": "Minska filstorleken på JPG-, PNG- och WEBP-bilder med bibehållen kvalitet."
+    },
+    "resize_image": {
+      "name": "Ändra bildstorlek",
+      "description": "Ändra bildstorlek i pixlar eller procent."
+    },
+    "crop_image": {
+      "name": "Beskär bild",
+      "description": "Beskär önskat område genom att ange pixelkoordinater."
+    },
+    "convert_image": {
+      "name": "Konvertera bild",
+      "description": "Konvertera fritt mellan JPG, PNG, WEBP, GIF, BMP och TIFF."
+    },
+    "rotate_image": {
+      "name": "Rotera bild",
+      "description": "Rotera bilder i valfri vinkel eller vänd dem horisontellt/vertikalt."
+    },
+    "watermark_image": {
+      "name": "Lägg till vattenstämpel",
+      "description": "Lägg till en textvattenstämpel med justerbar opacitet och position."
+    },
+    "meme_generator": {
+      "name": "Memegenerator",
+      "description": "Lägg till text upptill och nedtill för att snabbt skapa ett meme."
+    },
+    "remove_exif": {
+      "name": "Ta bort metadata",
+      "description": "Ta bort plats- och enhetsinformation (EXIF) från dina bilder för att skydda din integritet."
+    },
+    "merge_images": {
+      "name": "Slå ihop bilder",
+      "description": "Kombinera flera bilder till en, horisontellt, vertikalt eller i ett rutnät."
+    }
   },
   "CompressImagePage": {
     "title": "Komprimera bild",
@@ -128,7 +155,7 @@
     "converting": "Skapar meme...",
     "error": "Ett fel uppstod när memet skulle skapas."
   },
-  "RemoveExifPage":   {
+  "RemoveExifPage": {
     "title": "Ta bort metadata",
     "description": "Ta bort plats- och enhetsinformation (EXIF) från dina bilder för att skydda din integritet. Bearbeta flera bilder samtidigt.",
     "infoText": "GPS-position, kameramodell, tagningsdatum och annan dold information i dina bilder tas bort helt. Bildkvalitet och orientering förblir oförändrade.",
@@ -136,8 +163,7 @@
     "converting": "Tar bort...",
     "error": "Ett fel uppstod när metadata skulle tas bort."
   },
-
-  "MergeImagesPage":   {
+  "MergeImagesPage": {
     "title": "Slå ihop bilder",
     "description": "Kombinera flera bilder till en, horisontellt, vertikalt eller i ett rutnät.",
     "layoutLabel": "Layout",
@@ -149,7 +175,6 @@
     "converting": "Slår ihop...",
     "error": "Ett fel uppstod när bilderna skulle slås ihop."
   },
-
   "LanguageSwitcher": {
     "label": "Språk"
   },
@@ -158,33 +183,33 @@
     "sisterSiteLabel": "PDF-verktyg (mylifepdf.com)",
     "languageHeading": "Språk"
   },
-    "FAQ": {
-      "heading": "Vanliga frågor",
-      "items": [
-        {
-          "q": "Är mylifeimg gratis?",
-          "a": "Ja, alla 7 verktyg är helt gratis och kräver inget konto."
-        },
-        {
-          "q": "Måste jag registrera mig?",
-          "a": "Nej, du kan använda alla funktioner direkt utan registrering."
-        },
-        {
-          "q": "Vad händer med mina uppladdade bilder?",
-          "a": "De bearbetas på servern och raderas sedan automatiskt direkt efteråt - inget sparas."
-        },
-        {
-          "q": "Vilka språk stöds?",
-          "a": "Koreanska, engelska, japanska, kinesiska (förenklad/traditionell), spanska, franska, tyska, portugisiska, ryska, italienska, nederländska, polska, svenska, turkiska, ukrainska, vietnamesiska, thailändska, indonesiska, malajiska, hindi, bulgariska, katalanska, grekiska, swahili och arabiska."
-        },
-        {
-          "q": "Kan jag bearbeta flera bilder samtidigt?",
-          "a": "Ja, verktygen för komprimering, storleksändring, konvertering och rotation låter dig ladda upp och bearbeta flera bilder samtidigt."
-        },
-        {
-          "q": "Vilka bildformat stöds?",
-          "a": "JPG, PNG, WEBP, GIF, BMP och TIFF stöds alla."
-        }
-      ]
-    }
+  "FAQ": {
+    "heading": "Vanliga frågor",
+    "items": [
+      {
+        "q": "Är mylifeimg gratis?",
+        "a": "Ja, alla 9 verktyg är helt gratis och kräver inget konto."
+      },
+      {
+        "q": "Måste jag registrera mig?",
+        "a": "Nej, du kan använda alla funktioner direkt utan registrering."
+      },
+      {
+        "q": "Vad händer med mina uppladdade bilder?",
+        "a": "De bearbetas på servern och raderas sedan automatiskt direkt efteråt - inget sparas."
+      },
+      {
+        "q": "Vilka språk stöds?",
+        "a": "Koreanska, engelska, japanska, kinesiska (förenklad/traditionell), spanska, franska, tyska, portugisiska, ryska, italienska, nederländska, polska, svenska, turkiska, ukrainska, vietnamesiska, thailändska, indonesiska, malajiska, hindi, bulgariska, katalanska, grekiska, swahili och arabiska."
+      },
+      {
+        "q": "Kan jag bearbeta flera bilder samtidigt?",
+        "a": "Ja, verktygen för komprimering, storleksändring, konvertering och rotation låter dig ladda upp och bearbeta flera bilder samtidigt."
+      },
+      {
+        "q": "Vilka bildformat stöds?",
+        "a": "JPG, PNG, WEBP, GIF, BMP och TIFF stöds alla."
+      }
+    ]
+  }
 }

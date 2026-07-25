@@ -39,15 +39,42 @@
     "trustNotice": "圖片在處理後會自動刪除，所有傳輸皆採用SSL加密。"
   },
   "Tools": {
-    "compress_image": { "name": "壓縮圖片", "description": "在保持畫質的同時減少JPG、PNG、WEBP圖片的容量。" },
-    "resize_image": { "name": "調整圖片大小", "description": "依像素或百分比自由調整圖片尺寸。" },
-    "crop_image": { "name": "裁切圖片", "description": "指定像素座標，只裁切出圖片中你需要的區域。" },
-    "convert_image": { "name": "轉換圖片格式", "description": "在JPG、PNG、WEBP、GIF、BMP、TIFF之間自由轉換。" },
-    "rotate_image": { "name": "旋轉圖片", "description": "將圖片旋轉至任意角度，或進行左右/上下翻轉。" },
-    "watermark_image": { "name": "新增浮水印", "description": "為圖片新增文字浮水印，並可調整透明度與位置。" },
-    "meme_generator": { "name": "迷因產生器", "description": "新增上下文字，輕鬆製作迷因圖片。" },
-    "remove_exif": {"name":"移除中繼資料","description":"刪除照片中的位置與裝置資訊(EXIF)，保護您的隱私。"},
-    "merge_images": {"name":"合併圖片","description":"將多張圖片橫向、縱向或以網格方式合併為一張。"}
+    "compress_image": {
+      "name": "壓縮圖片",
+      "description": "在保持畫質的同時減少JPG、PNG、WEBP圖片的容量。"
+    },
+    "resize_image": {
+      "name": "調整圖片大小",
+      "description": "依像素或百分比自由調整圖片尺寸。"
+    },
+    "crop_image": {
+      "name": "裁切圖片",
+      "description": "指定像素座標，只裁切出圖片中你需要的區域。"
+    },
+    "convert_image": {
+      "name": "轉換圖片格式",
+      "description": "在JPG、PNG、WEBP、GIF、BMP、TIFF之間自由轉換。"
+    },
+    "rotate_image": {
+      "name": "旋轉圖片",
+      "description": "將圖片旋轉至任意角度，或進行左右/上下翻轉。"
+    },
+    "watermark_image": {
+      "name": "新增浮水印",
+      "description": "為圖片新增文字浮水印，並可調整透明度與位置。"
+    },
+    "meme_generator": {
+      "name": "迷因產生器",
+      "description": "新增上下文字，輕鬆製作迷因圖片。"
+    },
+    "remove_exif": {
+      "name": "移除中繼資料",
+      "description": "刪除照片中的位置與裝置資訊(EXIF)，保護您的隱私。"
+    },
+    "merge_images": {
+      "name": "合併圖片",
+      "description": "將多張圖片橫向、縱向或以網格方式合併為一張。"
+    }
   },
   "CompressImagePage": {
     "title": "壓縮圖片",
@@ -128,7 +155,7 @@
     "converting": "製作中...",
     "error": "產生迷因時發生錯誤。"
   },
-  "RemoveExifPage":   {
+  "RemoveExifPage": {
     "title": "移除中繼資料",
     "description": "刪除照片中的位置與裝置資訊(EXIF)，保護您的隱私。支援批次處理多張圖片。",
     "infoText": "照片中的 GPS 位置、拍攝裝置、拍攝日期等附加資訊都會被刪除，圖片畫質與方向保持不變。",
@@ -136,8 +163,7 @@
     "converting": "移除中...",
     "error": "移除中繼資料時發生錯誤。"
   },
-
-  "MergeImagesPage":   {
+  "MergeImagesPage": {
     "title": "合併圖片",
     "description": "將多張圖片橫向、縱向或以網格方式合併為一張。",
     "layoutLabel": "排列方式",
@@ -149,7 +175,6 @@
     "converting": "合併中...",
     "error": "合併圖片時發生錯誤。"
   },
-
   "LanguageSwitcher": {
     "label": "語言"
   },
@@ -158,33 +183,33 @@
     "sisterSiteLabel": "PDF工具 (mylifepdf.com)",
     "languageHeading": "語言"
   },
-    "FAQ": {
-      "heading": "常見問題",
-      "items": [
-        {
-          "q": "mylifeimg 是免費的嗎?",
-          "a": "是的，全部 7 個工具完全免費，無需註冊帳號。"
-        },
-        {
-          "q": "需要註冊嗎?",
-          "a": "不需要，無需註冊即可立即使用所有功能。"
-        },
-        {
-          "q": "上傳的圖片會怎麼處理?",
-          "a": "伺服器處理完成後會立即自動刪除，不會另外儲存。"
-        },
-        {
-          "q": "支援哪些語言?",
-          "a": "支援韓文、英文、日文、中文(簡體/繁體)、西班牙文、法文、德文、葡萄牙文、俄文、義大利文、荷蘭文、波蘭文、瑞典文、土耳其文、烏克蘭文、越南文、泰文、印尼文、馬來文、印地文、保加利亞文、加泰羅尼亞文、希臘文、史瓦希里文和阿拉伯文。"
-        },
-        {
-          "q": "可以一次處理多張圖片嗎?",
-          "a": "可以，壓縮、調整大小、格式轉換和旋轉工具都支援一次上傳並處理多張圖片。"
-        },
-        {
-          "q": "支援哪些圖片格式?",
-          "a": "支援 JPG、PNG、WEBP、GIF、BMP、TIFF 格式。"
-        }
-      ]
-    }
+  "FAQ": {
+    "heading": "常見問題",
+    "items": [
+      {
+        "q": "mylifeimg 是免費的嗎?",
+        "a": "是的，全部 9 個工具完全免費，無需註冊帳號。"
+      },
+      {
+        "q": "需要註冊嗎?",
+        "a": "不需要，無需註冊即可立即使用所有功能。"
+      },
+      {
+        "q": "上傳的圖片會怎麼處理?",
+        "a": "伺服器處理完成後會立即自動刪除，不會另外儲存。"
+      },
+      {
+        "q": "支援哪些語言?",
+        "a": "支援韓文、英文、日文、中文(簡體/繁體)、西班牙文、法文、德文、葡萄牙文、俄文、義大利文、荷蘭文、波蘭文、瑞典文、土耳其文、烏克蘭文、越南文、泰文、印尼文、馬來文、印地文、保加利亞文、加泰羅尼亞文、希臘文、史瓦希里文和阿拉伯文。"
+      },
+      {
+        "q": "可以一次處理多張圖片嗎?",
+        "a": "可以，壓縮、調整大小、格式轉換和旋轉工具都支援一次上傳並處理多張圖片。"
+      },
+      {
+        "q": "支援哪些圖片格式?",
+        "a": "支援 JPG、PNG、WEBP、GIF、BMP、TIFF 格式。"
+      }
+    ]
+  }
 }

@@ -39,15 +39,42 @@
     "trustNotice": "Afbeeldingen worden automatisch verwijderd na verwerking en alle overdrachten zijn SSL-versleuteld."
   },
   "Tools": {
-    "compress_image": { "name": "Afbeelding comprimeren", "description": "Verklein JPG-, PNG- en WEBP-bestanden met behoud van kwaliteit." },
-    "resize_image": { "name": "Afbeelding formaat wijzigen", "description": "Wijzig het formaat van afbeeldingen in pixels of percentage." },
-    "crop_image": { "name": "Afbeelding bijsnijden", "description": "Snijd het gewenste gebied bij met pixelcoördinaten." },
-    "convert_image": { "name": "Afbeelding converteren", "description": "Converteer vrij tussen JPG, PNG, WEBP, GIF, BMP en TIFF." },
-    "rotate_image": { "name": "Afbeelding draaien", "description": "Draai afbeeldingen in elke gewenste hoek of spiegel ze horizontaal/verticaal." },
-    "watermark_image": { "name": "Watermerk toevoegen", "description": "Voeg een tekstwatermerk toe met instelbare dekking en positie." },
-    "meme_generator": { "name": "Memegenerator", "description": "Voeg boven- en ondertekst toe om snel een meme te maken." },
-    "remove_exif": {"name":"Metadata verwijderen","description":"Verwijder locatie- en apparaatinformatie (EXIF) uit je foto's om je privacy te beschermen."},
-    "merge_images": {"name":"Afbeeldingen samenvoegen","description":"Combineer meerdere afbeeldingen tot één, horizontaal, verticaal of als raster."}
+    "compress_image": {
+      "name": "Afbeelding comprimeren",
+      "description": "Verklein JPG-, PNG- en WEBP-bestanden met behoud van kwaliteit."
+    },
+    "resize_image": {
+      "name": "Afbeelding formaat wijzigen",
+      "description": "Wijzig het formaat van afbeeldingen in pixels of percentage."
+    },
+    "crop_image": {
+      "name": "Afbeelding bijsnijden",
+      "description": "Snijd het gewenste gebied bij met pixelcoördinaten."
+    },
+    "convert_image": {
+      "name": "Afbeelding converteren",
+      "description": "Converteer vrij tussen JPG, PNG, WEBP, GIF, BMP en TIFF."
+    },
+    "rotate_image": {
+      "name": "Afbeelding draaien",
+      "description": "Draai afbeeldingen in elke gewenste hoek of spiegel ze horizontaal/verticaal."
+    },
+    "watermark_image": {
+      "name": "Watermerk toevoegen",
+      "description": "Voeg een tekstwatermerk toe met instelbare dekking en positie."
+    },
+    "meme_generator": {
+      "name": "Memegenerator",
+      "description": "Voeg boven- en ondertekst toe om snel een meme te maken."
+    },
+    "remove_exif": {
+      "name": "Metadata verwijderen",
+      "description": "Verwijder locatie- en apparaatinformatie (EXIF) uit je foto's om je privacy te beschermen."
+    },
+    "merge_images": {
+      "name": "Afbeeldingen samenvoegen",
+      "description": "Combineer meerdere afbeeldingen tot één, horizontaal, verticaal of als raster."
+    }
   },
   "CompressImagePage": {
     "title": "Afbeelding comprimeren",
@@ -128,7 +155,7 @@
     "converting": "Meme wordt gemaakt...",
     "error": "Er is een fout opgetreden bij het maken van de meme."
   },
-  "RemoveExifPage":   {
+  "RemoveExifPage": {
     "title": "Metadata verwijderen",
     "description": "Verwijder locatie- en apparaatinformatie (EXIF) uit je foto's om je privacy te beschermen. Verwerk meerdere afbeeldingen tegelijk.",
     "infoText": "GPS-locatie, cameramodel, opnamedatum en andere verborgen gegevens in je foto's worden volledig verwijderd. Beeldkwaliteit en oriëntatie blijven ongewijzigd.",
@@ -136,8 +163,7 @@
     "converting": "Bezig met verwijderen...",
     "error": "Er is een fout opgetreden bij het verwijderen van de metadata."
   },
-
-  "MergeImagesPage":   {
+  "MergeImagesPage": {
     "title": "Afbeeldingen samenvoegen",
     "description": "Combineer meerdere afbeeldingen tot één, horizontaal, verticaal of als raster.",
     "layoutLabel": "Indeling",
@@ -149,7 +175,6 @@
     "converting": "Bezig met samenvoegen...",
     "error": "Er is een fout opgetreden bij het samenvoegen van de afbeeldingen."
   },
-
   "LanguageSwitcher": {
     "label": "Taal"
   },
@@ -158,33 +183,33 @@
     "sisterSiteLabel": "PDF-tools (mylifepdf.com)",
     "languageHeading": "Taal"
   },
-    "FAQ": {
-      "heading": "Veelgestelde vragen",
-      "items": [
-        {
-          "q": "Is mylifeimg gratis?",
-          "a": "Ja, alle 7 tools zijn volledig gratis en vereisen geen registratie."
-        },
-        {
-          "q": "Moet ik me registreren?",
-          "a": "Nee, je kunt direct alle functies gebruiken zonder registratie."
-        },
-        {
-          "q": "Wat gebeurt er met mijn geüploade afbeeldingen?",
-          "a": "Ze worden op de server verwerkt en daarna automatisch verwijderd - er wordt niets opgeslagen."
-        },
-        {
-          "q": "Welke talen worden ondersteund?",
-          "a": "Koreaans, Engels, Japans, Chinees (vereenvoudigd/traditioneel), Spaans, Frans, Duits, Portugees, Russisch, Italiaans, Nederlands, Pools, Zweeds, Turks, Oekraïens, Vietnamees, Thai, Indonesisch, Maleis, Hindi, Bulgaars, Catalaans, Grieks, Swahili en Arabisch."
-        },
-        {
-          "q": "Kan ik meerdere afbeeldingen tegelijk verwerken?",
-          "a": "Ja, met de tools voor comprimeren, formaat wijzigen, converteren en draaien kun je meerdere afbeeldingen tegelijk uploaden en verwerken."
-        },
-        {
-          "q": "Welke afbeeldingsformaten worden ondersteund?",
-          "a": "JPG, PNG, WEBP, GIF, BMP en TIFF worden allemaal ondersteund."
-        }
-      ]
-    }
+  "FAQ": {
+    "heading": "Veelgestelde vragen",
+    "items": [
+      {
+        "q": "Is mylifeimg gratis?",
+        "a": "Ja, alle 9 tools zijn volledig gratis en vereisen geen registratie."
+      },
+      {
+        "q": "Moet ik me registreren?",
+        "a": "Nee, je kunt direct alle functies gebruiken zonder registratie."
+      },
+      {
+        "q": "Wat gebeurt er met mijn geüploade afbeeldingen?",
+        "a": "Ze worden op de server verwerkt en daarna automatisch verwijderd - er wordt niets opgeslagen."
+      },
+      {
+        "q": "Welke talen worden ondersteund?",
+        "a": "Koreaans, Engels, Japans, Chinees (vereenvoudigd/traditioneel), Spaans, Frans, Duits, Portugees, Russisch, Italiaans, Nederlands, Pools, Zweeds, Turks, Oekraïens, Vietnamees, Thai, Indonesisch, Maleis, Hindi, Bulgaars, Catalaans, Grieks, Swahili en Arabisch."
+      },
+      {
+        "q": "Kan ik meerdere afbeeldingen tegelijk verwerken?",
+        "a": "Ja, met de tools voor comprimeren, formaat wijzigen, converteren en draaien kun je meerdere afbeeldingen tegelijk uploaden en verwerken."
+      },
+      {
+        "q": "Welke afbeeldingsformaten worden ondersteund?",
+        "a": "JPG, PNG, WEBP, GIF, BMP en TIFF worden allemaal ondersteund."
+      }
+    ]
+  }
 }
