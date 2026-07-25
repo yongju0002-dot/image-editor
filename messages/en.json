@@ -183,6 +183,11 @@
     "sisterSiteLabel": "PDF tools (mylifepdf.com)",
     "languageHeading": "Language"
   },
+  "ContactPage": {
+    "title": "Contact Us",
+    "description": "If you have any questions, bug reports, or feature suggestions, please reach out.",
+    "body": "We'll get back to you as soon as possible."
+  },
   "FAQ": {
     "heading": "Frequently Asked Questions",
     "items": [

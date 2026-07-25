@@ -183,6 +183,11 @@
     "sisterSiteLabel": "PDF 도구 (mylifepdf.com)",
     "languageHeading": "언어"
   },
+  "ContactPage": {
+    "title": "문의하기",
+    "description": "문의사항이나 버그 신고, 기능 제안이 있으시면 연락해 주세요.",
+    "body": "가능한 한 빠르게 답변드리겠습니다."
+  },
   "FAQ": {
     "heading": "자주 묻는 질문",
     "items": [

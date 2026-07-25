@@ -183,6 +183,11 @@
     "sisterSiteLabel": "PDFツール (mylifepdf.com)",
     "languageHeading": "言語"
   },
+  "ContactPage": {
+    "title": "お問い合わせ",
+    "description": "ご質問、不具合の報告、機能のご提案などがございましたらご連絡ください。",
+    "body": "できるだけ早くご返信いたします。"
+  },
   "FAQ": {
     "heading": "よくある質問",
     "items": [

@@ -183,6 +183,11 @@
     "sisterSiteLabel": "Ferramentas de PDF (mylifepdf.com)",
     "languageHeading": "Idioma"
   },
+  "ContactPage": {
+    "title": "Fale conosco",
+    "description": "Se tiver dúvidas, relatos de bugs ou sugestões de recursos, entre em contato.",
+    "body": "Responderemos o mais rápido possível."
+  },
   "FAQ": {
     "heading": "Perguntas frequentes",
     "items": [

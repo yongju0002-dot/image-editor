@@ -183,6 +183,11 @@
     "sisterSiteLabel": "PDF araçları (mylifepdf.com)",
     "languageHeading": "Dil"
   },
+  "ContactPage": {
+    "title": "Bize Ulaşın",
+    "description": "Sorularınız, hata bildirimleriniz veya özellik önerileriniz için bize ulaşın.",
+    "body": "En kısa sürede size geri döneceğiz."
+  },
   "FAQ": {
     "heading": "Sık Sorulan Sorular",
     "items": [

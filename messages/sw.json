@@ -183,6 +183,12 @@
     "sisterSiteLabel": "Zana za PDF (mylifepdf.com)",
     "languageHeading": "Lugha"
   },
+      "ContactPage": {
+      "title": "Wasiliana Nasi",
+      "description": "Ikiwa una maswali, ripoti za hitilafu, au mapendekezo ya vipengele, tafadhali wasiliana nasi.",
+      "body": "Tutakujibu haraka iwezekanavyo."
+    },
+
   "FAQ": {
     "heading": "Maswali Yanayoulizwa Mara kwa Mara",
     "items": [

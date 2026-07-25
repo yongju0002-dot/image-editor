@@ -183,6 +183,12 @@
     "sisterSiteLabel": "Alat PDF (mylifepdf.com)",
     "languageHeading": "Bahasa"
   },
+      "ContactPage": {
+      "title": "Hubungi Kami",
+      "description": "Jika Anda memiliki pertanyaan, laporan bug, atau saran fitur, silakan hubungi kami.",
+      "body": "Kami akan membalas Anda secepat mungkin."
+    },
+
   "FAQ": {
     "heading": "Pertanyaan yang Sering Diajukan",
     "items": [

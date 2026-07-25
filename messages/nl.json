@@ -183,6 +183,11 @@
     "sisterSiteLabel": "PDF-tools (mylifepdf.com)",
     "languageHeading": "Taal"
   },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "Heb je vragen, bugmeldingen of suggesties voor functies? Neem contact op.",
+    "body": "We reageren zo snel mogelijk."
+  },
   "FAQ": {
     "heading": "Veelgestelde vragen",
     "items": [

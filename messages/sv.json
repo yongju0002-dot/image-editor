@@ -183,6 +183,11 @@
     "sisterSiteLabel": "PDF-verktyg (mylifepdf.com)",
     "languageHeading": "Språk"
   },
+  "ContactPage": {
+    "title": "Kontakta oss",
+    "description": "Om du har frågor, buggrapporter eller funktionsförslag, hör av dig.",
+    "body": "Vi återkommer till dig så snart som möjligt."
+  },
   "FAQ": {
     "heading": "Vanliga frågor",
     "items": [

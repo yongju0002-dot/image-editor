@@ -183,6 +183,11 @@
     "sisterSiteLabel": "PDF-Tools (mylifepdf.com)",
     "languageHeading": "Sprache"
   },
+  "ContactPage": {
+    "title": "Kontakt",
+    "description": "Bei Fragen, Fehlerberichten oder Funktionsvorschlägen wenden Sie sich bitte an uns.",
+    "body": "Wir melden uns so schnell wie möglich bei Ihnen."
+  },
   "FAQ": {
     "heading": "Häufig gestellte Fragen",
     "items": [

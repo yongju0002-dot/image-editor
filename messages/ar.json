@@ -183,6 +183,12 @@
     "sisterSiteLabel": "أدوات PDF (mylifepdf.com)",
     "languageHeading": "اللغة"
   },
+      "ContactPage": {
+      "title": "اتصل بنا",
+      "description": "إذا كانت لديك أي أسئلة أو تقارير عن أخطاء أو اقتراحات لميزات، يرجى التواصل معنا.",
+      "body": "سنرد عليك في أقرب وقت ممكن."
+    },
+
   "FAQ": {
     "heading": "الأسئلة الشائعة",
     "items": [

@@ -183,6 +183,12 @@
     "sisterSiteLabel": "Eines PDF (mylifepdf.com)",
     "languageHeading": "Idioma"
   },
+      "ContactPage": {
+      "title": "Contacta'ns",
+      "description": "Si tens preguntes, informes d'errors o suggeriments de funcionalitats, contacta'ns.",
+      "body": "Et respondrem tan aviat com sigui possible."
+    },
+
   "FAQ": {
     "heading": "Preguntes freqüents",
     "items": [

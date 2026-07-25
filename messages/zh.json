@@ -183,6 +183,11 @@
     "sisterSiteLabel": "PDF工具 (mylifepdf.com)",
     "languageHeading": "语言"
   },
+  "ContactPage": {
+    "title": "联系我们",
+    "description": "如有任何问题、错误报告或功能建议，欢迎联系我们。",
+    "body": "我们会尽快回复您。"
+  },
   "FAQ": {
     "heading": "常见问题",
     "items": [

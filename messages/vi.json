@@ -183,6 +183,11 @@
     "sisterSiteLabel": "Công cụ PDF (mylifepdf.com)",
     "languageHeading": "Ngôn ngữ"
   },
+  "ContactPage": {
+    "title": "Liên hệ với chúng tôi",
+    "description": "Nếu bạn có bất kỳ câu hỏi, báo cáo lỗi hoặc đề xuất tính năng nào, hãy liên hệ với chúng tôi.",
+    "body": "Chúng tôi sẽ phản hồi bạn sớm nhất có thể."
+  },
   "FAQ": {
     "heading": "Câu hỏi thường gặp",
     "items": [
