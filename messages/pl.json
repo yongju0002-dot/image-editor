@@ -12,7 +12,10 @@
     "quickConvert": "Konwertuj obraz"
   },
   "Footer": {
-    "notice": "Przesłane obrazy są automatycznie usuwane po przetworzeniu."
+    "notice": "Przesłane obrazy są automatycznie usuwane po przetworzeniu.",
+    "terms": "Warunki korzystania",
+    "privacy": "Polityka prywatności",
+    "contact": "Kontakt"
   },
   "Categories": {
     "optimize": "Optymalizacja",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "Kliknij lub przeciągnij, aby dodać więcej",
     "removeFile": "Usuń plik",
     "comingSoon": "Wkrótce",
-    "genericError": "Wystąpił błąd podczas przetwarzania."
+    "genericError": "Wystąpił błąd podczas przetwarzania.",
+    "trustNotice": "Obrazy są automatycznie usuwane po przetworzeniu, a wszystkie transfery są szyfrowane SSL."
   },
   "Tools": {
     "compress_image": { "name": "Kompresuj obraz", "description": "Zmniejsz rozmiar plików JPG, PNG i WEBP z zachowaniem jakości." },

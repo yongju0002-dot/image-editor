@@ -12,7 +12,10 @@
     "quickConvert": "画像形式変換"
   },
   "Footer": {
-    "notice": "アップロードされた画像は処理後、自動的に削除されます。"
+    "notice": "アップロードされた画像は処理後、自動的に削除されます。",
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "contact": "お問い合わせ"
   },
   "Categories": {
     "optimize": "最適化",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "クリックまたはドラッグして追加",
     "removeFile": "ファイルを削除",
     "comingSoon": "近日公開",
-    "genericError": "処理中にエラーが発生しました。"
+    "genericError": "処理中にエラーが発生しました。",
+    "trustNotice": "画像は処理後に自動的に削除され、すべての通信はSSLで暗号化されています。"
   },
   "Tools": {
     "compress_image": { "name": "画像圧縮", "description": "画質を保ちながらJPG、PNG、WEBP画像の容量を減らします。" },

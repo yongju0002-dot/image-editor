@@ -12,7 +12,10 @@
     "quickConvert": "Badilisha Muundo wa Picha"
   },
   "Footer": {
-    "notice": "Picha zilizopakiwa hufutwa kiotomatiki baada ya kuchakatwa."
+    "notice": "Picha zilizopakiwa hufutwa kiotomatiki baada ya kuchakatwa.",
+    "terms": "Masharti ya Huduma",
+    "privacy": "Sera ya Faragha",
+    "contact": "Wasiliana Nasi"
   },
   "Categories": {
     "optimize": "Boresha",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "Bofya au buruta ili kuongeza zaidi",
     "removeFile": "Ondoa faili",
     "comingSoon": "Inakuja hivi karibuni",
-    "genericError": "Hitilafu imetokea wakati wa kuchakata."
+    "genericError": "Hitilafu imetokea wakati wa kuchakata.",
+    "trustNotice": "Picha hufutwa kiotomatiki baada ya kuchakatwa, na uhamishaji wote unalindwa kwa usimbaji wa SSL."
   },
   "Tools": {
     "compress_image": { "name": "Punguza Ukubwa wa Picha", "description": "Punguza ukubwa wa faili za JPG, PNG na WEBP huku ukidumisha ubora." },

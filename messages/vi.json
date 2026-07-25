@@ -12,7 +12,10 @@
     "quickConvert": "Chuyển đổi ảnh"
   },
   "Footer": {
-    "notice": "Ảnh đã tải lên sẽ tự động bị xóa sau khi xử lý."
+    "notice": "Ảnh đã tải lên sẽ tự động bị xóa sau khi xử lý.",
+    "terms": "Điều khoản dịch vụ",
+    "privacy": "Chính sách bảo mật",
+    "contact": "Liên hệ"
   },
   "Categories": {
     "optimize": "Tối ưu hóa",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "Nhấp hoặc kéo để thêm ảnh",
     "removeFile": "Xóa tệp",
     "comingSoon": "Sắp ra mắt",
-    "genericError": "Đã xảy ra lỗi trong quá trình xử lý."
+    "genericError": "Đã xảy ra lỗi trong quá trình xử lý.",
+    "trustNotice": "Hình ảnh sẽ tự động bị xóa sau khi xử lý và mọi quá trình truyền tải đều được mã hóa SSL."
   },
   "Tools": {
     "compress_image": { "name": "Nén ảnh", "description": "Giảm dung lượng ảnh JPG, PNG, WEBP trong khi vẫn giữ chất lượng." },

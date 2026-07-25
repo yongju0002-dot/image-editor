@@ -11,6 +11,18 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/[locale]": ["./messages/*.json"],
   },
+  async headers() {
+    // Next.js already sends immutable long-cache headers for hashed
+    // /_next/static/* assets; the brand images under /public don't get that
+    // by default, so Cloudflare (and browsers) treat them as uncacheable.
+    const oneYear = "public, max-age=31536000, immutable";
+    return [
+      {
+        source: "/logo.png",
+        headers: [{ key: "Cache-Control", value: oneYear }],
+      },
+    ];
+  },
 };
 
 const withNextIntl = createNextIntlPlugin();

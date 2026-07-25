@@ -1,6 +1,6 @@
 "use client";
 
-import { ImageIcon, UploadCloud, X } from "lucide-react";
+import { ImageIcon, Lock, UploadCloud, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
@@ -112,6 +112,11 @@ export function ImageDropzone({
           ))}
         </ul>
       )}
+
+      <p className="flex items-center justify-center gap-1.5 text-xs text-zinc-400 dark:text-zinc-500">
+        <Lock className="h-3 w-3" strokeWidth={1.75} />
+        {t("trustNotice")}
+      </p>
     </div>
   );
 }

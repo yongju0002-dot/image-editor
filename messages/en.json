@@ -12,7 +12,10 @@
     "quickConvert": "Convert Image"
   },
   "Footer": {
-    "notice": "Uploaded images are automatically deleted after processing."
+    "notice": "Uploaded images are automatically deleted after processing.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "contact": "Contact Us"
   },
   "Categories": {
     "optimize": "Optimize",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "Click or drag to add more",
     "removeFile": "Remove file",
     "comingSoon": "Coming soon",
-    "genericError": "Something went wrong while processing."
+    "genericError": "Something went wrong while processing.",
+    "trustNotice": "Images are automatically deleted after processing, and all transfers are SSL-encrypted."
   },
   "Tools": {
     "compress_image": { "name": "Compress Image", "description": "Shrink JPG, PNG, and WEBP file sizes while keeping the quality." },

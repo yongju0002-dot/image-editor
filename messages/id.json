@@ -12,7 +12,10 @@
     "quickConvert": "Konversi Gambar"
   },
   "Footer": {
-    "notice": "Gambar yang diunggah akan otomatis dihapus setelah diproses."
+    "notice": "Gambar yang diunggah akan otomatis dihapus setelah diproses.",
+    "terms": "Ketentuan Layanan",
+    "privacy": "Kebijakan Privasi",
+    "contact": "Hubungi Kami"
   },
   "Categories": {
     "optimize": "Optimasi",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "Klik atau seret untuk menambahkan lagi",
     "removeFile": "Hapus file",
     "comingSoon": "Segera hadir",
-    "genericError": "Terjadi kesalahan saat memproses."
+    "genericError": "Terjadi kesalahan saat memproses.",
+    "trustNotice": "Gambar akan otomatis dihapus setelah diproses, dan semua transfer dienkripsi dengan SSL."
   },
   "Tools": {
     "compress_image": { "name": "Kompres Gambar", "description": "Kecilkan ukuran file JPG, PNG, dan WEBP tanpa mengurangi kualitas." },

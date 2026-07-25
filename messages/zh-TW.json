@@ -12,7 +12,10 @@
     "quickConvert": "轉換圖片格式"
   },
   "Footer": {
-    "notice": "上傳的圖片將在處理後自動刪除。"
+    "notice": "上傳的圖片將在處理後自動刪除。",
+    "terms": "服務條款",
+    "privacy": "隱私政策",
+    "contact": "聯絡我們"
   },
   "Categories": {
     "optimize": "最佳化",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "點擊或拖放以新增更多",
     "removeFile": "移除檔案",
     "comingSoon": "即將推出",
-    "genericError": "處理時發生錯誤。"
+    "genericError": "處理時發生錯誤。",
+    "trustNotice": "圖片在處理後會自動刪除，所有傳輸皆採用SSL加密。"
   },
   "Tools": {
     "compress_image": { "name": "壓縮圖片", "description": "在保持畫質的同時減少JPG、PNG、WEBP圖片的容量。" },

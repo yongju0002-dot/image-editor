@@ -12,7 +12,10 @@
     "quickConvert": "Görsel Dönüştür"
   },
   "Footer": {
-    "notice": "Yüklenen görseller işlendikten sonra otomatik olarak silinir."
+    "notice": "Yüklenen görseller işlendikten sonra otomatik olarak silinir.",
+    "terms": "Kullanım Koşulları",
+    "privacy": "Gizlilik Politikası",
+    "contact": "İletişim"
   },
   "Categories": {
     "optimize": "Optimize Et",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "Daha fazla eklemek için tıklayın veya sürükleyin",
     "removeFile": "Dosyayı kaldır",
     "comingSoon": "Yakında",
-    "genericError": "İşlem sırasında bir hata oluştu."
+    "genericError": "İşlem sırasında bir hata oluştu.",
+    "trustNotice": "Görseller işlendikten sonra otomatik olarak silinir ve tüm aktarımlar SSL ile şifrelenir."
   },
   "Tools": {
     "compress_image": { "name": "Görsel Sıkıştır", "description": "Kaliteyi koruyarak JPG, PNG ve WEBP dosya boyutunu küçültün." },

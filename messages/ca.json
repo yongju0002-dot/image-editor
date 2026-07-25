@@ -12,7 +12,10 @@
     "quickConvert": "Convertir imatge"
   },
   "Footer": {
-    "notice": "Les imatges pujades s'esborren automàticament després de processar-se."
+    "notice": "Les imatges pujades s'esborren automàticament després de processar-se.",
+    "terms": "Termes del servei",
+    "privacy": "Política de privacitat",
+    "contact": "Contacte"
   },
   "Categories": {
     "optimize": "Optimitzar",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "Clica o arrossega per afegir-ne més",
     "removeFile": "Eliminar fitxer",
     "comingSoon": "Properament",
-    "genericError": "S'ha produït un error durant el processament."
+    "genericError": "S'ha produït un error durant el processament.",
+    "trustNotice": "Les imatges s'eliminen automàticament després del processament i totes les transferències estan xifrades amb SSL."
   },
   "Tools": {
     "compress_image": { "name": "Comprimir imatge", "description": "Redueix la mida d'imatges JPG, PNG i WEBP mantenint la qualitat." },

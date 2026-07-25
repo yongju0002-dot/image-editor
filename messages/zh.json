@@ -12,7 +12,10 @@
     "quickConvert": "转换图片格式"
   },
   "Footer": {
-    "notice": "上传的图片将在处理后自动删除。"
+    "notice": "上传的图片将在处理后自动删除。",
+    "terms": "服务条款",
+    "privacy": "隐私政策",
+    "contact": "联系我们"
   },
   "Categories": {
     "optimize": "优化",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "点击或拖放以添加更多",
     "removeFile": "移除文件",
     "comingSoon": "即将推出",
-    "genericError": "处理时发生错误。"
+    "genericError": "处理时发生错误。",
+    "trustNotice": "图片在处理后会自动删除，所有传输均采用SSL加密。"
   },
   "Tools": {
     "compress_image": { "name": "压缩图片", "description": "在保持画质的同时减小JPG、PNG、WEBP图片的体积。" },

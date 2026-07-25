@@ -12,7 +12,10 @@
     "quickConvert": "Bild konvertieren"
   },
   "Footer": {
-    "notice": "Hochgeladene Bilder werden nach der Verarbeitung automatisch gelöscht."
+    "notice": "Hochgeladene Bilder werden nach der Verarbeitung automatisch gelöscht.",
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutzerklärung",
+    "contact": "Kontakt"
   },
   "Categories": {
     "optimize": "Optimieren",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "Klicken oder ziehen, um weitere hinzuzufügen",
     "removeFile": "Datei entfernen",
     "comingSoon": "Demnächst verfügbar",
-    "genericError": "Bei der Verarbeitung ist ein Fehler aufgetreten."
+    "genericError": "Bei der Verarbeitung ist ein Fehler aufgetreten.",
+    "trustNotice": "Bilder werden nach der Verarbeitung automatisch gelöscht, und alle Übertragungen sind SSL-verschlüsselt."
   },
   "Tools": {
     "compress_image": { "name": "Bild komprimieren", "description": "Verkleinere JPG-, PNG- und WEBP-Dateien bei erhaltener Qualität." },

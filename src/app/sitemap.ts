@@ -4,14 +4,21 @@ import { tools } from "@/lib/tools";
 import { siteUrl } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pathnames = ["", ...tools.filter((t) => t.available).map((t) => `/${t.slug}`)];
+  const pathnames = [
+    "",
+    ...tools.filter((t) => t.available).map((t) => `/${t.slug}`),
+    "/terms",
+    "/privacy",
+    "/contact",
+  ];
+  const lowPriorityPaths = new Set(["/terms", "/privacy", "/contact"]);
 
   return pathnames.flatMap((pathname) =>
     routing.locales.map((locale) => ({
       url: `${siteUrl}/${locale}${pathname}`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
-      priority: pathname === "" ? 1 : 0.8,
+      priority: pathname === "" ? 1 : lowPriorityPaths.has(pathname) ? 0.3 : 0.8,
       alternates: {
         languages: Object.fromEntries(
           routing.locales.map((l) => [l, `${siteUrl}/${l}${pathname}`]),

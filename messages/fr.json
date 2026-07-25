@@ -12,7 +12,10 @@
     "quickConvert": "Convertir une image"
   },
   "Footer": {
-    "notice": "Les images envoyées sont automatiquement supprimées après traitement."
+    "notice": "Les images envoyées sont automatiquement supprimées après traitement.",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "contact": "Contact"
   },
   "Categories": {
     "optimize": "Optimiser",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "Cliquez ou glissez pour en ajouter",
     "removeFile": "Supprimer le fichier",
     "comingSoon": "Bientôt disponible",
-    "genericError": "Une erreur est survenue pendant le traitement."
+    "genericError": "Une erreur est survenue pendant le traitement.",
+    "trustNotice": "Les images sont automatiquement supprimées après le traitement, et tous les transferts sont chiffrés en SSL."
   },
   "Tools": {
     "compress_image": { "name": "Compresser une image", "description": "Réduisez la taille des images JPG, PNG et WEBP tout en conservant la qualité." },

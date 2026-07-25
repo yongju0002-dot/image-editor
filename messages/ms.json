@@ -12,7 +12,10 @@
     "quickConvert": "Tukar Imej"
   },
   "Footer": {
-    "notice": "Imej yang dimuat naik akan dipadam secara automatik selepas diproses."
+    "notice": "Imej yang dimuat naik akan dipadam secara automatik selepas diproses.",
+    "terms": "Terma Perkhidmatan",
+    "privacy": "Dasar Privasi",
+    "contact": "Hubungi Kami"
   },
   "Categories": {
     "optimize": "Optimumkan",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "Klik atau seret untuk menambah lagi",
     "removeFile": "Alih keluar fail",
     "comingSoon": "Akan datang",
-    "genericError": "Ralat berlaku semasa pemprosesan."
+    "genericError": "Ralat berlaku semasa pemprosesan.",
+    "trustNotice": "Imej akan dipadam secara automatik selepas diproses, dan semua pemindahan disulitkan dengan SSL."
   },
   "Tools": {
     "compress_image": { "name": "Mampatkan Imej", "description": "Kecilkan saiz fail JPG, PNG dan WEBP sambil mengekalkan kualiti." },

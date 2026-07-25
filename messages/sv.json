@@ -12,7 +12,10 @@
     "quickConvert": "Konvertera bild"
   },
   "Footer": {
-    "notice": "Uppladdade bilder raderas automatiskt efter bearbetning."
+    "notice": "Uppladdade bilder raderas automatiskt efter bearbetning.",
+    "terms": "Användarvillkor",
+    "privacy": "Integritetspolicy",
+    "contact": "Kontakt"
   },
   "Categories": {
     "optimize": "Optimera",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "Klicka eller dra för att lägga till fler",
     "removeFile": "Ta bort fil",
     "comingSoon": "Kommer snart",
-    "genericError": "Ett fel uppstod vid bearbetningen."
+    "genericError": "Ett fel uppstod vid bearbetningen.",
+    "trustNotice": "Bilder raderas automatiskt efter bearbetning, och alla överföringar är SSL-krypterade."
   },
   "Tools": {
     "compress_image": { "name": "Komprimera bild", "description": "Minska filstorleken på JPG-, PNG- och WEBP-bilder med bibehållen kvalitet." },

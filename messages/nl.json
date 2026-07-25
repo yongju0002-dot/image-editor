@@ -12,7 +12,10 @@
     "quickConvert": "Afbeelding converteren"
   },
   "Footer": {
-    "notice": "Geüploade afbeeldingen worden na verwerking automatisch verwijderd."
+    "notice": "Geüploade afbeeldingen worden na verwerking automatisch verwijderd.",
+    "terms": "Servicevoorwaarden",
+    "privacy": "Privacybeleid",
+    "contact": "Contact"
   },
   "Categories": {
     "optimize": "Optimaliseren",
@@ -32,7 +35,8 @@
     "dropzoneAddHint": "Klik of sleep om meer toe te voegen",
     "removeFile": "Bestand verwijderen",
     "comingSoon": "Binnenkort beschikbaar",
-    "genericError": "Er is een fout opgetreden tijdens de verwerking."
+    "genericError": "Er is een fout opgetreden tijdens de verwerking.",
+    "trustNotice": "Afbeeldingen worden automatisch verwijderd na verwerking en alle overdrachten zijn SSL-versleuteld."
   },
   "Tools": {
     "compress_image": { "name": "Afbeelding comprimeren", "description": "Verklein JPG-, PNG- en WEBP-bestanden met behoud van kwaliteit." },
