@@ -83,7 +83,21 @@
     "qualityHint": "Lägre värden minskar filstorleken men sänker även bildkvaliteten.",
     "submit": "Komprimera bild",
     "converting": "Komprimerar...",
-    "error": "Ett fel uppstod vid komprimering."
+    "error": "Ett fel uppstod vid komprimering.",
+    "faq": [
+      {
+        "q": "Minskar komprimering av en bild kvaliteten mycket?",
+        "a": "Använd kvalitetsreglaget för att själv balansera filstorlek och kvalitet. Runt 70-80% ser oftast nästan likadant ut samtidigt som filstorleken minskar avsevärt."
+      },
+      {
+        "q": "Hur uppfyller jag en filstorleksgräns för en myndighetsansökan?",
+        "a": "Sänk kvaliteten tills resultatet är under den nödvändiga storleken. De flesta gränser (2MB, 5MB osv.) uppnås med cirka 70% kvalitet."
+      },
+      {
+        "q": "Jag behöver krympa foton för e-post eller meddelandeappar med bilagegräns.",
+        "a": "Ja, ladda upp flera bilder samtidigt och komprimera dem alla till önskad kvalitet i ett svep - resultatet laddas ner tillsammans som en ZIP."
+      }
+    ]
   },
   "ResizeImagePage": {
     "title": "Ändra bildstorlek",
@@ -100,7 +114,21 @@
     "keepAspectLabel": "Behåll originalproportioner (att lämna ett fält tomt beräknas automatiskt)",
     "submit": "Ändra bildstorlek",
     "converting": "Ändrar storlek...",
-    "error": "Ett fel uppstod vid storleksändring."
+    "error": "Ett fel uppstod vid storleksändring.",
+    "faq": [
+      {
+        "q": "Hur ändrar jag storlek på ett foto till ett specifikt utskriftsformat, som ett passfoto?",
+        "a": "Byt till pixelläge och ange exakt bredd och höjd du behöver - passfoton är till exempel oftast runt 413x531px."
+      },
+      {
+        "q": "Kan jag anpassa en bild till Instagrams profil- eller story-mått?",
+        "a": "Ja, ange bara den exakta pixelstorlek du behöver (t.ex. 320x320px för en profil, 1080x1920px för en story)."
+      },
+      {
+        "q": "Kan jag ändra storlek på flera foton till samma storlek samtidigt?",
+        "a": "Ja, ladda upp flera bilder så ändras alla med samma inställningar och laddas sedan ner tillsammans som en ZIP."
+      }
+    ]
   },
   "CropImagePage": {
     "title": "Beskär bild",
@@ -113,7 +141,21 @@
     "heightLabel": "Höjd (px)",
     "submit": "Beskär bild",
     "cropping": "Beskär...",
-    "error": "Ett fel uppstod vid beskärning."
+    "error": "Ett fel uppstod vid beskärning.",
+    "faq": [
+      {
+        "q": "Hur beskär jag ett foto till en fyrkant, till exempel för en profilbild?",
+        "a": "Ange samma värde för bredd och höjd för en perfekt fyrkant, och ställ in X/Y-koordinaterna för området du vill behålla."
+      },
+      {
+        "q": "Kan jag klippa bort bara den oönskade bakgrunden från ett foto?",
+        "a": "Ja, ange X/Y-position och bredd/höjd för området du vill behålla, så tas allt annat bort."
+      },
+      {
+        "q": "Kan jag beskära med exakta pixelkoordinater?",
+        "a": "Ja, du kan ställa in exakt X/Y-startpunkt och bredd/höjd i pixlar för precis beskärning."
+      }
+    ]
   },
   "ConvertImagePage": {
     "title": "Konvertera bild",
@@ -121,7 +163,21 @@
     "formatLabel": "Konvertera till",
     "submit": "Konvertera till {format}",
     "converting": "Konverterar...",
-    "error": "Ett fel uppstod vid konvertering."
+    "error": "Ett fel uppstod vid konvertering.",
+    "faq": [
+      {
+        "q": "Vad händer med transparens när jag konverterar PNG till JPG?",
+        "a": "JPG stöder inte transparens, så transparenta områden fylls med en vit bakgrund."
+      },
+      {
+        "q": "Kan jag konvertera en GIF till en stillbild?",
+        "a": "Ja, att konvertera en GIF till PNG eller JPG sparar dess första bildruta som en stillbild."
+      },
+      {
+        "q": "Varför skulle jag konvertera en bild till WEBP för min webbplats?",
+        "a": "WEBP-filer är oftast mindre än JPG eller PNG vid samma kvalitet, vilket hjälper din webbplats att ladda snabbare."
+      }
+    ]
   },
   "RotateImagePage": {
     "title": "Rotera bild",
@@ -131,7 +187,21 @@
     "flipVLabel": "Vänd vertikalt",
     "submit": "Rotera bild",
     "converting": "Roterar...",
-    "error": "Ett fel uppstod vid rotering."
+    "error": "Ett fel uppstod vid rotering.",
+    "faq": [
+      {
+        "q": "Mitt skannade foto ligger på sidan - hur rätar jag ut det?",
+        "a": "Välj en rotation på 90, 180 eller 270 grader för att direkt rikta det till önskad orientering."
+      },
+      {
+        "q": "Kan jag vända ett foto horisontellt för att skapa en spegelbild?",
+        "a": "Ja, alternativet för horisontell vändning speglar bilden från vänster till höger. Vertikal vändning finns också separat."
+      },
+      {
+        "q": "Mina mobilfoton sparas alltid i fel orientering - kan detta fixa det?",
+        "a": "Ja, rotera till rätt vinkel och spara den nya versionen; orienteringen förblir sedan fast."
+      }
+    ]
   },
   "WatermarkImagePage": {
     "title": "Lägg till vattenstämpel",
@@ -142,7 +212,21 @@
     "fontSizeLabel": "Textstorlek",
     "submit": "Lägg till vattenstämpel",
     "converting": "Lägger till vattenstämpel...",
-    "error": "Ett fel uppstod när vattenstämpeln skulle läggas till."
+    "error": "Ett fel uppstod när vattenstämpeln skulle läggas till.",
+    "faq": [
+      {
+        "q": "Jag vill lägga till en upphovsrättsvattenstämpel på mina foton.",
+        "a": "Ange din vattenstämpeltext och justera position, opacitet och teckenstorlek för att stila den precis som du vill."
+      },
+      {
+        "q": "Kan jag finjustera vattenstämpelns opacitet och position?",
+        "a": "Ja, använd opacitetsreglaget och 9-positionsrutnätet för exakt kontroll."
+      },
+      {
+        "q": "Jag vill förhindra att andra återanvänder mina foton utan kreditering.",
+        "a": "Ja, att lägga till en synlig vattenstämpel hjälper till att markera ägarskap och avskräcker från otillåten användning."
+      }
+    ]
   },
   "MemeGeneratorPage": {
     "title": "Memegenerator",
@@ -153,7 +237,21 @@
     "bottomTextPlaceholder": "t.ex. FINALLY WORKS",
     "submit": "Skapa meme",
     "converting": "Skapar meme...",
-    "error": "Ett fel uppstod när memet skulle skapas."
+    "error": "Ett fel uppstod när memet skulle skapas.",
+    "faq": [
+      {
+        "q": "Kan jag lägga till bildtextliknande text på en memebild?",
+        "a": "Ja, skriv din text i de övre och nedre fälten så läggs den automatiskt till i fetstil i memestil med vit kant."
+      },
+      {
+        "q": "Kan jag använda bara en övre eller nedre bildtext istället för båda?",
+        "a": "Ja, att bara fylla i det övre eller nedre fältet fungerar också bra."
+      },
+      {
+        "q": "Kan jag ladda ner det färdiga memet direkt?",
+        "a": "Ja, att klicka på skapa-knappen laddar ner ditt färdiga meme direkt."
+      }
+    ]
   },
   "RemoveExifPage": {
     "title": "Ta bort metadata",
@@ -161,7 +259,21 @@
     "infoText": "GPS-position, kameramodell, tagningsdatum och annan dold information i dina bilder tas bort helt. Bildkvalitet och orientering förblir oförändrade.",
     "submit": "Ta bort metadata",
     "converting": "Tar bort...",
-    "error": "Ett fel uppstod när metadata skulle tas bort."
+    "error": "Ett fel uppstod när metadata skulle tas bort.",
+    "faq": [
+      {
+        "q": "Jag vill ta bort platsdata (GPS) inbäddad i ett foto.",
+        "a": "Verktyget för borttagning av metadata rensar all EXIF-data, inklusive GPS-plats, enhetsmodell och tagningsdatum."
+      },
+      {
+        "q": "Jag oroar mig för att min plats syns i foton jag lägger upp för annonser.",
+        "a": "Ja, att bearbeta ett foto med detta verktyg tar bort all inbäddad metadata, inklusive plats, så det är säkert att dela."
+      },
+      {
+        "q": "Ändrar borttagning av metadata fotots kvalitet eller orientering?",
+        "a": "Nej, bildkvaliteten och orienteringen förblir exakt desamma - endast dold metadata tas bort."
+      }
+    ]
   },
   "MergeImagesPage": {
     "title": "Slå ihop bilder",
@@ -173,7 +285,21 @@
     "gapLabel": "Mellanrum mellan bilder",
     "submit": "Slå ihop bilder",
     "converting": "Slår ihop...",
-    "error": "Ett fel uppstod när bilderna skulle slås ihop."
+    "error": "Ett fel uppstod när bilderna skulle slås ihop.",
+    "faq": [
+      {
+        "q": "Jag vill kombinera flera foton till en bild för att lägga upp på sociala medier.",
+        "a": "Ja, ladda upp flera bilder och välj en horisontell, vertikal eller rutnätslayout för att slå ihop dem till en."
+      },
+      {
+        "q": "Kan jag göra ett collage av flera foton?",
+        "a": "Ja, att välja rutnätslayouten arrangerar automatiskt dina foton i ett rutnät i collagestil."
+      },
+      {
+        "q": "Kan jag justera avståndet mellan bilder?",
+        "a": "Ja, använd mellanrumsinställningen för att styra avståndet mellan bilder från 0 till 40px."
+      }
+    ]
   },
   "LanguageSwitcher": {
     "label": "Språk"

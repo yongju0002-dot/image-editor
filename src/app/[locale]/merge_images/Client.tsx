@@ -10,11 +10,13 @@ import { ToggleGroup } from "@/components/ui/ToggleGroup";
 import { SliderField } from "@/components/ui/SliderField";
 import { SubmitButton } from "@/components/ui/SubmitButton";
 import { Callout } from "@/components/ui/Callout";
+import { ToolFaqSection } from "@/components/ToolFaqSection";
 
 type Layout = "horizontal" | "vertical" | "grid";
 
 export default function Client() {
   const t = useTranslations("MergeImagesPage");
+  const faqItems = t.raw("faq") as { q: string; a: string }[];
   const [files, setFiles] = useState<File[]>([]);
   const [layout, setLayout] = useState<Layout>("horizontal");
   const [gap, setGap] = useState(10);
@@ -97,6 +99,8 @@ export default function Client() {
           {loading ? t("converting") : t("submit")}
         </SubmitButton>
       </div>
+
+      <ToolFaqSection items={faqItems} />
     </ToolPageShell>
   );
 }

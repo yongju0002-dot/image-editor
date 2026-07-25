@@ -9,9 +9,11 @@ import { ImageDropzone } from "@/components/ui/ImageDropzone";
 import { TextField } from "@/components/ui/TextField";
 import { SubmitButton } from "@/components/ui/SubmitButton";
 import { Callout } from "@/components/ui/Callout";
+import { ToolFaqSection } from "@/components/ToolFaqSection";
 
 export default function Client() {
   const t = useTranslations("MemeGeneratorPage");
+  const faqItems = t.raw("faq") as { q: string; a: string }[];
   const [files, setFiles] = useState<File[]>([]);
   const [topText, setTopText] = useState("");
   const [bottomText, setBottomText] = useState("");
@@ -88,6 +90,8 @@ export default function Client() {
           {loading ? t("converting") : t("submit")}
         </SubmitButton>
       </div>
+
+      <ToolFaqSection items={faqItems} />
     </ToolPageShell>
   );
 }

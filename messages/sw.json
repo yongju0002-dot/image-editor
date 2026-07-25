@@ -83,7 +83,21 @@
     "qualityHint": "Thamani ya chini hupunguza ukubwa wa faili, lakini pia hupunguza ubora wa picha.",
     "submit": "Punguza Ukubwa wa Picha",
     "converting": "Inabana...",
-    "error": "Hitilafu imetokea wakati wa kubana."
+    "error": "Hitilafu imetokea wakati wa kubana.",
+    "faq": [
+      {
+        "q": "Je, kubana picha hupunguza ubora sana?",
+        "a": "Tumia kitelezi cha ubora kusawazisha mwenyewe ukubwa wa faili na ubora. Karibu 70-80% kwa kawaida huonekana karibu sawa huku ukubwa wa faili ukipungua kwa kiasi kikubwa."
+      },
+      {
+        "q": "Nawezaje kufikia kikomo cha ukubwa wa faili kwa uwasilishaji wa serikali?",
+        "a": "Punguza ubora hadi matokeo yawe chini ya ukubwa unaohitajika. Vikomo vingi (2MB, 5MB, n.k.) vinaweza kufikiwa kwa ubora wa karibu 70%."
+      },
+      {
+        "q": "Ninahitaji kupunguza picha kwa barua pepe au programu za ujumbe zenye kikomo cha ukubwa wa kiambatisho.",
+        "a": "Ndiyo, pakia picha nyingi kwa wakati mmoja na uzibane zote kwa ubora unaochagua kwa mara moja - matokeo huhamishwa pamoja kama ZIP."
+      }
+    ]
   },
   "ResizeImagePage": {
     "title": "Badilisha Vipimo vya Picha",
@@ -100,7 +114,21 @@
     "keepAspectLabel": "Dumisha uwiano wa asili (kuacha uga mmoja wazi hukokotolewa kiotomatiki)",
     "submit": "Badilisha Vipimo vya Picha",
     "converting": "Inabadilisha vipimo...",
-    "error": "Hitilafu imetokea wakati wa kubadilisha vipimo."
+    "error": "Hitilafu imetokea wakati wa kubadilisha vipimo.",
+    "faq": [
+      {
+        "q": "Nawezaje kubadilisha ukubwa wa picha kufikia ukubwa maalum wa kuchapisha, kama picha ya pasipoti?",
+        "a": "Badilisha hadi hali ya pikseli na uweke upana na urefu halisi unaohitaji - picha za pasipoti kwa mfano kwa kawaida ni karibu 413x531px."
+      },
+      {
+        "q": "Je, ninaweza kubadilisha ukubwa wa picha ili ilingane na vipimo vya wasifu au hadithi ya Instagram?",
+        "a": "Ndiyo, weka tu ukubwa halisi wa pikseli unaohitaji (mf. 320x320px kwa wasifu, 1080x1920px kwa hadithi)."
+      },
+      {
+        "q": "Je, ninaweza kubadilisha ukubwa wa picha kadhaa hadi ukubwa sawa kwa wakati mmoja?",
+        "a": "Ndiyo, pakia picha kadhaa na zote zitabadilishwa ukubwa kwa mipangilio sawa, kisha kupakuliwa pamoja kama ZIP."
+      }
+    ]
   },
   "CropImagePage": {
     "title": "Kata Picha",
@@ -113,7 +141,21 @@
     "heightLabel": "Urefu (px)",
     "submit": "Kata Picha",
     "cropping": "Inakata...",
-    "error": "Hitilafu imetokea wakati wa kukata."
+    "error": "Hitilafu imetokea wakati wa kukata.",
+    "faq": [
+      {
+        "q": "Nawezaje kukata picha iwe mraba, kwa mfano kwa picha ya wasifu?",
+        "a": "Weka thamani sawa kwa upana na urefu ili kupata mraba kamili, kisha weka viwianishi vya X/Y vya eneo unalotaka kubaki."
+      },
+      {
+        "q": "Je, ninaweza kukata tu mandhari nyuma isiyohitajika kutoka kwa picha?",
+        "a": "Ndiyo, bainisha nafasi ya X/Y na upana/urefu wa eneo unalotaka kubaki, na sehemu nyingine yote itaondolewa."
+      },
+      {
+        "q": "Je, ninaweza kukata kwa kutumia viwianishi sahihi vya pikseli?",
+        "a": "Ndiyo, unaweza kuweka mahali pa kuanzia sahihi X/Y na upana/urefu kwa pikseli kwa ukataji sahihi."
+      }
+    ]
   },
   "ConvertImagePage": {
     "title": "Badilisha Muundo wa Picha",
@@ -121,7 +163,21 @@
     "formatLabel": "Badilisha kuwa",
     "submit": "Badilisha kuwa {format}",
     "converting": "Inabadilisha...",
-    "error": "Hitilafu imetokea wakati wa kubadilisha."
+    "error": "Hitilafu imetokea wakati wa kubadilisha.",
+    "faq": [
+      {
+        "q": "Nini hutokea kwa uwazi ninapobadilisha PNG kuwa JPG?",
+        "a": "JPG haiungi mkono uwazi, kwa hivyo maeneo yaliyo wazi hujazwa na mandhari nyeupe."
+      },
+      {
+        "q": "Je, ninaweza kubadilisha GIF kuwa picha tuli?",
+        "a": "Ndiyo, kubadilisha GIF kuwa PNG au JPG huhifadhi fremu yake ya kwanza kama picha tuli."
+      },
+      {
+        "q": "Kwa nini nibadilishe picha kuwa WEBP kwa tovuti yangu?",
+        "a": "Faili za WEBP kwa kawaida ni ndogo kuliko JPG au PNG kwa ubora sawa, jambo linalosaidia tovuti yako kupakia haraka zaidi."
+      }
+    ]
   },
   "RotateImagePage": {
     "title": "Zungusha Picha",
@@ -131,7 +187,21 @@
     "flipVLabel": "Geuza kwa wima",
     "submit": "Zungusha Picha",
     "converting": "Inazungusha...",
-    "error": "Hitilafu imetokea wakati wa kuzungusha."
+    "error": "Hitilafu imetokea wakati wa kuzungusha.",
+    "faq": [
+      {
+        "q": "Picha yangu iliyoskaniwa iko upande - nawezaje kuinyoosha?",
+        "a": "Chagua mzunguko wa digrii 90, 180, au 270 kuinyoosha papo hapo hadi mwelekeo unaohitaji."
+      },
+      {
+        "q": "Je, ninaweza kupindua picha kwa mlalo kuunda taswira ya kioo?",
+        "a": "Ndiyo, chaguo la kupindua kwa mlalo huakisi picha kutoka kushoto kwenda kulia. Kupindua wima pia kunapatikana tofauti."
+      },
+      {
+        "q": "Picha za simu yangu daima huhifadhiwa kwa mwelekeo mbaya - je, hii inaweza kurekebisha hilo?",
+        "a": "Ndiyo, izungushe hadi pembe sahihi na uhifadhi toleo jipya; mwelekeo utabaki thabiti tangu hapo."
+      }
+    ]
   },
   "WatermarkImagePage": {
     "title": "Ongeza Alama ya Maji",
@@ -142,7 +212,21 @@
     "fontSizeLabel": "Ukubwa wa fonti",
     "submit": "Ongeza Alama ya Maji",
     "converting": "Inaongeza alama ya maji...",
-    "error": "Hitilafu imetokea wakati wa kuongeza alama ya maji."
+    "error": "Hitilafu imetokea wakati wa kuongeza alama ya maji.",
+    "faq": [
+      {
+        "q": "Nataka kuongeza alama ya maji ya hakimiliki kwenye picha zangu.",
+        "a": "Weka maandishi ya alama yako ya maji na urekebishe nafasi, uwazi, na ukubwa wa fonti ili kuipamba kama unavyotaka."
+      },
+      {
+        "q": "Je, ninaweza kurekebisha kwa usahihi uwazi na nafasi ya alama ya maji?",
+        "a": "Ndiyo, tumia kitelezi cha uwazi na gridi ya nafasi 9 kuidhibiti kwa usahihi."
+      },
+      {
+        "q": "Nataka kuzuia wengine kutumia tena picha zangu bila sifa.",
+        "a": "Ndiyo, kuongeza alama ya maji inayoonekana husaidia kuashiria umiliki na kuzuia matumizi yasiyoidhinishwa."
+      }
+    ]
   },
   "MemeGeneratorPage": {
     "title": "Kitengenezea Meme",
@@ -153,7 +237,21 @@
     "bottomTextPlaceholder": "mf. FINALLY WORKS",
     "submit": "Tengeneza Meme",
     "converting": "Inatengeneza meme...",
-    "error": "Hitilafu imetokea wakati wa kutengeneza meme."
+    "error": "Hitilafu imetokea wakati wa kutengeneza meme.",
+    "faq": [
+      {
+        "q": "Je, ninaweza kuongeza maandishi ya mtindo wa maelezo kwenye picha ya meme?",
+        "a": "Ndiyo, andika maandishi yako kwenye sehemu za juu na chini na huongezwa moja kwa moja kwa herufi nzito za mtindo wa meme zenye mpaka mweupe."
+      },
+      {
+        "q": "Je, ninaweza kutumia maelezo ya juu au chini pekee badala ya yote mawili?",
+        "a": "Ndiyo, kujaza sehemu ya juu au chini pekee pia hufanya kazi vizuri."
+      },
+      {
+        "q": "Je, ninaweza kupakua meme iliyokamilika mara moja?",
+        "a": "Ndiyo, kubofya kitufe cha kuunda hupakua meme yako iliyokamilika mara moja."
+      }
+    ]
   },
   "RemoveExifPage": {
     "title": "Ondoa Metadata",
@@ -161,7 +259,21 @@
     "infoText": "Mahali pa GPS, aina ya kamera, tarehe ya kupiga picha, na data nyingine iliyofichwa kwenye picha zako itaondolewa kabisa. Ubora na mwelekeo wa picha havitabadilika.",
     "submit": "Ondoa Metadata",
     "converting": "Inaondoa...",
-    "error": "Hitilafu imetokea wakati wa kuondoa metadata."
+    "error": "Hitilafu imetokea wakati wa kuondoa metadata.",
+    "faq": [
+      {
+        "q": "Nataka kuondoa data ya mahali (GPS) iliyopachikwa kwenye picha.",
+        "a": "Zana ya kuondoa metadata huondoa data zote za EXIF, ikiwa ni pamoja na mahali pa GPS, mfano wa kifaa, na tarehe ya kupiga picha."
+      },
+      {
+        "q": "Nina wasiwasi kuwa mahali nilipo panaonekana kwenye picha ninazoweka kwenye matangazo ya mauzo.",
+        "a": "Ndiyo, kusindika picha kwa zana hii huondoa metadata zote zilizopachikwa, ikiwa ni pamoja na mahali, hivyo ni salama kushiriki."
+      },
+      {
+        "q": "Je, kuondoa metadata hubadilisha ubora au mwelekeo wa picha?",
+        "a": "Hapana, ubora wa picha na mwelekeo hubaki sawa kabisa - metadata iliyofichwa pekee ndiyo huondolewa."
+      }
+    ]
   },
   "MergeImagesPage": {
     "title": "Unganisha Picha",
@@ -173,7 +285,21 @@
     "gapLabel": "Nafasi kati ya picha",
     "submit": "Unganisha Picha",
     "converting": "Inaunganisha...",
-    "error": "Hitilafu imetokea wakati wa kuunganisha picha."
+    "error": "Hitilafu imetokea wakati wa kuunganisha picha.",
+    "faq": [
+      {
+        "q": "Nataka kuunganisha picha kadhaa kuwa picha moja kwa ajili ya kuchapisha kwenye mitandao ya kijamii.",
+        "a": "Ndiyo, pakia picha kadhaa na uchague mpangilio wa mlalo, wima, au gridi ili kuziunganisha kuwa moja."
+      },
+      {
+        "q": "Je, ninaweza kutengeneza mkusanyiko wa picha kutoka picha kadhaa?",
+        "a": "Ndiyo, kuchagua mpangilio wa gridi hupanga picha zako moja kwa moja kwenye gridi ya mtindo wa mkusanyiko."
+      },
+      {
+        "q": "Je, ninaweza kurekebisha nafasi kati ya picha?",
+        "a": "Ndiyo, tumia mpangilio wa nafasi kudhibiti nafasi kati ya picha kutoka 0 hadi 40px."
+      }
+    ]
   },
   "LanguageSwitcher": {
     "label": "Lugha"
@@ -183,12 +309,11 @@
     "sisterSiteLabel": "Zana za PDF (mylifepdf.com)",
     "languageHeading": "Lugha"
   },
-      "ContactPage": {
-      "title": "Wasiliana Nasi",
-      "description": "Ikiwa una maswali, ripoti za hitilafu, au mapendekezo ya vipengele, tafadhali wasiliana nasi.",
-      "body": "Tutakujibu haraka iwezekanavyo."
-    },
-
+  "ContactPage": {
+    "title": "Wasiliana Nasi",
+    "description": "Ikiwa una maswali, ripoti za hitilafu, au mapendekezo ya vipengele, tafadhali wasiliana nasi.",
+    "body": "Tutakujibu haraka iwezekanavyo."
+  },
   "FAQ": {
     "heading": "Maswali Yanayoulizwa Mara kwa Mara",
     "items": [

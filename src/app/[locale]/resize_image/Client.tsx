@@ -10,11 +10,13 @@ import { ToggleGroup } from "@/components/ui/ToggleGroup";
 import { TextField } from "@/components/ui/TextField";
 import { SubmitButton } from "@/components/ui/SubmitButton";
 import { Callout } from "@/components/ui/Callout";
+import { ToolFaqSection } from "@/components/ToolFaqSection";
 
 type Mode = "pixel" | "percent";
 
 export default function Client() {
   const t = useTranslations("ResizeImagePage");
+  const faqItems = t.raw("faq") as { q: string; a: string }[];
   const [files, setFiles] = useState<File[]>([]);
   const [mode, setMode] = useState<Mode>("pixel");
   const [width, setWidth] = useState("");
@@ -133,6 +135,8 @@ export default function Client() {
           {loading ? t("converting") : t("submit")}
         </SubmitButton>
       </div>
+
+      <ToolFaqSection items={faqItems} />
     </ToolPageShell>
   );
 }

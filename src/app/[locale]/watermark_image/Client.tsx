@@ -10,6 +10,7 @@ import { TextField } from "@/components/ui/TextField";
 import { SliderField } from "@/components/ui/SliderField";
 import { SubmitButton } from "@/components/ui/SubmitButton";
 import { Callout } from "@/components/ui/Callout";
+import { ToolFaqSection } from "@/components/ToolFaqSection";
 
 const POSITIONS = [
   "top-left",
@@ -25,6 +26,7 @@ const POSITIONS = [
 
 export default function Client() {
   const t = useTranslations("WatermarkImagePage");
+  const faqItems = t.raw("faq") as { q: string; a: string }[];
   const [files, setFiles] = useState<File[]>([]);
   const [text, setText] = useState("Sample Watermark");
   const [opacity, setOpacity] = useState(50);
@@ -130,6 +132,8 @@ export default function Client() {
           {loading ? t("converting") : t("submit")}
         </SubmitButton>
       </div>
+
+      <ToolFaqSection items={faqItems} />
     </ToolPageShell>
   );
 }

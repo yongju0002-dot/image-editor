@@ -9,9 +9,11 @@ import { ImageDropzone } from "@/components/ui/ImageDropzone";
 import { ToggleGroup } from "@/components/ui/ToggleGroup";
 import { SubmitButton } from "@/components/ui/SubmitButton";
 import { Callout } from "@/components/ui/Callout";
+import { ToolFaqSection } from "@/components/ToolFaqSection";
 
 export default function Client() {
   const t = useTranslations("RotateImagePage");
+  const faqItems = t.raw("faq") as { q: string; a: string }[];
   const [files, setFiles] = useState<File[]>([]);
   const [angle, setAngle] = useState("90");
   const [flipH, setFlipH] = useState(false);
@@ -112,6 +114,8 @@ export default function Client() {
           {loading ? t("converting") : t("submit")}
         </SubmitButton>
       </div>
+
+      <ToolFaqSection items={faqItems} />
     </ToolPageShell>
   );
 }

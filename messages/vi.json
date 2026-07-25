@@ -83,7 +83,21 @@
     "qualityHint": "Giá trị càng thấp thì dung lượng càng nhỏ, nhưng chất lượng ảnh cũng giảm.",
     "submit": "Nén ảnh",
     "converting": "Đang nén...",
-    "error": "Đã xảy ra lỗi khi nén."
+    "error": "Đã xảy ra lỗi khi nén.",
+    "faq": [
+      {
+        "q": "Nén ảnh có làm giảm chất lượng nhiều không?",
+        "a": "Dùng thanh trượt chất lượng để tự cân bằng giữa dung lượng và chất lượng. Khoảng 70-80% thường trông gần như không đổi trong khi giảm đáng kể dung lượng file."
+      },
+      {
+        "q": "Làm sao để đáp ứng giới hạn dung lượng file khi nộp hồ sơ cho cơ quan nhà nước?",
+        "a": "Giảm dần chất lượng cho đến khi kết quả nhỏ hơn dung lượng yêu cầu. Hầu hết các giới hạn (2MB, 5MB, v.v.) có thể đạt được với chất lượng khoảng 70%."
+      },
+      {
+        "q": "Tôi cần giảm dung lượng ảnh để gửi email hoặc tin nhắn có giới hạn tệp đính kèm.",
+        "a": "Có, hãy tải lên nhiều ảnh cùng lúc và nén tất cả về chất lượng bạn chọn trong một lần; kết quả sẽ được tải xuống cùng nhau dưới dạng ZIP."
+      }
+    ]
   },
   "ResizeImagePage": {
     "title": "Đổi kích thước ảnh",
@@ -100,7 +114,21 @@
     "keepAspectLabel": "Giữ tỷ lệ khung hình gốc (để trống một ô sẽ tự động tính toán)",
     "submit": "Đổi kích thước ảnh",
     "converting": "Đang đổi kích thước...",
-    "error": "Đã xảy ra lỗi khi đổi kích thước."
+    "error": "Đã xảy ra lỗi khi đổi kích thước.",
+    "faq": [
+      {
+        "q": "Làm sao để đổi kích thước ảnh theo khổ in cụ thể, như ảnh thẻ?",
+        "a": "Chuyển sang chế độ pixel và nhập đúng chiều rộng, chiều cao cần thiết; ví dụ ảnh hộ chiếu thường khoảng 413x531px."
+      },
+      {
+        "q": "Tôi có thể chỉnh ảnh theo kích thước hồ sơ hoặc story Instagram không?",
+        "a": "Có, chỉ cần nhập đúng kích thước pixel cần thiết (ví dụ 320x320px cho ảnh đại diện, 1080x1920px cho story)."
+      },
+      {
+        "q": "Tôi có thể đổi kích thước nhiều ảnh cùng lúc về cùng một kích cỡ không?",
+        "a": "Có, tải lên nhiều ảnh, tất cả sẽ được đổi kích thước với cùng thiết lập, sau đó tải xuống cùng nhau dưới dạng ZIP."
+      }
+    ]
   },
   "CropImagePage": {
     "title": "Cắt ảnh",
@@ -113,7 +141,21 @@
     "heightLabel": "Chiều cao (px)",
     "submit": "Cắt ảnh",
     "cropping": "Đang cắt...",
-    "error": "Đã xảy ra lỗi khi cắt ảnh."
+    "error": "Đã xảy ra lỗi khi cắt ảnh.",
+    "faq": [
+      {
+        "q": "Làm sao để cắt ảnh thành hình vuông, ví dụ để làm ảnh đại diện?",
+        "a": "Nhập cùng một giá trị cho chiều rộng và chiều cao để có hình vuông hoàn hảo, và đặt tọa độ X/Y của vùng cần giữ lại."
+      },
+      {
+        "q": "Tôi có thể chỉ cắt bỏ phần nền không mong muốn trong ảnh không?",
+        "a": "Có, chỉ định vị trí X/Y và chiều rộng/cao của vùng cần giữ lại, phần còn lại sẽ bị xóa."
+      },
+      {
+        "q": "Tôi có thể cắt theo tọa độ pixel chính xác không?",
+        "a": "Có, bạn có thể đặt chính xác điểm bắt đầu X/Y và chiều rộng/cao theo pixel để cắt chính xác."
+      }
+    ]
   },
   "ConvertImagePage": {
     "title": "Chuyển đổi ảnh",
@@ -121,7 +163,21 @@
     "formatLabel": "Chuyển đổi sang",
     "submit": "Chuyển đổi sang {format}",
     "converting": "Đang chuyển đổi...",
-    "error": "Đã xảy ra lỗi khi chuyển đổi."
+    "error": "Đã xảy ra lỗi khi chuyển đổi.",
+    "faq": [
+      {
+        "q": "Chuyển PNG sang JPG thì nền trong suốt sẽ ra sao?",
+        "a": "JPG không hỗ trợ trong suốt, nên các vùng trong suốt sẽ được lấp đầy bằng nền trắng."
+      },
+      {
+        "q": "Tôi có thể chuyển GIF thành ảnh tĩnh không?",
+        "a": "Có, chuyển GIF sang PNG hoặc JPG sẽ lưu khung hình đầu tiên thành ảnh tĩnh."
+      },
+      {
+        "q": "Tại sao nên chuyển ảnh sang WEBP cho trang web của tôi?",
+        "a": "Ở cùng chất lượng, file WEBP thường nhỏ hơn JPG hoặc PNG, giúp trang web của bạn tải nhanh hơn."
+      }
+    ]
   },
   "RotateImagePage": {
     "title": "Xoay ảnh",
@@ -131,7 +187,21 @@
     "flipVLabel": "Lật dọc",
     "submit": "Xoay ảnh",
     "converting": "Đang xoay...",
-    "error": "Đã xảy ra lỗi khi xoay."
+    "error": "Đã xảy ra lỗi khi xoay.",
+    "faq": [
+      {
+        "q": "Ảnh quét của tôi bị nằm nghiêng, làm sao để xoay lại cho đúng?",
+        "a": "Chọn xoay 90, 180 hoặc 270 độ để lập tức chỉnh về hướng bạn cần."
+      },
+      {
+        "q": "Tôi có thể lật ảnh theo chiều ngang để tạo hiệu ứng gương không?",
+        "a": "Có, tùy chọn lật ngang sẽ phản chiếu ảnh từ trái sang phải. Lật dọc cũng có sẵn riêng."
+      },
+      {
+        "q": "Ảnh chụp từ điện thoại của tôi luôn lưu sai hướng, cách này có khắc phục được không?",
+        "a": "Có, xoay về đúng góc và lưu phiên bản mới; hướng ảnh sẽ được cố định từ đó."
+      }
+    ]
   },
   "WatermarkImagePage": {
     "title": "Thêm hình mờ",
@@ -142,7 +212,21 @@
     "fontSizeLabel": "Cỡ chữ",
     "submit": "Thêm hình mờ",
     "converting": "Đang thêm hình mờ...",
-    "error": "Đã xảy ra lỗi khi thêm hình mờ."
+    "error": "Đã xảy ra lỗi khi thêm hình mờ.",
+    "faq": [
+      {
+        "q": "Tôi muốn thêm hình mờ bản quyền vào ảnh của mình.",
+        "a": "Nhập văn bản hình mờ và điều chỉnh vị trí, độ mờ, cỡ chữ để tạo kiểu đúng như ý bạn."
+      },
+      {
+        "q": "Tôi có thể tinh chỉnh độ mờ và vị trí của hình mờ không?",
+        "a": "Có, dùng thanh trượt độ mờ và lưới 9 vị trí để kiểm soát chính xác."
+      },
+      {
+        "q": "Tôi muốn ngăn người khác sử dụng lại ảnh của mình mà không ghi nguồn.",
+        "a": "Có, thêm hình mờ dễ thấy giúp đánh dấu quyền sở hữu và hạn chế việc sử dụng trái phép."
+      }
+    ]
   },
   "MemeGeneratorPage": {
     "title": "Tạo meme",
@@ -153,7 +237,21 @@
     "bottomTextPlaceholder": "vd: FINALLY WORKS",
     "submit": "Tạo meme",
     "converting": "Đang tạo meme...",
-    "error": "Đã xảy ra lỗi khi tạo meme."
+    "error": "Đã xảy ra lỗi khi tạo meme.",
+    "faq": [
+      {
+        "q": "Tôi có thể thêm chữ kiểu chú thích vào ảnh meme không?",
+        "a": "Có, nhập chữ vào ô trên và dưới, chữ sẽ tự động được thêm theo kiểu meme in đậm viền trắng."
+      },
+      {
+        "q": "Tôi có thể chỉ dùng chữ ở trên hoặc dưới thay vì cả hai không?",
+        "a": "Có, chỉ điền một trong hai ô trên hoặc dưới vẫn hoạt động bình thường."
+      },
+      {
+        "q": "Tôi có thể tải xuống ảnh meme ngay sau khi hoàn thành không?",
+        "a": "Có, nhấn nút tạo sẽ tải xuống ngay ảnh meme hoàn chỉnh của bạn."
+      }
+    ]
   },
   "RemoveExifPage": {
     "title": "Xóa siêu dữ liệu",
@@ -161,7 +259,21 @@
     "infoText": "Vị trí GPS, model máy ảnh, ngày chụp và các dữ liệu ẩn khác trong ảnh sẽ được xóa hoàn toàn. Chất lượng và hướng của ảnh không thay đổi.",
     "submit": "Xóa siêu dữ liệu",
     "converting": "Đang xóa...",
-    "error": "Đã xảy ra lỗi khi xóa siêu dữ liệu."
+    "error": "Đã xảy ra lỗi khi xóa siêu dữ liệu.",
+    "faq": [
+      {
+        "q": "Tôi muốn xóa dữ liệu vị trí (GPS) được nhúng trong ảnh.",
+        "a": "Công cụ xóa metadata sẽ xóa toàn bộ dữ liệu EXIF, bao gồm vị trí GPS, model thiết bị và ngày chụp."
+      },
+      {
+        "q": "Tôi lo lắng vị trí của mình sẽ lộ trong ảnh đăng bán trên chợ trực tuyến.",
+        "a": "Có, xử lý ảnh bằng công cụ này sẽ xóa mọi metadata nhúng, bao gồm vị trí, nên bạn có thể yên tâm chia sẻ."
+      },
+      {
+        "q": "Xóa metadata có làm thay đổi chất lượng hoặc hướng ảnh không?",
+        "a": "Không, chất lượng ảnh và hướng ảnh vẫn giữ nguyên; chỉ metadata ẩn bị xóa."
+      }
+    ]
   },
   "MergeImagesPage": {
     "title": "Ghép ảnh",
@@ -173,7 +285,21 @@
     "gapLabel": "Khoảng cách giữa các ảnh",
     "submit": "Ghép ảnh",
     "converting": "Đang ghép...",
-    "error": "Đã xảy ra lỗi khi ghép ảnh."
+    "error": "Đã xảy ra lỗi khi ghép ảnh.",
+    "faq": [
+      {
+        "q": "Tôi muốn ghép nhiều ảnh thành một để đăng lên mạng xã hội.",
+        "a": "Có, tải lên nhiều ảnh và chọn bố cục ngang, dọc hoặc lưới để ghép chúng thành một ảnh."
+      },
+      {
+        "q": "Tôi có thể tạo ảnh ghép collage từ nhiều ảnh không?",
+        "a": "Có, chọn bố cục lưới sẽ tự động sắp xếp ảnh của bạn thành dạng lưới kiểu collage."
+      },
+      {
+        "q": "Tôi có thể điều chỉnh khoảng cách giữa các ảnh không?",
+        "a": "Có, dùng thiết lập khoảng cách để điều chỉnh khoảng cách giữa các ảnh từ 0 đến 40px."
+      }
+    ]
   },
   "LanguageSwitcher": {
     "label": "Ngôn ngữ"

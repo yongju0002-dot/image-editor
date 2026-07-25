@@ -9,6 +9,7 @@ import { ImageDropzone } from "@/components/ui/ImageDropzone";
 import { ToggleGroup } from "@/components/ui/ToggleGroup";
 import { SubmitButton } from "@/components/ui/SubmitButton";
 import { Callout } from "@/components/ui/Callout";
+import { ToolFaqSection } from "@/components/ToolFaqSection";
 import type { ImageFormat } from "@/lib/imageFormats";
 
 const FORMAT_OPTIONS: { value: ImageFormat; label: string }[] = [
@@ -22,6 +23,7 @@ const FORMAT_OPTIONS: { value: ImageFormat; label: string }[] = [
 
 export default function Client() {
   const t = useTranslations("ConvertImagePage");
+  const faqItems = t.raw("faq") as { q: string; a: string }[];
   const [files, setFiles] = useState<File[]>([]);
   const [format, setFormat] = useState<ImageFormat>("jpeg");
   const [loading, setLoading] = useState(false);
@@ -89,6 +91,8 @@ export default function Client() {
           {loading ? t("converting") : t("submit", { format: format.toUpperCase() })}
         </SubmitButton>
       </div>
+
+      <ToolFaqSection items={faqItems} />
     </ToolPageShell>
   );
 }

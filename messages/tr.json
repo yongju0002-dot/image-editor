@@ -83,7 +83,21 @@
     "qualityHint": "Değer düştükçe dosya boyutu küçülür, ancak kalite de düşer.",
     "submit": "Görseli Sıkıştır",
     "converting": "Sıkıştırılıyor...",
-    "error": "Sıkıştırma sırasında bir hata oluştu."
+    "error": "Sıkıştırma sırasında bir hata oluştu.",
+    "faq": [
+      {
+        "q": "Bir görseli sıkıştırmak kaliteyi çok mu düşürür?",
+        "a": "Dosya boyutu ve kaliteyi kendiniz dengelemek için kalite kaydırıcısını kullanın. %70-80 civarı genellikle gözle neredeyse fark edilmezken dosya boyutunu belirgin şekilde azaltır."
+      },
+      {
+        "q": "Resmi kurum başvurusu için dosya boyutu sınırına nasıl uyarım?",
+        "a": "Sonuç gereken boyutun altına inene kadar kaliteyi düşürün. Çoğu sınır (2MB, 5MB vb.) yaklaşık %70 kalite ile karşılanabilir."
+      },
+      {
+        "q": "E-posta veya mesajlaşma uygulamalarındaki ek boyutu sınırı için fotoğrafları küçültmem gerekiyor.",
+        "a": "Evet, birden fazla görseli aynı anda yükleyip hepsini tek seferde istediğiniz kaliteye sıkıştırabilirsiniz; sonuç birlikte ZIP olarak indirilir."
+      }
+    ]
   },
   "ResizeImagePage": {
     "title": "Görsel Yeniden Boyutlandır",
@@ -100,7 +114,21 @@
     "keepAspectLabel": "Orijinal en-boy oranını koru (bir alanı boş bırakmak otomatik hesaplanır)",
     "submit": "Görseli Yeniden Boyutlandır",
     "converting": "Yeniden boyutlandırılıyor...",
-    "error": "Yeniden boyutlandırma sırasında bir hata oluştu."
+    "error": "Yeniden boyutlandırma sırasında bir hata oluştu.",
+    "faq": [
+      {
+        "q": "Vesikalık fotoğraf gibi belirli bir baskı boyutuna nasıl yeniden boyutlandırırım?",
+        "a": "Piksel moduna geçin ve ihtiyacınız olan tam genişlik ve yüksekliği girin; örneğin pasaport fotoğrafları genellikle yaklaşık 413x531px'dir."
+      },
+      {
+        "q": "Bir görseli Instagram profil veya hikaye boyutlarına uyacak şekilde ayarlayabilir miyim?",
+        "a": "Evet, ihtiyacınız olan tam piksel boyutunu girmeniz yeterli (örn. profil için 320x320px, hikaye için 1080x1920px)."
+      },
+      {
+        "q": "Birden fazla fotoğrafı aynı anda aynı boyuta getirebilir miyim?",
+        "a": "Evet, birden fazla görsel yükleyin, hepsi aynı ayarlarla yeniden boyutlandırılır, ardından birlikte ZIP olarak indirilir."
+      }
+    ]
   },
   "CropImagePage": {
     "title": "Görsel Kırp",
@@ -113,7 +141,21 @@
     "heightLabel": "Yükseklik (px)",
     "submit": "Görseli Kırp",
     "cropping": "Kırpılıyor...",
-    "error": "Kırpma sırasında bir hata oluştu."
+    "error": "Kırpma sırasında bir hata oluştu.",
+    "faq": [
+      {
+        "q": "Profil fotoğrafı gibi bir fotoğrafı kare şeklinde nasıl kırparım?",
+        "a": "Mükemmel bir kare için genişlik ve yükseklik için aynı değeri girin ve korumak istediğiniz alanın X/Y koordinatlarını ayarlayın."
+      },
+      {
+        "q": "Bir fotoğraftan sadece istenmeyen arka planı kesebilir miyim?",
+        "a": "Evet, korumak istediğiniz alanın X/Y konumunu ve genişlik/yüksekliğini belirtin, geri kalan her şey kaldırılır."
+      },
+      {
+        "q": "Tam piksel koordinatları kullanarak kırpabilir miyim?",
+        "a": "Evet, hassas kırpma için piksel cinsinden tam X/Y başlangıç noktasını ve genişlik/yüksekliği ayarlayabilirsiniz."
+      }
+    ]
   },
   "ConvertImagePage": {
     "title": "Görsel Dönüştür",
@@ -121,7 +163,21 @@
     "formatLabel": "Şuna dönüştür",
     "submit": "{format} olarak dönüştür",
     "converting": "Dönüştürülüyor...",
-    "error": "Dönüştürme sırasında bir hata oluştu."
+    "error": "Dönüştürme sırasında bir hata oluştu.",
+    "faq": [
+      {
+        "q": "PNG'yi JPG'ye dönüştürdüğümde şeffaflığa ne olur?",
+        "a": "JPG şeffaflığı desteklemez, bu yüzden şeffaf alanlar beyaz arka planla doldurulur."
+      },
+      {
+        "q": "Bir GIF'i durağan bir görsele dönüştürebilir miyim?",
+        "a": "Evet, bir GIF'i PNG veya JPG'ye dönüştürmek ilk karesini durağan bir görsel olarak kaydeder."
+      },
+      {
+        "q": "Web sitem için bir görseli neden WEBP'ye dönüştürmeliyim?",
+        "a": "WEBP dosyaları aynı kalitede genellikle JPG veya PNG'den daha küçüktür, bu da web sitenizin daha hızlı yüklenmesine yardımcı olur."
+      }
+    ]
   },
   "RotateImagePage": {
     "title": "Görsel Döndür",
@@ -131,7 +187,21 @@
     "flipVLabel": "Dikey çevir",
     "submit": "Görseli Döndür",
     "converting": "Döndürülüyor...",
-    "error": "Döndürme sırasında bir hata oluştu."
+    "error": "Döndürme sırasında bir hata oluştu.",
+    "faq": [
+      {
+        "q": "Taradığım fotoğraf yan duruyor, nasıl düzeltirim?",
+        "a": "İhtiyacınız olan yöne anında düzeltmek için 90, 180 veya 270 derece döndürme seçin."
+      },
+      {
+        "q": "Ayna görüntüsü oluşturmak için bir fotoğrafı yatay çevirebilir miyim?",
+        "a": "Evet, yatay çevirme seçeneği görseli soldan sağa aynalar. Dikey çevirme de ayrıca mevcuttur."
+      },
+      {
+        "q": "Telefon fotoğraflarım hep yanlış yönde kaydediliyor, bu sorunu çözer mi?",
+        "a": "Evet, doğru açıya döndürüp yeni sürümü kaydedin; yön o andan itibaren sabit kalır."
+      }
+    ]
   },
   "WatermarkImagePage": {
     "title": "Filigran Ekle",
@@ -142,7 +212,21 @@
     "fontSizeLabel": "Yazı boyutu",
     "submit": "Filigran Ekle",
     "converting": "Filigran ekleniyor...",
-    "error": "Filigran eklenirken bir hata oluştu."
+    "error": "Filigran eklenirken bir hata oluştu.",
+    "faq": [
+      {
+        "q": "Fotoğraflarıma telif hakkı filigranı eklemek istiyorum.",
+        "a": "Filigran metninizi girin ve tam istediğiniz gibi stillendirmek için konumunu, opaklığını ve yazı boyutunu ayarlayın."
+      },
+      {
+        "q": "Filigranın opaklığını ve konumunu hassas şekilde ayarlayabilir miyim?",
+        "a": "Evet, hassas kontrol için opaklık kaydırıcısını ve 9 konumlu yerleşim ızgarasını kullanın."
+      },
+      {
+        "q": "Fotoğraflarımın kaynak belirtilmeden yeniden kullanılmasını engellemek istiyorum.",
+        "a": "Evet, görünür bir filigran eklemek sahipliği belirtmeye yardımcı olur ve izinsiz kullanımı caydırır."
+      }
+    ]
   },
   "MemeGeneratorPage": {
     "title": "Meme Oluşturucu",
@@ -153,7 +237,21 @@
     "bottomTextPlaceholder": "örn. FINALLY WORKS",
     "submit": "Meme Oluştur",
     "converting": "Meme oluşturuluyor...",
-    "error": "Meme oluşturulurken bir hata oluştu."
+    "error": "Meme oluşturulurken bir hata oluştu.",
+    "faq": [
+      {
+        "q": "Bir meme görseline altyazı tarzı metin ekleyebilir miyim?",
+        "a": "Evet, metninizi üst ve alt alanlara yazın, otomatik olarak beyaz kenarlıklı kalın meme tarzı harflerle eklenir."
+      },
+      {
+        "q": "İkisi yerine sadece üst veya alt altyazı kullanabilir miyim?",
+        "a": "Evet, sadece üst veya alt alanı doldurmak da sorunsuz çalışır."
+      },
+      {
+        "q": "Tamamlanan memeyi hemen indirebilir miyim?",
+        "a": "Evet, oluştur düğmesine tıklamak tamamlanan memenizi hemen indirir."
+      }
+    ]
   },
   "RemoveExifPage": {
     "title": "Meta Verileri Kaldır",
@@ -161,7 +259,21 @@
     "infoText": "Fotoğraflarınızdaki GPS konumu, kamera modeli, çekim tarihi ve diğer gizli veriler tamamen kaldırılır. Görsel kalitesi ve yönü aynı kalır.",
     "submit": "Meta Verileri Kaldır",
     "converting": "Kaldırılıyor...",
-    "error": "Meta veriler kaldırılırken bir hata oluştu."
+    "error": "Meta veriler kaldırılırken bir hata oluştu.",
+    "faq": [
+      {
+        "q": "Bir fotoğrafa gömülü konum (GPS) verilerini kaldırmak istiyorum.",
+        "a": "Meta veri kaldırma aracı, GPS konumu, cihaz modeli ve çekim tarihi dahil tüm EXIF verilerini siler."
+      },
+      {
+        "q": "İkinci el pazar yeri ilanları için paylaştığım fotoğraflarda konumumun görünmesinden endişeleniyorum.",
+        "a": "Evet, bir fotoğrafı bu araçla işlemek konum dahil tüm gömülü meta verileri kaldırır, böylece paylaşmak güvenli olur."
+      },
+      {
+        "q": "Meta veri kaldırmak fotoğrafın kalitesini veya yönünü değiştirir mi?",
+        "a": "Hayır, görüntü kalitesi ve yön tamamen aynı kalır; sadece gizli meta veri kaldırılır."
+      }
+    ]
   },
   "MergeImagesPage": {
     "title": "Görselleri Birleştir",
@@ -173,7 +285,21 @@
     "gapLabel": "Görseller arası boşluk",
     "submit": "Görselleri Birleştir",
     "converting": "Birleştiriliyor...",
-    "error": "Görseller birleştirilirken bir hata oluştu."
+    "error": "Görseller birleştirilirken bir hata oluştu.",
+    "faq": [
+      {
+        "q": "Sosyal medyada paylaşmak için birden fazla fotoğrafı tek bir görselde birleştirmek istiyorum.",
+        "a": "Evet, birden fazla görsel yükleyin ve bunları tek bir görselde birleştirmek için yatay, dikey veya ızgara düzeni seçin."
+      },
+      {
+        "q": "Birden fazla fotoğraftan kolaj yapabilir miyim?",
+        "a": "Evet, ızgara düzenini seçmek fotoğraflarınızı otomatik olarak kolaj tarzı bir ızgara halinde düzenler."
+      },
+      {
+        "q": "Görseller arasındaki boşluğu ayarlayabilir miyim?",
+        "a": "Evet, görseller arasındaki boşluğu 0 ile 40px arasında kontrol etmek için boşluk ayarını kullanın."
+      }
+    ]
   },
   "LanguageSwitcher": {
     "label": "Dil"

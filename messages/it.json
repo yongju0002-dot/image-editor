@@ -83,7 +83,21 @@
     "qualityHint": "Valori più bassi riducono il peso del file, ma anche la qualità.",
     "submit": "Comprimi immagine",
     "converting": "Compressione in corso...",
-    "error": "Si è verificato un errore durante la compressione."
+    "error": "Si è verificato un errore durante la compressione.",
+    "faq": [
+      {
+        "q": "Comprimere un'immagine riduce molto la qualità?",
+        "a": "Usa il cursore della qualità per bilanciare da solo dimensione del file e qualità. Intorno al 70-80% l'aspetto è quasi identico ma la dimensione del file si riduce molto."
+      },
+      {
+        "q": "Come rispetto un limite di dimensione file per una pratica governativa?",
+        "a": "Abbassa la qualità finché il risultato non è sotto la dimensione richiesta. La maggior parte dei limiti (2MB, 5MB, ecc.) si raggiunge con una qualità intorno al 70%."
+      },
+      {
+        "q": "Devo ridurre foto per email o messaggistica con limiti sugli allegati.",
+        "a": "Sì, carica più immagini insieme e comprimile tutte alla qualità scelta in un colpo solo; il risultato si scarica insieme in uno ZIP."
+      }
+    ]
   },
   "ResizeImagePage": {
     "title": "Ridimensiona immagine",
@@ -100,7 +114,21 @@
     "keepAspectLabel": "Mantieni le proporzioni originali (lasciando un campo vuoto viene calcolato automaticamente)",
     "submit": "Ridimensiona immagine",
     "converting": "Ridimensionamento in corso...",
-    "error": "Si è verificato un errore durante il ridimensionamento."
+    "error": "Si è verificato un errore durante il ridimensionamento.",
+    "faq": [
+      {
+        "q": "Come ridimensiono una foto per un formato di stampa specifico, come una foto tessera?",
+        "a": "Passa alla modalità pixel e inserisci larghezza e altezza esatte necessarie; le foto per il passaporto, ad esempio, sono di solito circa 413x531px."
+      },
+      {
+        "q": "Posso adattare un'immagine alle dimensioni di profilo o storia di Instagram?",
+        "a": "Sì, basta inserire la dimensione in pixel esatta necessaria (es. 320x320px per un profilo, 1080x1920px per una storia)."
+      },
+      {
+        "q": "Posso ridimensionare più foto alla stessa dimensione in una volta?",
+        "a": "Sì, carica più immagini e verranno tutte ridimensionate con le stesse impostazioni, poi scaricate insieme in uno ZIP."
+      }
+    ]
   },
   "CropImagePage": {
     "title": "Ritaglia immagine",
@@ -113,7 +141,21 @@
     "heightLabel": "Altezza (px)",
     "submit": "Ritaglia immagine",
     "cropping": "Ritaglio in corso...",
-    "error": "Si è verificato un errore durante il ritaglio."
+    "error": "Si è verificato un errore durante il ritaglio.",
+    "faq": [
+      {
+        "q": "Come ritaglio una foto a forma quadrata, ad esempio per una foto profilo?",
+        "a": "Inserisci lo stesso valore per larghezza e altezza per ottenere un quadrato perfetto, e imposta le coordinate X/Y dell'area da mantenere."
+      },
+      {
+        "q": "Posso ritagliare solo lo sfondo indesiderato da una foto?",
+        "a": "Sì, specifica la posizione X/Y e larghezza/altezza dell'area da mantenere, e tutto il resto viene rimosso."
+      },
+      {
+        "q": "Posso ritagliare usando coordinate in pixel esatte?",
+        "a": "Sì, puoi impostare il punto di partenza X/Y esatto e larghezza/altezza in pixel per un ritaglio preciso."
+      }
+    ]
   },
   "ConvertImagePage": {
     "title": "Converti immagine",
@@ -121,7 +163,21 @@
     "formatLabel": "Converti in",
     "submit": "Converti in {format}",
     "converting": "Conversione in corso...",
-    "error": "Si è verificato un errore durante la conversione."
+    "error": "Si è verificato un errore durante la conversione.",
+    "faq": [
+      {
+        "q": "Cosa succede alla trasparenza convertendo un PNG in JPG?",
+        "a": "Il JPG non supporta la trasparenza, quindi le aree trasparenti vengono riempite con uno sfondo bianco."
+      },
+      {
+        "q": "Posso convertire una GIF in un'immagine statica?",
+        "a": "Sì, convertire una GIF in PNG o JPG salva il primo fotogramma come immagine statica."
+      },
+      {
+        "q": "Perché convertire un'immagine in WEBP per il mio sito web?",
+        "a": "I file WEBP sono generalmente più piccoli di JPG o PNG a parità di qualità, il che aiuta il tuo sito a caricarsi più velocemente."
+      }
+    ]
   },
   "RotateImagePage": {
     "title": "Ruota immagine",
@@ -131,7 +187,21 @@
     "flipVLabel": "Capovolgi verticalmente",
     "submit": "Ruota immagine",
     "converting": "Rotazione in corso...",
-    "error": "Si è verificato un errore durante la rotazione."
+    "error": "Si è verificato un errore durante la rotazione.",
+    "faq": [
+      {
+        "q": "La mia foto scansionata è di lato, come la raddrizzo?",
+        "a": "Scegli una rotazione di 90, 180 o 270 gradi per raddrizzarla istantaneamente nell'orientamento desiderato."
+      },
+      {
+        "q": "Posso capovolgere una foto orizzontalmente per creare un effetto specchio?",
+        "a": "Sì, l'opzione di capovolgimento orizzontale specchia l'immagine da sinistra a destra. Il capovolgimento verticale è disponibile separatamente."
+      },
+      {
+        "q": "Le foto dal mio telefono continuano a salvarsi con l'orientamento sbagliato, questo lo risolve?",
+        "a": "Sì, ruotala all'angolazione corretta e salva la nuova versione; da quel momento l'orientamento resterà fisso."
+      }
+    ]
   },
   "WatermarkImagePage": {
     "title": "Aggiungi filigrana",
@@ -142,7 +212,21 @@
     "fontSizeLabel": "Dimensione del testo",
     "submit": "Aggiungi filigrana",
     "converting": "Aggiunta della filigrana in corso...",
-    "error": "Si è verificato un errore durante l'aggiunta della filigrana."
+    "error": "Si è verificato un errore durante l'aggiunta della filigrana.",
+    "faq": [
+      {
+        "q": "Voglio aggiungere una filigrana di copyright alle mie foto.",
+        "a": "Inserisci il testo della filigrana e regola posizione, opacità e dimensione del carattere per personalizzarla esattamente come vuoi."
+      },
+      {
+        "q": "Posso regolare con precisione opacità e posizione della filigrana?",
+        "a": "Sì, usa il cursore dell'opacità e la griglia a 9 posizioni per controllarla con precisione."
+      },
+      {
+        "q": "Voglio impedire che altri riutilizzino le mie foto senza credito.",
+        "a": "Sì, aggiungere una filigrana visibile aiuta a segnare la proprietà e scoraggia l'uso non autorizzato."
+      }
+    ]
   },
   "MemeGeneratorPage": {
     "title": "Generatore di meme",
@@ -153,7 +237,21 @@
     "bottomTextPlaceholder": "es. FINALLY WORKS",
     "submit": "Crea meme",
     "converting": "Creazione del meme in corso...",
-    "error": "Si è verificato un errore durante la creazione del meme."
+    "error": "Si è verificato un errore durante la creazione del meme.",
+    "faq": [
+      {
+        "q": "Posso aggiungere testo stile didascalia a un'immagine meme?",
+        "a": "Sì, digita il testo nei campi superiore e inferiore e viene aggiunto automaticamente in caratteri grassetto stile meme con bordo bianco."
+      },
+      {
+        "q": "Posso usare solo una didascalia superiore o inferiore invece di entrambe?",
+        "a": "Sì, compilare solo il campo superiore o inferiore funziona bene comunque."
+      },
+      {
+        "q": "Posso scaricare subito il meme finito?",
+        "a": "Sì, cliccando sul pulsante di creazione il meme finito si scarica immediatamente."
+      }
+    ]
   },
   "RemoveExifPage": {
     "title": "Rimuovi metadati",
@@ -161,7 +259,21 @@
     "infoText": "Posizione GPS, modello della fotocamera, data di scatto e altri dati nascosti nelle foto verranno completamente rimossi. Qualità e orientamento dell'immagine restano invariati.",
     "submit": "Rimuovi metadati",
     "converting": "Rimozione in corso...",
-    "error": "Si è verificato un errore durante la rimozione dei metadati."
+    "error": "Si è verificato un errore durante la rimozione dei metadati.",
+    "faq": [
+      {
+        "q": "Voglio rimuovere i dati di posizione (GPS) incorporati in una foto.",
+        "a": "Lo strumento di rimozione metadati cancella tutti i dati EXIF, inclusi posizione GPS, modello del dispositivo e data di scatto."
+      },
+      {
+        "q": "Temo che la mia posizione appaia nelle foto che pubblico per annunci di vendita.",
+        "a": "Sì, elaborare una foto con questo strumento rimuove tutti i metadati incorporati, inclusa la posizione, rendendola sicura da condividere."
+      },
+      {
+        "q": "Rimuovere i metadati cambia la qualità o l'orientamento della foto?",
+        "a": "No, la qualità dell'immagine e l'orientamento restano esattamente gli stessi; vengono rimossi solo i metadati nascosti."
+      }
+    ]
   },
   "MergeImagesPage": {
     "title": "Unisci immagini",
@@ -173,7 +285,21 @@
     "gapLabel": "Spaziatura tra le immagini",
     "submit": "Unisci immagini",
     "converting": "Unione in corso...",
-    "error": "Si è verificato un errore durante l'unione delle immagini."
+    "error": "Si è verificato un errore durante l'unione delle immagini.",
+    "faq": [
+      {
+        "q": "Voglio combinare più foto in un'unica immagine da pubblicare sui social media.",
+        "a": "Sì, carica più immagini e scegli una disposizione orizzontale, verticale o a griglia per unirle in una sola."
+      },
+      {
+        "q": "Posso creare un collage con più foto?",
+        "a": "Sì, scegliendo la disposizione a griglia le tue foto vengono organizzate automaticamente in una griglia stile collage."
+      },
+      {
+        "q": "Posso regolare lo spazio tra le immagini?",
+        "a": "Sì, usa l'impostazione dello spazio per controllare la distanza tra le immagini da 0 a 40px."
+      }
+    ]
   },
   "LanguageSwitcher": {
     "label": "Lingua"

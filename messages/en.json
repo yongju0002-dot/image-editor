@@ -83,7 +83,12 @@
     "qualityHint": "Lower values reduce file size but also lower image quality.",
     "submit": "Compress Image",
     "converting": "Compressing...",
-    "error": "Something went wrong while compressing."
+    "error": "Something went wrong while compressing.",
+    "faq": [
+      { "q": "Does compressing an image reduce quality a lot?", "a": "Use the quality slider to balance file size and quality yourself. Around 70-80% usually looks nearly identical while cutting the file size significantly." },
+      { "q": "How do I meet a file size limit for a government or official submission?", "a": "Lower the quality setting until the output is under the required size. Most limits (2MB, 5MB, etc.) can be met with around 70% quality." },
+      { "q": "I need to shrink photos for email or messaging apps with attachment size limits.", "a": "Yes, upload multiple images at once and compress them all to your chosen quality in one go — the results download together as a ZIP." }
+    ]
   },
   "ResizeImagePage": {
     "title": "Resize Image",
@@ -100,7 +105,12 @@
     "keepAspectLabel": "Keep original aspect ratio (leaving one field blank auto-calculates it)",
     "submit": "Resize Image",
     "converting": "Resizing...",
-    "error": "Something went wrong while resizing."
+    "error": "Something went wrong while resizing.",
+    "faq": [
+      { "q": "How do I resize a photo to a specific print size like a passport photo?", "a": "Switch to pixel mode and enter the exact width and height you need — for example, passport photos are commonly around 413x531px." },
+      { "q": "Can I resize an image to fit Instagram profile or story dimensions?", "a": "Yes, just enter the exact pixel size you need (e.g. 320x320px for a profile photo, 1080x1920px for a story)." },
+      { "q": "Can I resize multiple photos to the same size at once?", "a": "Yes, upload several images and they'll all be resized with the same settings, then downloaded together as a ZIP." }
+    ]
   },
   "CropImagePage": {
     "title": "Crop Image",
@@ -113,7 +123,12 @@
     "heightLabel": "Height (px)",
     "submit": "Crop Image",
     "cropping": "Cropping...",
-    "error": "Something went wrong while cropping."
+    "error": "Something went wrong while cropping.",
+    "faq": [
+      { "q": "How do I crop a photo into a square, like for a profile picture?", "a": "Enter the same value for width and height to get a perfect square, and set the X/Y coordinates for the area you want to keep." },
+      { "q": "Can I cut out just the background I don't want from a photo?", "a": "Yes, specify the X/Y position and width/height of the area you want to keep, and everything outside it is removed." },
+      { "q": "Can I crop using exact pixel coordinates?", "a": "Yes, you can set the exact X/Y starting point and width/height in pixels for precise cropping." }
+    ]
   },
   "ConvertImagePage": {
     "title": "Convert Image",
@@ -121,7 +136,12 @@
     "formatLabel": "Convert to",
     "submit": "Convert to {format}",
     "converting": "Converting...",
-    "error": "Something went wrong while converting."
+    "error": "Something went wrong while converting.",
+    "faq": [
+      { "q": "What happens to transparency when I convert PNG to JPG?", "a": "JPG doesn't support transparency, so any transparent areas are filled in with a white background." },
+      { "q": "Can I convert a GIF into a still image?", "a": "Yes, converting a GIF to PNG or JPG saves its first frame as a static image." },
+      { "q": "Why would I convert an image to WEBP for my website?", "a": "WEBP files are usually smaller than JPG or PNG at the same quality, which helps your website load faster." }
+    ]
   },
   "RotateImagePage": {
     "title": "Rotate Image",
@@ -131,7 +151,12 @@
     "flipVLabel": "Flip vertically",
     "submit": "Rotate Image",
     "converting": "Rotating...",
-    "error": "Something went wrong while rotating."
+    "error": "Something went wrong while rotating.",
+    "faq": [
+      { "q": "My scanned photo is sideways — how do I straighten it?", "a": "Choose a 90, 180, or 270 degree rotation to instantly straighten it to the orientation you need." },
+      { "q": "Can I flip a photo horizontally to create a mirror image?", "a": "Yes, the flip horizontal option mirrors the image left-to-right. Flip vertical is also available separately." },
+      { "q": "My phone photos keep saving in the wrong orientation — can this fix that?", "a": "Yes, rotate it to the correct angle and save the new version, and the orientation will stay fixed from then on." }
+    ]
   },
   "WatermarkImagePage": {
     "title": "Add Watermark",
@@ -142,7 +167,12 @@
     "fontSizeLabel": "Font size",
     "submit": "Add Watermark",
     "converting": "Adding watermark...",
-    "error": "Something went wrong while adding the watermark."
+    "error": "Something went wrong while adding the watermark.",
+    "faq": [
+      { "q": "I want to add a copyright watermark to my photos.", "a": "Enter your watermark text and adjust its position, opacity, and font size to style it exactly how you want." },
+      { "q": "Can I fine-tune the watermark's opacity and position?", "a": "Yes, use the opacity slider and the 9-position placement grid to control it precisely." },
+      { "q": "I want to stop people from reusing my photos without credit.", "a": "Yes, adding a visible watermark helps mark ownership and discourages unauthorized use." }
+    ]
   },
   "MemeGeneratorPage": {
     "title": "Meme Generator",
@@ -153,7 +183,12 @@
     "bottomTextPlaceholder": "e.g. FINALLY WORKS",
     "submit": "Make Meme",
     "converting": "Making meme...",
-    "error": "Something went wrong while generating the meme."
+    "error": "Something went wrong while generating the meme.",
+    "faq": [
+      { "q": "Can I add caption-style text to a meme image?", "a": "Yes, type your text into the top and bottom fields and it's added in bold, white-outlined meme-style lettering automatically." },
+      { "q": "Can I use just a top or bottom caption instead of both?", "a": "Yes, filling in only the top or bottom field still works fine." },
+      { "q": "Can I download the finished meme right away?", "a": "Yes, clicking the make button downloads your finished meme immediately." }
+    ]
   },
   "RemoveExifPage": {
     "title": "Remove Metadata",
@@ -161,7 +196,12 @@
     "infoText": "GPS location, camera model, capture date, and other hidden data embedded in your photos will all be removed. Image quality and orientation stay the same.",
     "submit": "Remove Metadata",
     "converting": "Removing...",
-    "error": "Something went wrong while removing metadata."
+    "error": "Something went wrong while removing metadata.",
+    "faq": [
+      { "q": "I want to remove the location (GPS) data embedded in a photo.", "a": "The metadata removal tool strips all EXIF data, including GPS location, device model, and capture date." },
+      { "q": "I'm worried my location shows up in photos I post for online marketplace listings.", "a": "Yes, processing a photo with this tool removes all embedded metadata, including location, so it's safe to share." },
+      { "q": "Does removing metadata change the photo's quality or orientation?", "a": "No, image quality and orientation stay exactly the same — only the hidden metadata is removed." }
+    ]
   },
   "MergeImagesPage": {
     "title": "Merge Images",
@@ -173,7 +213,12 @@
     "gapLabel": "Image spacing",
     "submit": "Merge Images",
     "converting": "Merging...",
-    "error": "Something went wrong while merging."
+    "error": "Something went wrong while merging.",
+    "faq": [
+      { "q": "I want to combine several photos into one image to post on social media.", "a": "Yes, upload multiple images and choose a horizontal, vertical, or grid layout to merge them into one." },
+      { "q": "Can I make a collage out of multiple photos?", "a": "Yes, choosing the grid layout automatically arranges your photos into a collage-style grid." },
+      { "q": "Can I adjust the spacing between images?", "a": "Yes, use the gap setting to control the spacing between images anywhere from 0 to 40px." }
+    ]
   },
   "LanguageSwitcher": {
     "label": "Language"

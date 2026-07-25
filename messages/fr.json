@@ -83,7 +83,21 @@
     "qualityHint": "Une valeur plus basse réduit la taille du fichier, mais aussi la qualité.",
     "submit": "Compresser l'image",
     "converting": "Compression en cours...",
-    "error": "Une erreur est survenue lors de la compression."
+    "error": "Une erreur est survenue lors de la compression.",
+    "faq": [
+      {
+        "q": "La compression d'une image réduit-elle beaucoup la qualité ?",
+        "a": "Utilisez le curseur de qualité pour équilibrer vous-même la taille du fichier et la qualité. Autour de 70-80 %, la différence est presque invisible à l'œil nu tout en réduisant nettement la taille du fichier."
+      },
+      {
+        "q": "Comment respecter une limite de taille de fichier pour une démarche administrative ?",
+        "a": "Réduisez la qualité jusqu'à ce que le résultat soit inférieur à la taille requise. La plupart des limites (2 Mo, 5 Mo, etc.) sont atteignables avec une qualité d'environ 70 %."
+      },
+      {
+        "q": "Je dois réduire des photos pour l'e-mail ou une messagerie avec une limite de pièce jointe.",
+        "a": "Oui, téléchargez plusieurs images à la fois et compressez-les toutes à la qualité choisie en une seule opération ; le résultat se télécharge ensemble dans un ZIP."
+      }
+    ]
   },
   "ResizeImagePage": {
     "title": "Redimensionner une image",
@@ -100,7 +114,21 @@
     "keepAspectLabel": "Conserver les proportions d'origine (laisser un champ vide le calcule automatiquement)",
     "submit": "Redimensionner l'image",
     "converting": "Redimensionnement en cours...",
-    "error": "Une erreur est survenue lors du redimensionnement."
+    "error": "Une erreur est survenue lors du redimensionnement.",
+    "faq": [
+      {
+        "q": "Comment redimensionner une photo à un format d'impression précis, comme une photo d'identité ?",
+        "a": "Passez en mode pixels et saisissez la largeur et la hauteur exactes voulues ; par exemple, les photos de passeport font généralement environ 413x531px."
+      },
+      {
+        "q": "Puis-je adapter une image aux dimensions de profil ou de story Instagram ?",
+        "a": "Oui, il suffit de saisir la taille en pixels exacte voulue (par exemple 320x320px pour un profil, 1080x1920px pour une story)."
+      },
+      {
+        "q": "Puis-je redimensionner plusieurs photos à la même taille en une fois ?",
+        "a": "Oui, téléchargez plusieurs images et elles seront toutes redimensionnées avec les mêmes réglages, puis téléchargées ensemble dans un ZIP."
+      }
+    ]
   },
   "CropImagePage": {
     "title": "Recadrer une image",
@@ -113,7 +141,21 @@
     "heightLabel": "Hauteur (px)",
     "submit": "Recadrer l'image",
     "cropping": "Recadrage en cours...",
-    "error": "Une erreur est survenue lors du recadrage."
+    "error": "Une erreur est survenue lors du recadrage.",
+    "faq": [
+      {
+        "q": "Comment recadrer une photo en carré, par exemple pour une photo de profil ?",
+        "a": "Saisissez la même valeur pour la largeur et la hauteur pour obtenir un carré parfait, et définissez les coordonnées X/Y de la zone à conserver."
+      },
+      {
+        "q": "Puis-je découper uniquement le fond indésirable d'une photo ?",
+        "a": "Oui, indiquez la position X/Y et la largeur/hauteur de la zone à conserver, et tout le reste est supprimé."
+      },
+      {
+        "q": "Puis-je recadrer avec des coordonnées en pixels exactes ?",
+        "a": "Oui, vous pouvez définir précisément le point de départ X/Y et la largeur/hauteur en pixels pour un recadrage précis."
+      }
+    ]
   },
   "ConvertImagePage": {
     "title": "Convertir une image",
@@ -121,7 +163,21 @@
     "formatLabel": "Convertir vers",
     "submit": "Convertir en {format}",
     "converting": "Conversion en cours...",
-    "error": "Une erreur est survenue lors de la conversion."
+    "error": "Une erreur est survenue lors de la conversion.",
+    "faq": [
+      {
+        "q": "Qu'advient-il de la transparence en convertissant un PNG en JPG ?",
+        "a": "Le JPG ne prend pas en charge la transparence, donc les zones transparentes sont remplies avec un fond blanc."
+      },
+      {
+        "q": "Puis-je convertir un GIF en image fixe ?",
+        "a": "Oui, convertir un GIF en PNG ou JPG enregistre sa première image comme une image fixe."
+      },
+      {
+        "q": "Pourquoi convertir une image en WEBP pour mon site web ?",
+        "a": "Les fichiers WEBP sont généralement plus petits que les JPG ou PNG à qualité égale, ce qui aide votre site à se charger plus vite."
+      }
+    ]
   },
   "RotateImagePage": {
     "title": "Pivoter une image",
@@ -131,7 +187,21 @@
     "flipVLabel": "Retourner verticalement",
     "submit": "Pivoter l'image",
     "converting": "Rotation en cours...",
-    "error": "Une erreur est survenue lors de la rotation."
+    "error": "Une erreur est survenue lors de la rotation.",
+    "faq": [
+      {
+        "q": "Ma photo scannée est de travers, comment la redresser ?",
+        "a": "Choisissez une rotation de 90, 180 ou 270 degrés pour la redresser instantanément dans l'orientation voulue."
+      },
+      {
+        "q": "Puis-je retourner une photo horizontalement pour créer un effet miroir ?",
+        "a": "Oui, l'option de retournement horizontal reflète l'image de gauche à droite. Le retournement vertical est aussi disponible séparément."
+      },
+      {
+        "q": "Mes photos de téléphone s'enregistrent toujours mal orientées, est-ce que cela peut corriger ça ?",
+        "a": "Oui, faites pivoter à l'angle correct et enregistrez la nouvelle version ; l'orientation restera fixée par la suite."
+      }
+    ]
   },
   "WatermarkImagePage": {
     "title": "Ajouter un filigrane",
@@ -142,7 +212,21 @@
     "fontSizeLabel": "Taille du texte",
     "submit": "Ajouter le filigrane",
     "converting": "Ajout du filigrane en cours...",
-    "error": "Une erreur est survenue lors de l'ajout du filigrane."
+    "error": "Une erreur est survenue lors de l'ajout du filigrane.",
+    "faq": [
+      {
+        "q": "Je veux ajouter un filigrane de droit d'auteur à mes photos.",
+        "a": "Saisissez le texte du filigrane et ajustez sa position, son opacité et sa taille de police pour le styliser exactement comme vous le souhaitez."
+      },
+      {
+        "q": "Puis-je ajuster précisément l'opacité et la position du filigrane ?",
+        "a": "Oui, utilisez le curseur d'opacité et la grille de 9 positions pour le contrôler précisément."
+      },
+      {
+        "q": "Je veux empêcher que mes photos soient réutilisées sans crédit.",
+        "a": "Oui, ajouter un filigrane visible aide à marquer la propriété et décourage l'usage non autorisé."
+      }
+    ]
   },
   "MemeGeneratorPage": {
     "title": "Générateur de mèmes",
@@ -153,7 +237,21 @@
     "bottomTextPlaceholder": "ex. FINALLY WORKS",
     "submit": "Créer le mème",
     "converting": "Création en cours...",
-    "error": "Une erreur est survenue lors de la création du mème."
+    "error": "Une erreur est survenue lors de la création du mème.",
+    "faq": [
+      {
+        "q": "Puis-je ajouter du texte façon légende à une image mème ?",
+        "a": "Oui, saisissez votre texte dans les champs du haut et du bas et il est ajouté automatiquement en lettres grasses style mème avec contour blanc."
+      },
+      {
+        "q": "Puis-je utiliser uniquement une légende en haut ou en bas au lieu des deux ?",
+        "a": "Oui, remplir seulement le champ du haut ou du bas fonctionne très bien."
+      },
+      {
+        "q": "Puis-je télécharger le mème terminé immédiatement ?",
+        "a": "Oui, en cliquant sur le bouton de création, votre mème terminé se télécharge immédiatement."
+      }
+    ]
   },
   "RemoveExifPage": {
     "title": "Supprimer les métadonnées",
@@ -161,7 +259,21 @@
     "infoText": "La position GPS, le modèle d'appareil, la date de prise de vue et autres informations cachées de vos photos seront supprimées. La qualité et l'orientation de l'image restent inchangées.",
     "submit": "Supprimer les métadonnées",
     "converting": "Suppression en cours...",
-    "error": "Une erreur est survenue lors de la suppression des métadonnées."
+    "error": "Une erreur est survenue lors de la suppression des métadonnées.",
+    "faq": [
+      {
+        "q": "Je veux supprimer les données de localisation (GPS) intégrées dans une photo.",
+        "a": "L'outil de suppression des métadonnées efface toutes les données EXIF, y compris la localisation GPS, le modèle d'appareil et la date de prise de vue."
+      },
+      {
+        "q": "Je crains que ma localisation apparaisse dans les photos que je publie pour une petite annonce.",
+        "a": "Oui, traiter une photo avec cet outil supprime toutes les métadonnées intégrées, y compris la localisation, ce qui la rend sûre à partager."
+      },
+      {
+        "q": "La suppression des métadonnées change-t-elle la qualité ou l'orientation de la photo ?",
+        "a": "Non, la qualité de l'image et l'orientation restent exactement les mêmes ; seules les métadonnées cachées sont supprimées."
+      }
+    ]
   },
   "MergeImagesPage": {
     "title": "Fusionner des images",
@@ -173,7 +285,21 @@
     "gapLabel": "Espacement entre les images",
     "submit": "Fusionner les images",
     "converting": "Fusion en cours...",
-    "error": "Une erreur est survenue lors de la fusion des images."
+    "error": "Une erreur est survenue lors de la fusion des images.",
+    "faq": [
+      {
+        "q": "Je veux combiner plusieurs photos en une seule image à publier sur les réseaux sociaux.",
+        "a": "Oui, téléchargez plusieurs images et choisissez une disposition horizontale, verticale ou en grille pour les fusionner en une seule."
+      },
+      {
+        "q": "Puis-je créer un collage à partir de plusieurs photos ?",
+        "a": "Oui, choisir la disposition en grille organise automatiquement vos photos en une grille façon collage."
+      },
+      {
+        "q": "Puis-je ajuster l'espacement entre les images ?",
+        "a": "Oui, utilisez le réglage d'espacement pour contrôler l'écart entre les images de 0 à 40px."
+      }
+    ]
   },
   "LanguageSwitcher": {
     "label": "Langue"

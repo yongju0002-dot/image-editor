@@ -9,9 +9,11 @@ import { ImageDropzone } from "@/components/ui/ImageDropzone";
 import { SliderField } from "@/components/ui/SliderField";
 import { SubmitButton } from "@/components/ui/SubmitButton";
 import { Callout } from "@/components/ui/Callout";
+import { ToolFaqSection } from "@/components/ToolFaqSection";
 
 export default function Client() {
   const t = useTranslations("CompressImagePage");
+  const faqItems = t.raw("faq") as { q: string; a: string }[];
   const [files, setFiles] = useState<File[]>([]);
   const [quality, setQuality] = useState(70);
   const [loading, setLoading] = useState(false);
@@ -83,6 +85,8 @@ export default function Client() {
           {loading ? t("converting") : t("submit")}
         </SubmitButton>
       </div>
+
+      <ToolFaqSection items={faqItems} />
     </ToolPageShell>
   );
 }

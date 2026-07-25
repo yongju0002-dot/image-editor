@@ -9,9 +9,11 @@ import { ImageDropzone } from "@/components/ui/ImageDropzone";
 import { TextField } from "@/components/ui/TextField";
 import { SubmitButton } from "@/components/ui/SubmitButton";
 import { Callout } from "@/components/ui/Callout";
+import { ToolFaqSection } from "@/components/ToolFaqSection";
 
 export default function Client() {
   const t = useTranslations("CropImagePage");
+  const faqItems = t.raw("faq") as { q: string; a: string }[];
   const [files, setFiles] = useState<File[]>([]);
   const [dimensions, setDimensions] = useState<{ width: number; height: number } | null>(null);
   const [x, setX] = useState("0");
@@ -120,6 +122,8 @@ export default function Client() {
           {loading ? t("cropping") : t("submit")}
         </SubmitButton>
       </div>
+
+      <ToolFaqSection items={faqItems} />
     </ToolPageShell>
   );
 }

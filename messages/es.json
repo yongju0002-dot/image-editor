@@ -83,7 +83,21 @@
     "qualityHint": "Valores más bajos reducen el tamaño del archivo, pero también la calidad.",
     "submit": "Comprimir imagen",
     "converting": "Comprimiendo...",
-    "error": "Ocurrió un error al comprimir."
+    "error": "Ocurrió un error al comprimir.",
+    "faq": [
+      {
+        "q": "¿Comprimir una imagen reduce mucho la calidad?",
+        "a": "Usa el control deslizante de calidad para equilibrar tamaño y calidad tú mismo. Alrededor del 70-80% suele verse casi igual mientras reduce bastante el tamaño del archivo."
+      },
+      {
+        "q": "¿Cómo cumplo con un límite de tamaño para un trámite gubernamental?",
+        "a": "Baja la calidad hasta que el resultado quede por debajo del tamaño requerido. La mayoría de los límites (2MB, 5MB, etc.) se cumplen con una calidad de alrededor del 70%."
+      },
+      {
+        "q": "Necesito reducir fotos para correo o mensajería con límites de tamaño de archivo adjunto.",
+        "a": "Sí, sube varias imágenes a la vez y comprímelas todas a la calidad que elijas de una sola vez; el resultado se descarga junto en un ZIP."
+      }
+    ]
   },
   "ResizeImagePage": {
     "title": "Redimensionar imagen",
@@ -100,7 +114,21 @@
     "keepAspectLabel": "Mantener la proporción original (si dejas un campo vacío se calcula automáticamente)",
     "submit": "Redimensionar imagen",
     "converting": "Redimensionando...",
-    "error": "Ocurrió un error al redimensionar."
+    "error": "Ocurrió un error al redimensionar.",
+    "faq": [
+      {
+        "q": "¿Cómo cambio el tamaño de una foto para un tamaño de impresión específico, como una foto de pasaporte?",
+        "a": "Cambia al modo de píxeles e introduce el ancho y alto exactos que necesitas; por ejemplo, las fotos de pasaporte suelen ser de unos 413x531px."
+      },
+      {
+        "q": "¿Puedo ajustar una imagen a las dimensiones de perfil o historia de Instagram?",
+        "a": "Sí, solo introduce el tamaño en píxeles exacto que necesitas (por ejemplo, 320x320px para un perfil, 1080x1920px para una historia)."
+      },
+      {
+        "q": "¿Puedo redimensionar varias fotos al mismo tamaño a la vez?",
+        "a": "Sí, sube varias imágenes y todas se redimensionarán con la misma configuración, luego se descargan juntas en un ZIP."
+      }
+    ]
   },
   "CropImagePage": {
     "title": "Recortar imagen",
@@ -113,7 +141,21 @@
     "heightLabel": "Alto (px)",
     "submit": "Recortar imagen",
     "cropping": "Recortando...",
-    "error": "Ocurrió un error al recortar."
+    "error": "Ocurrió un error al recortar.",
+    "faq": [
+      {
+        "q": "¿Cómo recorto una foto en forma cuadrada, como para una foto de perfil?",
+        "a": "Introduce el mismo valor para ancho y alto para obtener un cuadrado perfecto, y define las coordenadas X/Y del área que quieres conservar."
+      },
+      {
+        "q": "¿Puedo recortar solo el fondo que no quiero de una foto?",
+        "a": "Sí, especifica la posición X/Y y el ancho/alto del área que quieres conservar, y todo lo demás se elimina."
+      },
+      {
+        "q": "¿Puedo recortar usando coordenadas de píxeles exactas?",
+        "a": "Sí, puedes establecer el punto de inicio X/Y exacto y el ancho/alto en píxeles para un recorte preciso."
+      }
+    ]
   },
   "ConvertImagePage": {
     "title": "Convertir imagen",
@@ -121,7 +163,21 @@
     "formatLabel": "Convertir a",
     "submit": "Convertir a {format}",
     "converting": "Convirtiendo...",
-    "error": "Ocurrió un error al convertir."
+    "error": "Ocurrió un error al convertir.",
+    "faq": [
+      {
+        "q": "¿Qué pasa con la transparencia al convertir PNG a JPG?",
+        "a": "JPG no admite transparencia, por lo que las áreas transparentes se rellenan con un fondo blanco."
+      },
+      {
+        "q": "¿Puedo convertir un GIF en una imagen estática?",
+        "a": "Sí, convertir un GIF a PNG o JPG guarda su primer fotograma como imagen estática."
+      },
+      {
+        "q": "¿Por qué convertiría una imagen a WEBP para mi sitio web?",
+        "a": "Los archivos WEBP suelen ser más pequeños que JPG o PNG con la misma calidad, lo que ayuda a que tu sitio cargue más rápido."
+      }
+    ]
   },
   "RotateImagePage": {
     "title": "Rotar imagen",
@@ -131,7 +187,21 @@
     "flipVLabel": "Invertir verticalmente",
     "submit": "Rotar imagen",
     "converting": "Rotando...",
-    "error": "Ocurrió un error al rotar."
+    "error": "Ocurrió un error al rotar.",
+    "faq": [
+      {
+        "q": "Mi foto escaneada está de lado, ¿cómo la enderezo?",
+        "a": "Elige una rotación de 90, 180 o 270 grados para enderezarla al instante a la orientación que necesitas."
+      },
+      {
+        "q": "¿Puedo voltear una foto horizontalmente para crear una imagen espejo?",
+        "a": "Sí, la opción de voltear horizontalmente refleja la imagen de izquierda a derecha. Voltear verticalmente también está disponible por separado."
+      },
+      {
+        "q": "Mis fotos del móvil siguen guardándose con la orientación incorrecta, ¿esto lo soluciona?",
+        "a": "Sí, gíralas al ángulo correcto y guarda la nueva versión; la orientación se mantendrá fija desde entonces."
+      }
+    ]
   },
   "WatermarkImagePage": {
     "title": "Añadir marca de agua",
@@ -142,7 +212,21 @@
     "fontSizeLabel": "Tamaño de letra",
     "submit": "Añadir marca de agua",
     "converting": "Añadiendo marca de agua...",
-    "error": "Ocurrió un error al añadir la marca de agua."
+    "error": "Ocurrió un error al añadir la marca de agua.",
+    "faq": [
+      {
+        "q": "Quiero añadir una marca de agua de derechos de autor a mis fotos.",
+        "a": "Introduce tu texto de marca de agua y ajusta su posición, opacidad y tamaño de fuente para diseñarla exactamente como quieras."
+      },
+      {
+        "q": "¿Puedo ajustar con precisión la opacidad y posición de la marca de agua?",
+        "a": "Sí, usa el control deslizante de opacidad y la cuadrícula de 9 posiciones para controlarla con precisión."
+      },
+      {
+        "q": "Quiero evitar que otros reutilicen mis fotos sin dar crédito.",
+        "a": "Sí, añadir una marca de agua visible ayuda a marcar la propiedad y desalienta el uso no autorizado."
+      }
+    ]
   },
   "MemeGeneratorPage": {
     "title": "Generador de memes",
@@ -153,7 +237,21 @@
     "bottomTextPlaceholder": "ej. FINALLY WORKS",
     "submit": "Crear meme",
     "converting": "Creando meme...",
-    "error": "Ocurrió un error al generar el meme."
+    "error": "Ocurrió un error al generar el meme.",
+    "faq": [
+      {
+        "q": "¿Puedo añadir texto tipo subtítulo a una imagen de meme?",
+        "a": "Sí, escribe tu texto en los campos superior e inferior y se añade automáticamente en letras estilo meme en negrita con borde blanco."
+      },
+      {
+        "q": "¿Puedo usar solo un texto superior o inferior en lugar de ambos?",
+        "a": "Sí, completar solo el campo superior o inferior también funciona bien."
+      },
+      {
+        "q": "¿Puedo descargar el meme terminado de inmediato?",
+        "a": "Sí, al hacer clic en el botón de crear se descarga tu meme terminado de inmediato."
+      }
+    ]
   },
   "RemoveExifPage": {
     "title": "Eliminar metadatos",
@@ -161,7 +259,21 @@
     "infoText": "Se eliminará toda la información oculta de tus fotos, como la ubicación GPS, el modelo de cámara y la fecha de captura. La calidad y la orientación de la imagen no cambian.",
     "submit": "Eliminar metadatos",
     "converting": "Eliminando...",
-    "error": "Ocurrió un error al eliminar los metadatos."
+    "error": "Ocurrió un error al eliminar los metadatos.",
+    "faq": [
+      {
+        "q": "Quiero eliminar los datos de ubicación (GPS) incrustados en una foto.",
+        "a": "La herramienta de eliminación de metadatos elimina todos los datos EXIF, incluida la ubicación GPS, el modelo del dispositivo y la fecha de captura."
+      },
+      {
+        "q": "Me preocupa que mi ubicación aparezca en fotos que publico en anuncios de venta.",
+        "a": "Sí, procesar una foto con esta herramienta elimina todos los metadatos incrustados, incluida la ubicación, por lo que es seguro compartirla."
+      },
+      {
+        "q": "¿Eliminar los metadatos cambia la calidad o la orientación de la foto?",
+        "a": "No, la calidad de la imagen y la orientación permanecen exactamente igual; solo se elimina la metadata oculta."
+      }
+    ]
   },
   "MergeImagesPage": {
     "title": "Combinar imágenes",
@@ -173,7 +285,21 @@
     "gapLabel": "Espaciado entre imágenes",
     "submit": "Combinar imágenes",
     "converting": "Combinando...",
-    "error": "Ocurrió un error al combinar las imágenes."
+    "error": "Ocurrió un error al combinar las imágenes.",
+    "faq": [
+      {
+        "q": "Quiero combinar varias fotos en una sola imagen para publicar en redes sociales.",
+        "a": "Sí, sube varias imágenes y elige un diseño horizontal, vertical o en cuadrícula para combinarlas en una."
+      },
+      {
+        "q": "¿Puedo hacer un collage con varias fotos?",
+        "a": "Sí, elegir el diseño en cuadrícula organiza automáticamente tus fotos en una cuadrícula estilo collage."
+      },
+      {
+        "q": "¿Puedo ajustar el espacio entre las imágenes?",
+        "a": "Sí, usa la configuración de espacio para controlar la separación entre imágenes de 0 a 40px."
+      }
+    ]
   },
   "LanguageSwitcher": {
     "label": "Idioma"

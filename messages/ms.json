@@ -83,7 +83,21 @@
     "qualityHint": "Nilai lebih rendah mengecilkan saiz fail, tetapi turut menurunkan kualiti imej.",
     "submit": "Mampatkan Imej",
     "converting": "Sedang memampatkan...",
-    "error": "Ralat berlaku semasa memampatkan."
+    "error": "Ralat berlaku semasa memampatkan.",
+    "faq": [
+      {
+        "q": "Adakah memampatkan imej mengurangkan kualiti dengan banyak?",
+        "a": "Gunakan penggelangsar kualiti untuk mengimbangi saiz fail dan kualiti sendiri. Sekitar 70-80% biasanya kelihatan hampir sama manakala saiz fail berkurang dengan ketara."
+      },
+      {
+        "q": "Bagaimana saya memenuhi had saiz fail untuk penyerahan ke agensi kerajaan?",
+        "a": "Kurangkan kualiti sehingga hasilnya di bawah saiz yang diperlukan. Kebanyakan had (2MB, 5MB, dll.) boleh dicapai dengan kualiti sekitar 70%."
+      },
+      {
+        "q": "Saya perlu mengecilkan gambar untuk e-mel atau aplikasi mesej dengan had saiz lampiran.",
+        "a": "Ya, muat naik beberapa imej sekaligus dan mampatkan semuanya kepada kualiti pilihan anda serentak; hasilnya dimuat turun bersama sebagai ZIP."
+      }
+    ]
   },
   "ResizeImagePage": {
     "title": "Ubah Saiz Imej",
@@ -100,7 +114,21 @@
     "keepAspectLabel": "Kekalkan nisbah bidang asal (biarkan satu medan kosong untuk pengiraan automatik)",
     "submit": "Ubah Saiz Imej",
     "converting": "Sedang mengubah saiz...",
-    "error": "Ralat berlaku semasa mengubah saiz."
+    "error": "Ralat berlaku semasa mengubah saiz.",
+    "faq": [
+      {
+        "q": "Bagaimana saya mengubah saiz gambar kepada saiz cetakan tertentu, seperti gambar pasport?",
+        "a": "Tukar kepada mod piksel dan masukkan lebar dan tinggi yang tepat; contohnya gambar pasport biasanya sekitar 413x531px."
+      },
+      {
+        "q": "Bolehkah saya menyesuaikan imej mengikut saiz profil atau cerita Instagram?",
+        "a": "Boleh, hanya masukkan saiz piksel yang tepat diperlukan (contohnya 320x320px untuk profil, 1080x1920px untuk cerita)."
+      },
+      {
+        "q": "Bolehkah saya ubah saiz beberapa gambar kepada saiz yang sama serentak?",
+        "a": "Boleh, muat naik beberapa imej dan semuanya akan diubah saiz dengan tetapan yang sama, kemudian dimuat turun bersama sebagai ZIP."
+      }
+    ]
   },
   "CropImagePage": {
     "title": "Potong Imej",
@@ -113,7 +141,21 @@
     "heightLabel": "Tinggi (px)",
     "submit": "Potong Imej",
     "cropping": "Sedang memotong...",
-    "error": "Ralat berlaku semasa memotong."
+    "error": "Ralat berlaku semasa memotong.",
+    "faq": [
+      {
+        "q": "Bagaimana saya memangkas gambar menjadi segi empat sama, contohnya untuk gambar profil?",
+        "a": "Masukkan nilai yang sama untuk lebar dan tinggi untuk mendapatkan segi empat sama yang sempurna, dan tetapkan koordinat X/Y kawasan yang ingin dikekalkan."
+      },
+      {
+        "q": "Bolehkah saya memotong hanya latar belakang yang tidak diingini daripada gambar?",
+        "a": "Boleh, nyatakan kedudukan X/Y serta lebar/tinggi kawasan yang ingin dikekalkan, dan selebihnya akan dibuang."
+      },
+      {
+        "q": "Bolehkah saya memangkas menggunakan koordinat piksel yang tepat?",
+        "a": "Boleh, anda boleh menetapkan titik permulaan X/Y serta lebar/tinggi dalam piksel dengan tepat untuk pemangkasan yang jitu."
+      }
+    ]
   },
   "ConvertImagePage": {
     "title": "Tukar Imej",
@@ -121,7 +163,21 @@
     "formatLabel": "Tukar kepada",
     "submit": "Tukar kepada {format}",
     "converting": "Sedang menukar...",
-    "error": "Ralat berlaku semasa menukar."
+    "error": "Ralat berlaku semasa menukar.",
+    "faq": [
+      {
+        "q": "Apa yang berlaku kepada ketelusan apabila menukar PNG kepada JPG?",
+        "a": "JPG tidak menyokong ketelusan, jadi kawasan telus akan diisi dengan latar belakang putih."
+      },
+      {
+        "q": "Bolehkah saya menukar GIF kepada imej statik?",
+        "a": "Boleh, menukar GIF kepada PNG atau JPG akan menyimpan bingkai pertamanya sebagai imej statik."
+      },
+      {
+        "q": "Mengapa saya perlu menukar imej kepada WEBP untuk laman web saya?",
+        "a": "Fail WEBP biasanya lebih kecil daripada JPG atau PNG pada kualiti yang sama, membantu laman web anda dimuatkan dengan lebih pantas."
+      }
+    ]
   },
   "RotateImagePage": {
     "title": "Putar Imej",
@@ -131,7 +187,21 @@
     "flipVLabel": "Terbalik menegak",
     "submit": "Putar Imej",
     "converting": "Sedang memutar...",
-    "error": "Ralat berlaku semasa memutar."
+    "error": "Ralat berlaku semasa memutar.",
+    "faq": [
+      {
+        "q": "Gambar imbasan saya condong ke sisi, bagaimana saya meluruskannya?",
+        "a": "Pilih putaran 90, 180, atau 270 darjah untuk terus meluruskannya ke orientasi yang diperlukan."
+      },
+      {
+        "q": "Bolehkah saya membalikkan gambar secara mendatar untuk mencipta imej cermin?",
+        "a": "Boleh, pilihan balik mendatar akan mencerminkan imej dari kiri ke kanan. Balik menegak juga tersedia secara berasingan."
+      },
+      {
+        "q": "Gambar telefon saya sentiasa disimpan dalam orientasi yang salah, adakah ini boleh membetulkannya?",
+        "a": "Boleh, putarkan ke sudut yang betul dan simpan versi baharu; orientasi akan kekal tetap selepas itu."
+      }
+    ]
   },
   "WatermarkImagePage": {
     "title": "Tambah Tera Air",
@@ -142,7 +212,21 @@
     "fontSizeLabel": "Saiz fon",
     "submit": "Tambah Tera Air",
     "converting": "Sedang menambah tera air...",
-    "error": "Ralat berlaku semasa menambah tera air."
+    "error": "Ralat berlaku semasa menambah tera air.",
+    "faq": [
+      {
+        "q": "Saya ingin menambah tera air hak cipta pada gambar saya.",
+        "a": "Masukkan teks tera air anda dan laraskan kedudukan, ketelusan, dan saiz fon untuk menggayakannya seperti yang anda mahu."
+      },
+      {
+        "q": "Bolehkah saya menala ketelusan dan kedudukan tera air dengan tepat?",
+        "a": "Boleh, gunakan penggelangsar ketelusan dan grid 9 kedudukan untuk mengawalnya dengan tepat."
+      },
+      {
+        "q": "Saya ingin mengelakkan orang lain menggunakan semula gambar saya tanpa kredit.",
+        "a": "Boleh, menambah tera air yang jelas kelihatan membantu menandakan pemilikan dan mengurangkan penggunaan tanpa kebenaran."
+      }
+    ]
   },
   "MemeGeneratorPage": {
     "title": "Penjana Meme",
@@ -153,7 +237,21 @@
     "bottomTextPlaceholder": "cth. FINALLY WORKS",
     "submit": "Cipta Meme",
     "converting": "Sedang mencipta meme...",
-    "error": "Ralat berlaku semasa mencipta meme."
+    "error": "Ralat berlaku semasa mencipta meme.",
+    "faq": [
+      {
+        "q": "Bolehkah saya menambah teks gaya kapsyen pada imej meme?",
+        "a": "Boleh, taip teks anda dalam ruangan atas dan bawah dan ia akan ditambah secara automatik dalam huruf tebal gaya meme bersempadan putih."
+      },
+      {
+        "q": "Bolehkah saya guna hanya kapsyen atas atau bawah sahaja berbanding kedua-duanya?",
+        "a": "Boleh, mengisi hanya ruangan atas atau bawah juga berfungsi dengan baik."
+      },
+      {
+        "q": "Bolehkah saya memuat turun meme yang siap serta-merta?",
+        "a": "Boleh, mengklik butang buat akan memuat turun meme siap anda serta-merta."
+      }
+    ]
   },
   "RemoveExifPage": {
     "title": "Alih Keluar Metadata",
@@ -161,7 +259,21 @@
     "infoText": "Lokasi GPS, model kamera, tarikh diambil dan data tersembunyi lain dalam gambar anda akan dialih keluar sepenuhnya. Kualiti dan orientasi imej kekal sama.",
     "submit": "Alih Keluar Metadata",
     "converting": "Sedang mengalih keluar...",
-    "error": "Ralat berlaku semasa mengalih keluar metadata."
+    "error": "Ralat berlaku semasa mengalih keluar metadata.",
+    "faq": [
+      {
+        "q": "Saya ingin membuang data lokasi (GPS) yang tertanam dalam gambar.",
+        "a": "Alat pembuangan metadata memadam semua data EXIF, termasuk lokasi GPS, model peranti, dan tarikh tangkapan."
+      },
+      {
+        "q": "Saya risau lokasi saya muncul dalam gambar yang saya siarkan untuk iklan jualan.",
+        "a": "Ya, memproses gambar dengan alat ini membuang semua metadata tertanam, termasuk lokasi, jadi selamat untuk dikongsi."
+      },
+      {
+        "q": "Adakah membuang metadata mengubah kualiti atau orientasi gambar?",
+        "a": "Tidak, kualiti imej dan orientasi kekal sama sepenuhnya; hanya metadata tersembunyi yang dibuang."
+      }
+    ]
   },
   "MergeImagesPage": {
     "title": "Cantumkan Imej",
@@ -173,7 +285,21 @@
     "gapLabel": "Jarak antara imej",
     "submit": "Cantumkan Imej",
     "converting": "Sedang mencantumkan...",
-    "error": "Ralat berlaku semasa mencantumkan imej."
+    "error": "Ralat berlaku semasa mencantumkan imej.",
+    "faq": [
+      {
+        "q": "Saya ingin menggabungkan beberapa gambar menjadi satu imej untuk disiarkan di media sosial.",
+        "a": "Ya, muat naik beberapa imej dan pilih susun atur mendatar, menegak, atau grid untuk menggabungkannya menjadi satu."
+      },
+      {
+        "q": "Bolehkah saya membuat kolaj daripada beberapa gambar?",
+        "a": "Boleh, memilih susun atur grid akan secara automatik menyusun gambar anda menjadi grid bergaya kolaj."
+      },
+      {
+        "q": "Bolehkah saya melaraskan jarak antara imej?",
+        "a": "Boleh, gunakan tetapan jarak untuk mengawal ruang antara imej dari 0 hingga 40px."
+      }
+    ]
   },
   "LanguageSwitcher": {
     "label": "Bahasa"
@@ -183,12 +309,11 @@
     "sisterSiteLabel": "Alat PDF (mylifepdf.com)",
     "languageHeading": "Bahasa"
   },
-      "ContactPage": {
-      "title": "Hubungi Kami",
-      "description": "Jika anda mempunyai sebarang soalan, laporan pepijat, atau cadangan ciri, sila hubungi kami.",
-      "body": "Kami akan membalas anda secepat mungkin."
-    },
-
+  "ContactPage": {
+    "title": "Hubungi Kami",
+    "description": "Jika anda mempunyai sebarang soalan, laporan pepijat, atau cadangan ciri, sila hubungi kami.",
+    "body": "Kami akan membalas anda secepat mungkin."
+  },
   "FAQ": {
     "heading": "Soalan Lazim",
     "items": [

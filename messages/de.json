@@ -83,7 +83,21 @@
     "qualityHint": "Niedrigere Werte verkleinern die Datei, verringern aber auch die Bildqualität.",
     "submit": "Bild komprimieren",
     "converting": "Wird komprimiert...",
-    "error": "Beim Komprimieren ist ein Fehler aufgetreten."
+    "error": "Beim Komprimieren ist ein Fehler aufgetreten.",
+    "faq": [
+      {
+        "q": "Verringert das Komprimieren eines Bildes die Qualität stark?",
+        "a": "Nutzen Sie den Qualitätsregler, um Dateigröße und Qualität selbst auszubalancieren. Bei etwa 70-80 % sieht das Bild fast unverändert aus, während die Dateigröße deutlich sinkt."
+      },
+      {
+        "q": "Wie erreiche ich eine Dateigrößenbeschränkung für eine Behörde oder ein offizielles Formular?",
+        "a": "Verringern Sie die Qualität schrittweise, bis das Ergebnis unter der geforderten Größe liegt. Die meisten Grenzwerte (2MB, 5MB usw.) lassen sich mit rund 70 % Qualität erreichen."
+      },
+      {
+        "q": "Ich möchte Fotos für E-Mail oder Messenger mit Anhangsgrößenlimit verkleinern.",
+        "a": "Ja, laden Sie mehrere Bilder gleichzeitig hoch und komprimieren Sie sie alle auf die gewählte Qualität in einem Schritt - das Ergebnis wird gemeinsam als ZIP heruntergeladen."
+      }
+    ]
   },
   "ResizeImagePage": {
     "title": "Bildgröße ändern",
@@ -100,7 +114,21 @@
     "keepAspectLabel": "Seitenverhältnis beibehalten (ein leeres Feld wird automatisch berechnet)",
     "submit": "Bildgröße ändern",
     "converting": "Größe wird geändert...",
-    "error": "Beim Ändern der Größe ist ein Fehler aufgetreten."
+    "error": "Beim Ändern der Größe ist ein Fehler aufgetreten.",
+    "faq": [
+      {
+        "q": "Wie ändere ich die Größe eines Fotos für ein bestimmtes Druckformat wie ein Passfoto?",
+        "a": "Wechseln Sie in den Pixelmodus und geben Sie die genaue Breite und Höhe ein - Passfotos sind zum Beispiel meist etwa 413x531px groß."
+      },
+      {
+        "q": "Kann ich ein Bild an Instagram-Profil- oder Story-Maße anpassen?",
+        "a": "Ja, geben Sie einfach die benötigte Pixelgröße ein (z. B. 320x320px für ein Profilbild, 1080x1920px für eine Story)."
+      },
+      {
+        "q": "Kann ich mehrere Fotos gleichzeitig auf die gleiche Größe bringen?",
+        "a": "Ja, laden Sie mehrere Bilder hoch, sie werden alle mit den gleichen Einstellungen skaliert und anschließend gemeinsam als ZIP heruntergeladen."
+      }
+    ]
   },
   "CropImagePage": {
     "title": "Bild zuschneiden",
@@ -113,7 +141,21 @@
     "heightLabel": "Höhe (px)",
     "submit": "Bild zuschneiden",
     "cropping": "Wird zugeschnitten...",
-    "error": "Beim Zuschneiden ist ein Fehler aufgetreten."
+    "error": "Beim Zuschneiden ist ein Fehler aufgetreten.",
+    "faq": [
+      {
+        "q": "Wie schneide ich ein Foto quadratisch zu, etwa für ein Profilbild?",
+        "a": "Geben Sie für Breite und Höhe denselben Wert ein, um ein perfektes Quadrat zu erhalten, und legen Sie die X/Y-Koordinaten des zu behaltenden Bereichs fest."
+      },
+      {
+        "q": "Kann ich nur den unerwünschten Hintergrund aus einem Foto ausschneiden?",
+        "a": "Ja, geben Sie Position (X/Y) und Breite/Höhe des zu behaltenden Bereichs an - der Rest wird entfernt."
+      },
+      {
+        "q": "Kann ich mit exakten Pixelkoordinaten zuschneiden?",
+        "a": "Ja, Sie können den genauen X/Y-Startpunkt sowie Breite/Höhe in Pixeln für einen präzisen Zuschnitt festlegen."
+      }
+    ]
   },
   "ConvertImagePage": {
     "title": "Bild konvertieren",
@@ -121,7 +163,21 @@
     "formatLabel": "Konvertieren nach",
     "submit": "In {format} konvertieren",
     "converting": "Wird konvertiert...",
-    "error": "Beim Konvertieren ist ein Fehler aufgetreten."
+    "error": "Beim Konvertieren ist ein Fehler aufgetreten.",
+    "faq": [
+      {
+        "q": "Was passiert mit der Transparenz beim Konvertieren von PNG zu JPG?",
+        "a": "JPG unterstützt keine Transparenz, daher werden transparente Bereiche mit weißem Hintergrund gefüllt."
+      },
+      {
+        "q": "Kann ich ein GIF in ein Standbild umwandeln?",
+        "a": "Ja, beim Konvertieren eines GIFs in PNG oder JPG wird der erste Frame als Standbild gespeichert."
+      },
+      {
+        "q": "Warum sollte ich ein Bild für meine Website in WEBP umwandeln?",
+        "a": "WEBP-Dateien sind bei gleicher Qualität meist kleiner als JPG oder PNG, was die Ladezeit Ihrer Website verbessert."
+      }
+    ]
   },
   "RotateImagePage": {
     "title": "Bild drehen",
@@ -131,7 +187,21 @@
     "flipVLabel": "Vertikal spiegeln",
     "submit": "Bild drehen",
     "converting": "Wird gedreht...",
-    "error": "Beim Drehen ist ein Fehler aufgetreten."
+    "error": "Beim Drehen ist ein Fehler aufgetreten.",
+    "faq": [
+      {
+        "q": "Mein gescanntes Foto liegt schräg - wie richte ich es gerade?",
+        "a": "Wählen Sie eine Drehung um 90, 180 oder 270 Grad, um es sofort in die gewünschte Ausrichtung zu bringen."
+      },
+      {
+        "q": "Kann ich ein Foto horizontal spiegeln?",
+        "a": "Ja, die Option zum horizontalen Spiegeln kehrt das Bild links-rechts um. Vertikales Spiegeln ist ebenfalls separat verfügbar."
+      },
+      {
+        "q": "Meine Handyfotos speichern immer in der falschen Ausrichtung - kann das behoben werden?",
+        "a": "Ja, drehen Sie es auf den richtigen Winkel und speichern Sie die neue Version - die Ausrichtung bleibt danach fest."
+      }
+    ]
   },
   "WatermarkImagePage": {
     "title": "Wasserzeichen hinzufügen",
@@ -142,7 +212,21 @@
     "fontSizeLabel": "Schriftgröße",
     "submit": "Wasserzeichen hinzufügen",
     "converting": "Wasserzeichen wird hinzugefügt...",
-    "error": "Beim Hinzufügen des Wasserzeichens ist ein Fehler aufgetreten."
+    "error": "Beim Hinzufügen des Wasserzeichens ist ein Fehler aufgetreten.",
+    "faq": [
+      {
+        "q": "Ich möchte ein Copyright-Wasserzeichen auf meine Fotos setzen.",
+        "a": "Geben Sie Ihren Wasserzeichentext ein und passen Sie Position, Deckkraft und Schriftgröße genau nach Wunsch an."
+      },
+      {
+        "q": "Kann ich Deckkraft und Position des Wasserzeichens fein einstellen?",
+        "a": "Ja, nutzen Sie den Deckkraftregler und das 9-Positionen-Raster für präzise Kontrolle."
+      },
+      {
+        "q": "Ich möchte verhindern, dass andere meine Fotos ohne Quellenangabe weiterverwenden.",
+        "a": "Ja, ein sichtbares Wasserzeichen hilft, das Eigentum zu kennzeichnen und unbefugte Nutzung einzudämmen."
+      }
+    ]
   },
   "MemeGeneratorPage": {
     "title": "Meme-Generator",
@@ -153,7 +237,21 @@
     "bottomTextPlaceholder": "z. B. FINALLY WORKS",
     "submit": "Meme erstellen",
     "converting": "Meme wird erstellt...",
-    "error": "Beim Erstellen des Memes ist ein Fehler aufgetreten."
+    "error": "Beim Erstellen des Memes ist ein Fehler aufgetreten.",
+    "faq": [
+      {
+        "q": "Kann ich einem Meme-Bild untertitelartigen Text hinzufügen?",
+        "a": "Ja, geben Sie Text in die oberen und unteren Felder ein - er wird automatisch in fetter, weiß umrandeter Meme-Schrift eingefügt."
+      },
+      {
+        "q": "Kann ich statt beider nur einen oberen oder unteren Text verwenden?",
+        "a": "Ja, es reicht auch, nur das obere oder untere Feld auszufüllen."
+      },
+      {
+        "q": "Kann ich das fertige Meme sofort herunterladen?",
+        "a": "Ja, ein Klick auf die Erstellen-Schaltfläche lädt Ihr fertiges Meme sofort herunter."
+      }
+    ]
   },
   "RemoveExifPage": {
     "title": "Metadaten entfernen",
@@ -161,7 +259,21 @@
     "infoText": "GPS-Standort, Kameramodell, Aufnahmedatum und andere versteckte Daten in deinen Fotos werden vollständig entfernt. Bildqualität und Ausrichtung bleiben unverändert.",
     "submit": "Metadaten entfernen",
     "converting": "Wird entfernt...",
-    "error": "Beim Entfernen der Metadaten ist ein Fehler aufgetreten."
+    "error": "Beim Entfernen der Metadaten ist ein Fehler aufgetreten.",
+    "faq": [
+      {
+        "q": "Ich möchte die in einem Foto eingebetteten Standortdaten (GPS) entfernen.",
+        "a": "Das Metadaten-Entfernungstool löscht alle EXIF-Daten, einschließlich GPS-Standort, Gerätemodell und Aufnahmedatum."
+      },
+      {
+        "q": "Ich mache mir Sorgen, dass mein Standort in Fotos für Kleinanzeigen sichtbar ist.",
+        "a": "Ja, die Verarbeitung eines Fotos mit diesem Tool entfernt alle eingebetteten Metadaten inklusive Standort, sodass es sicher geteilt werden kann."
+      },
+      {
+        "q": "Ändert das Entfernen von Metadaten die Bildqualität oder Ausrichtung?",
+        "a": "Nein, Bildqualität und Ausrichtung bleiben exakt gleich - es werden nur die versteckten Metadaten entfernt."
+      }
+    ]
   },
   "MergeImagesPage": {
     "title": "Bilder zusammenfügen",
@@ -173,7 +285,21 @@
     "gapLabel": "Bildabstand",
     "submit": "Bilder zusammenfügen",
     "converting": "Wird zusammengefügt...",
-    "error": "Beim Zusammenfügen der Bilder ist ein Fehler aufgetreten."
+    "error": "Beim Zusammenfügen der Bilder ist ein Fehler aufgetreten.",
+    "faq": [
+      {
+        "q": "Ich möchte mehrere Fotos zu einem Bild für soziale Medien zusammenfügen.",
+        "a": "Ja, laden Sie mehrere Bilder hoch und wählen Sie eine horizontale, vertikale oder Rasteranordnung, um sie zu einem Bild zu verschmelzen."
+      },
+      {
+        "q": "Kann ich aus mehreren Fotos eine Collage erstellen?",
+        "a": "Ja, mit der Rasteranordnung werden Ihre Fotos automatisch zu einem Collage-artigen Raster angeordnet."
+      },
+      {
+        "q": "Kann ich den Abstand zwischen den Bildern anpassen?",
+        "a": "Ja, mit der Abstandseinstellung lässt sich der Zwischenraum zwischen 0 und 40px frei einstellen."
+      }
+    ]
   },
   "LanguageSwitcher": {
     "label": "Sprache"

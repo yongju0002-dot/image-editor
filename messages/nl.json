@@ -83,7 +83,21 @@
     "qualityHint": "Lagere waarden verkleinen het bestand, maar verlagen ook de kwaliteit.",
     "submit": "Afbeelding comprimeren",
     "converting": "Bezig met comprimeren...",
-    "error": "Er is een fout opgetreden tijdens het comprimeren."
+    "error": "Er is een fout opgetreden tijdens het comprimeren.",
+    "faq": [
+      {
+        "q": "Vermindert het comprimeren van een afbeelding de kwaliteit sterk?",
+        "a": "Gebruik de kwaliteitsschuif om zelf de balans tussen bestandsgrootte en kwaliteit te bepalen. Rond de 70-80% ziet er meestal bijna hetzelfde uit terwijl de bestandsgrootte flink afneemt."
+      },
+      {
+        "q": "Hoe voldoe ik aan een bestandsgroottelimiet voor een overheidsinstantie?",
+        "a": "Verlaag de kwaliteit totdat het resultaat onder de vereiste grootte valt. De meeste limieten (2MB, 5MB, enz.) worden gehaald met ongeveer 70% kwaliteit."
+      },
+      {
+        "q": "Ik moet foto's verkleinen voor e-mail of berichten-apps met een bijlagelimiet.",
+        "a": "Ja, upload meerdere afbeeldingen tegelijk en comprimeer ze allemaal in één keer naar de gewenste kwaliteit; het resultaat wordt samen als ZIP gedownload."
+      }
+    ]
   },
   "ResizeImagePage": {
     "title": "Afbeelding formaat wijzigen",
@@ -100,7 +114,21 @@
     "keepAspectLabel": "Oorspronkelijke beeldverhouding behouden (één veld leeg laten wordt automatisch berekend)",
     "submit": "Formaat wijzigen",
     "converting": "Formaat wordt gewijzigd...",
-    "error": "Er is een fout opgetreden bij het wijzigen van het formaat."
+    "error": "Er is een fout opgetreden bij het wijzigen van het formaat.",
+    "faq": [
+      {
+        "q": "Hoe verklein ik een foto naar een specifiek afdrukformaat, zoals een pasfoto?",
+        "a": "Schakel naar pixelmodus en voer de exacte breedte en hoogte in die je nodig hebt; paspoortfoto's zijn bijvoorbeeld meestal rond de 413x531px."
+      },
+      {
+        "q": "Kan ik een afbeelding aanpassen aan Instagram profiel- of storyformaat?",
+        "a": "Ja, voer gewoon de exacte pixelgrootte in die je nodig hebt (bijv. 320x320px voor een profielfoto, 1080x1920px voor een story)."
+      },
+      {
+        "q": "Kan ik meerdere foto's tegelijk naar dezelfde grootte aanpassen?",
+        "a": "Ja, upload meerdere afbeeldingen en ze worden allemaal met dezelfde instellingen aangepast, daarna samen als ZIP gedownload."
+      }
+    ]
   },
   "CropImagePage": {
     "title": "Afbeelding bijsnijden",
@@ -113,7 +141,21 @@
     "heightLabel": "Hoogte (px)",
     "submit": "Afbeelding bijsnijden",
     "cropping": "Bezig met bijsnijden...",
-    "error": "Er is een fout opgetreden tijdens het bijsnijden."
+    "error": "Er is een fout opgetreden tijdens het bijsnijden.",
+    "faq": [
+      {
+        "q": "Hoe snijd ik een foto vierkant bij, bijvoorbeeld voor een profielfoto?",
+        "a": "Voer dezelfde waarde in voor breedte en hoogte om een perfect vierkant te krijgen, en stel de X/Y-coördinaten in van het gebied dat je wilt behouden."
+      },
+      {
+        "q": "Kan ik alleen de ongewenste achtergrond uit een foto knippen?",
+        "a": "Ja, geef de X/Y-positie en breedte/hoogte op van het gebied dat je wilt behouden, en al de rest wordt verwijderd."
+      },
+      {
+        "q": "Kan ik bijsnijden met exacte pixelcoördinaten?",
+        "a": "Ja, je kunt het exacte X/Y-startpunt en de breedte/hoogte in pixels instellen voor een precieze uitsnede."
+      }
+    ]
   },
   "ConvertImagePage": {
     "title": "Afbeelding converteren",
@@ -121,7 +163,21 @@
     "formatLabel": "Converteren naar",
     "submit": "Converteren naar {format}",
     "converting": "Bezig met converteren...",
-    "error": "Er is een fout opgetreden tijdens het converteren."
+    "error": "Er is een fout opgetreden tijdens het converteren.",
+    "faq": [
+      {
+        "q": "Wat gebeurt er met transparantie als ik PNG naar JPG converteer?",
+        "a": "JPG ondersteunt geen transparantie, dus transparante delen worden opgevuld met een witte achtergrond."
+      },
+      {
+        "q": "Kan ik een GIF omzetten naar een stilstaand beeld?",
+        "a": "Ja, het converteren van een GIF naar PNG of JPG slaat het eerste frame op als een stilstaand beeld."
+      },
+      {
+        "q": "Waarom zou ik een afbeelding naar WEBP converteren voor mijn website?",
+        "a": "WEBP-bestanden zijn bij dezelfde kwaliteit meestal kleiner dan JPG of PNG, wat helpt om je website sneller te laten laden."
+      }
+    ]
   },
   "RotateImagePage": {
     "title": "Afbeelding draaien",
@@ -131,7 +187,21 @@
     "flipVLabel": "Verticaal spiegelen",
     "submit": "Afbeelding draaien",
     "converting": "Bezig met draaien...",
-    "error": "Er is een fout opgetreden tijdens het draaien."
+    "error": "Er is een fout opgetreden tijdens het draaien.",
+    "faq": [
+      {
+        "q": "Mijn gescande foto ligt op zijn kant, hoe zet ik hem recht?",
+        "a": "Kies een rotatie van 90, 180 of 270 graden om hem direct naar de juiste stand te draaien."
+      },
+      {
+        "q": "Kan ik een foto horizontaal spiegelen?",
+        "a": "Ja, de optie voor horizontaal spiegelen keert de afbeelding links-rechts om. Verticaal spiegelen is ook apart beschikbaar."
+      },
+      {
+        "q": "Mijn telefoonfoto's worden steeds in de verkeerde stand opgeslagen, kan dit dit oplossen?",
+        "a": "Ja, draai de foto naar de juiste hoek en sla de nieuwe versie op; de stand blijft daarna vastgezet."
+      }
+    ]
   },
   "WatermarkImagePage": {
     "title": "Watermerk toevoegen",
@@ -142,7 +212,21 @@
     "fontSizeLabel": "Tekstgrootte",
     "submit": "Watermerk toevoegen",
     "converting": "Watermerk wordt toegevoegd...",
-    "error": "Er is een fout opgetreden bij het toevoegen van het watermerk."
+    "error": "Er is een fout opgetreden bij het toevoegen van het watermerk.",
+    "faq": [
+      {
+        "q": "Ik wil een copyright-watermerk aan mijn foto's toevoegen.",
+        "a": "Voer je watermerktekst in en pas positie, dekking en lettergrootte aan om het precies te stylen zoals je wilt."
+      },
+      {
+        "q": "Kan ik de dekking en positie van het watermerk nauwkeurig aanpassen?",
+        "a": "Ja, gebruik de dekkingsschuif en het 9-posities rooster om het precies te regelen."
+      },
+      {
+        "q": "Ik wil voorkomen dat anderen mijn foto's zonder bronvermelding hergebruiken.",
+        "a": "Ja, een zichtbaar watermerk toevoegen helpt om eigendom aan te geven en ontmoedigt ongeautoriseerd gebruik."
+      }
+    ]
   },
   "MemeGeneratorPage": {
     "title": "Memegenerator",
@@ -153,7 +237,21 @@
     "bottomTextPlaceholder": "bijv. FINALLY WORKS",
     "submit": "Meme maken",
     "converting": "Meme wordt gemaakt...",
-    "error": "Er is een fout opgetreden bij het maken van de meme."
+    "error": "Er is een fout opgetreden bij het maken van de meme.",
+    "faq": [
+      {
+        "q": "Kan ik onderschrift-achtige tekst toevoegen aan een meme-afbeelding?",
+        "a": "Ja, typ je tekst in de boven- en ondervelden en deze wordt automatisch toegevoegd in vetgedrukte meme-stijl letters met witte rand."
+      },
+      {
+        "q": "Kan ik alleen een boven- of ondertekst gebruiken in plaats van beide?",
+        "a": "Ja, alleen het boven- of onderveld invullen werkt ook prima."
+      },
+      {
+        "q": "Kan ik de voltooide meme direct downloaden?",
+        "a": "Ja, klikken op de maak-knop downloadt je voltooide meme direct."
+      }
+    ]
   },
   "RemoveExifPage": {
     "title": "Metadata verwijderen",
@@ -161,7 +259,21 @@
     "infoText": "GPS-locatie, cameramodel, opnamedatum en andere verborgen gegevens in je foto's worden volledig verwijderd. Beeldkwaliteit en oriëntatie blijven ongewijzigd.",
     "submit": "Metadata verwijderen",
     "converting": "Bezig met verwijderen...",
-    "error": "Er is een fout opgetreden bij het verwijderen van de metadata."
+    "error": "Er is een fout opgetreden bij het verwijderen van de metadata.",
+    "faq": [
+      {
+        "q": "Ik wil de locatiegegevens (GPS) verwijderen die in een foto zijn ingebed.",
+        "a": "De metadata-verwijderingstool wist alle EXIF-gegevens, inclusief GPS-locatie, apparaatmodel en opnamedatum."
+      },
+      {
+        "q": "Ik maak me zorgen dat mijn locatie zichtbaar is in foto's die ik voor advertenties plaats.",
+        "a": "Ja, het verwerken van een foto met deze tool verwijdert alle ingebedde metadata, inclusief locatie, waardoor het veilig is om te delen."
+      },
+      {
+        "q": "Verandert het verwijderen van metadata de kwaliteit of oriëntatie van de foto?",
+        "a": "Nee, de beeldkwaliteit en oriëntatie blijven precies hetzelfde; alleen de verborgen metadata wordt verwijderd."
+      }
+    ]
   },
   "MergeImagesPage": {
     "title": "Afbeeldingen samenvoegen",
@@ -173,7 +285,21 @@
     "gapLabel": "Ruimte tussen afbeeldingen",
     "submit": "Afbeeldingen samenvoegen",
     "converting": "Bezig met samenvoegen...",
-    "error": "Er is een fout opgetreden bij het samenvoegen van de afbeeldingen."
+    "error": "Er is een fout opgetreden bij het samenvoegen van de afbeeldingen.",
+    "faq": [
+      {
+        "q": "Ik wil meerdere foto's combineren tot één afbeelding om op sociale media te plaatsen.",
+        "a": "Ja, upload meerdere afbeeldingen en kies een horizontale, verticale of raster-indeling om ze tot één te combineren."
+      },
+      {
+        "q": "Kan ik een collage maken van meerdere foto's?",
+        "a": "Ja, het kiezen van de rasterindeling rangschikt je foto's automatisch in een collage-achtig raster."
+      },
+      {
+        "q": "Kan ik de ruimte tussen afbeeldingen aanpassen?",
+        "a": "Ja, gebruik de afstandsinstelling om de ruimte tussen afbeeldingen van 0 tot 40px te regelen."
+      }
+    ]
   },
   "LanguageSwitcher": {
     "label": "Taal"

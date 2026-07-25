@@ -83,7 +83,21 @@
     "qualityHint": "Valors més baixos redueixen la mida del fitxer, però també la qualitat.",
     "submit": "Comprimir imatge",
     "converting": "Comprimint...",
-    "error": "S'ha produït un error en comprimir."
+    "error": "S'ha produït un error en comprimir.",
+    "faq": [
+      {
+        "q": "Comprimir una imatge redueix molt la qualitat?",
+        "a": "Utilitza el control lliscant de qualitat per equilibrar tu mateix la mida del fitxer i la qualitat. Al voltant del 70-80% sol veure's gairebé igual mentre redueix bastant la mida del fitxer."
+      },
+      {
+        "q": "Com puc complir un límit de mida de fitxer per a un tràmit administratiu?",
+        "a": "Redueix la qualitat fins que el resultat quedi per sota de la mida requerida. La majoria dels límits (2MB, 5MB, etc.) es compleixen amb una qualitat d'entorn del 70%."
+      },
+      {
+        "q": "Necessito reduir fotos per a correu electrònic o missatgeria amb límit de mida d'adjunts.",
+        "a": "Sí, puja diverses imatges alhora i comprimeix-les totes a la qualitat que triïs d'un sol cop; el resultat es descarrega junt en un ZIP."
+      }
+    ]
   },
   "ResizeImagePage": {
     "title": "Redimensionar imatge",
@@ -100,7 +114,21 @@
     "keepAspectLabel": "Mantenir la relació d'aspecte original (deixar un camp buit es calcula automàticament)",
     "submit": "Redimensionar imatge",
     "converting": "Redimensionant...",
-    "error": "S'ha produït un error en redimensionar."
+    "error": "S'ha produït un error en redimensionar.",
+    "faq": [
+      {
+        "q": "Com redimensiono una foto a una mida d'impressió específica, com una foto de carnet?",
+        "a": "Canvia al mode píxels i introdueix l'amplada i alçada exactes que necessites; per exemple, les fotos de passaport solen ser d'uns 413x531px."
+      },
+      {
+        "q": "Puc ajustar una imatge a les dimensions de perfil o història d'Instagram?",
+        "a": "Sí, només cal introduir la mida en píxels exacta que necessites (per exemple, 320x320px per a un perfil, 1080x1920px per a una història)."
+      },
+      {
+        "q": "Puc redimensionar diverses fotos a la mateixa mida alhora?",
+        "a": "Sí, puja diverses imatges i totes es redimensionaran amb la mateixa configuració, i després es descarregaran juntes en un ZIP."
+      }
+    ]
   },
   "CropImagePage": {
     "title": "Retallar imatge",
@@ -113,7 +141,21 @@
     "heightLabel": "Alçada (px)",
     "submit": "Retallar imatge",
     "cropping": "Retallant...",
-    "error": "S'ha produït un error en retallar."
+    "error": "S'ha produït un error en retallar.",
+    "faq": [
+      {
+        "q": "Com retallo una foto en forma quadrada, per exemple per a una foto de perfil?",
+        "a": "Introdueix el mateix valor per a amplada i alçada per obtenir un quadrat perfecte, i defineix les coordenades X/Y de l'àrea que vols conservar."
+      },
+      {
+        "q": "Puc retallar només el fons no desitjat d'una foto?",
+        "a": "Sí, especifica la posició X/Y i l'amplada/alçada de l'àrea que vols conservar, i la resta s'elimina."
+      },
+      {
+        "q": "Puc retallar utilitzant coordenades de píxels exactes?",
+        "a": "Sí, pots establir el punt d'inici X/Y exacte i l'amplada/alçada en píxels per a un retall precís."
+      }
+    ]
   },
   "ConvertImagePage": {
     "title": "Convertir imatge",
@@ -121,7 +163,21 @@
     "formatLabel": "Convertir a",
     "submit": "Convertir a {format}",
     "converting": "Convertint...",
-    "error": "S'ha produït un error en convertir."
+    "error": "S'ha produït un error en convertir.",
+    "faq": [
+      {
+        "q": "Què passa amb la transparència en convertir PNG a JPG?",
+        "a": "El JPG no admet transparència, així que les àrees transparents s'omplen amb un fons blanc."
+      },
+      {
+        "q": "Puc convertir un GIF en una imatge estàtica?",
+        "a": "Sí, convertir un GIF a PNG o JPG desa el seu primer fotograma com una imatge estàtica."
+      },
+      {
+        "q": "Per què convertiria una imatge a WEBP per al meu lloc web?",
+        "a": "Els fitxers WEBP solen ser més petits que els JPG o PNG amb la mateixa qualitat, cosa que ajuda que el teu lloc carregui més ràpid."
+      }
+    ]
   },
   "RotateImagePage": {
     "title": "Girar imatge",
@@ -131,7 +187,21 @@
     "flipVLabel": "Invertir verticalment",
     "submit": "Girar imatge",
     "converting": "Girant...",
-    "error": "S'ha produït un error en girar."
+    "error": "S'ha produït un error en girar.",
+    "faq": [
+      {
+        "q": "La meva foto escanejada està de costat, com l'endreço?",
+        "a": "Tria una rotació de 90, 180 o 270 graus per redreçar-la a l'instant a l'orientació que necessites."
+      },
+      {
+        "q": "Puc capgirar una foto horitzontalment per crear un efecte mirall?",
+        "a": "Sí, l'opció de capgirar horitzontalment reflecteix la imatge d'esquerra a dreta. El capgirament vertical també està disponible per separat."
+      },
+      {
+        "q": "Les meves fotos del mòbil sempre es desen amb l'orientació incorrecta, això ho pot solucionar?",
+        "a": "Sí, gira-la a l'angle correcte i desa la nova versió; l'orientació quedarà fixada a partir de llavors."
+      }
+    ]
   },
   "WatermarkImagePage": {
     "title": "Afegir marca d'aigua",
@@ -142,7 +212,21 @@
     "fontSizeLabel": "Mida del text",
     "submit": "Afegir marca d'aigua",
     "converting": "Afegint marca d'aigua...",
-    "error": "S'ha produït un error en afegir la marca d'aigua."
+    "error": "S'ha produït un error en afegir la marca d'aigua.",
+    "faq": [
+      {
+        "q": "Vull afegir una marca d'aigua de drets d'autor a les meves fotos.",
+        "a": "Introdueix el text de la marca d'aigua i ajusta la seva posició, opacitat i mida de lletra per estilitzar-la exactament com vulguis."
+      },
+      {
+        "q": "Puc ajustar amb precisió l'opacitat i la posició de la marca d'aigua?",
+        "a": "Sí, utilitza el control lliscant d'opacitat i la graella de 9 posicions per controlar-la amb precisió."
+      },
+      {
+        "q": "Vull evitar que altres reutilitzin les meves fotos sense donar crèdit.",
+        "a": "Sí, afegir una marca d'aigua visible ajuda a marcar la propietat i dissuadeix l'ús no autoritzat."
+      }
+    ]
   },
   "MemeGeneratorPage": {
     "title": "Generador de mems",
@@ -153,7 +237,21 @@
     "bottomTextPlaceholder": "p. ex. FINALLY WORKS",
     "submit": "Crear mem",
     "converting": "Creant el mem...",
-    "error": "S'ha produït un error en generar el mem."
+    "error": "S'ha produït un error en generar el mem.",
+    "faq": [
+      {
+        "q": "Puc afegir text tipus subtítol a una imatge de meme?",
+        "a": "Sí, escriu el teu text als camps superior i inferior i s'afegeix automàticament en lletres negretes estil meme amb vora blanca."
+      },
+      {
+        "q": "Puc utilitzar només un subtítol superior o inferior en lloc de tots dos?",
+        "a": "Sí, omplir només el camp superior o inferior també funciona bé."
+      },
+      {
+        "q": "Puc descarregar el meme acabat immediatament?",
+        "a": "Sí, en fer clic al botó de crear es descarrega immediatament el teu meme acabat."
+      }
+    ]
   },
   "RemoveExifPage": {
     "title": "Eliminar metadades",
@@ -161,7 +259,21 @@
     "infoText": "La ubicació GPS, el model de càmera, la data de captura i altres dades ocultes de les teves fotos s'eliminaran completament. La qualitat i l'orientació de la imatge no canvien.",
     "submit": "Eliminar metadades",
     "converting": "Eliminant...",
-    "error": "S'ha produït un error en eliminar les metadades."
+    "error": "S'ha produït un error en eliminar les metadades.",
+    "faq": [
+      {
+        "q": "Vull eliminar les dades d'ubicació (GPS) incrustades en una foto.",
+        "a": "L'eina d'eliminació de metadades esborra totes les dades EXIF, incloent-hi la ubicació GPS, el model del dispositiu i la data de captura."
+      },
+      {
+        "q": "Em preocupa que la meva ubicació aparegui en fotos que publico per a anuncis de venda.",
+        "a": "Sí, processar una foto amb aquesta eina elimina totes les metadades incrustades, incloent-hi la ubicació, de manera que és segur compartir-la."
+      },
+      {
+        "q": "Eliminar les metadades canvia la qualitat o l'orientació de la foto?",
+        "a": "No, la qualitat de la imatge i l'orientació es mantenen exactament igual; només s'eliminen les metadades ocultes."
+      }
+    ]
   },
   "MergeImagesPage": {
     "title": "Combinar imatges",
@@ -173,7 +285,21 @@
     "gapLabel": "Espaiat entre imatges",
     "submit": "Combinar imatges",
     "converting": "Combinant...",
-    "error": "S'ha produït un error en combinar les imatges."
+    "error": "S'ha produït un error en combinar les imatges.",
+    "faq": [
+      {
+        "q": "Vull combinar diverses fotos en una sola imatge per publicar a les xarxes socials.",
+        "a": "Sí, puja diverses imatges i tria una disposició horitzontal, vertical o en graella per combinar-les en una."
+      },
+      {
+        "q": "Puc fer un collage amb diverses fotos?",
+        "a": "Sí, triar la disposició en graella organitza automàticament les teves fotos en una graella estil collage."
+      },
+      {
+        "q": "Puc ajustar l'espaiat entre imatges?",
+        "a": "Sí, utilitza la configuració d'espaiat per controlar la separació entre imatges d'entre 0 i 40px."
+      }
+    ]
   },
   "LanguageSwitcher": {
     "label": "Idioma"
@@ -183,12 +309,11 @@
     "sisterSiteLabel": "Eines PDF (mylifepdf.com)",
     "languageHeading": "Idioma"
   },
-      "ContactPage": {
-      "title": "Contacta'ns",
-      "description": "Si tens preguntes, informes d'errors o suggeriments de funcionalitats, contacta'ns.",
-      "body": "Et respondrem tan aviat com sigui possible."
-    },
-
+  "ContactPage": {
+    "title": "Contacta'ns",
+    "description": "Si tens preguntes, informes d'errors o suggeriments de funcionalitats, contacta'ns.",
+    "body": "Et respondrem tan aviat com sigui possible."
+  },
   "FAQ": {
     "heading": "Preguntes freqüents",
     "items": [
