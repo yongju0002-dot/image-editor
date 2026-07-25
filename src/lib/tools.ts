@@ -3,6 +3,8 @@ import {
   Crop,
   Droplets,
   ImagePlus,
+  Images,
+  MapPinOff,
   RefreshCw,
   RotateCw,
   Shrink,
@@ -57,4 +59,6 @@ export const tools: Tool[] = [
   { slug: "rotate_image", icon: RotateCw, available: true, category: "edit" },
   { slug: "watermark_image", icon: Droplets, available: true, category: "edit" },
   { slug: "meme_generator", icon: Combine, available: true, category: "create" },
+  { slug: "remove_exif", icon: MapPinOff, available: true, category: "edit" },
+  { slug: "merge_images", icon: Images, available: true, category: "create" },
 ];

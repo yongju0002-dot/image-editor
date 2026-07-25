@@ -41,7 +41,9 @@
     "convert_image": { "name": "Afbeelding converteren", "description": "Converteer vrij tussen JPG, PNG, WEBP, GIF, BMP en TIFF." },
     "rotate_image": { "name": "Afbeelding draaien", "description": "Draai afbeeldingen in elke gewenste hoek of spiegel ze horizontaal/verticaal." },
     "watermark_image": { "name": "Watermerk toevoegen", "description": "Voeg een tekstwatermerk toe met instelbare dekking en positie." },
-    "meme_generator": { "name": "Memegenerator", "description": "Voeg boven- en ondertekst toe om snel een meme te maken." }
+    "meme_generator": { "name": "Memegenerator", "description": "Voeg boven- en ondertekst toe om snel een meme te maken." },
+    "remove_exif": {"name":"Metadata verwijderen","description":"Verwijder locatie- en apparaatinformatie (EXIF) uit je foto's om je privacy te beschermen."},
+    "merge_images": {"name":"Afbeeldingen samenvoegen","description":"Combineer meerdere afbeeldingen tot één, horizontaal, verticaal of als raster."}
   },
   "CompressImagePage": {
     "title": "Afbeelding comprimeren",
@@ -122,6 +124,28 @@
     "converting": "Meme wordt gemaakt...",
     "error": "Er is een fout opgetreden bij het maken van de meme."
   },
+  "RemoveExifPage":   {
+    "title": "Metadata verwijderen",
+    "description": "Verwijder locatie- en apparaatinformatie (EXIF) uit je foto's om je privacy te beschermen. Verwerk meerdere afbeeldingen tegelijk.",
+    "infoText": "GPS-locatie, cameramodel, opnamedatum en andere verborgen gegevens in je foto's worden volledig verwijderd. Beeldkwaliteit en oriëntatie blijven ongewijzigd.",
+    "submit": "Metadata verwijderen",
+    "converting": "Bezig met verwijderen...",
+    "error": "Er is een fout opgetreden bij het verwijderen van de metadata."
+  },
+
+  "MergeImagesPage":   {
+    "title": "Afbeeldingen samenvoegen",
+    "description": "Combineer meerdere afbeeldingen tot één, horizontaal, verticaal of als raster.",
+    "layoutLabel": "Indeling",
+    "layoutHorizontal": "Naast elkaar",
+    "layoutVertical": "Onder elkaar",
+    "layoutGrid": "Raster",
+    "gapLabel": "Ruimte tussen afbeeldingen",
+    "submit": "Afbeeldingen samenvoegen",
+    "converting": "Bezig met samenvoegen...",
+    "error": "Er is een fout opgetreden bij het samenvoegen van de afbeeldingen."
+  },
+
   "LanguageSwitcher": {
     "label": "Taal"
   },

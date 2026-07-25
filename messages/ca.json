@@ -41,7 +41,9 @@
     "convert_image": { "name": "Convertir imatge", "description": "Converteix lliurement entre JPG, PNG, WEBP, GIF, BMP i TIFF." },
     "rotate_image": { "name": "Girar imatge", "description": "Gira les imatges a l'angle que vulguis o inverteix-les horitzontalment/verticalment." },
     "watermark_image": { "name": "Afegir marca d'aigua", "description": "Afegeix una marca d'aigua de text amb opacitat i posició ajustables." },
-    "meme_generator": { "name": "Generador de mems", "description": "Afegeix text a dalt i a baix per crear un mem fàcilment." }
+    "meme_generator": { "name": "Generador de mems", "description": "Afegeix text a dalt i a baix per crear un mem fàcilment." },
+    "remove_exif": {"name":"Eliminar metadades","description":"Elimina la ubicació i la informació del dispositiu (EXIF) de les teves fotos per protegir la teva privadesa."},
+    "merge_images": {"name":"Combinar imatges","description":"Combina diverses imatges en una de sola, en horitzontal, vertical o en graella."}
   },
   "CompressImagePage": {
     "title": "Comprimir imatge",
@@ -122,6 +124,28 @@
     "converting": "Creant el mem...",
     "error": "S'ha produït un error en generar el mem."
   },
+  "RemoveExifPage":   {
+    "title": "Eliminar metadades",
+    "description": "Elimina la ubicació i la informació del dispositiu (EXIF) de les teves fotos per protegir la teva privadesa. Processa diverses imatges alhora.",
+    "infoText": "La ubicació GPS, el model de càmera, la data de captura i altres dades ocultes de les teves fotos s'eliminaran completament. La qualitat i l'orientació de la imatge no canvien.",
+    "submit": "Eliminar metadades",
+    "converting": "Eliminant...",
+    "error": "S'ha produït un error en eliminar les metadades."
+  },
+
+  "MergeImagesPage":   {
+    "title": "Combinar imatges",
+    "description": "Combina diverses imatges en una de sola, en horitzontal, vertical o en graella.",
+    "layoutLabel": "Disposició",
+    "layoutHorizontal": "En fila",
+    "layoutVertical": "En columna",
+    "layoutGrid": "En graella",
+    "gapLabel": "Espaiat entre imatges",
+    "submit": "Combinar imatges",
+    "converting": "Combinant...",
+    "error": "S'ha produït un error en combinar les imatges."
+  },
+
   "LanguageSwitcher": {
     "label": "Idioma"
   },

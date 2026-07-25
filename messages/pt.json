@@ -41,7 +41,9 @@
     "convert_image": { "name": "Converter imagem", "description": "Converta livremente entre JPG, PNG, WEBP, GIF, BMP e TIFF." },
     "rotate_image": { "name": "Girar imagem", "description": "Gire imagens no ângulo desejado ou espelhe-as na horizontal/vertical." },
     "watermark_image": { "name": "Adicionar marca d'água", "description": "Adicione uma marca d'água de texto com opacidade e posição ajustáveis." },
-    "meme_generator": { "name": "Gerador de memes", "description": "Adicione texto na parte superior e inferior para criar um meme facilmente." }
+    "meme_generator": { "name": "Gerador de memes", "description": "Adicione texto na parte superior e inferior para criar um meme facilmente." },
+    "remove_exif": {"name":"Remover metadados","description":"Remova informações de localização e do dispositivo (EXIF) das suas fotos para proteger sua privacidade."},
+    "merge_images": {"name":"Mesclar imagens","description":"Combine várias imagens em uma só, dispostas na horizontal, vertical ou em grade."}
   },
   "CompressImagePage": {
     "title": "Comprimir imagem",
@@ -122,6 +124,28 @@
     "converting": "Criando meme...",
     "error": "Ocorreu um erro ao gerar o meme."
   },
+  "RemoveExifPage":   {
+    "title": "Remover metadados",
+    "description": "Remova informações de localização e do dispositivo (EXIF) das suas fotos para proteger sua privacidade. Processe várias imagens de uma vez.",
+    "infoText": "Localização GPS, modelo da câmera, data de captura e outras informações ocultas nas suas fotos serão removidas. A qualidade e a orientação da imagem permanecem as mesmas.",
+    "submit": "Remover metadados",
+    "converting": "Removendo...",
+    "error": "Ocorreu um erro ao remover os metadados."
+  },
+
+  "MergeImagesPage":   {
+    "title": "Mesclar imagens",
+    "description": "Combine várias imagens em uma só, dispostas na horizontal, vertical ou em grade.",
+    "layoutLabel": "Disposição",
+    "layoutHorizontal": "Lado a lado",
+    "layoutVertical": "Empilhadas",
+    "layoutGrid": "Em grade",
+    "gapLabel": "Espaçamento entre imagens",
+    "submit": "Mesclar imagens",
+    "converting": "Mesclando...",
+    "error": "Ocorreu um erro ao mesclar as imagens."
+  },
+
   "LanguageSwitcher": {
     "label": "Idioma"
   },

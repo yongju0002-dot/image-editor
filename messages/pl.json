@@ -41,7 +41,9 @@
     "convert_image": { "name": "Konwertuj obraz", "description": "Konwertuj swobodnie między JPG, PNG, WEBP, GIF, BMP i TIFF." },
     "rotate_image": { "name": "Obróć obraz", "description": "Obróć obraz o dowolny kąt lub odbij go w poziomie/pionie." },
     "watermark_image": { "name": "Dodaj znak wodny", "description": "Dodaj tekstowy znak wodny z regulowaną przezroczystością i pozycją." },
-    "meme_generator": { "name": "Generator memów", "description": "Dodaj tekst u góry i na dole, aby szybko stworzyć mema." }
+    "meme_generator": { "name": "Generator memów", "description": "Dodaj tekst u góry i na dole, aby szybko stworzyć mema." },
+    "remove_exif": {"name":"Usuń metadane","description":"Usuń informacje o lokalizacji i urządzeniu (EXIF) ze zdjęć, aby chronić swoją prywatność."},
+    "merge_images": {"name":"Połącz obrazy","description":"Połącz kilka obrazów w jeden - poziomo, pionowo lub w siatce."}
   },
   "CompressImagePage": {
     "title": "Kompresuj obraz",
@@ -122,6 +124,28 @@
     "converting": "Tworzenie mema...",
     "error": "Wystąpił błąd podczas tworzenia mema."
   },
+  "RemoveExifPage":   {
+    "title": "Usuń metadane",
+    "description": "Usuń informacje o lokalizacji i urządzeniu (EXIF) ze zdjęć, aby chronić swoją prywatność. Przetwarzaj kilka obrazów naraz.",
+    "infoText": "Lokalizacja GPS, model aparatu, data wykonania zdjęcia i inne ukryte dane zostaną całkowicie usunięte. Jakość i orientacja obrazu pozostaną bez zmian.",
+    "submit": "Usuń metadane",
+    "converting": "Usuwanie...",
+    "error": "Wystąpił błąd podczas usuwania metadanych."
+  },
+
+  "MergeImagesPage":   {
+    "title": "Połącz obrazy",
+    "description": "Połącz kilka obrazów w jeden - poziomo, pionowo lub w siatce.",
+    "layoutLabel": "Układ",
+    "layoutHorizontal": "Obok siebie",
+    "layoutVertical": "Jeden pod drugim",
+    "layoutGrid": "Siatka",
+    "gapLabel": "Odstęp między obrazami",
+    "submit": "Połącz obrazy",
+    "converting": "Łączenie...",
+    "error": "Wystąpił błąd podczas łączenia obrazów."
+  },
+
   "LanguageSwitcher": {
     "label": "Język"
   },

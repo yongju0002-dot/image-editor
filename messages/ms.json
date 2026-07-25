@@ -41,7 +41,9 @@
     "convert_image": { "name": "Tukar Imej", "description": "Tukar dengan bebas antara JPG, PNG, WEBP, GIF, BMP dan TIFF." },
     "rotate_image": { "name": "Putar Imej", "description": "Putar imej pada sudut yang dikehendaki atau terbalikkan secara mendatar/menegak." },
     "watermark_image": { "name": "Tambah Tera Air", "description": "Tambah tera air teks dengan kelegapan dan kedudukan yang boleh disesuaikan." },
-    "meme_generator": { "name": "Penjana Meme", "description": "Tambah teks di atas dan bawah untuk mencipta meme dengan cepat." }
+    "meme_generator": { "name": "Penjana Meme", "description": "Tambah teks di atas dan bawah untuk mencipta meme dengan cepat." },
+    "remove_exif": {"name":"Alih Keluar Metadata","description":"Alih keluar maklumat lokasi dan peranti (EXIF) daripada gambar anda untuk melindungi privasi."},
+    "merge_images": {"name":"Cantumkan Imej","description":"Gabungkan beberapa imej menjadi satu, disusun secara mendatar, menegak atau grid."}
   },
   "CompressImagePage": {
     "title": "Mampatkan Imej",
@@ -122,6 +124,28 @@
     "converting": "Sedang mencipta meme...",
     "error": "Ralat berlaku semasa mencipta meme."
   },
+  "RemoveExifPage":   {
+    "title": "Alih Keluar Metadata",
+    "description": "Alih keluar maklumat lokasi dan peranti (EXIF) daripada gambar anda untuk melindungi privasi. Proses beberapa imej sekali gus.",
+    "infoText": "Lokasi GPS, model kamera, tarikh diambil dan data tersembunyi lain dalam gambar anda akan dialih keluar sepenuhnya. Kualiti dan orientasi imej kekal sama.",
+    "submit": "Alih Keluar Metadata",
+    "converting": "Sedang mengalih keluar...",
+    "error": "Ralat berlaku semasa mengalih keluar metadata."
+  },
+
+  "MergeImagesPage":   {
+    "title": "Cantumkan Imej",
+    "description": "Gabungkan beberapa imej menjadi satu, disusun secara mendatar, menegak atau grid.",
+    "layoutLabel": "Susun atur",
+    "layoutHorizontal": "Bersebelahan",
+    "layoutVertical": "Bertindan",
+    "layoutGrid": "Grid",
+    "gapLabel": "Jarak antara imej",
+    "submit": "Cantumkan Imej",
+    "converting": "Sedang mencantumkan...",
+    "error": "Ralat berlaku semasa mencantumkan imej."
+  },
+
   "LanguageSwitcher": {
     "label": "Bahasa"
   },

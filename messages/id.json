@@ -41,7 +41,9 @@
     "convert_image": { "name": "Konversi Gambar", "description": "Konversi bebas antara JPG, PNG, WEBP, GIF, BMP, dan TIFF." },
     "rotate_image": { "name": "Putar Gambar", "description": "Putar gambar ke sudut mana pun atau balikkan secara horizontal/vertikal." },
     "watermark_image": { "name": "Tambahkan Watermark", "description": "Tambahkan watermark teks dengan opasitas dan posisi yang dapat diatur." },
-    "meme_generator": { "name": "Pembuat Meme", "description": "Tambahkan teks atas dan bawah untuk membuat meme dengan cepat." }
+    "meme_generator": { "name": "Pembuat Meme", "description": "Tambahkan teks atas dan bawah untuk membuat meme dengan cepat." },
+    "remove_exif": {"name":"Hapus Metadata","description":"Hapus informasi lokasi dan perangkat (EXIF) dari foto Anda untuk melindungi privasi."},
+    "merge_images": {"name":"Gabungkan Gambar","description":"Gabungkan beberapa gambar menjadi satu, disusun horizontal, vertikal, atau grid."}
   },
   "CompressImagePage": {
     "title": "Kompres Gambar",
@@ -122,6 +124,28 @@
     "converting": "Membuat meme...",
     "error": "Terjadi kesalahan saat membuat meme."
   },
+  "RemoveExifPage":   {
+    "title": "Hapus Metadata",
+    "description": "Hapus informasi lokasi dan perangkat (EXIF) dari foto Anda untuk melindungi privasi. Proses beberapa gambar sekaligus.",
+    "infoText": "Lokasi GPS, model kamera, tanggal pengambilan, dan data tersembunyi lainnya pada foto Anda akan sepenuhnya dihapus. Kualitas dan orientasi gambar tetap sama.",
+    "submit": "Hapus Metadata",
+    "converting": "Menghapus...",
+    "error": "Terjadi kesalahan saat menghapus metadata."
+  },
+
+  "MergeImagesPage":   {
+    "title": "Gabungkan Gambar",
+    "description": "Gabungkan beberapa gambar menjadi satu, disusun horizontal, vertikal, atau grid.",
+    "layoutLabel": "Tata Letak",
+    "layoutHorizontal": "Berdampingan",
+    "layoutVertical": "Bertumpuk",
+    "layoutGrid": "Grid",
+    "gapLabel": "Jarak antar gambar",
+    "submit": "Gabungkan Gambar",
+    "converting": "Menggabungkan...",
+    "error": "Terjadi kesalahan saat menggabungkan gambar."
+  },
+
   "LanguageSwitcher": {
     "label": "Bahasa"
   },

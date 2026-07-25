@@ -41,7 +41,9 @@
     "convert_image": { "name": "Konvertera bild", "description": "Konvertera fritt mellan JPG, PNG, WEBP, GIF, BMP och TIFF." },
     "rotate_image": { "name": "Rotera bild", "description": "Rotera bilder i valfri vinkel eller vänd dem horisontellt/vertikalt." },
     "watermark_image": { "name": "Lägg till vattenstämpel", "description": "Lägg till en textvattenstämpel med justerbar opacitet och position." },
-    "meme_generator": { "name": "Memegenerator", "description": "Lägg till text upptill och nedtill för att snabbt skapa ett meme." }
+    "meme_generator": { "name": "Memegenerator", "description": "Lägg till text upptill och nedtill för att snabbt skapa ett meme." },
+    "remove_exif": {"name":"Ta bort metadata","description":"Ta bort plats- och enhetsinformation (EXIF) från dina bilder för att skydda din integritet."},
+    "merge_images": {"name":"Slå ihop bilder","description":"Kombinera flera bilder till en, horisontellt, vertikalt eller i ett rutnät."}
   },
   "CompressImagePage": {
     "title": "Komprimera bild",
@@ -122,6 +124,28 @@
     "converting": "Skapar meme...",
     "error": "Ett fel uppstod när memet skulle skapas."
   },
+  "RemoveExifPage":   {
+    "title": "Ta bort metadata",
+    "description": "Ta bort plats- och enhetsinformation (EXIF) från dina bilder för att skydda din integritet. Bearbeta flera bilder samtidigt.",
+    "infoText": "GPS-position, kameramodell, tagningsdatum och annan dold information i dina bilder tas bort helt. Bildkvalitet och orientering förblir oförändrade.",
+    "submit": "Ta bort metadata",
+    "converting": "Tar bort...",
+    "error": "Ett fel uppstod när metadata skulle tas bort."
+  },
+
+  "MergeImagesPage":   {
+    "title": "Slå ihop bilder",
+    "description": "Kombinera flera bilder till en, horisontellt, vertikalt eller i ett rutnät.",
+    "layoutLabel": "Layout",
+    "layoutHorizontal": "Sida vid sida",
+    "layoutVertical": "Staplade",
+    "layoutGrid": "Rutnät",
+    "gapLabel": "Mellanrum mellan bilder",
+    "submit": "Slå ihop bilder",
+    "converting": "Slår ihop...",
+    "error": "Ett fel uppstod när bilderna skulle slås ihop."
+  },
+
   "LanguageSwitcher": {
     "label": "Språk"
   },

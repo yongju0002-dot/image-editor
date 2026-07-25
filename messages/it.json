@@ -41,7 +41,9 @@
     "convert_image": { "name": "Converti immagine", "description": "Converti liberamente tra JPG, PNG, WEBP, GIF, BMP e TIFF." },
     "rotate_image": { "name": "Ruota immagine", "description": "Ruota le immagini all'angolazione desiderata o capovolgile in orizzontale/verticale." },
     "watermark_image": { "name": "Aggiungi filigrana", "description": "Aggiungi una filigrana testuale con opacità e posizione regolabili." },
-    "meme_generator": { "name": "Generatore di meme", "description": "Aggiungi testo in alto e in basso per creare facilmente un meme." }
+    "meme_generator": { "name": "Generatore di meme", "description": "Aggiungi testo in alto e in basso per creare facilmente un meme." },
+    "remove_exif": {"name":"Rimuovi metadati","description":"Rimuovi posizione e informazioni sul dispositivo (EXIF) dalle tue foto per proteggere la tua privacy."},
+    "merge_images": {"name":"Unisci immagini","description":"Combina più immagini in una sola, disposte orizzontalmente, verticalmente o a griglia."}
   },
   "CompressImagePage": {
     "title": "Comprimi immagine",
@@ -122,6 +124,28 @@
     "converting": "Creazione del meme in corso...",
     "error": "Si è verificato un errore durante la creazione del meme."
   },
+  "RemoveExifPage":   {
+    "title": "Rimuovi metadati",
+    "description": "Rimuovi posizione e informazioni sul dispositivo (EXIF) dalle tue foto per proteggere la tua privacy. Elabora più immagini contemporaneamente.",
+    "infoText": "Posizione GPS, modello della fotocamera, data di scatto e altri dati nascosti nelle foto verranno completamente rimossi. Qualità e orientamento dell'immagine restano invariati.",
+    "submit": "Rimuovi metadati",
+    "converting": "Rimozione in corso...",
+    "error": "Si è verificato un errore durante la rimozione dei metadati."
+  },
+
+  "MergeImagesPage":   {
+    "title": "Unisci immagini",
+    "description": "Combina più immagini in una sola, disposte orizzontalmente, verticalmente o a griglia.",
+    "layoutLabel": "Disposizione",
+    "layoutHorizontal": "Affiancate",
+    "layoutVertical": "Impilate",
+    "layoutGrid": "A griglia",
+    "gapLabel": "Spaziatura tra le immagini",
+    "submit": "Unisci immagini",
+    "converting": "Unione in corso...",
+    "error": "Si è verificato un errore durante l'unione delle immagini."
+  },
+
   "LanguageSwitcher": {
     "label": "Lingua"
   },

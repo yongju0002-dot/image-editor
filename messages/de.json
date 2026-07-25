@@ -41,7 +41,9 @@
     "convert_image": { "name": "Bild konvertieren", "description": "Konvertiere frei zwischen JPG, PNG, WEBP, GIF, BMP und TIFF." },
     "rotate_image": { "name": "Bild drehen", "description": "Drehe Bilder um einen beliebigen Winkel oder spiegle sie horizontal/vertikal." },
     "watermark_image": { "name": "Wasserzeichen hinzufügen", "description": "Füge ein Text-Wasserzeichen mit einstellbarer Deckkraft und Position hinzu." },
-    "meme_generator": { "name": "Meme-Generator", "description": "Füge Text oben und unten hinzu, um schnell ein Meme zu erstellen." }
+    "meme_generator": { "name": "Meme-Generator", "description": "Füge Text oben und unten hinzu, um schnell ein Meme zu erstellen." },
+    "remove_exif": {"name":"Metadaten entfernen","description":"Entferne Standort- und Geräteinformationen (EXIF) aus deinen Fotos, um deine Privatsphäre zu schützen."},
+    "merge_images": {"name":"Bilder zusammenfügen","description":"Kombiniere mehrere Bilder zu einem - horizontal, vertikal oder als Raster."}
   },
   "CompressImagePage": {
     "title": "Bild komprimieren",
@@ -122,6 +124,28 @@
     "converting": "Meme wird erstellt...",
     "error": "Beim Erstellen des Memes ist ein Fehler aufgetreten."
   },
+  "RemoveExifPage":   {
+    "title": "Metadaten entfernen",
+    "description": "Entferne Standort- und Geräteinformationen (EXIF) aus deinen Fotos, um deine Privatsphäre zu schützen. Mehrere Bilder gleichzeitig verarbeiten.",
+    "infoText": "GPS-Standort, Kameramodell, Aufnahmedatum und andere versteckte Daten in deinen Fotos werden vollständig entfernt. Bildqualität und Ausrichtung bleiben unverändert.",
+    "submit": "Metadaten entfernen",
+    "converting": "Wird entfernt...",
+    "error": "Beim Entfernen der Metadaten ist ein Fehler aufgetreten."
+  },
+
+  "MergeImagesPage":   {
+    "title": "Bilder zusammenfügen",
+    "description": "Kombiniere mehrere Bilder zu einem - horizontal, vertikal oder als Raster.",
+    "layoutLabel": "Anordnung",
+    "layoutHorizontal": "Nebeneinander",
+    "layoutVertical": "Übereinander",
+    "layoutGrid": "Raster",
+    "gapLabel": "Bildabstand",
+    "submit": "Bilder zusammenfügen",
+    "converting": "Wird zusammengefügt...",
+    "error": "Beim Zusammenfügen der Bilder ist ein Fehler aufgetreten."
+  },
+
   "LanguageSwitcher": {
     "label": "Sprache"
   },

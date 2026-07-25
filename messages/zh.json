@@ -41,7 +41,9 @@
     "convert_image": { "name": "转换图片格式", "description": "在JPG、PNG、WEBP、GIF、BMP、TIFF之间自由转换。" },
     "rotate_image": { "name": "旋转图片", "description": "将图片旋转到任意角度，或进行左右/上下翻转。" },
     "watermark_image": { "name": "添加水印", "description": "为图片添加文字水印，并可调整透明度和位置。" },
-    "meme_generator": { "name": "表情包生成器", "description": "添加上下文字，轻松制作表情包图片。" }
+    "meme_generator": { "name": "表情包生成器", "description": "添加上下文字，轻松制作表情包图片。" },
+    "remove_exif": {"name":"移除元数据","description":"删除照片中的位置和设备信息(EXIF)，保护您的隐私。"},
+    "merge_images": {"name":"合并图片","description":"将多张图片横向、纵向或以网格方式合并为一张。"}
   },
   "CompressImagePage": {
     "title": "压缩图片",
@@ -122,6 +124,28 @@
     "converting": "正在制作...",
     "error": "生成表情包时发生错误。"
   },
+  "RemoveExifPage":   {
+    "title": "移除元数据",
+    "description": "删除照片中的位置和设备信息(EXIF)，保护您的隐私。支持批量处理多张图片。",
+    "infoText": "照片中的 GPS 位置、拍摄设备、拍摄日期等附加信息都将被删除，图片质量和方向保持不变。",
+    "submit": "移除元数据",
+    "converting": "正在移除...",
+    "error": "移除元数据时发生错误。"
+  },
+
+  "MergeImagesPage":   {
+    "title": "合并图片",
+    "description": "将多张图片横向、纵向或以网格方式合并为一张。",
+    "layoutLabel": "排列方式",
+    "layoutHorizontal": "横向排列",
+    "layoutVertical": "纵向排列",
+    "layoutGrid": "网格排列",
+    "gapLabel": "图片间距",
+    "submit": "合并图片",
+    "converting": "正在合并...",
+    "error": "合并图片时发生错误。"
+  },
+
   "LanguageSwitcher": {
     "label": "语言"
   },

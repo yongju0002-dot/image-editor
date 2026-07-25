@@ -41,7 +41,9 @@
     "convert_image": { "name": "이미지 형식 변환", "description": "JPG, PNG, WEBP, GIF, BMP, TIFF 간에 자유롭게 변환하세요." },
     "rotate_image": { "name": "이미지 회전", "description": "이미지를 원하는 각도로 회전하거나 좌우/상하로 반전하세요." },
     "watermark_image": { "name": "워터마크 추가", "description": "텍스트 워터마크로 이미지에 투명도와 위치를 조절해 삽입하세요." },
-    "meme_generator": { "name": "밈 만들기", "description": "상단/하단 텍스트를 넣어 간단하게 밈 이미지를 만들어보세요." }
+    "meme_generator": { "name": "밈 만들기", "description": "상단/하단 텍스트를 넣어 간단하게 밈 이미지를 만들어보세요." },
+    "remove_exif": { "name": "메타데이터 제거", "description": "사진에 담긴 위치·기기 정보(EXIF)를 삭제해 프라이버시를 지키세요." },
+    "merge_images": { "name": "이미지 합치기", "description": "여러 장의 이미지를 가로, 세로 또는 격자로 하나로 합쳐보세요." }
   },
   "CompressImagePage": {
     "title": "이미지 압축",
@@ -121,6 +123,26 @@
     "submit": "밈 만들기",
     "converting": "밈 만드는 중...",
     "error": "밈 생성 중 오류가 발생했습니다."
+  },
+  "RemoveExifPage": {
+    "title": "메타데이터 제거",
+    "description": "사진에 담긴 위치·기기 정보(EXIF)를 삭제해 프라이버시를 지키세요. 여러 장을 한 번에 처리할 수 있어요.",
+    "infoText": "GPS 위치, 촬영 기기, 촬영 날짜 등 사진에 담긴 부가 정보가 모두 제거됩니다. 사진의 화질과 회전 방향은 그대로 유지돼요.",
+    "submit": "메타데이터 제거하기",
+    "converting": "제거하는 중...",
+    "error": "메타데이터 제거 중 오류가 발생했습니다."
+  },
+  "MergeImagesPage": {
+    "title": "이미지 합치기",
+    "description": "여러 장의 이미지를 가로, 세로 또는 격자로 하나로 합쳐보세요.",
+    "layoutLabel": "배치 방식",
+    "layoutHorizontal": "가로로 나란히",
+    "layoutVertical": "세로로 나란히",
+    "layoutGrid": "격자로 배치",
+    "gapLabel": "이미지 간격",
+    "submit": "이미지 합치기",
+    "converting": "합치는 중...",
+    "error": "이미지를 합치는 중 오류가 발생했습니다."
   },
   "LanguageSwitcher": {
     "label": "언어"

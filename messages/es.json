@@ -41,7 +41,9 @@
     "convert_image": { "name": "Convertir imagen", "description": "Convierte libremente entre JPG, PNG, WEBP, GIF, BMP y TIFF." },
     "rotate_image": { "name": "Rotar imagen", "description": "Rota imágenes al ángulo que quieras o inviértelas horizontal/verticalmente." },
     "watermark_image": { "name": "Añadir marca de agua", "description": "Añade una marca de agua de texto con opacidad y posición ajustables." },
-    "meme_generator": { "name": "Generador de memes", "description": "Añade texto arriba y abajo para crear un meme fácilmente." }
+    "meme_generator": { "name": "Generador de memes", "description": "Añade texto arriba y abajo para crear un meme fácilmente." },
+    "remove_exif": {"name":"Eliminar metadatos","description":"Elimina la ubicación y la información del dispositivo (EXIF) de tus fotos para proteger tu privacidad."},
+    "merge_images": {"name":"Combinar imágenes","description":"Combina varias imágenes en una sola, en horizontal, vertical o en cuadrícula."}
   },
   "CompressImagePage": {
     "title": "Comprimir imagen",
@@ -122,6 +124,28 @@
     "converting": "Creando meme...",
     "error": "Ocurrió un error al generar el meme."
   },
+  "RemoveExifPage":   {
+    "title": "Eliminar metadatos",
+    "description": "Elimina la ubicación y la información del dispositivo (EXIF) de tus fotos para proteger tu privacidad. Procesa varias imágenes a la vez.",
+    "infoText": "Se eliminará toda la información oculta de tus fotos, como la ubicación GPS, el modelo de cámara y la fecha de captura. La calidad y la orientación de la imagen no cambian.",
+    "submit": "Eliminar metadatos",
+    "converting": "Eliminando...",
+    "error": "Ocurrió un error al eliminar los metadatos."
+  },
+
+  "MergeImagesPage":   {
+    "title": "Combinar imágenes",
+    "description": "Combina varias imágenes en una sola, en horizontal, vertical o en cuadrícula.",
+    "layoutLabel": "Disposición",
+    "layoutHorizontal": "En fila",
+    "layoutVertical": "En columna",
+    "layoutGrid": "En cuadrícula",
+    "gapLabel": "Espaciado entre imágenes",
+    "submit": "Combinar imágenes",
+    "converting": "Combinando...",
+    "error": "Ocurrió un error al combinar las imágenes."
+  },
+
   "LanguageSwitcher": {
     "label": "Idioma"
   },

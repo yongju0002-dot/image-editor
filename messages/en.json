@@ -41,7 +41,9 @@
     "convert_image": { "name": "Convert Image", "description": "Convert freely between JPG, PNG, WEBP, GIF, BMP, and TIFF." },
     "rotate_image": { "name": "Rotate Image", "description": "Rotate images to any angle or flip them horizontally/vertically." },
     "watermark_image": { "name": "Add Watermark", "description": "Add a text watermark with adjustable opacity and position." },
-    "meme_generator": { "name": "Meme Generator", "description": "Add top and bottom text to quickly create a meme." }
+    "meme_generator": { "name": "Meme Generator", "description": "Add top and bottom text to quickly create a meme." },
+    "remove_exif": { "name": "Remove Metadata", "description": "Strip location and device info (EXIF) from your photos to protect your privacy." },
+    "merge_images": { "name": "Merge Images", "description": "Combine multiple images into one, arranged horizontally, vertically, or in a grid." }
   },
   "CompressImagePage": {
     "title": "Compress Image",
@@ -121,6 +123,26 @@
     "submit": "Make Meme",
     "converting": "Making meme...",
     "error": "Something went wrong while generating the meme."
+  },
+  "RemoveExifPage": {
+    "title": "Remove Metadata",
+    "description": "Strip location and device info (EXIF) from your photos to protect your privacy. Process multiple images at once.",
+    "infoText": "GPS location, camera model, capture date, and other hidden data embedded in your photos will all be removed. Image quality and orientation stay the same.",
+    "submit": "Remove Metadata",
+    "converting": "Removing...",
+    "error": "Something went wrong while removing metadata."
+  },
+  "MergeImagesPage": {
+    "title": "Merge Images",
+    "description": "Combine multiple images into one, arranged horizontally, vertically, or in a grid.",
+    "layoutLabel": "Layout",
+    "layoutHorizontal": "Side by side",
+    "layoutVertical": "Stacked",
+    "layoutGrid": "Grid",
+    "gapLabel": "Image spacing",
+    "submit": "Merge Images",
+    "converting": "Merging...",
+    "error": "Something went wrong while merging."
   },
   "LanguageSwitcher": {
     "label": "Language"

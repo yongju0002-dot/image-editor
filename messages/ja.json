@@ -41,7 +41,9 @@
     "convert_image": { "name": "画像形式変換", "description": "JPG、PNG、WEBP、GIF、BMP、TIFF間で自由に変換します。" },
     "rotate_image": { "name": "画像回転", "description": "画像を好きな角度で回転したり、左右/上下に反転したりします。" },
     "watermark_image": { "name": "透かしを追加", "description": "テキストの透かしを不透明度と位置を調整して挿入します。" },
-    "meme_generator": { "name": "ミーム作成", "description": "上下にテキストを入れて簡単にミーム画像を作成します。" }
+    "meme_generator": { "name": "ミーム作成", "description": "上下にテキストを入れて簡単にミーム画像を作成します。" },
+    "remove_exif": {"name":"メタデータ削除","description":"写真に含まれる位置情報・機器情報(EXIF)を削除してプライバシーを守ります。"},
+    "merge_images": {"name":"画像結合","description":"複数の画像を横、縦、またはグリッドで1枚に結合します。"}
   },
   "CompressImagePage": {
     "title": "画像圧縮",
@@ -122,6 +124,28 @@
     "converting": "ミームを作成中...",
     "error": "ミームの作成中にエラーが発生しました。"
   },
+  "RemoveExifPage":   {
+    "title": "メタデータ削除",
+    "description": "写真に含まれる位置情報・機器情報(EXIF)を削除してプライバシーを守ります。複数枚を一度に処理できます。",
+    "infoText": "GPS位置情報、撮影機器、撮影日時など、写真に含まれる付加情報がすべて削除されます。画質と回転方向はそのまま維持されます。",
+    "submit": "メタデータを削除する",
+    "converting": "削除中...",
+    "error": "メタデータの削除中にエラーが発生しました。"
+  },
+
+  "MergeImagesPage":   {
+    "title": "画像結合",
+    "description": "複数の画像を横、縦、またはグリッドで1枚に結合します。",
+    "layoutLabel": "配置方法",
+    "layoutHorizontal": "横に並べる",
+    "layoutVertical": "縦に並べる",
+    "layoutGrid": "グリッド配置",
+    "gapLabel": "画像の間隔",
+    "submit": "画像を結合する",
+    "converting": "結合中...",
+    "error": "画像の結合中にエラーが発生しました。"
+  },
+
   "LanguageSwitcher": {
     "label": "言語"
   },

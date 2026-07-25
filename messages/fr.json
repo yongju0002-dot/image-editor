@@ -41,7 +41,9 @@
     "convert_image": { "name": "Convertir une image", "description": "Convertissez librement entre JPG, PNG, WEBP, GIF, BMP et TIFF." },
     "rotate_image": { "name": "Pivoter une image", "description": "Faites pivoter vos images selon l'angle souhaité ou retournez-les horizontalement/verticalement." },
     "watermark_image": { "name": "Ajouter un filigrane", "description": "Ajoutez un filigrane texte avec opacité et position réglables." },
-    "meme_generator": { "name": "Générateur de mèmes", "description": "Ajoutez du texte en haut et en bas pour créer facilement un mème." }
+    "meme_generator": { "name": "Générateur de mèmes", "description": "Ajoutez du texte en haut et en bas pour créer facilement un mème." },
+    "remove_exif": {"name":"Supprimer les métadonnées","description":"Supprimez les informations de localisation et d'appareil (EXIF) de vos photos pour protéger votre vie privée."},
+    "merge_images": {"name":"Fusionner des images","description":"Combinez plusieurs images en une seule, disposées horizontalement, verticalement ou en grille."}
   },
   "CompressImagePage": {
     "title": "Compresser une image",
@@ -122,6 +124,28 @@
     "converting": "Création en cours...",
     "error": "Une erreur est survenue lors de la création du mème."
   },
+  "RemoveExifPage":   {
+    "title": "Supprimer les métadonnées",
+    "description": "Supprimez les informations de localisation et d'appareil (EXIF) de vos photos pour protéger votre vie privée. Traitez plusieurs images à la fois.",
+    "infoText": "La position GPS, le modèle d'appareil, la date de prise de vue et autres informations cachées de vos photos seront supprimées. La qualité et l'orientation de l'image restent inchangées.",
+    "submit": "Supprimer les métadonnées",
+    "converting": "Suppression en cours...",
+    "error": "Une erreur est survenue lors de la suppression des métadonnées."
+  },
+
+  "MergeImagesPage":   {
+    "title": "Fusionner des images",
+    "description": "Combinez plusieurs images en une seule, disposées horizontalement, verticalement ou en grille.",
+    "layoutLabel": "Disposition",
+    "layoutHorizontal": "Côte à côte",
+    "layoutVertical": "Empilées",
+    "layoutGrid": "En grille",
+    "gapLabel": "Espacement entre les images",
+    "submit": "Fusionner les images",
+    "converting": "Fusion en cours...",
+    "error": "Une erreur est survenue lors de la fusion des images."
+  },
+
   "LanguageSwitcher": {
     "label": "Langue"
   },
