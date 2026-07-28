@@ -79,22 +79,20 @@
   "CompressImagePage": {
     "title": "Compress Image",
     "description": "Shrink JPG, PNG, WEBP, and TIFF file sizes while keeping the quality. Process multiple images at once.",
-    "metaDescription": "Compress JPG, PNG, WEBP, or TIFF images online for free — shrink photo file size without losing quality in seconds, perfect for websites and email. No sign up, no software to install, batch process multiple images at once.",
     "qualityLabel": "Compression Quality",
     "qualityHint": "Lower values reduce file size but also lower image quality.",
     "submit": "Compress Image",
     "converting": "Compressing...",
     "error": "Something went wrong while compressing.",
     "faq": [
-      { "q": "Does compressing an image reduce quality a lot?", "a": "Use the quality slider to balance file size and quality yourself. Around 70-80% usually looks nearly identical while cutting the file size significantly." },
-      { "q": "How do I meet a file size limit for a government or official submission?", "a": "Lower the quality setting until the output is under the required size. Most limits (2MB, 5MB, etc.) can be met with around 70% quality." },
-      { "q": "I need to shrink photos for email or messaging apps with attachment size limits.", "a": "Yes, upload multiple images at once and compress them all to your chosen quality in one go — the results download together as a ZIP." }
+      { "q": "Does compressing an image online reduce quality a lot?", "a": "Use the quality slider to balance file size and image quality yourself — no sign up or software needed. Around 70-80% usually looks nearly identical while cutting the file size significantly." },
+      { "q": "How do I compress a photo online for free to meet a file size limit for a government or official submission?", "a": "Lower the quality setting until the output is under the required size. Most limits (2MB, 5MB, etc.) can be met with around 70% quality, free and online." },
+      { "q": "I need to shrink photos for email or messaging apps with attachment size limits — can I do several at once online?", "a": "Yes, upload multiple images at once and compress them all to your chosen quality in one go online for free — the results download together as a ZIP." }
     ]
   },
   "ResizeImagePage": {
     "title": "Resize Image",
     "description": "Resize images to any pixel size or percentage. Process multiple images at once.",
-    "metaDescription": "Resize images online for free — change photo dimensions to any pixel size or percentage in seconds for social media, websites, or printing. No sign up, no software to install, batch resize multiple images at once.",
     "modePixel": "By pixels",
     "modePercent": "By percentage",
     "widthLabel": "Width (px)",
@@ -109,15 +107,14 @@
     "converting": "Resizing...",
     "error": "Something went wrong while resizing.",
     "faq": [
-      { "q": "How do I resize a photo to a specific print size like a passport photo?", "a": "Switch to pixel mode and enter the exact width and height you need — for example, passport photos are commonly around 413x531px." },
-      { "q": "Can I resize an image to fit Instagram profile or story dimensions?", "a": "Yes, just enter the exact pixel size you need (e.g. 320x320px for a profile photo, 1080x1920px for a story)." },
-      { "q": "Can I resize multiple photos to the same size at once?", "a": "Yes, upload several images and they'll all be resized with the same settings, then downloaded together as a ZIP." }
+      { "q": "How do I resize a photo online for free to a specific print size like a passport photo?", "a": "Switch to pixel mode and enter the exact width and height you need — for example, passport photos are commonly around 413x531px. No sign up or software required." },
+      { "q": "Can I resize an image online for free to fit Instagram profile or story dimensions?", "a": "Yes, just enter the exact pixel size you need (e.g. 320x320px for a profile photo, 1080x1920px for a story) and resize it in seconds." },
+      { "q": "Can I resize multiple photos to the same size at once online?", "a": "Yes, upload several images and they'll all be resized with the same settings, then downloaded together as a ZIP — no software to install." }
     ]
   },
   "CropImagePage": {
     "title": "Crop Image",
     "description": "Crop images to any area by specifying pixel coordinates.",
-    "metaDescription": "Crop an image online for free — trim a photo to any area by pixel coordinates in seconds, perfect for profile pictures or thumbnails. No sign up, no software to install.",
     "previewAlt": "Preview",
     "originalSize": "Original size: {width} x {height}px",
     "xLabel": "X (left offset)",
@@ -128,29 +125,27 @@
     "cropping": "Cropping...",
     "error": "Something went wrong while cropping.",
     "faq": [
-      { "q": "How do I crop a photo into a square, like for a profile picture?", "a": "Enter the same value for width and height to get a perfect square, and set the X/Y coordinates for the area you want to keep." },
-      { "q": "Can I cut out just the background I don't want from a photo?", "a": "Yes, specify the X/Y position and width/height of the area you want to keep, and everything outside it is removed." },
-      { "q": "Can I crop using exact pixel coordinates?", "a": "Yes, you can set the exact X/Y starting point and width/height in pixels for precise cropping." }
+      { "q": "How do I crop a photo online for free into a square, like for a profile picture?", "a": "Enter the same value for width and height to get a perfect square, and set the X/Y coordinates for the area you want to keep — free and no sign up." },
+      { "q": "Can I cut out just the background I don't want from a photo online for free?", "a": "Yes, specify the X/Y position and width/height of the area you want to keep, and everything outside it is removed in seconds." },
+      { "q": "Can I crop an image online using exact pixel coordinates?", "a": "Yes, you can set the exact X/Y starting point and width/height in pixels for precise cropping, without installing any software." }
     ]
   },
   "ConvertImagePage": {
     "title": "Convert Image",
     "description": "Convert freely between JPG, PNG, WEBP, GIF, BMP, and TIFF. Process multiple images at once.",
-    "metaDescription": "Convert images between JPG, PNG, WEBP, GIF, BMP, and TIFF online for free — change image format in seconds without losing quality. No sign up, no software to install, batch convert multiple files at once.",
     "formatLabel": "Convert to",
     "submit": "Convert to {format}",
     "converting": "Converting...",
     "error": "Something went wrong while converting.",
     "faq": [
-      { "q": "What happens to transparency when I convert PNG to JPG?", "a": "JPG doesn't support transparency, so any transparent areas are filled in with a white background." },
-      { "q": "Can I convert a GIF into a still image?", "a": "Yes, converting a GIF to PNG or JPG saves its first frame as a static image." },
-      { "q": "Why would I convert an image to WEBP for my website?", "a": "WEBP files are usually smaller than JPG or PNG at the same quality, which helps your website load faster." }
+      { "q": "What happens to transparency when I convert PNG to JPG online for free?", "a": "JPG doesn't support transparency, so any transparent areas are filled in with a white background — the conversion is free and works in your browser." },
+      { "q": "Can I convert a GIF into a still image online for free?", "a": "Yes, converting a GIF to PNG or JPG saves its first frame as a static image, no sign up or software needed." },
+      { "q": "Why would I convert an image to WEBP online for my website?", "a": "WEBP files are usually smaller than JPG or PNG at the same quality, which helps your website load faster — convert online in seconds." }
     ]
   },
   "RotateImagePage": {
     "title": "Rotate Image",
     "description": "Rotate images to any angle or flip them horizontally/vertically. Process multiple images at once.",
-    "metaDescription": "Rotate or flip an image online for free — fix a sideways photo or mirror it horizontally or vertically in seconds. No sign up, no software to install, batch process multiple images at once.",
     "angleLabel": "Rotation Angle",
     "flipHLabel": "Flip horizontally",
     "flipVLabel": "Flip vertically",
@@ -158,15 +153,14 @@
     "converting": "Rotating...",
     "error": "Something went wrong while rotating.",
     "faq": [
-      { "q": "My scanned photo is sideways — how do I straighten it?", "a": "Choose a 90, 180, or 270 degree rotation to instantly straighten it to the orientation you need." },
-      { "q": "Can I flip a photo horizontally to create a mirror image?", "a": "Yes, the flip horizontal option mirrors the image left-to-right. Flip vertical is also available separately." },
-      { "q": "My phone photos keep saving in the wrong orientation — can this fix that?", "a": "Yes, rotate it to the correct angle and save the new version, and the orientation will stay fixed from then on." }
+      { "q": "My scanned photo is sideways — how do I straighten it online for free?", "a": "Choose a 90, 180, or 270 degree rotation to instantly straighten it to the orientation you need, no sign up or software required." },
+      { "q": "Can I flip a photo horizontally online to create a mirror image?", "a": "Yes, the flip horizontal option mirrors the image left-to-right in seconds. Flip vertical is also available separately." },
+      { "q": "My phone photos keep saving in the wrong orientation — can this fix that online for free?", "a": "Yes, rotate it to the correct angle and save the new version, and the orientation will stay fixed from then on." }
     ]
   },
   "WatermarkImagePage": {
     "title": "Add Watermark",
     "description": "Add a text watermark to an image with adjustable opacity and position.",
-    "metaDescription": "Add a text watermark to a photo online for free — protect your images from unauthorized use with adjustable opacity and position in seconds. No sign up, no software to install.",
     "textLabel": "Watermark text",
     "positionLabel": "Position",
     "opacityLabel": "Opacity",
@@ -175,15 +169,14 @@
     "converting": "Adding watermark...",
     "error": "Something went wrong while adding the watermark.",
     "faq": [
-      { "q": "I want to add a copyright watermark to my photos.", "a": "Enter your watermark text and adjust its position, opacity, and font size to style it exactly how you want." },
-      { "q": "Can I fine-tune the watermark's opacity and position?", "a": "Yes, use the opacity slider and the 9-position placement grid to control it precisely." },
-      { "q": "I want to stop people from reusing my photos without credit.", "a": "Yes, adding a visible watermark helps mark ownership and discourages unauthorized use." }
+      { "q": "How do I add a copyright watermark to my photos online for free?", "a": "Enter your watermark text and adjust its position, opacity, and font size to style it exactly how you want, no sign up or software needed." },
+      { "q": "Can I fine-tune the watermark's opacity and position online?", "a": "Yes, use the opacity slider and the 9-position placement grid to control it precisely, right in your browser." },
+      { "q": "I want to stop people from reusing my photos without credit — can an online watermark help?", "a": "Yes, adding a visible watermark online helps mark ownership and discourages unauthorized use of your images." }
     ]
   },
   "MemeGeneratorPage": {
     "title": "Meme Generator",
     "description": "Add top and bottom text to quickly create a meme image.",
-    "metaDescription": "Create a meme online for free — add top and bottom caption text to any image in seconds with the classic meme font and style. No sign up, no software to install.",
     "topTextLabel": "Top text",
     "topTextPlaceholder": "e.g. WHEN THE CODE",
     "bottomTextLabel": "Bottom text",
@@ -192,29 +185,27 @@
     "converting": "Making meme...",
     "error": "Something went wrong while generating the meme.",
     "faq": [
-      { "q": "Can I add caption-style text to a meme image?", "a": "Yes, type your text into the top and bottom fields and it's added in bold, white-outlined meme-style lettering automatically." },
-      { "q": "Can I use just a top or bottom caption instead of both?", "a": "Yes, filling in only the top or bottom field still works fine." },
-      { "q": "Can I download the finished meme right away?", "a": "Yes, clicking the make button downloads your finished meme immediately." }
+      { "q": "Can I add caption-style text to a meme image online for free?", "a": "Yes, type your text into the top and bottom fields and it's added in bold, white-outlined meme-style lettering automatically, no sign up or software needed." },
+      { "q": "Can I use just a top or bottom caption instead of both when making a meme online?", "a": "Yes, filling in only the top or bottom field still works fine." },
+      { "q": "Can I download the finished meme right away without signing up?", "a": "Yes, clicking the make button downloads your finished meme immediately, completely free." }
     ]
   },
   "RemoveExifPage": {
     "title": "Remove Metadata",
     "description": "Strip location and device info (EXIF) from your photos to protect your privacy. Process multiple images at once.",
-    "metaDescription": "Remove EXIF data from photos online for free — strip GPS location, camera model, and device metadata to protect your privacy before sharing in seconds. No sign up, no software to install, batch process multiple images at once.",
     "infoText": "GPS location, camera model, capture date, and other hidden data embedded in your photos will all be removed. Image quality and orientation stay the same.",
     "submit": "Remove Metadata",
     "converting": "Removing...",
     "error": "Something went wrong while removing metadata.",
     "faq": [
-      { "q": "I want to remove the location (GPS) data embedded in a photo.", "a": "The metadata removal tool strips all EXIF data, including GPS location, device model, and capture date." },
-      { "q": "I'm worried my location shows up in photos I post for online marketplace listings.", "a": "Yes, processing a photo with this tool removes all embedded metadata, including location, so it's safe to share." },
-      { "q": "Does removing metadata change the photo's quality or orientation?", "a": "No, image quality and orientation stay exactly the same — only the hidden metadata is removed." }
+      { "q": "How do I remove the location (GPS) data embedded in a photo online for free?", "a": "The metadata removal tool strips all EXIF data, including GPS location, device model, and capture date, no sign up or software needed." },
+      { "q": "I'm worried my location shows up in photos I post for online marketplace listings — can I fix that?", "a": "Yes, processing a photo with this free online tool removes all embedded metadata, including location, so it's safe to share." },
+      { "q": "Does removing metadata online change the photo's quality or orientation?", "a": "No, image quality and orientation stay exactly the same — only the hidden metadata is removed." }
     ]
   },
   "MergeImagesPage": {
     "title": "Merge Images",
     "description": "Combine multiple images into one, arranged horizontally, vertically, or in a grid.",
-    "metaDescription": "Merge multiple images into one online for free — combine photos horizontally, vertically, or in a grid layout in seconds. No sign up, no software to install.",
     "layoutLabel": "Layout",
     "layoutHorizontal": "Side by side",
     "layoutVertical": "Stacked",
@@ -224,9 +215,9 @@
     "converting": "Merging...",
     "error": "Something went wrong while merging.",
     "faq": [
-      { "q": "I want to combine several photos into one image to post on social media.", "a": "Yes, upload multiple images and choose a horizontal, vertical, or grid layout to merge them into one." },
-      { "q": "Can I make a collage out of multiple photos?", "a": "Yes, choosing the grid layout automatically arranges your photos into a collage-style grid." },
-      { "q": "Can I adjust the spacing between images?", "a": "Yes, use the gap setting to control the spacing between images anywhere from 0 to 40px." }
+      { "q": "How do I combine several photos into one image online for free to post on social media?", "a": "Yes, upload multiple images and choose a horizontal, vertical, or grid layout to merge them into one, no sign up or software required." },
+      { "q": "Can I make a photo collage online for free out of multiple photos?", "a": "Yes, choosing the grid layout automatically arranges your photos into a collage-style grid in seconds." },
+      { "q": "Can I adjust the spacing between images when merging them online?", "a": "Yes, use the gap setting to control the spacing between images anywhere from 0 to 40px." }
     ]
   },
   "LanguageSwitcher": {

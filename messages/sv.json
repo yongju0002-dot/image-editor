@@ -79,31 +79,20 @@
   "CompressImagePage": {
     "title": "Komprimera bild",
     "description": "Minska filstorleken på JPG-, PNG-, WEBP- och TIFF-bilder med bibehållen kvalitet. Bearbeta flera bilder samtidigt.",
-    "metaDescription": "Komprimera JPG-, PNG-, WEBP- eller TIFF-bilder online och gratis — krymp fotots filstorlek på några sekunder utan att förlora för mycket kvalitet, perfekt för webbplatser och e-post. Utan registrering eller program, med batchbearbetning av flera bilder samtidigt.",
     "qualityLabel": "Komprimeringskvalitet",
     "qualityHint": "Lägre värden minskar filstorleken men sänker även bildkvaliteten.",
     "submit": "Komprimera bild",
     "converting": "Komprimerar...",
     "error": "Ett fel uppstod vid komprimering.",
     "faq": [
-      {
-        "q": "Minskar komprimering av en bild kvaliteten mycket?",
-        "a": "Använd kvalitetsreglaget för att själv balansera filstorlek och kvalitet. Runt 70-80% ser oftast nästan likadant ut samtidigt som filstorleken minskar avsevärt."
-      },
-      {
-        "q": "Hur uppfyller jag en filstorleksgräns för en myndighetsansökan?",
-        "a": "Sänk kvaliteten tills resultatet är under den nödvändiga storleken. De flesta gränser (2MB, 5MB osv.) uppnås med cirka 70% kvalitet."
-      },
-      {
-        "q": "Jag behöver krympa foton för e-post eller meddelandeappar med bilagegräns.",
-        "a": "Ja, ladda upp flera bilder samtidigt och komprimera dem alla till önskad kvalitet i ett svep - resultatet laddas ner tillsammans som en ZIP."
-      }
+      { "q": "Minskar komprimering av en bild online kvaliteten mycket?", "a": "Använd kvalitetsreglaget för att själv balansera filstorlek och bildkvalitet — utan registrering eller program. Cirka 70-80% ser oftast nästan identiskt ut samtidigt som filstorleken minskar avsevärt." },
+      { "q": "Hur komprimerar jag ett foto online och gratis för att uppfylla en filstorleksgräns för en myndighets- eller officiell inlämning?", "a": "Sänk kvalitetsinställningen tills resultatet är under den nödvändiga storleken. De flesta gränser (2MB, 5MB osv.) kan uppnås med cirka 70% kvalitet, gratis och online." },
+      { "q": "Jag behöver förminska foton för e-post eller meddelandeappar med bilagestorleksgränser — kan jag göra flera samtidigt online?", "a": "Ja, ladda upp flera bilder samtidigt och komprimera dem alla till vald kvalitet i en och samma åtgärd online och gratis — resultaten laddas ner tillsammans som en ZIP." }
     ]
   },
   "ResizeImagePage": {
     "title": "Ändra bildstorlek",
     "description": "Ändra bildstorlek i pixlar eller procent. Bearbeta flera bilder samtidigt.",
-    "metaDescription": "Ändra storlek på bilder online och gratis — ändra fotots mått till valfri pixelstorlek eller procentandel på några sekunder, för sociala medier, webbplatser eller utskrift. Utan registrering eller program, med batchändring av storlek för flera bilder.",
     "modePixel": "I pixlar",
     "modePercent": "I procent",
     "widthLabel": "Bredd (px)",
@@ -118,24 +107,14 @@
     "converting": "Ändrar storlek...",
     "error": "Ett fel uppstod vid storleksändring.",
     "faq": [
-      {
-        "q": "Hur ändrar jag storlek på ett foto till ett specifikt utskriftsformat, som ett passfoto?",
-        "a": "Byt till pixelläge och ange exakt bredd och höjd du behöver - passfoton är till exempel oftast runt 413x531px."
-      },
-      {
-        "q": "Kan jag anpassa en bild till Instagrams profil- eller story-mått?",
-        "a": "Ja, ange bara den exakta pixelstorlek du behöver (t.ex. 320x320px för en profil, 1080x1920px för en story)."
-      },
-      {
-        "q": "Kan jag ändra storlek på flera foton till samma storlek samtidigt?",
-        "a": "Ja, ladda upp flera bilder så ändras alla med samma inställningar och laddas sedan ner tillsammans som en ZIP."
-      }
+      { "q": "Hur ändrar jag storlek på ett foto online och gratis till en specifik utskriftsstorlek, som ett passfoto?", "a": "Byt till pixelläge och ange den exakta bredd och höjd du behöver — passfoton är till exempel vanligtvis cirka 413x531px. Utan registrering eller program krävs." },
+      { "q": "Kan jag ändra storlek på en bild online och gratis för att passa Instagram-profil- eller storydimensioner?", "a": "Ja, ange bara den exakta pixelstorlek du behöver (t.ex. 320x320px för en profilbild, 1080x1920px för en story) och ändra storlek på några sekunder." },
+      { "q": "Kan jag ändra storlek på flera foton till samma storlek på en gång online?", "a": "Ja, ladda upp flera bilder så ändras alla storlek med samma inställningar, sedan laddas de ner tillsammans som en ZIP — utan program att installera." }
     ]
   },
   "CropImagePage": {
     "title": "Beskär bild",
     "description": "Beskär önskat område genom att ange pixelkoordinater.",
-    "metaDescription": "Beskär en bild online och gratis — anpassa ett foto till valfritt område med pixelkoordinater på några sekunder, perfekt för profilbilder eller miniatyrer. Utan registrering eller program.",
     "previewAlt": "Förhandsgranskning",
     "originalSize": "Originalstorlek: {width} x {height}px",
     "xLabel": "X (vänstermarginal)",
@@ -146,47 +125,27 @@
     "cropping": "Beskär...",
     "error": "Ett fel uppstod vid beskärning.",
     "faq": [
-      {
-        "q": "Hur beskär jag ett foto till en fyrkant, till exempel för en profilbild?",
-        "a": "Ange samma värde för bredd och höjd för en perfekt fyrkant, och ställ in X/Y-koordinaterna för området du vill behålla."
-      },
-      {
-        "q": "Kan jag klippa bort bara den oönskade bakgrunden från ett foto?",
-        "a": "Ja, ange X/Y-position och bredd/höjd för området du vill behålla, så tas allt annat bort."
-      },
-      {
-        "q": "Kan jag beskära med exakta pixelkoordinater?",
-        "a": "Ja, du kan ställa in exakt X/Y-startpunkt och bredd/höjd i pixlar för precis beskärning."
-      }
+      { "q": "Hur beskär jag ett foto online och gratis till en kvadrat, till exempel för en profilbild?", "a": "Ange samma värde för bredd och höjd för att få en perfekt kvadrat, och ställ in X/Y-koordinaterna för det område du vill behålla — gratis och utan registrering." },
+      { "q": "Kan jag klippa bort bara den oönskade bakgrunden från ett foto online och gratis?", "a": "Ja, ange X/Y-position och bredd/höjd för det område du vill behålla, och allt utanför tas bort på några sekunder." },
+      { "q": "Kan jag beskära en bild online med exakta pixelkoordinater?", "a": "Ja, du kan ställa in den exakta X/Y-startpunkten och bredd/höjd i pixlar för precis beskärning, utan att installera något program." }
     ]
   },
   "ConvertImagePage": {
     "title": "Konvertera bild",
     "description": "Konvertera fritt mellan JPG, PNG, WEBP, GIF, BMP och TIFF. Bearbeta flera bilder samtidigt.",
-    "metaDescription": "Konvertera bilder mellan JPG, PNG, WEBP, GIF, BMP och TIFF online och gratis — ändra bildformat på några sekunder utan kvalitetsförlust. Utan registrering eller program, med batchkonvertering av flera filer samtidigt.",
     "formatLabel": "Konvertera till",
     "submit": "Konvertera till {format}",
     "converting": "Konverterar...",
     "error": "Ett fel uppstod vid konvertering.",
     "faq": [
-      {
-        "q": "Vad händer med transparens när jag konverterar PNG till JPG?",
-        "a": "JPG stöder inte transparens, så transparenta områden fylls med en vit bakgrund."
-      },
-      {
-        "q": "Kan jag konvertera en GIF till en stillbild?",
-        "a": "Ja, att konvertera en GIF till PNG eller JPG sparar dess första bildruta som en stillbild."
-      },
-      {
-        "q": "Varför skulle jag konvertera en bild till WEBP för min webbplats?",
-        "a": "WEBP-filer är oftast mindre än JPG eller PNG vid samma kvalitet, vilket hjälper din webbplats att ladda snabbare."
-      }
+      { "q": "Vad händer med transparensen när jag konverterar PNG till JPG online och gratis?", "a": "JPG stöder inte transparens, så transparenta områden fylls med en vit bakgrund — konverteringen är gratis och fungerar i din webbläsare." },
+      { "q": "Kan jag konvertera en GIF till en stillbild online och gratis?", "a": "Ja, att konvertera en GIF till PNG eller JPG sparar dess första bildruta som en stillbild, utan registrering eller program." },
+      { "q": "Varför skulle jag konvertera en bild till WEBP online för min webbplats?", "a": "WEBP-filer är vanligtvis mindre än JPG eller PNG vid samma kvalitet, vilket hjälper din webbplats att ladda snabbare — konvertera online på några sekunder." }
     ]
   },
   "RotateImagePage": {
     "title": "Rotera bild",
     "description": "Rotera bilder i valfri vinkel eller vänd dem horisontellt/vertikalt. Bearbeta flera bilder samtidigt.",
-    "metaDescription": "Rotera eller vänd en bild online och gratis — rätta till ett sidledes foto eller spegla det horisontellt eller vertikalt på några sekunder. Utan registrering eller program, med batchbearbetning av flera bilder.",
     "angleLabel": "Rotationsvinkel",
     "flipHLabel": "Vänd horisontellt",
     "flipVLabel": "Vänd vertikalt",
@@ -194,24 +153,14 @@
     "converting": "Roterar...",
     "error": "Ett fel uppstod vid rotering.",
     "faq": [
-      {
-        "q": "Mitt skannade foto ligger på sidan - hur rätar jag ut det?",
-        "a": "Välj en rotation på 90, 180 eller 270 grader för att direkt rikta det till önskad orientering."
-      },
-      {
-        "q": "Kan jag vända ett foto horisontellt för att skapa en spegelbild?",
-        "a": "Ja, alternativet för horisontell vändning speglar bilden från vänster till höger. Vertikal vändning finns också separat."
-      },
-      {
-        "q": "Mina mobilfoton sparas alltid i fel orientering - kan detta fixa det?",
-        "a": "Ja, rotera till rätt vinkel och spara den nya versionen; orienteringen förblir sedan fast."
-      }
+      { "q": "Mitt skannade foto ligger på sidan — hur rätar jag ut det online och gratis?", "a": "Välj en rotation på 90, 180 eller 270 grader för att omedelbart räta ut det till önskad riktning, utan registrering eller program krävs." },
+      { "q": "Kan jag vända ett foto horisontellt online för att skapa en spegelbild?", "a": "Ja, alternativet vänd horisontellt speglar bilden från vänster till höger på några sekunder. Vänd vertikalt finns också separat." },
+      { "q": "Mina telefonfoton fortsätter att sparas i fel riktning — kan detta åtgärda det online och gratis?", "a": "Ja, rotera det till rätt vinkel och spara den nya versionen, så förblir riktningen fixerad därefter." }
     ]
   },
   "WatermarkImagePage": {
     "title": "Lägg till vattenstämpel",
     "description": "Lägg till en textvattenstämpel på bilden med justerbar opacitet och position.",
-    "metaDescription": "Lägg till en textvattenstämpel på ett foto online och gratis — skydda dina bilder från obehörig användning med justerbar opacitet och position på några sekunder. Utan registrering eller program.",
     "textLabel": "Vattenstämpeltext",
     "positionLabel": "Position",
     "opacityLabel": "Opacitet",
@@ -220,24 +169,14 @@
     "converting": "Lägger till vattenstämpel...",
     "error": "Ett fel uppstod när vattenstämpeln skulle läggas till.",
     "faq": [
-      {
-        "q": "Jag vill lägga till en upphovsrättsvattenstämpel på mina foton.",
-        "a": "Ange din vattenstämpeltext och justera position, opacitet och teckenstorlek för att stila den precis som du vill."
-      },
-      {
-        "q": "Kan jag finjustera vattenstämpelns opacitet och position?",
-        "a": "Ja, använd opacitetsreglaget och 9-positionsrutnätet för exakt kontroll."
-      },
-      {
-        "q": "Jag vill förhindra att andra återanvänder mina foton utan kreditering.",
-        "a": "Ja, att lägga till en synlig vattenstämpel hjälper till att markera ägarskap och avskräcker från otillåten användning."
-      }
+      { "q": "Jag vill lägga till en upphovsrättsvattenstämpel på mina foton online och gratis.", "a": "Ange din vattenstämpeltext och justera dess position, opacitet och teckenstorlek för att stila den exakt som du vill, utan registrering eller program." },
+      { "q": "Kan jag finjustera vattenstämpelns opacitet och position online?", "a": "Ja, använd opacitetsreglaget och rutnätet med 9 positioner för att styra den precist, direkt i din webbläsare." },
+      { "q": "Jag vill hindra folk från att återanvända mina foton utan kreditering — hjälper en vattenstämpel online?", "a": "Ja, att lägga till en synlig vattenstämpel online hjälper till att markera ägandeskap och avskräcker från obehörig användning av dina bilder." }
     ]
   },
   "MemeGeneratorPage": {
     "title": "Memegenerator",
     "description": "Lägg till text upptill och nedtill för att snabbt skapa en memebild.",
-    "metaDescription": "Skapa ett meme online och gratis — lägg till text överst och underst på valfri bild på några sekunder med det klassiska meme-typsnittet och stilen. Utan registrering eller program.",
     "topTextLabel": "Text upptill",
     "topTextPlaceholder": "t.ex. WHEN THE CODE",
     "bottomTextLabel": "Text nedtill",
@@ -246,47 +185,27 @@
     "converting": "Skapar meme...",
     "error": "Ett fel uppstod när memet skulle skapas.",
     "faq": [
-      {
-        "q": "Kan jag lägga till bildtextliknande text på en memebild?",
-        "a": "Ja, skriv din text i de övre och nedre fälten så läggs den automatiskt till i fetstil i memestil med vit kant."
-      },
-      {
-        "q": "Kan jag använda bara en övre eller nedre bildtext istället för båda?",
-        "a": "Ja, att bara fylla i det övre eller nedre fältet fungerar också bra."
-      },
-      {
-        "q": "Kan jag ladda ner det färdiga memet direkt?",
-        "a": "Ja, att klicka på skapa-knappen laddar ner ditt färdiga meme direkt."
-      }
+      { "q": "Kan jag lägga till bildtextliknande text på en memebild online och gratis?", "a": "Ja, skriv din text i de övre och nedre fälten och den läggs till automatiskt i fetstil med vit kontur i memestil, utan registrering eller program." },
+      { "q": "Kan jag använda bara en övre eller nedre bildtext istället för båda när jag skapar ett meme online?", "a": "Ja, att bara fylla i det övre eller nedre fältet fungerar också bra." },
+      { "q": "Kan jag ladda ner det färdiga memet direkt utan att registrera mig?", "a": "Ja, att klicka på skapa-knappen laddar ner ditt färdiga meme omedelbart, helt gratis." }
     ]
   },
   "RemoveExifPage": {
     "title": "Ta bort metadata",
     "description": "Ta bort plats- och enhetsinformation (EXIF) från dina bilder för att skydda din integritet. Bearbeta flera bilder samtidigt.",
-    "metaDescription": "Ta bort EXIF-data från foton online och gratis — radera GPS-plats, kameramodell och enhetsmetadata för att skydda din integritet innan du delar, på några sekunder. Utan registrering eller program, med batchbearbetning av flera bilder.",
     "infoText": "GPS-position, kameramodell, tagningsdatum och annan dold information i dina bilder tas bort helt. Bildkvalitet och orientering förblir oförändrade.",
     "submit": "Ta bort metadata",
     "converting": "Tar bort...",
     "error": "Ett fel uppstod när metadata skulle tas bort.",
     "faq": [
-      {
-        "q": "Jag vill ta bort platsdata (GPS) inbäddad i ett foto.",
-        "a": "Verktyget för borttagning av metadata rensar all EXIF-data, inklusive GPS-plats, enhetsmodell och tagningsdatum."
-      },
-      {
-        "q": "Jag oroar mig för att min plats syns i foton jag lägger upp för annonser.",
-        "a": "Ja, att bearbeta ett foto med detta verktyg tar bort all inbäddad metadata, inklusive plats, så det är säkert att dela."
-      },
-      {
-        "q": "Ändrar borttagning av metadata fotots kvalitet eller orientering?",
-        "a": "Nej, bildkvaliteten och orienteringen förblir exakt desamma - endast dold metadata tas bort."
-      }
+      { "q": "Hur tar jag bort platsdata (GPS) inbäddade i ett foto online och gratis?", "a": "Verktyget för borttagning av metadata rensar all EXIF-data, inklusive GPS-plats, enhetsmodell och tagningsdatum, utan registrering eller program." },
+      { "q": "Jag är orolig för att min plats visas i foton jag lägger upp för annonser på nätmarknadsplatser — kan jag åtgärda det?", "a": "Ja, att bearbeta ett foto med detta gratis onlineverktyg tar bort all inbäddad metadata, inklusive plats, så det är säkert att dela." },
+      { "q": "Ändrar borttagning av metadata online fotots kvalitet eller riktning?", "a": "Nej, bildkvalitet och riktning förblir exakt desamma — endast den dolda metadatan tas bort." }
     ]
   },
   "MergeImagesPage": {
     "title": "Slå ihop bilder",
     "description": "Kombinera flera bilder till en, horisontellt, vertikalt eller i ett rutnät.",
-    "metaDescription": "Slå ihop flera bilder till en online och gratis — kombinera foton horisontellt, vertikalt eller i ett rutnät på några sekunder. Utan registrering eller program.",
     "layoutLabel": "Layout",
     "layoutHorizontal": "Sida vid sida",
     "layoutVertical": "Staplade",
@@ -296,18 +215,9 @@
     "converting": "Slår ihop...",
     "error": "Ett fel uppstod när bilderna skulle slås ihop.",
     "faq": [
-      {
-        "q": "Jag vill kombinera flera foton till en bild för att lägga upp på sociala medier.",
-        "a": "Ja, ladda upp flera bilder och välj en horisontell, vertikal eller rutnätslayout för att slå ihop dem till en."
-      },
-      {
-        "q": "Kan jag göra ett collage av flera foton?",
-        "a": "Ja, att välja rutnätslayouten arrangerar automatiskt dina foton i ett rutnät i collagestil."
-      },
-      {
-        "q": "Kan jag justera avståndet mellan bilder?",
-        "a": "Ja, använd mellanrumsinställningen för att styra avståndet mellan bilder från 0 till 40px."
-      }
+      { "q": "Hur kombinerar jag flera foton till en bild online och gratis för att lägga upp på sociala medier?", "a": "Ja, ladda upp flera bilder och välj en horisontell, vertikal eller rutnätslayout för att slå ihop dem till en, utan registrering eller program krävs." },
+      { "q": "Kan jag göra ett fotocollage online och gratis av flera foton?", "a": "Ja, att välja rutnätslayout arrangerar automatiskt dina foton i ett collageliknande rutnät på några sekunder." },
+      { "q": "Kan jag justera avståndet mellan bilder när jag slår ihop dem online?", "a": "Ja, använd mellanrumsinställningen för att styra avståndet mellan bilder från 0 till 40px." }
     ]
   },
   "LanguageSwitcher": {

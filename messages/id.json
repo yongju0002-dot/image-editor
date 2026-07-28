@@ -79,31 +79,20 @@
   "CompressImagePage": {
     "title": "Kompres Gambar",
     "description": "Kecilkan ukuran file JPG, PNG, WEBP, dan TIFF tanpa mengurangi kualitas. Proses beberapa gambar sekaligus.",
-    "metaDescription": "Kompres gambar JPG, PNG, WEBP, atau TIFF secara online dan gratis — perkecil ukuran file foto hanya dalam hitungan detik tanpa kehilangan banyak kualitas, cocok untuk situs web dan email. Tanpa daftar atau software, proses banyak gambar sekaligus secara batch.",
     "qualityLabel": "Kualitas Kompresi",
     "qualityHint": "Nilai lebih rendah memperkecil ukuran file, tapi juga menurunkan kualitas gambar.",
     "submit": "Kompres Gambar",
     "converting": "Mengompres...",
     "error": "Terjadi kesalahan saat mengompres.",
     "faq": [
-      {
-        "q": "Apakah mengompres gambar akan sangat menurunkan kualitas?",
-        "a": "Gunakan penggeser kualitas untuk menyeimbangkan sendiri ukuran file dan kualitas. Sekitar 70-80% biasanya terlihat hampir sama sementara ukuran file berkurang signifikan."
-      },
-      {
-        "q": "Bagaimana cara memenuhi batas ukuran file untuk pengajuan ke instansi pemerintah?",
-        "a": "Turunkan kualitas hingga hasilnya di bawah ukuran yang diminta. Sebagian besar batas (2MB, 5MB, dll.) bisa dicapai dengan kualitas sekitar 70%."
-      },
-      {
-        "q": "Saya perlu memperkecil foto untuk email atau aplikasi pesan dengan batas ukuran lampiran.",
-        "a": "Ya, unggah beberapa gambar sekaligus dan kompres semuanya ke kualitas pilihan Anda dalam satu kali proses; hasilnya diunduh bersama sebagai ZIP."
-      }
+      { "q": "Apakah mengompres gambar secara online mengurangi kualitas secara signifikan?", "a": "Gunakan penggeser kualitas untuk menyeimbangkan sendiri ukuran file dan kualitas gambar — tanpa daftar atau software. Sekitar 70-80% biasanya terlihat hampir identik sambil mengurangi ukuran file secara signifikan." },
+      { "q": "Bagaimana cara mengompres foto secara online dan gratis untuk memenuhi batas ukuran file untuk pengajuan pemerintah atau resmi?", "a": "Turunkan pengaturan kualitas hingga hasilnya berada di bawah ukuran yang diperlukan. Sebagian besar batas (2MB, 5MB, dll.) dapat dipenuhi dengan kualitas sekitar 70%, gratis dan online." },
+      { "q": "Saya perlu mengecilkan foto untuk email atau aplikasi pesan dengan batas ukuran lampiran — bisakah saya melakukan beberapa sekaligus secara online?", "a": "Bisa, unggah beberapa gambar sekaligus dan kompres semuanya ke kualitas pilihan Anda dalam satu kali proses secara online dan gratis — hasilnya diunduh bersama sebagai ZIP." }
     ]
   },
   "ResizeImagePage": {
     "title": "Ubah Ukuran Gambar",
     "description": "Ubah ukuran gambar dalam piksel atau persentase. Proses beberapa gambar sekaligus.",
-    "metaDescription": "Ubah ukuran gambar secara online dan gratis — ubah dimensi foto ke ukuran piksel atau persentase apa pun hanya dalam hitungan detik, untuk media sosial, situs web, atau pencetakan. Tanpa daftar atau software, ubah ukuran banyak gambar sekaligus secara batch.",
     "modePixel": "Berdasarkan piksel",
     "modePercent": "Berdasarkan persentase",
     "widthLabel": "Lebar (px)",
@@ -118,24 +107,14 @@
     "converting": "Mengubah ukuran...",
     "error": "Terjadi kesalahan saat mengubah ukuran.",
     "faq": [
-      {
-        "q": "Bagaimana cara mengubah ukuran foto ke ukuran cetak tertentu, seperti pas foto?",
-        "a": "Beralih ke mode piksel dan masukkan lebar dan tinggi yang tepat; misalnya foto paspor biasanya berukuran sekitar 413x531px."
-      },
-      {
-        "q": "Bisakah saya menyesuaikan gambar dengan ukuran profil atau story Instagram?",
-        "a": "Ya, cukup masukkan ukuran piksel yang tepat (misalnya 320x320px untuk profil, 1080x1920px untuk story)."
-      },
-      {
-        "q": "Bisakah saya mengubah ukuran beberapa foto ke ukuran yang sama sekaligus?",
-        "a": "Ya, unggah beberapa gambar dan semuanya akan diubah ukurannya dengan pengaturan yang sama, lalu diunduh bersama sebagai ZIP."
-      }
+      { "q": "Bagaimana cara mengubah ukuran foto secara online dan gratis ke ukuran cetak tertentu seperti foto paspor?", "a": "Beralih ke mode piksel dan masukkan lebar dan tinggi yang tepat sesuai kebutuhan Anda — misalnya foto paspor biasanya sekitar 413x531px. Tanpa daftar atau software diperlukan." },
+      { "q": "Bisakah saya mengubah ukuran gambar secara online dan gratis agar sesuai dengan dimensi profil atau story Instagram?", "a": "Bisa, cukup masukkan ukuran piksel yang tepat sesuai kebutuhan (misalnya 320x320px untuk foto profil, 1080x1920px untuk story) dan ubah ukurannya hanya dalam hitungan detik." },
+      { "q": "Bisakah saya mengubah ukuran beberapa foto ke ukuran yang sama sekaligus secara online?", "a": "Bisa, unggah beberapa gambar dan semuanya akan diubah ukurannya dengan pengaturan yang sama, lalu diunduh bersama sebagai ZIP — tanpa software yang perlu diinstal." }
     ]
   },
   "CropImagePage": {
     "title": "Potong Gambar",
     "description": "Potong area yang diinginkan dengan menentukan koordinat piksel.",
-    "metaDescription": "Potong gambar secara online dan gratis — potong foto ke area mana pun dengan koordinat piksel hanya dalam hitungan detik, cocok untuk foto profil atau thumbnail. Tanpa daftar atau software.",
     "previewAlt": "Pratinjau",
     "originalSize": "Ukuran asli: {width} x {height}px",
     "xLabel": "X (jarak dari kiri)",
@@ -146,47 +125,27 @@
     "cropping": "Memotong...",
     "error": "Terjadi kesalahan saat memotong.",
     "faq": [
-      {
-        "q": "Bagaimana cara memotong foto menjadi persegi, misalnya untuk foto profil?",
-        "a": "Masukkan nilai yang sama untuk lebar dan tinggi agar menjadi persegi sempurna, lalu atur koordinat X/Y area yang ingin dipertahankan."
-      },
-      {
-        "q": "Bisakah saya memotong hanya latar belakang yang tidak diinginkan dari sebuah foto?",
-        "a": "Ya, tentukan posisi X/Y serta lebar/tinggi area yang ingin dipertahankan, dan sisanya akan dihapus."
-      },
-      {
-        "q": "Bisakah saya memotong menggunakan koordinat piksel yang tepat?",
-        "a": "Ya, Anda dapat mengatur titik awal X/Y serta lebar/tinggi dalam piksel secara tepat untuk pemotongan yang presisi."
-      }
+      { "q": "Bagaimana cara memotong foto secara online dan gratis menjadi persegi, misalnya untuk foto profil?", "a": "Masukkan nilai yang sama untuk lebar dan tinggi untuk mendapatkan persegi sempurna, dan atur koordinat X/Y untuk area yang ingin Anda pertahankan — gratis dan tanpa daftar." },
+      { "q": "Bisakah saya hanya memotong latar belakang yang tidak diinginkan dari foto secara online dan gratis?", "a": "Bisa, tentukan posisi X/Y dan lebar/tinggi area yang ingin Anda pertahankan, dan semua yang di luar itu akan dihapus hanya dalam hitungan detik." },
+      { "q": "Bisakah saya memotong gambar secara online menggunakan koordinat piksel yang tepat?", "a": "Bisa, Anda dapat mengatur titik awal X/Y yang tepat dan lebar/tinggi dalam piksel untuk pemotongan yang presisi, tanpa menginstal software." }
     ]
   },
   "ConvertImagePage": {
     "title": "Konversi Gambar",
     "description": "Konversi bebas antara JPG, PNG, WEBP, GIF, BMP, dan TIFF. Proses beberapa gambar sekaligus.",
-    "metaDescription": "Ubah gambar antara JPG, PNG, WEBP, GIF, BMP, dan TIFF secara online dan gratis — ubah format gambar hanya dalam hitungan detik tanpa kehilangan kualitas. Tanpa daftar atau software, konversi banyak file sekaligus secara batch.",
     "formatLabel": "Konversi ke",
     "submit": "Konversi ke {format}",
     "converting": "Mengonversi...",
     "error": "Terjadi kesalahan saat mengonversi.",
     "faq": [
-      {
-        "q": "Apa yang terjadi pada transparansi saat mengonversi PNG ke JPG?",
-        "a": "JPG tidak mendukung transparansi, sehingga area transparan akan diisi dengan latar belakang putih."
-      },
-      {
-        "q": "Bisakah saya mengonversi GIF menjadi gambar diam?",
-        "a": "Ya, mengonversi GIF ke PNG atau JPG akan menyimpan frame pertamanya sebagai gambar diam."
-      },
-      {
-        "q": "Mengapa saya perlu mengonversi gambar ke WEBP untuk situs web saya?",
-        "a": "File WEBP biasanya lebih kecil dari JPG atau PNG pada kualitas yang sama, sehingga membantu situs web Anda dimuat lebih cepat."
-      }
+      { "q": "Apa yang terjadi pada transparansi saat saya mengonversi PNG ke JPG secara online dan gratis?", "a": "JPG tidak mendukung transparansi, jadi area transparan akan diisi dengan latar belakang putih — konversi ini gratis dan berfungsi di browser Anda." },
+      { "q": "Bisakah saya mengonversi GIF menjadi gambar diam secara online dan gratis?", "a": "Bisa, mengonversi GIF ke PNG atau JPG akan menyimpan bingkai pertamanya sebagai gambar statis, tanpa daftar atau software diperlukan." },
+      { "q": "Mengapa saya perlu mengonversi gambar ke WEBP secara online untuk situs web saya?", "a": "File WEBP biasanya lebih kecil dari JPG atau PNG pada kualitas yang sama, yang membantu situs web Anda dimuat lebih cepat — konversi online hanya dalam hitungan detik." }
     ]
   },
   "RotateImagePage": {
     "title": "Putar Gambar",
     "description": "Putar gambar ke sudut mana pun atau balikkan secara horizontal/vertikal. Proses beberapa gambar sekaligus.",
-    "metaDescription": "Putar atau balik gambar secara online dan gratis — perbaiki foto yang miring atau balikkan secara horizontal atau vertikal hanya dalam hitungan detik. Tanpa daftar atau software, proses banyak gambar sekaligus secara batch.",
     "angleLabel": "Sudut Putar",
     "flipHLabel": "Balik horizontal",
     "flipVLabel": "Balik vertikal",
@@ -194,24 +153,14 @@
     "converting": "Memutar...",
     "error": "Terjadi kesalahan saat memutar.",
     "faq": [
-      {
-        "q": "Foto hasil pindai saya miring ke samping, bagaimana cara meluruskannya?",
-        "a": "Pilih rotasi 90, 180, atau 270 derajat untuk langsung meluruskannya ke orientasi yang dibutuhkan."
-      },
-      {
-        "q": "Bisakah saya membalik foto secara horizontal untuk membuat efek cermin?",
-        "a": "Ya, opsi balik horizontal akan mencerminkan gambar dari kiri ke kanan. Balik vertikal juga tersedia secara terpisah."
-      },
-      {
-        "q": "Foto dari ponsel saya selalu tersimpan dengan orientasi yang salah, apakah ini bisa memperbaikinya?",
-        "a": "Ya, putar ke sudut yang benar dan simpan versi baru; orientasinya akan tetap terkunci setelah itu."
-      }
+      { "q": "Foto hasil scan saya miring — bagaimana cara meluruskannya secara online dan gratis?", "a": "Pilih rotasi 90, 180, atau 270 derajat untuk langsung meluruskannya ke orientasi yang Anda butuhkan, tanpa daftar atau software diperlukan." },
+      { "q": "Bisakah saya membalik foto secara horizontal secara online untuk membuat gambar cermin?", "a": "Bisa, opsi balik horizontal mencerminkan gambar dari kiri ke kanan hanya dalam hitungan detik. Balik vertikal juga tersedia secara terpisah." },
+      { "q": "Foto ponsel saya terus tersimpan dengan orientasi yang salah — bisakah ini diperbaiki secara online dan gratis?", "a": "Bisa, putar ke sudut yang benar dan simpan versi barunya, dan orientasinya akan tetap tetap setelahnya." }
     ]
   },
   "WatermarkImagePage": {
     "title": "Tambahkan Watermark",
     "description": "Tambahkan watermark teks ke gambar dengan opasitas dan posisi yang dapat diatur.",
-    "metaDescription": "Tambahkan watermark teks ke foto secara online dan gratis — lindungi gambar Anda dari penggunaan tanpa izin dengan opasitas dan posisi yang dapat disesuaikan hanya dalam hitungan detik. Tanpa daftar atau software.",
     "textLabel": "Teks watermark",
     "positionLabel": "Posisi",
     "opacityLabel": "Opasitas",
@@ -220,24 +169,14 @@
     "converting": "Menambahkan watermark...",
     "error": "Terjadi kesalahan saat menambahkan watermark.",
     "faq": [
-      {
-        "q": "Saya ingin menambahkan watermark hak cipta ke foto saya.",
-        "a": "Masukkan teks watermark Anda dan sesuaikan posisi, opasitas, serta ukuran font untuk menatanya persis seperti yang Anda inginkan."
-      },
-      {
-        "q": "Bisakah saya mengatur secara presisi opasitas dan posisi watermark?",
-        "a": "Ya, gunakan penggeser opasitas dan grid 9 posisi untuk mengontrolnya secara presisi."
-      },
-      {
-        "q": "Saya ingin mencegah orang lain menggunakan ulang foto saya tanpa kredit.",
-        "a": "Ya, menambahkan watermark yang terlihat jelas membantu menandai kepemilikan dan mencegah penggunaan tanpa izin."
-      }
+      { "q": "Saya ingin menambahkan watermark hak cipta ke foto saya secara online dan gratis.", "a": "Masukkan teks watermark Anda dan sesuaikan posisi, opasitas, dan ukuran font untuk menggayakannya persis seperti yang Anda inginkan, tanpa daftar atau software diperlukan." },
+      { "q": "Bisakah saya menyempurnakan opasitas dan posisi watermark secara online?", "a": "Bisa, gunakan penggeser opasitas dan grid penempatan 9 posisi untuk mengontrolnya secara presisi, langsung di browser Anda." },
+      { "q": "Saya ingin mencegah orang menggunakan kembali foto saya tanpa kredit — apakah watermark online membantu?", "a": "Bisa, menambahkan watermark yang terlihat secara online membantu menandai kepemilikan dan mencegah penggunaan gambar Anda tanpa izin." }
     ]
   },
   "MemeGeneratorPage": {
     "title": "Pembuat Meme",
     "description": "Tambahkan teks atas dan bawah untuk membuat gambar meme dengan cepat.",
-    "metaDescription": "Buat meme secara online dan gratis — tambahkan teks atas dan bawah ke gambar apa pun hanya dalam hitungan detik dengan font dan gaya meme klasik. Tanpa daftar atau software.",
     "topTextLabel": "Teks atas",
     "topTextPlaceholder": "cth. WHEN THE CODE",
     "bottomTextLabel": "Teks bawah",
@@ -246,47 +185,27 @@
     "converting": "Membuat meme...",
     "error": "Terjadi kesalahan saat membuat meme.",
     "faq": [
-      {
-        "q": "Bisakah saya menambahkan teks bergaya caption ke gambar meme?",
-        "a": "Ya, ketik teks Anda di kolom atas dan bawah, lalu akan otomatis ditambahkan dengan huruf tebal bergaya meme berpinggiran putih."
-      },
-      {
-        "q": "Bisakah saya hanya menggunakan caption atas atau bawah saja daripada keduanya?",
-        "a": "Ya, mengisi hanya kolom atas atau bawah saja tetap berfungsi dengan baik."
-      },
-      {
-        "q": "Bisakah saya langsung mengunduh meme yang sudah jadi?",
-        "a": "Ya, mengklik tombol buat akan langsung mengunduh meme Anda yang sudah selesai."
-      }
+      { "q": "Bisakah saya menambahkan teks gaya caption ke gambar meme secara online dan gratis?", "a": "Bisa, ketik teks Anda di bidang atas dan bawah dan akan ditambahkan secara otomatis dalam huruf tebal bergaya meme dengan garis luar putih, tanpa daftar atau software diperlukan." },
+      { "q": "Bisakah saya hanya menggunakan caption atas atau bawah alih-alih keduanya saat membuat meme online?", "a": "Bisa, mengisi hanya bidang atas atau bawah juga berfungsi dengan baik." },
+      { "q": "Bisakah saya mengunduh meme yang selesai segera tanpa mendaftar?", "a": "Bisa, mengklik tombol buat akan langsung mengunduh meme Anda yang sudah jadi, sepenuhnya gratis." }
     ]
   },
   "RemoveExifPage": {
     "title": "Hapus Metadata",
     "description": "Hapus informasi lokasi dan perangkat (EXIF) dari foto Anda untuk melindungi privasi. Proses beberapa gambar sekaligus.",
-    "metaDescription": "Hapus data EXIF dari foto secara online dan gratis — hapus lokasi GPS, model kamera, dan metadata perangkat untuk melindungi privasi Anda sebelum membagikan, hanya dalam hitungan detik. Tanpa daftar atau software, proses banyak gambar sekaligus secara batch.",
     "infoText": "Lokasi GPS, model kamera, tanggal pengambilan, dan data tersembunyi lainnya pada foto Anda akan sepenuhnya dihapus. Kualitas dan orientasi gambar tetap sama.",
     "submit": "Hapus Metadata",
     "converting": "Menghapus...",
     "error": "Terjadi kesalahan saat menghapus metadata.",
     "faq": [
-      {
-        "q": "Saya ingin menghapus data lokasi (GPS) yang tertanam di sebuah foto.",
-        "a": "Alat penghapus metadata menghapus semua data EXIF, termasuk lokasi GPS, model perangkat, dan tanggal pengambilan."
-      },
-      {
-        "q": "Saya khawatir lokasi saya muncul di foto yang saya unggah untuk iklan jual beli online.",
-        "a": "Ya, memproses foto dengan alat ini menghapus semua metadata tertanam, termasuk lokasi, sehingga aman untuk dibagikan."
-      },
-      {
-        "q": "Apakah menghapus metadata mengubah kualitas atau orientasi foto?",
-        "a": "Tidak, kualitas gambar dan orientasi tetap persis sama; hanya metadata tersembunyi yang dihapus."
-      }
+      { "q": "Bagaimana cara menghapus data lokasi (GPS) yang tertanam dalam foto secara online dan gratis?", "a": "Alat penghapus metadata menghilangkan semua data EXIF, termasuk lokasi GPS, model perangkat, dan tanggal pengambilan, tanpa daftar atau software diperlukan." },
+      { "q": "Saya khawatir lokasi saya muncul di foto yang saya posting untuk iklan pasar online — bisakah saya memperbaikinya?", "a": "Bisa, memproses foto dengan alat online gratis ini menghapus semua metadata tertanam, termasuk lokasi, jadi aman untuk dibagikan." },
+      { "q": "Apakah menghapus metadata secara online mengubah kualitas atau orientasi foto?", "a": "Tidak, kualitas gambar dan orientasi tetap persis sama — hanya metadata tersembunyi yang dihapus." }
     ]
   },
   "MergeImagesPage": {
     "title": "Gabungkan Gambar",
     "description": "Gabungkan beberapa gambar menjadi satu, disusun horizontal, vertikal, atau grid.",
-    "metaDescription": "Gabungkan beberapa gambar menjadi satu secara online dan gratis — gabungkan foto secara horizontal, vertikal, atau dalam tata letak grid hanya dalam hitungan detik. Tanpa daftar atau software.",
     "layoutLabel": "Tata Letak",
     "layoutHorizontal": "Berdampingan",
     "layoutVertical": "Bertumpuk",
@@ -296,18 +215,9 @@
     "converting": "Menggabungkan...",
     "error": "Terjadi kesalahan saat menggabungkan gambar.",
     "faq": [
-      {
-        "q": "Saya ingin menggabungkan beberapa foto menjadi satu gambar untuk diposting di media sosial.",
-        "a": "Ya, unggah beberapa gambar dan pilih tata letak horizontal, vertikal, atau grid untuk menggabungkannya menjadi satu."
-      },
-      {
-        "q": "Bisakah saya membuat kolase dari beberapa foto?",
-        "a": "Ya, memilih tata letak grid akan otomatis menyusun foto Anda menjadi grid bergaya kolase."
-      },
-      {
-        "q": "Bisakah saya mengatur jarak antar gambar?",
-        "a": "Ya, gunakan pengaturan jarak untuk mengontrol spasi antar gambar mulai dari 0 hingga 40px."
-      }
+      { "q": "Bagaimana cara menggabungkan beberapa foto menjadi satu gambar secara online dan gratis untuk diposting di media sosial?", "a": "Bisa, unggah beberapa gambar dan pilih tata letak horizontal, vertikal, atau grid untuk menggabungkannya menjadi satu, tanpa daftar atau software diperlukan." },
+      { "q": "Bisakah saya membuat kolase foto secara online dan gratis dari beberapa foto?", "a": "Bisa, memilih tata letak grid secara otomatis mengatur foto Anda menjadi grid bergaya kolase hanya dalam hitungan detik." },
+      { "q": "Bisakah saya menyesuaikan jarak antar gambar saat menggabungkannya secara online?", "a": "Bisa, gunakan pengaturan jarak untuk mengontrol jarak antar gambar dari 0 hingga 40px." }
     ]
   },
   "LanguageSwitcher": {

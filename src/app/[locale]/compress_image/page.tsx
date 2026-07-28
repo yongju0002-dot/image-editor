@@ -13,9 +13,9 @@ export async function generateMetadata({
 
   return {
     title: t("title"),
-    description: t("metaDescription"),
+    description: t("description"),
     alternates: localizedAlternates(locale, "/compress_image"),
-    openGraph: { title: t("title"), description: t("metaDescription") },
+    openGraph: { title: t("title"), description: t("description") },
   };
 }
 

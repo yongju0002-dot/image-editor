@@ -79,31 +79,20 @@
   "CompressImagePage": {
     "title": "Nén ảnh",
     "description": "Giảm dung lượng ảnh JPG, PNG, WEBP, TIFF trong khi vẫn giữ chất lượng. Xử lý nhiều ảnh cùng lúc.",
-    "metaDescription": "Nén ảnh JPG, PNG, WEBP hoặc TIFF trực tuyến và miễn phí — giảm dung lượng ảnh chỉ trong vài giây mà không mất quá nhiều chất lượng, hoàn hảo cho website và email. Không cần đăng ký hay phần mềm, xử lý hàng loạt nhiều ảnh cùng lúc.",
     "qualityLabel": "Chất lượng nén",
     "qualityHint": "Giá trị càng thấp thì dung lượng càng nhỏ, nhưng chất lượng ảnh cũng giảm.",
     "submit": "Nén ảnh",
     "converting": "Đang nén...",
     "error": "Đã xảy ra lỗi khi nén.",
     "faq": [
-      {
-        "q": "Nén ảnh có làm giảm chất lượng nhiều không?",
-        "a": "Dùng thanh trượt chất lượng để tự cân bằng giữa dung lượng và chất lượng. Khoảng 70-80% thường trông gần như không đổi trong khi giảm đáng kể dung lượng file."
-      },
-      {
-        "q": "Làm sao để đáp ứng giới hạn dung lượng file khi nộp hồ sơ cho cơ quan nhà nước?",
-        "a": "Giảm dần chất lượng cho đến khi kết quả nhỏ hơn dung lượng yêu cầu. Hầu hết các giới hạn (2MB, 5MB, v.v.) có thể đạt được với chất lượng khoảng 70%."
-      },
-      {
-        "q": "Tôi cần giảm dung lượng ảnh để gửi email hoặc tin nhắn có giới hạn tệp đính kèm.",
-        "a": "Có, hãy tải lên nhiều ảnh cùng lúc và nén tất cả về chất lượng bạn chọn trong một lần; kết quả sẽ được tải xuống cùng nhau dưới dạng ZIP."
-      }
+      { "q": "Nén ảnh trực tuyến có làm giảm chất lượng nhiều không?", "a": "Sử dụng thanh trượt chất lượng để tự cân bằng dung lượng và chất lượng ảnh — không cần đăng ký hay phần mềm. Khoảng 70-80% thường trông gần như giống hệt trong khi giảm đáng kể dung lượng tệp." },
+      { "q": "Làm thế nào để nén ảnh trực tuyến và miễn phí để đáp ứng giới hạn dung lượng tệp cho việc nộp hồ sơ chính phủ hoặc chính thức?", "a": "Giảm cài đặt chất lượng cho đến khi kết quả nhỏ hơn dung lượng yêu cầu. Hầu hết các giới hạn (2MB, 5MB, v.v.) có thể đạt được với chất lượng khoảng 70%, miễn phí và trực tuyến." },
+      { "q": "Tôi cần giảm dung lượng ảnh cho email hoặc ứng dụng nhắn tin có giới hạn kích thước tệp đính kèm — tôi có thể xử lý nhiều ảnh cùng lúc trực tuyến không?", "a": "Có, tải lên nhiều ảnh cùng lúc và nén tất cả đến chất lượng đã chọn trong một lần trực tuyến và miễn phí — kết quả được tải xuống cùng nhau dưới dạng ZIP." }
     ]
   },
   "ResizeImagePage": {
     "title": "Đổi kích thước ảnh",
     "description": "Thay đổi kích thước ảnh theo pixel hoặc phần trăm. Xử lý nhiều ảnh cùng lúc.",
-    "metaDescription": "Thay đổi kích thước ảnh trực tuyến và miễn phí — điều chỉnh kích thước ảnh theo bất kỳ pixel hoặc phần trăm nào chỉ trong vài giây, dùng cho mạng xã hội, website hoặc in ấn. Không cần đăng ký hay phần mềm, thay đổi kích thước hàng loạt nhiều ảnh.",
     "modePixel": "Theo pixel",
     "modePercent": "Theo phần trăm",
     "widthLabel": "Chiều rộng (px)",
@@ -118,24 +107,14 @@
     "converting": "Đang đổi kích thước...",
     "error": "Đã xảy ra lỗi khi đổi kích thước.",
     "faq": [
-      {
-        "q": "Làm sao để đổi kích thước ảnh theo khổ in cụ thể, như ảnh thẻ?",
-        "a": "Chuyển sang chế độ pixel và nhập đúng chiều rộng, chiều cao cần thiết; ví dụ ảnh hộ chiếu thường khoảng 413x531px."
-      },
-      {
-        "q": "Tôi có thể chỉnh ảnh theo kích thước hồ sơ hoặc story Instagram không?",
-        "a": "Có, chỉ cần nhập đúng kích thước pixel cần thiết (ví dụ 320x320px cho ảnh đại diện, 1080x1920px cho story)."
-      },
-      {
-        "q": "Tôi có thể đổi kích thước nhiều ảnh cùng lúc về cùng một kích cỡ không?",
-        "a": "Có, tải lên nhiều ảnh, tất cả sẽ được đổi kích thước với cùng thiết lập, sau đó tải xuống cùng nhau dưới dạng ZIP."
-      }
+      { "q": "Làm thế nào để thay đổi kích thước ảnh trực tuyến và miễn phí theo kích thước in cụ thể như ảnh thẻ?", "a": "Chuyển sang chế độ pixel và nhập chính xác chiều rộng và chiều cao bạn cần — ví dụ, ảnh thẻ thường có kích thước khoảng 413x531px. Không cần đăng ký hay phần mềm." },
+      { "q": "Tôi có thể thay đổi kích thước ảnh trực tuyến và miễn phí để phù hợp với kích thước hồ sơ hoặc story Instagram không?", "a": "Có, chỉ cần nhập kích thước pixel chính xác bạn cần (ví dụ: 320x320px cho ảnh hồ sơ, 1080x1920px cho story) và thay đổi kích thước chỉ trong vài giây." },
+      { "q": "Tôi có thể thay đổi kích thước nhiều ảnh cùng một kích thước cùng lúc trực tuyến không?", "a": "Có, tải lên nhiều ảnh và tất cả sẽ được thay đổi kích thước với cùng cài đặt, sau đó tải xuống cùng nhau dưới dạng ZIP — không cần cài đặt phần mềm." }
     ]
   },
   "CropImagePage": {
     "title": "Cắt ảnh",
     "description": "Cắt vùng bạn muốn bằng cách chỉ định tọa độ pixel.",
-    "metaDescription": "Cắt ảnh trực tuyến và miễn phí — cắt ảnh theo bất kỳ vùng nào bằng tọa độ pixel chỉ trong vài giây, hoàn hảo cho ảnh đại diện hoặc ảnh thu nhỏ. Không cần đăng ký hay phần mềm.",
     "previewAlt": "Xem trước",
     "originalSize": "Kích thước gốc: {width} x {height}px",
     "xLabel": "X (lề trái)",
@@ -146,47 +125,27 @@
     "cropping": "Đang cắt...",
     "error": "Đã xảy ra lỗi khi cắt ảnh.",
     "faq": [
-      {
-        "q": "Làm sao để cắt ảnh thành hình vuông, ví dụ để làm ảnh đại diện?",
-        "a": "Nhập cùng một giá trị cho chiều rộng và chiều cao để có hình vuông hoàn hảo, và đặt tọa độ X/Y của vùng cần giữ lại."
-      },
-      {
-        "q": "Tôi có thể chỉ cắt bỏ phần nền không mong muốn trong ảnh không?",
-        "a": "Có, chỉ định vị trí X/Y và chiều rộng/cao của vùng cần giữ lại, phần còn lại sẽ bị xóa."
-      },
-      {
-        "q": "Tôi có thể cắt theo tọa độ pixel chính xác không?",
-        "a": "Có, bạn có thể đặt chính xác điểm bắt đầu X/Y và chiều rộng/cao theo pixel để cắt chính xác."
-      }
+      { "q": "Làm thế nào để cắt ảnh trực tuyến và miễn phí thành hình vuông, ví dụ cho ảnh đại diện?", "a": "Nhập cùng một giá trị cho chiều rộng và chiều cao để có hình vuông hoàn hảo, và đặt tọa độ X/Y cho khu vực bạn muốn giữ lại — miễn phí và không cần đăng ký." },
+      { "q": "Tôi có thể chỉ cắt bỏ phần nền không mong muốn khỏi ảnh trực tuyến và miễn phí không?", "a": "Có, chỉ định vị trí X/Y và chiều rộng/chiều cao của khu vực bạn muốn giữ lại, và mọi thứ bên ngoài sẽ bị xóa chỉ trong vài giây." },
+      { "q": "Tôi có thể cắt ảnh trực tuyến bằng tọa độ pixel chính xác không?", "a": "Có, bạn có thể đặt điểm bắt đầu X/Y chính xác và chiều rộng/chiều cao theo pixel để cắt chính xác, không cần cài đặt phần mềm." }
     ]
   },
   "ConvertImagePage": {
     "title": "Chuyển đổi ảnh",
     "description": "Chuyển đổi tự do giữa JPG, PNG, WEBP, GIF, BMP và TIFF. Xử lý nhiều ảnh cùng lúc.",
-    "metaDescription": "Chuyển đổi ảnh giữa JPG, PNG, WEBP, GIF, BMP và TIFF trực tuyến và miễn phí — thay đổi định dạng ảnh chỉ trong vài giây mà không mất chất lượng. Không cần đăng ký hay phần mềm, chuyển đổi hàng loạt nhiều tệp cùng lúc.",
     "formatLabel": "Chuyển đổi sang",
     "submit": "Chuyển đổi sang {format}",
     "converting": "Đang chuyển đổi...",
     "error": "Đã xảy ra lỗi khi chuyển đổi.",
     "faq": [
-      {
-        "q": "Chuyển PNG sang JPG thì nền trong suốt sẽ ra sao?",
-        "a": "JPG không hỗ trợ trong suốt, nên các vùng trong suốt sẽ được lấp đầy bằng nền trắng."
-      },
-      {
-        "q": "Tôi có thể chuyển GIF thành ảnh tĩnh không?",
-        "a": "Có, chuyển GIF sang PNG hoặc JPG sẽ lưu khung hình đầu tiên thành ảnh tĩnh."
-      },
-      {
-        "q": "Tại sao nên chuyển ảnh sang WEBP cho trang web của tôi?",
-        "a": "Ở cùng chất lượng, file WEBP thường nhỏ hơn JPG hoặc PNG, giúp trang web của bạn tải nhanh hơn."
-      }
+      { "q": "Điều gì xảy ra với độ trong suốt khi tôi chuyển đổi PNG sang JPG trực tuyến và miễn phí?", "a": "JPG không hỗ trợ độ trong suốt, vì vậy các vùng trong suốt sẽ được lấp đầy bằng nền trắng — việc chuyển đổi miễn phí và hoạt động trong trình duyệt của bạn." },
+      { "q": "Tôi có thể chuyển đổi GIF thành ảnh tĩnh trực tuyến và miễn phí không?", "a": "Có, chuyển đổi GIF sang PNG hoặc JPG sẽ lưu khung hình đầu tiên của nó thành ảnh tĩnh, không cần đăng ký hay phần mềm." },
+      { "q": "Tại sao tôi nên chuyển đổi ảnh sang WEBP trực tuyến cho trang web của mình?", "a": "Tệp WEBP thường nhỏ hơn JPG hoặc PNG ở cùng chất lượng, giúp trang web của bạn tải nhanh hơn — chuyển đổi trực tuyến chỉ trong vài giây." }
     ]
   },
   "RotateImagePage": {
     "title": "Xoay ảnh",
     "description": "Xoay ảnh theo góc bất kỳ hoặc lật ngang/dọc. Xử lý nhiều ảnh cùng lúc.",
-    "metaDescription": "Xoay hoặc lật ảnh trực tuyến và miễn phí — sửa ảnh bị nghiêng hoặc lật ngang, lật dọc chỉ trong vài giây. Không cần đăng ký hay phần mềm, xử lý hàng loạt nhiều ảnh.",
     "angleLabel": "Góc xoay",
     "flipHLabel": "Lật ngang",
     "flipVLabel": "Lật dọc",
@@ -194,24 +153,14 @@
     "converting": "Đang xoay...",
     "error": "Đã xảy ra lỗi khi xoay.",
     "faq": [
-      {
-        "q": "Ảnh quét của tôi bị nằm nghiêng, làm sao để xoay lại cho đúng?",
-        "a": "Chọn xoay 90, 180 hoặc 270 độ để lập tức chỉnh về hướng bạn cần."
-      },
-      {
-        "q": "Tôi có thể lật ảnh theo chiều ngang để tạo hiệu ứng gương không?",
-        "a": "Có, tùy chọn lật ngang sẽ phản chiếu ảnh từ trái sang phải. Lật dọc cũng có sẵn riêng."
-      },
-      {
-        "q": "Ảnh chụp từ điện thoại của tôi luôn lưu sai hướng, cách này có khắc phục được không?",
-        "a": "Có, xoay về đúng góc và lưu phiên bản mới; hướng ảnh sẽ được cố định từ đó."
-      }
+      { "q": "Ảnh quét của tôi bị nghiêng — làm thế nào để làm thẳng nó trực tuyến và miễn phí?", "a": "Chọn xoay 90, 180 hoặc 270 độ để làm thẳng nó ngay lập tức theo hướng bạn cần, không cần đăng ký hay phần mềm." },
+      { "q": "Tôi có thể lật ảnh theo chiều ngang trực tuyến để tạo hình ảnh gương không?", "a": "Có, tùy chọn lật ngang phản chiếu hình ảnh từ trái sang phải chỉ trong vài giây. Lật dọc cũng có sẵn riêng biệt." },
+      { "q": "Ảnh điện thoại của tôi liên tục lưu sai hướng — điều này có thể khắc phục trực tuyến và miễn phí không?", "a": "Có, xoay nó về đúng góc và lưu phiên bản mới, hướng sẽ được giữ cố định từ đó trở đi." }
     ]
   },
   "WatermarkImagePage": {
     "title": "Thêm hình mờ",
     "description": "Thêm hình mờ dạng chữ vào ảnh với độ mờ và vị trí có thể điều chỉnh.",
-    "metaDescription": "Thêm watermark văn bản vào ảnh trực tuyến và miễn phí — bảo vệ ảnh của bạn khỏi việc sử dụng trái phép với độ mờ và vị trí có thể điều chỉnh chỉ trong vài giây. Không cần đăng ký hay phần mềm.",
     "textLabel": "Nội dung hình mờ",
     "positionLabel": "Vị trí",
     "opacityLabel": "Độ mờ",
@@ -220,24 +169,14 @@
     "converting": "Đang thêm hình mờ...",
     "error": "Đã xảy ra lỗi khi thêm hình mờ.",
     "faq": [
-      {
-        "q": "Tôi muốn thêm hình mờ bản quyền vào ảnh của mình.",
-        "a": "Nhập văn bản hình mờ và điều chỉnh vị trí, độ mờ, cỡ chữ để tạo kiểu đúng như ý bạn."
-      },
-      {
-        "q": "Tôi có thể tinh chỉnh độ mờ và vị trí của hình mờ không?",
-        "a": "Có, dùng thanh trượt độ mờ và lưới 9 vị trí để kiểm soát chính xác."
-      },
-      {
-        "q": "Tôi muốn ngăn người khác sử dụng lại ảnh của mình mà không ghi nguồn.",
-        "a": "Có, thêm hình mờ dễ thấy giúp đánh dấu quyền sở hữu và hạn chế việc sử dụng trái phép."
-      }
+      { "q": "Tôi muốn thêm watermark bản quyền vào ảnh của mình trực tuyến và miễn phí.", "a": "Nhập văn bản watermark của bạn và điều chỉnh vị trí, độ mờ và kích thước phông chữ để tạo kiểu chính xác như bạn muốn, không cần đăng ký hay phần mềm." },
+      { "q": "Tôi có thể tinh chỉnh độ mờ và vị trí của watermark trực tuyến không?", "a": "Có, sử dụng thanh trượt độ mờ và lưới đặt vị trí 9 điểm để kiểm soát chính xác, ngay trong trình duyệt của bạn." },
+      { "q": "Tôi muốn ngăn mọi người sử dụng lại ảnh của mình mà không ghi công — watermark trực tuyến có giúp được không?", "a": "Có, thêm watermark hiển thị trực tuyến giúp đánh dấu quyền sở hữu và ngăn cản việc sử dụng trái phép hình ảnh của bạn." }
     ]
   },
   "MemeGeneratorPage": {
     "title": "Tạo meme",
     "description": "Thêm chữ ở trên và dưới để nhanh chóng tạo ảnh meme.",
-    "metaDescription": "Tạo meme trực tuyến và miễn phí — thêm chú thích trên và dưới cho bất kỳ ảnh nào chỉ trong vài giây với phông chữ và phong cách meme cổ điển. Không cần đăng ký hay phần mềm.",
     "topTextLabel": "Chữ phía trên",
     "topTextPlaceholder": "vd: WHEN THE CODE",
     "bottomTextLabel": "Chữ phía dưới",
@@ -246,47 +185,27 @@
     "converting": "Đang tạo meme...",
     "error": "Đã xảy ra lỗi khi tạo meme.",
     "faq": [
-      {
-        "q": "Tôi có thể thêm chữ kiểu chú thích vào ảnh meme không?",
-        "a": "Có, nhập chữ vào ô trên và dưới, chữ sẽ tự động được thêm theo kiểu meme in đậm viền trắng."
-      },
-      {
-        "q": "Tôi có thể chỉ dùng chữ ở trên hoặc dưới thay vì cả hai không?",
-        "a": "Có, chỉ điền một trong hai ô trên hoặc dưới vẫn hoạt động bình thường."
-      },
-      {
-        "q": "Tôi có thể tải xuống ảnh meme ngay sau khi hoàn thành không?",
-        "a": "Có, nhấn nút tạo sẽ tải xuống ngay ảnh meme hoàn chỉnh của bạn."
-      }
+      { "q": "Tôi có thể thêm văn bản kiểu chú thích vào ảnh meme trực tuyến và miễn phí không?", "a": "Có, gõ văn bản của bạn vào các ô trên và dưới và nó sẽ tự động được thêm bằng chữ in đậm viền trắng kiểu meme, không cần đăng ký hay phần mềm." },
+      { "q": "Tôi có thể chỉ dùng chú thích trên hoặc dưới thay vì cả hai khi tạo meme trực tuyến không?", "a": "Có, chỉ điền vào ô trên hoặc dưới vẫn hoạt động bình thường." },
+      { "q": "Tôi có thể tải xuống meme hoàn thành ngay lập tức mà không cần đăng ký không?", "a": "Có, nhấp vào nút tạo sẽ tải xuống meme hoàn thành của bạn ngay lập tức, hoàn toàn miễn phí." }
     ]
   },
   "RemoveExifPage": {
     "title": "Xóa siêu dữ liệu",
     "description": "Xóa thông tin vị trí và thiết bị (EXIF) khỏi ảnh của bạn để bảo vệ quyền riêng tư. Xử lý nhiều ảnh cùng lúc.",
-    "metaDescription": "Xóa dữ liệu EXIF khỏi ảnh trực tuyến và miễn phí — xóa vị trí GPS, model máy ảnh và metadata thiết bị để bảo vệ quyền riêng tư trước khi chia sẻ, chỉ trong vài giây. Không cần đăng ký hay phần mềm, xử lý hàng loạt nhiều ảnh.",
     "infoText": "Vị trí GPS, model máy ảnh, ngày chụp và các dữ liệu ẩn khác trong ảnh sẽ được xóa hoàn toàn. Chất lượng và hướng của ảnh không thay đổi.",
     "submit": "Xóa siêu dữ liệu",
     "converting": "Đang xóa...",
     "error": "Đã xảy ra lỗi khi xóa siêu dữ liệu.",
     "faq": [
-      {
-        "q": "Tôi muốn xóa dữ liệu vị trí (GPS) được nhúng trong ảnh.",
-        "a": "Công cụ xóa metadata sẽ xóa toàn bộ dữ liệu EXIF, bao gồm vị trí GPS, model thiết bị và ngày chụp."
-      },
-      {
-        "q": "Tôi lo lắng vị trí của mình sẽ lộ trong ảnh đăng bán trên chợ trực tuyến.",
-        "a": "Có, xử lý ảnh bằng công cụ này sẽ xóa mọi metadata nhúng, bao gồm vị trí, nên bạn có thể yên tâm chia sẻ."
-      },
-      {
-        "q": "Xóa metadata có làm thay đổi chất lượng hoặc hướng ảnh không?",
-        "a": "Không, chất lượng ảnh và hướng ảnh vẫn giữ nguyên; chỉ metadata ẩn bị xóa."
-      }
+      { "q": "Làm thế nào để xóa dữ liệu vị trí (GPS) được nhúng trong ảnh trực tuyến và miễn phí?", "a": "Công cụ xóa metadata sẽ xóa tất cả dữ liệu EXIF, bao gồm vị trí GPS, model thiết bị và ngày chụp, không cần đăng ký hay phần mềm." },
+      { "q": "Tôi lo lắng vị trí của mình xuất hiện trong ảnh tôi đăng cho các tin rao vặt trực tuyến — tôi có thể khắc phục điều đó không?", "a": "Có, xử lý ảnh bằng công cụ trực tuyến miễn phí này sẽ xóa tất cả metadata được nhúng, bao gồm vị trí, vì vậy an toàn để chia sẻ." },
+      { "q": "Việc xóa metadata trực tuyến có thay đổi chất lượng hoặc hướng của ảnh không?", "a": "Không, chất lượng hình ảnh và hướng vẫn giữ nguyên hoàn toàn — chỉ metadata ẩn bị xóa." }
     ]
   },
   "MergeImagesPage": {
     "title": "Ghép ảnh",
     "description": "Ghép nhiều ảnh thành một, sắp xếp theo hàng ngang, hàng dọc hoặc dạng lưới.",
-    "metaDescription": "Ghép nhiều ảnh thành một trực tuyến và miễn phí — kết hợp ảnh theo chiều ngang, dọc hoặc dạng lưới chỉ trong vài giây. Không cần đăng ký hay phần mềm.",
     "layoutLabel": "Bố cục",
     "layoutHorizontal": "Xếp ngang",
     "layoutVertical": "Xếp dọc",
@@ -296,18 +215,9 @@
     "converting": "Đang ghép...",
     "error": "Đã xảy ra lỗi khi ghép ảnh.",
     "faq": [
-      {
-        "q": "Tôi muốn ghép nhiều ảnh thành một để đăng lên mạng xã hội.",
-        "a": "Có, tải lên nhiều ảnh và chọn bố cục ngang, dọc hoặc lưới để ghép chúng thành một ảnh."
-      },
-      {
-        "q": "Tôi có thể tạo ảnh ghép collage từ nhiều ảnh không?",
-        "a": "Có, chọn bố cục lưới sẽ tự động sắp xếp ảnh của bạn thành dạng lưới kiểu collage."
-      },
-      {
-        "q": "Tôi có thể điều chỉnh khoảng cách giữa các ảnh không?",
-        "a": "Có, dùng thiết lập khoảng cách để điều chỉnh khoảng cách giữa các ảnh từ 0 đến 40px."
-      }
+      { "q": "Làm thế nào để kết hợp nhiều ảnh thành một hình ảnh trực tuyến và miễn phí để đăng lên mạng xã hội?", "a": "Có, tải lên nhiều ảnh và chọn bố cục ngang, dọc hoặc lưới để ghép chúng thành một, không cần đăng ký hay phần mềm." },
+      { "q": "Tôi có thể tạo ảnh ghép trực tuyến và miễn phí từ nhiều ảnh không?", "a": "Có, chọn bố cục lưới sẽ tự động sắp xếp ảnh của bạn thành lưới kiểu ảnh ghép chỉ trong vài giây." },
+      { "q": "Tôi có thể điều chỉnh khoảng cách giữa các ảnh khi ghép chúng trực tuyến không?", "a": "Có, sử dụng cài đặt khoảng cách để kiểm soát khoảng cách giữa các ảnh từ 0 đến 40px." }
     ]
   },
   "LanguageSwitcher": {

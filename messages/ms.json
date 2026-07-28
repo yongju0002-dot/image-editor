@@ -79,31 +79,20 @@
   "CompressImagePage": {
     "title": "Mampatkan Imej",
     "description": "Kecilkan saiz fail JPG, PNG, WEBP dan TIFF sambil mengekalkan kualiti. Proses beberapa imej sekali gus.",
-    "metaDescription": "Mampatkan imej JPG, PNG, WEBP atau TIFF secara dalam talian dan percuma — kecilkan saiz fail foto dalam beberapa saat tanpa kehilangan banyak kualiti, sesuai untuk laman web dan e-mel. Tanpa pendaftaran atau perisian, proses banyak imej sekali gus secara kelompok.",
     "qualityLabel": "Kualiti Mampatan",
     "qualityHint": "Nilai lebih rendah mengecilkan saiz fail, tetapi turut menurunkan kualiti imej.",
     "submit": "Mampatkan Imej",
     "converting": "Sedang memampatkan...",
     "error": "Ralat berlaku semasa memampatkan.",
     "faq": [
-      {
-        "q": "Adakah memampatkan imej mengurangkan kualiti dengan banyak?",
-        "a": "Gunakan penggelangsar kualiti untuk mengimbangi saiz fail dan kualiti sendiri. Sekitar 70-80% biasanya kelihatan hampir sama manakala saiz fail berkurang dengan ketara."
-      },
-      {
-        "q": "Bagaimana saya memenuhi had saiz fail untuk penyerahan ke agensi kerajaan?",
-        "a": "Kurangkan kualiti sehingga hasilnya di bawah saiz yang diperlukan. Kebanyakan had (2MB, 5MB, dll.) boleh dicapai dengan kualiti sekitar 70%."
-      },
-      {
-        "q": "Saya perlu mengecilkan gambar untuk e-mel atau aplikasi mesej dengan had saiz lampiran.",
-        "a": "Ya, muat naik beberapa imej sekaligus dan mampatkan semuanya kepada kualiti pilihan anda serentak; hasilnya dimuat turun bersama sebagai ZIP."
-      }
+      { "q": "Adakah memampatkan imej dalam talian mengurangkan kualiti dengan banyak?", "a": "Gunakan slaid kualiti untuk mengimbangi sendiri saiz fail dan kualiti imej — tanpa pendaftaran atau perisian diperlukan. Sekitar 70-80% biasanya kelihatan hampir sama sambil mengurangkan saiz fail dengan ketara." },
+      { "q": "Bagaimana saya memampatkan foto dalam talian dan percuma untuk memenuhi had saiz fail bagi penyerahan kerajaan atau rasmi?", "a": "Kurangkan tetapan kualiti sehingga output berada di bawah saiz yang diperlukan. Kebanyakan had (2MB, 5MB, dll.) boleh dipenuhi dengan kualiti sekitar 70%, percuma dan dalam talian." },
+      { "q": "Saya perlu mengecilkan foto untuk e-mel atau aplikasi mesej dengan had saiz lampiran — bolehkah saya buat beberapa sekali gus dalam talian?", "a": "Boleh, muat naik beberapa imej sekali gus dan mampatkan semuanya kepada kualiti pilihan anda dalam satu operasi dalam talian dan percuma — hasilnya dimuat turun bersama sebagai ZIP." }
     ]
   },
   "ResizeImagePage": {
     "title": "Ubah Saiz Imej",
     "description": "Ubah saiz imej mengikut piksel atau peratusan. Proses beberapa imej sekali gus.",
-    "metaDescription": "Ubah saiz imej secara dalam talian dan percuma — tukar dimensi foto kepada sebarang saiz piksel atau peratusan dalam beberapa saat, untuk media sosial, laman web atau percetakan. Tanpa pendaftaran atau perisian, ubah saiz banyak imej sekali gus secara kelompok.",
     "modePixel": "Mengikut piksel",
     "modePercent": "Mengikut peratusan",
     "widthLabel": "Lebar (px)",
@@ -118,24 +107,14 @@
     "converting": "Sedang mengubah saiz...",
     "error": "Ralat berlaku semasa mengubah saiz.",
     "faq": [
-      {
-        "q": "Bagaimana saya mengubah saiz gambar kepada saiz cetakan tertentu, seperti gambar pasport?",
-        "a": "Tukar kepada mod piksel dan masukkan lebar dan tinggi yang tepat; contohnya gambar pasport biasanya sekitar 413x531px."
-      },
-      {
-        "q": "Bolehkah saya menyesuaikan imej mengikut saiz profil atau cerita Instagram?",
-        "a": "Boleh, hanya masukkan saiz piksel yang tepat diperlukan (contohnya 320x320px untuk profil, 1080x1920px untuk cerita)."
-      },
-      {
-        "q": "Bolehkah saya ubah saiz beberapa gambar kepada saiz yang sama serentak?",
-        "a": "Boleh, muat naik beberapa imej dan semuanya akan diubah saiz dengan tetapan yang sama, kemudian dimuat turun bersama sebagai ZIP."
-      }
+      { "q": "Bagaimana saya mengubah saiz foto dalam talian dan percuma kepada saiz cetakan tertentu seperti gambar pasport?", "a": "Tukar ke mod piksel dan masukkan lebar dan tinggi yang tepat yang anda perlukan — sebagai contoh, gambar pasport biasanya sekitar 413x531px. Tanpa pendaftaran atau perisian diperlukan." },
+      { "q": "Bolehkah saya mengubah saiz imej dalam talian dan percuma untuk sesuai dengan dimensi profil atau story Instagram?", "a": "Boleh, hanya masukkan saiz piksel tepat yang anda perlukan (contohnya 320x320px untuk gambar profil, 1080x1920px untuk story) dan ubah saiz dalam beberapa saat." },
+      { "q": "Bolehkah saya mengubah saiz beberapa foto kepada saiz yang sama sekali gus dalam talian?", "a": "Boleh, muat naik beberapa imej dan semuanya akan diubah saiz dengan tetapan yang sama, kemudian dimuat turun bersama sebagai ZIP — tanpa perisian untuk dipasang." }
     ]
   },
   "CropImagePage": {
     "title": "Potong Imej",
     "description": "Potong kawasan yang dikehendaki dengan menetapkan koordinat piksel.",
-    "metaDescription": "Pangkas imej secara dalam talian dan percuma — pangkas foto kepada mana-mana kawasan mengikut koordinat piksel dalam beberapa saat, sesuai untuk gambar profil atau lakaran kecil. Tanpa pendaftaran atau perisian.",
     "previewAlt": "Pratonton",
     "originalSize": "Saiz asal: {width} x {height}px",
     "xLabel": "X (jidar kiri)",
@@ -146,47 +125,27 @@
     "cropping": "Sedang memotong...",
     "error": "Ralat berlaku semasa memotong.",
     "faq": [
-      {
-        "q": "Bagaimana saya memangkas gambar menjadi segi empat sama, contohnya untuk gambar profil?",
-        "a": "Masukkan nilai yang sama untuk lebar dan tinggi untuk mendapatkan segi empat sama yang sempurna, dan tetapkan koordinat X/Y kawasan yang ingin dikekalkan."
-      },
-      {
-        "q": "Bolehkah saya memotong hanya latar belakang yang tidak diingini daripada gambar?",
-        "a": "Boleh, nyatakan kedudukan X/Y serta lebar/tinggi kawasan yang ingin dikekalkan, dan selebihnya akan dibuang."
-      },
-      {
-        "q": "Bolehkah saya memangkas menggunakan koordinat piksel yang tepat?",
-        "a": "Boleh, anda boleh menetapkan titik permulaan X/Y serta lebar/tinggi dalam piksel dengan tepat untuk pemangkasan yang jitu."
-      }
+      { "q": "Bagaimana saya memangkas foto dalam talian dan percuma menjadi segi empat sama, seperti untuk gambar profil?", "a": "Masukkan nilai yang sama untuk lebar dan tinggi untuk mendapatkan segi empat sama yang sempurna, dan tetapkan koordinat X/Y bagi kawasan yang anda mahu simpan — percuma dan tanpa pendaftaran." },
+      { "q": "Bolehkah saya memotong hanya latar belakang yang tidak diingini daripada foto dalam talian dan percuma?", "a": "Boleh, nyatakan kedudukan X/Y dan lebar/tinggi kawasan yang anda mahu simpan, dan segala-galanya di luar itu akan dibuang dalam beberapa saat." },
+      { "q": "Bolehkah saya memangkas imej dalam talian menggunakan koordinat piksel yang tepat?", "a": "Boleh, anda boleh menetapkan titik permulaan X/Y yang tepat dan lebar/tinggi dalam piksel untuk pemangkasan yang tepat, tanpa memasang sebarang perisian." }
     ]
   },
   "ConvertImagePage": {
     "title": "Tukar Imej",
     "description": "Tukar dengan bebas antara JPG, PNG, WEBP, GIF, BMP dan TIFF. Proses beberapa imej sekali gus.",
-    "metaDescription": "Tukar imej antara JPG, PNG, WEBP, GIF, BMP dan TIFF secara dalam talian dan percuma — tukar format imej dalam beberapa saat tanpa kehilangan kualiti. Tanpa pendaftaran atau perisian, tukar banyak fail sekali gus secara kelompok.",
     "formatLabel": "Tukar kepada",
     "submit": "Tukar kepada {format}",
     "converting": "Sedang menukar...",
     "error": "Ralat berlaku semasa menukar.",
     "faq": [
-      {
-        "q": "Apa yang berlaku kepada ketelusan apabila menukar PNG kepada JPG?",
-        "a": "JPG tidak menyokong ketelusan, jadi kawasan telus akan diisi dengan latar belakang putih."
-      },
-      {
-        "q": "Bolehkah saya menukar GIF kepada imej statik?",
-        "a": "Boleh, menukar GIF kepada PNG atau JPG akan menyimpan bingkai pertamanya sebagai imej statik."
-      },
-      {
-        "q": "Mengapa saya perlu menukar imej kepada WEBP untuk laman web saya?",
-        "a": "Fail WEBP biasanya lebih kecil daripada JPG atau PNG pada kualiti yang sama, membantu laman web anda dimuatkan dengan lebih pantas."
-      }
+      { "q": "Apa yang berlaku kepada kelegapan apabila saya menukar PNG kepada JPG dalam talian dan percuma?", "a": "JPG tidak menyokong kelegapan, jadi kawasan lut sinar akan diisi dengan latar belakang putih — penukaran ini percuma dan berfungsi dalam pelayar anda." },
+      { "q": "Bolehkah saya menukar GIF kepada imej pegun dalam talian dan percuma?", "a": "Boleh, menukar GIF kepada PNG atau JPG menyimpan bingkai pertamanya sebagai imej statik, tanpa pendaftaran atau perisian diperlukan." },
+      { "q": "Mengapa saya perlu menukar imej kepada WEBP dalam talian untuk laman web saya?", "a": "Fail WEBP biasanya lebih kecil daripada JPG atau PNG pada kualiti yang sama, yang membantu laman web anda dimuatkan lebih pantas — tukar dalam talian dalam beberapa saat." }
     ]
   },
   "RotateImagePage": {
     "title": "Putar Imej",
     "description": "Putar imej pada sudut yang dikehendaki atau terbalikkan secara mendatar/menegak. Proses beberapa imej sekali gus.",
-    "metaDescription": "Putar atau lipat imej secara dalam talian dan percuma — betulkan foto yang senget atau balikkannya secara mendatar atau menegak dalam beberapa saat. Tanpa pendaftaran atau perisian, proses banyak imej sekali gus secara kelompok.",
     "angleLabel": "Sudut Putaran",
     "flipHLabel": "Terbalik mendatar",
     "flipVLabel": "Terbalik menegak",
@@ -194,24 +153,14 @@
     "converting": "Sedang memutar...",
     "error": "Ralat berlaku semasa memutar.",
     "faq": [
-      {
-        "q": "Gambar imbasan saya condong ke sisi, bagaimana saya meluruskannya?",
-        "a": "Pilih putaran 90, 180, atau 270 darjah untuk terus meluruskannya ke orientasi yang diperlukan."
-      },
-      {
-        "q": "Bolehkah saya membalikkan gambar secara mendatar untuk mencipta imej cermin?",
-        "a": "Boleh, pilihan balik mendatar akan mencerminkan imej dari kiri ke kanan. Balik menegak juga tersedia secara berasingan."
-      },
-      {
-        "q": "Gambar telefon saya sentiasa disimpan dalam orientasi yang salah, adakah ini boleh membetulkannya?",
-        "a": "Boleh, putarkan ke sudut yang betul dan simpan versi baharu; orientasi akan kekal tetap selepas itu."
-      }
+      { "q": "Foto imbasan saya senget — bagaimana saya membetulkannya dalam talian dan percuma?", "a": "Pilih putaran 90, 180, atau 270 darjah untuk membetulkannya serta-merta kepada orientasi yang anda perlukan, tanpa pendaftaran atau perisian diperlukan." },
+      { "q": "Bolehkah saya melipat foto secara mendatar dalam talian untuk mencipta imej cermin?", "a": "Boleh, pilihan lipat mendatar mencerminkan imej dari kiri ke kanan dalam beberapa saat. Lipat menegak juga tersedia secara berasingan." },
+      { "q": "Foto telefon saya sentiasa disimpan dalam orientasi yang salah — bolehkah ini diperbetulkan dalam talian dan percuma?", "a": "Boleh, putarkannya ke sudut yang betul dan simpan versi baharu, dan orientasi akan kekal tetap selepas itu." }
     ]
   },
   "WatermarkImagePage": {
     "title": "Tambah Tera Air",
     "description": "Tambah tera air teks pada imej dengan kelegapan dan kedudukan yang boleh disesuaikan.",
-    "metaDescription": "Tambah tera air teks pada foto secara dalam talian dan percuma — lindungi imej anda daripada penggunaan tanpa kebenaran dengan kelegapan dan kedudukan yang boleh dilaraskan dalam beberapa saat. Tanpa pendaftaran atau perisian.",
     "textLabel": "Teks tera air",
     "positionLabel": "Kedudukan",
     "opacityLabel": "Kelegapan",
@@ -220,24 +169,14 @@
     "converting": "Sedang menambah tera air...",
     "error": "Ralat berlaku semasa menambah tera air.",
     "faq": [
-      {
-        "q": "Saya ingin menambah tera air hak cipta pada gambar saya.",
-        "a": "Masukkan teks tera air anda dan laraskan kedudukan, ketelusan, dan saiz fon untuk menggayakannya seperti yang anda mahu."
-      },
-      {
-        "q": "Bolehkah saya menala ketelusan dan kedudukan tera air dengan tepat?",
-        "a": "Boleh, gunakan penggelangsar ketelusan dan grid 9 kedudukan untuk mengawalnya dengan tepat."
-      },
-      {
-        "q": "Saya ingin mengelakkan orang lain menggunakan semula gambar saya tanpa kredit.",
-        "a": "Boleh, menambah tera air yang jelas kelihatan membantu menandakan pemilikan dan mengurangkan penggunaan tanpa kebenaran."
-      }
+      { "q": "Saya mahu menambah tera air hak cipta pada foto saya dalam talian dan percuma.", "a": "Masukkan teks tera air anda dan laraskan kedudukan, kelegapan, dan saiz fon untuk menggayakannya tepat seperti yang anda mahu, tanpa pendaftaran atau perisian diperlukan." },
+      { "q": "Bolehkah saya menala dengan halus kelegapan dan kedudukan tera air dalam talian?", "a": "Boleh, gunakan slaid kelegapan dan grid penempatan 9 kedudukan untuk mengawalnya dengan tepat, terus dalam pelayar anda." },
+      { "q": "Saya mahu menghalang orang daripada menggunakan semula foto saya tanpa kredit — adakah tera air dalam talian membantu?", "a": "Ya, menambah tera air yang kelihatan dalam talian membantu menandakan pemilikan dan menghalang penggunaan tanpa kebenaran ke atas imej anda." }
     ]
   },
   "MemeGeneratorPage": {
     "title": "Penjana Meme",
     "description": "Tambah teks di atas dan bawah untuk mencipta imej meme dengan cepat.",
-    "metaDescription": "Cipta meme secara dalam talian dan percuma — tambah teks atas dan bawah pada mana-mana imej dalam beberapa saat dengan fon dan gaya meme klasik. Tanpa pendaftaran atau perisian.",
     "topTextLabel": "Teks atas",
     "topTextPlaceholder": "cth. WHEN THE CODE",
     "bottomTextLabel": "Teks bawah",
@@ -246,47 +185,27 @@
     "converting": "Sedang mencipta meme...",
     "error": "Ralat berlaku semasa mencipta meme.",
     "faq": [
-      {
-        "q": "Bolehkah saya menambah teks gaya kapsyen pada imej meme?",
-        "a": "Boleh, taip teks anda dalam ruangan atas dan bawah dan ia akan ditambah secara automatik dalam huruf tebal gaya meme bersempadan putih."
-      },
-      {
-        "q": "Bolehkah saya guna hanya kapsyen atas atau bawah sahaja berbanding kedua-duanya?",
-        "a": "Boleh, mengisi hanya ruangan atas atau bawah juga berfungsi dengan baik."
-      },
-      {
-        "q": "Bolehkah saya memuat turun meme yang siap serta-merta?",
-        "a": "Boleh, mengklik butang buat akan memuat turun meme siap anda serta-merta."
-      }
+      { "q": "Bolehkah saya menambah teks gaya kapsyen pada imej meme dalam talian dan percuma?", "a": "Boleh, taip teks anda dalam medan atas dan bawah dan ia akan ditambah secara automatik dalam huruf tebal gaya meme bergaris putih, tanpa pendaftaran atau perisian diperlukan." },
+      { "q": "Bolehkah saya hanya menggunakan kapsyen atas atau bawah dan bukan kedua-duanya semasa membuat meme dalam talian?", "a": "Boleh, mengisi hanya medan atas atau bawah juga berfungsi dengan baik." },
+      { "q": "Bolehkah saya memuat turun meme yang siap dengan segera tanpa mendaftar?", "a": "Boleh, mengklik butang cipta memuat turun meme siap anda serta-merta, sepenuhnya percuma." }
     ]
   },
   "RemoveExifPage": {
     "title": "Alih Keluar Metadata",
     "description": "Alih keluar maklumat lokasi dan peranti (EXIF) daripada gambar anda untuk melindungi privasi. Proses beberapa imej sekali gus.",
-    "metaDescription": "Buang data EXIF daripada foto secara dalam talian dan percuma — padam lokasi GPS, model kamera dan metadata peranti untuk melindungi privasi anda sebelum berkongsi, dalam beberapa saat. Tanpa pendaftaran atau perisian, proses banyak imej sekali gus secara kelompok.",
     "infoText": "Lokasi GPS, model kamera, tarikh diambil dan data tersembunyi lain dalam gambar anda akan dialih keluar sepenuhnya. Kualiti dan orientasi imej kekal sama.",
     "submit": "Alih Keluar Metadata",
     "converting": "Sedang mengalih keluar...",
     "error": "Ralat berlaku semasa mengalih keluar metadata.",
     "faq": [
-      {
-        "q": "Saya ingin membuang data lokasi (GPS) yang tertanam dalam gambar.",
-        "a": "Alat pembuangan metadata memadam semua data EXIF, termasuk lokasi GPS, model peranti, dan tarikh tangkapan."
-      },
-      {
-        "q": "Saya risau lokasi saya muncul dalam gambar yang saya siarkan untuk iklan jualan.",
-        "a": "Ya, memproses gambar dengan alat ini membuang semua metadata tertanam, termasuk lokasi, jadi selamat untuk dikongsi."
-      },
-      {
-        "q": "Adakah membuang metadata mengubah kualiti atau orientasi gambar?",
-        "a": "Tidak, kualiti imej dan orientasi kekal sama sepenuhnya; hanya metadata tersembunyi yang dibuang."
-      }
+      { "q": "Bagaimana saya mengalih keluar data lokasi (GPS) yang terbenam dalam foto dalam talian dan percuma?", "a": "Alat pengalihan keluar metadata membuang semua data EXIF, termasuk lokasi GPS, model peranti, dan tarikh tangkapan, tanpa pendaftaran atau perisian diperlukan." },
+      { "q": "Saya bimbang lokasi saya terpapar dalam foto yang saya siarkan untuk iklan pasaran dalam talian — bolehkah saya membetulkannya?", "a": "Boleh, memproses foto dengan alat dalam talian percuma ini membuang semua metadata terbenam, termasuk lokasi, jadi selamat untuk dikongsi." },
+      { "q": "Adakah mengalih keluar metadata dalam talian mengubah kualiti atau orientasi foto?", "a": "Tidak, kualiti imej dan orientasi kekal sama sepenuhnya — hanya metadata tersembunyi yang dialih keluar." }
     ]
   },
   "MergeImagesPage": {
     "title": "Cantumkan Imej",
     "description": "Gabungkan beberapa imej menjadi satu, disusun secara mendatar, menegak atau grid.",
-    "metaDescription": "Gabungkan beberapa imej menjadi satu secara dalam talian dan percuma — gabungkan foto secara mendatar, menegak atau dalam susun atur grid dalam beberapa saat. Tanpa pendaftaran atau perisian.",
     "layoutLabel": "Susun atur",
     "layoutHorizontal": "Bersebelahan",
     "layoutVertical": "Bertindan",
@@ -296,18 +215,9 @@
     "converting": "Sedang mencantumkan...",
     "error": "Ralat berlaku semasa mencantumkan imej.",
     "faq": [
-      {
-        "q": "Saya ingin menggabungkan beberapa gambar menjadi satu imej untuk disiarkan di media sosial.",
-        "a": "Ya, muat naik beberapa imej dan pilih susun atur mendatar, menegak, atau grid untuk menggabungkannya menjadi satu."
-      },
-      {
-        "q": "Bolehkah saya membuat kolaj daripada beberapa gambar?",
-        "a": "Boleh, memilih susun atur grid akan secara automatik menyusun gambar anda menjadi grid bergaya kolaj."
-      },
-      {
-        "q": "Bolehkah saya melaraskan jarak antara imej?",
-        "a": "Boleh, gunakan tetapan jarak untuk mengawal ruang antara imej dari 0 hingga 40px."
-      }
+      { "q": "Bagaimana saya menggabungkan beberapa foto menjadi satu imej dalam talian dan percuma untuk disiarkan di media sosial?", "a": "Boleh, muat naik beberapa imej dan pilih susun atur mendatar, menegak, atau grid untuk menggabungkannya menjadi satu, tanpa pendaftaran atau perisian diperlukan." },
+      { "q": "Bolehkah saya membuat kolaj foto dalam talian dan percuma daripada beberapa foto?", "a": "Boleh, memilih susun atur grid secara automatik menyusun foto anda menjadi grid gaya kolaj dalam beberapa saat." },
+      { "q": "Bolehkah saya melaraskan jarak antara imej semasa menggabungkannya dalam talian?", "a": "Boleh, gunakan tetapan jarak untuk mengawal jarak antara imej dari 0 hingga 40px." }
     ]
   },
   "LanguageSwitcher": {

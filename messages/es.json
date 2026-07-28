@@ -79,31 +79,20 @@
   "CompressImagePage": {
     "title": "Comprimir imagen",
     "description": "Reduce el tamaño de imágenes JPG, PNG, WEBP y TIFF conservando la calidad. Procesa varias imágenes a la vez.",
-    "metaDescription": "Comprime imágenes JPG, PNG, WEBP o TIFF online y gratis. Reduce el tamaño de las fotos en segundos sin perder calidad, ideal para webs y correos electrónicos. Sin registro, sin software, con procesamiento por lotes de varias imágenes a la vez.",
     "qualityLabel": "Calidad de compresión",
     "qualityHint": "Valores más bajos reducen el tamaño del archivo, pero también la calidad.",
     "submit": "Comprimir imagen",
     "converting": "Comprimiendo...",
     "error": "Ocurrió un error al comprimir.",
     "faq": [
-      {
-        "q": "¿Comprimir una imagen reduce mucho la calidad?",
-        "a": "Usa el control deslizante de calidad para equilibrar tamaño y calidad tú mismo. Alrededor del 70-80% suele verse casi igual mientras reduce bastante el tamaño del archivo."
-      },
-      {
-        "q": "¿Cómo cumplo con un límite de tamaño para un trámite gubernamental?",
-        "a": "Baja la calidad hasta que el resultado quede por debajo del tamaño requerido. La mayoría de los límites (2MB, 5MB, etc.) se cumplen con una calidad de alrededor del 70%."
-      },
-      {
-        "q": "Necesito reducir fotos para correo o mensajería con límites de tamaño de archivo adjunto.",
-        "a": "Sí, sube varias imágenes a la vez y comprímelas todas a la calidad que elijas de una sola vez; el resultado se descarga junto en un ZIP."
-      }
+      { "q": "¿Comprimir una imagen online reduce mucho la calidad?", "a": "Usa el control deslizante de calidad para equilibrar tú mismo el tamaño y la calidad — sin registro ni software necesario. Alrededor del 70-80% suele verse casi idéntico mientras reduce mucho el tamaño del archivo." },
+      { "q": "¿Cómo comprimo una foto online y gratis para cumplir un límite de tamaño para un trámite gubernamental u oficial?", "a": "Reduce el ajuste de calidad hasta que el resultado esté por debajo del tamaño requerido. La mayoría de los límites (2MB, 5MB, etc.) se pueden cumplir con una calidad de alrededor del 70%, gratis y online." },
+      { "q": "Necesito reducir fotos para correo o apps de mensajería con límites de tamaño de adjuntos, ¿puedo hacer varias a la vez online?", "a": "Sí, sube varias imágenes a la vez y compímelas todas a la calidad elegida en una sola operación online y gratis — los resultados se descargan juntos como un ZIP." }
     ]
   },
   "ResizeImagePage": {
     "title": "Redimensionar imagen",
     "description": "Cambia el tamaño de las imágenes en píxeles o porcentaje. Procesa varias imágenes a la vez.",
-    "metaDescription": "Cambia el tamaño de imágenes online y gratis. Ajusta las dimensiones a cualquier tamaño en píxeles o porcentaje en segundos para redes sociales, webs o impresión. Sin registro ni software, con redimensionado por lotes de varias imágenes.",
     "modePixel": "Por píxeles",
     "modePercent": "Por porcentaje",
     "widthLabel": "Ancho (px)",
@@ -118,24 +107,14 @@
     "converting": "Redimensionando...",
     "error": "Ocurrió un error al redimensionar.",
     "faq": [
-      {
-        "q": "¿Cómo cambio el tamaño de una foto para un tamaño de impresión específico, como una foto de pasaporte?",
-        "a": "Cambia al modo de píxeles e introduce el ancho y alto exactos que necesitas; por ejemplo, las fotos de pasaporte suelen ser de unos 413x531px."
-      },
-      {
-        "q": "¿Puedo ajustar una imagen a las dimensiones de perfil o historia de Instagram?",
-        "a": "Sí, solo introduce el tamaño en píxeles exacto que necesitas (por ejemplo, 320x320px para un perfil, 1080x1920px para una historia)."
-      },
-      {
-        "q": "¿Puedo redimensionar varias fotos al mismo tamaño a la vez?",
-        "a": "Sí, sube varias imágenes y todas se redimensionarán con la misma configuración, luego se descargan juntas en un ZIP."
-      }
+      { "q": "¿Cómo redimensiono una foto online y gratis a un tamaño de impresión específico, como una foto de pasaporte?", "a": "Cambia al modo de píxeles e introduce el ancho y alto exactos que necesitas — por ejemplo, las fotos de pasaporte suelen ser de unos 413x531px. Sin registro ni software necesario." },
+      { "q": "¿Puedo redimensionar una imagen online y gratis para las dimensiones de perfil o historia de Instagram?", "a": "Sí, solo introduce el tamaño exacto en píxeles que necesitas (por ejemplo, 320x320px para foto de perfil, 1080x1920px para una historia) y redimensiónala en segundos." },
+      { "q": "¿Puedo redimensionar varias fotos al mismo tamaño a la vez online?", "a": "Sí, sube varias imágenes y todas se redimensionarán con la misma configuración, luego se descargarán juntas como un ZIP — sin software que instalar." }
     ]
   },
   "CropImagePage": {
     "title": "Recortar imagen",
     "description": "Recorta el área que necesites indicando coordenadas en píxeles.",
-    "metaDescription": "Recorta una imagen online y gratis. Ajusta una foto a cualquier área mediante coordenadas de píxeles en segundos, ideal para fotos de perfil o miniaturas. Sin registro ni software.",
     "previewAlt": "Vista previa",
     "originalSize": "Tamaño original: {width} x {height}px",
     "xLabel": "X (margen izquierdo)",
@@ -146,47 +125,27 @@
     "cropping": "Recortando...",
     "error": "Ocurrió un error al recortar.",
     "faq": [
-      {
-        "q": "¿Cómo recorto una foto en forma cuadrada, como para una foto de perfil?",
-        "a": "Introduce el mismo valor para ancho y alto para obtener un cuadrado perfecto, y define las coordenadas X/Y del área que quieres conservar."
-      },
-      {
-        "q": "¿Puedo recortar solo el fondo que no quiero de una foto?",
-        "a": "Sí, especifica la posición X/Y y el ancho/alto del área que quieres conservar, y todo lo demás se elimina."
-      },
-      {
-        "q": "¿Puedo recortar usando coordenadas de píxeles exactas?",
-        "a": "Sí, puedes establecer el punto de inicio X/Y exacto y el ancho/alto en píxeles para un recorte preciso."
-      }
+      { "q": "¿Cómo recorto una foto online y gratis en un cuadrado, como para una foto de perfil?", "a": "Introduce el mismo valor de ancho y alto para obtener un cuadrado perfecto, y define las coordenadas X/Y del área que quieres conservar — gratis y sin registro." },
+      { "q": "¿Puedo eliminar solo el fondo no deseado de una foto online y gratis?", "a": "Sí, especifica la posición X/Y y el ancho/alto del área que quieres conservar, y todo lo demás se elimina en segundos." },
+      { "q": "¿Puedo recortar una imagen online usando coordenadas de píxeles exactas?", "a": "Sí, puedes definir el punto de inicio X/Y exacto y el ancho/alto en píxeles para un recorte preciso, sin instalar ningún software." }
     ]
   },
   "ConvertImagePage": {
     "title": "Convertir imagen",
     "description": "Convierte libremente entre JPG, PNG, WEBP, GIF, BMP y TIFF. Procesa varias imágenes a la vez.",
-    "metaDescription": "Convierte imágenes entre JPG, PNG, WEBP, GIF, BMP y TIFF online y gratis. Cambia el formato de imagen en segundos sin perder calidad. Sin registro ni software, con conversión por lotes de varios archivos a la vez.",
     "formatLabel": "Convertir a",
     "submit": "Convertir a {format}",
     "converting": "Convirtiendo...",
     "error": "Ocurrió un error al convertir.",
     "faq": [
-      {
-        "q": "¿Qué pasa con la transparencia al convertir PNG a JPG?",
-        "a": "JPG no admite transparencia, por lo que las áreas transparentes se rellenan con un fondo blanco."
-      },
-      {
-        "q": "¿Puedo convertir un GIF en una imagen estática?",
-        "a": "Sí, convertir un GIF a PNG o JPG guarda su primer fotograma como imagen estática."
-      },
-      {
-        "q": "¿Por qué convertiría una imagen a WEBP para mi sitio web?",
-        "a": "Los archivos WEBP suelen ser más pequeños que JPG o PNG con la misma calidad, lo que ayuda a que tu sitio cargue más rápido."
-      }
+      { "q": "¿Qué pasa con la transparencia al convertir PNG a JPG online y gratis?", "a": "JPG no admite transparencia, así que las áreas transparentes se rellenan con un fondo blanco — la conversión es gratis y funciona en tu navegador." },
+      { "q": "¿Puedo convertir un GIF en una imagen fija online y gratis?", "a": "Sí, convertir un GIF a PNG o JPG guarda su primer fotograma como una imagen estática, sin registro ni software necesario." },
+      { "q": "¿Por qué convertiría una imagen a WEBP online para mi sitio web?", "a": "Los archivos WEBP suelen ser más pequeños que JPG o PNG con la misma calidad, lo que ayuda a que tu sitio web cargue más rápido — conviértelo online en segundos." }
     ]
   },
   "RotateImagePage": {
     "title": "Rotar imagen",
     "description": "Rota imágenes al ángulo que quieras o inviértelas horizontal/verticalmente. Procesa varias imágenes a la vez.",
-    "metaDescription": "Rota o voltea una imagen online y gratis. Corrige una foto torcida o refléjala horizontal o verticalmente en segundos. Sin registro ni software, con procesamiento por lotes de varias imágenes.",
     "angleLabel": "Ángulo de rotación",
     "flipHLabel": "Invertir horizontalmente",
     "flipVLabel": "Invertir verticalmente",
@@ -194,24 +153,14 @@
     "converting": "Rotando...",
     "error": "Ocurrió un error al rotar.",
     "faq": [
-      {
-        "q": "Mi foto escaneada está de lado, ¿cómo la enderezo?",
-        "a": "Elige una rotación de 90, 180 o 270 grados para enderezarla al instante a la orientación que necesitas."
-      },
-      {
-        "q": "¿Puedo voltear una foto horizontalmente para crear una imagen espejo?",
-        "a": "Sí, la opción de voltear horizontalmente refleja la imagen de izquierda a derecha. Voltear verticalmente también está disponible por separado."
-      },
-      {
-        "q": "Mis fotos del móvil siguen guardándose con la orientación incorrecta, ¿esto lo soluciona?",
-        "a": "Sí, gíralas al ángulo correcto y guarda la nueva versión; la orientación se mantendrá fija desde entonces."
-      }
+      { "q": "Mi foto escaneada está de lado, ¿cómo la enderezo online y gratis?", "a": "Elige una rotación de 90, 180 o 270 grados para enderezarla instantáneamente a la orientación que necesitas, sin registro ni software necesario." },
+      { "q": "¿Puedo voltear una foto horizontalmente online para crear una imagen espejo?", "a": "Sí, la opción de voltear horizontalmente refleja la imagen de izquierda a derecha en segundos. El volteo vertical también está disponible por separado." },
+      { "q": "Mis fotos del móvil siguen guardándose con la orientación incorrecta, ¿esto lo puede solucionar online y gratis?", "a": "Sí, gírala al ángulo correcto y guarda la nueva versión, y la orientación se mantendrá fija a partir de entonces." }
     ]
   },
   "WatermarkImagePage": {
     "title": "Añadir marca de agua",
     "description": "Añade una marca de agua de texto a la imagen con opacidad y posición ajustables.",
-    "metaDescription": "Añade una marca de agua de texto a una foto online y gratis. Protege tus imágenes del uso no autorizado con opacidad y posición ajustables en segundos. Sin registro ni software.",
     "textLabel": "Texto de la marca de agua",
     "positionLabel": "Posición",
     "opacityLabel": "Opacidad",
@@ -220,24 +169,14 @@
     "converting": "Añadiendo marca de agua...",
     "error": "Ocurrió un error al añadir la marca de agua.",
     "faq": [
-      {
-        "q": "Quiero añadir una marca de agua de derechos de autor a mis fotos.",
-        "a": "Introduce tu texto de marca de agua y ajusta su posición, opacidad y tamaño de fuente para diseñarla exactamente como quieras."
-      },
-      {
-        "q": "¿Puedo ajustar con precisión la opacidad y posición de la marca de agua?",
-        "a": "Sí, usa el control deslizante de opacidad y la cuadrícula de 9 posiciones para controlarla con precisión."
-      },
-      {
-        "q": "Quiero evitar que otros reutilicen mis fotos sin dar crédito.",
-        "a": "Sí, añadir una marca de agua visible ayuda a marcar la propiedad y desalienta el uso no autorizado."
-      }
+      { "q": "Quiero añadir una marca de agua de copyright a mis fotos online y gratis.", "a": "Introduce el texto de tu marca de agua y ajusta su posición, opacidad y tamaño de fuente para darle el estilo exacto que quieras, sin registro ni software necesario." },
+      { "q": "¿Puedo ajustar con precisión la opacidad y posición de la marca de agua online?", "a": "Sí, usa el control deslizante de opacidad y la cuadrícula de 9 posiciones para controlarla con precisión, directamente en tu navegador." },
+      { "q": "Quiero evitar que la gente reutilice mis fotos sin darme crédito, ¿una marca de agua online ayuda?", "a": "Sí, añadir una marca de agua visible online ayuda a marcar la propiedad y desalienta el uso no autorizado de tus imágenes." }
     ]
   },
   "MemeGeneratorPage": {
     "title": "Generador de memes",
     "description": "Añade texto arriba y abajo para crear un meme fácilmente.",
-    "metaDescription": "Crea un meme online y gratis. Añade texto superior e inferior a cualquier imagen en segundos con la tipografía y el estilo clásicos de los memes. Sin registro ni software.",
     "topTextLabel": "Texto superior",
     "topTextPlaceholder": "ej. WHEN THE CODE",
     "bottomTextLabel": "Texto inferior",
@@ -246,47 +185,27 @@
     "converting": "Creando meme...",
     "error": "Ocurrió un error al generar el meme.",
     "faq": [
-      {
-        "q": "¿Puedo añadir texto tipo subtítulo a una imagen de meme?",
-        "a": "Sí, escribe tu texto en los campos superior e inferior y se añade automáticamente en letras estilo meme en negrita con borde blanco."
-      },
-      {
-        "q": "¿Puedo usar solo un texto superior o inferior en lugar de ambos?",
-        "a": "Sí, completar solo el campo superior o inferior también funciona bien."
-      },
-      {
-        "q": "¿Puedo descargar el meme terminado de inmediato?",
-        "a": "Sí, al hacer clic en el botón de crear se descarga tu meme terminado de inmediato."
-      }
+      { "q": "¿Puedo añadir texto estilo subtítulo a una imagen de meme online y gratis?", "a": "Sí, escribe tu texto en los campos superior e inferior y se añade automáticamente en letras estilo meme en negrita con contorno blanco, sin registro ni software necesario." },
+      { "q": "¿Puedo usar solo un subtítulo superior o inferior en lugar de ambos al crear un meme online?", "a": "Sí, rellenar solo el campo superior o inferior también funciona bien." },
+      { "q": "¿Puedo descargar el meme terminado de inmediato sin registrarme?", "a": "Sí, al hacer clic en el botón de crear se descarga tu meme terminado al instante, completamente gratis." }
     ]
   },
   "RemoveExifPage": {
     "title": "Eliminar metadatos",
     "description": "Elimina la ubicación y la información del dispositivo (EXIF) de tus fotos para proteger tu privacidad. Procesa varias imágenes a la vez.",
-    "metaDescription": "Elimina los datos EXIF de las fotos online y gratis. Borra la ubicación GPS, el modelo de cámara y los metadatos del dispositivo para proteger tu privacidad antes de compartir en segundos. Sin registro ni software, con procesamiento por lotes de varias imágenes.",
     "infoText": "Se eliminará toda la información oculta de tus fotos, como la ubicación GPS, el modelo de cámara y la fecha de captura. La calidad y la orientación de la imagen no cambian.",
     "submit": "Eliminar metadatos",
     "converting": "Eliminando...",
     "error": "Ocurrió un error al eliminar los metadatos.",
     "faq": [
-      {
-        "q": "Quiero eliminar los datos de ubicación (GPS) incrustados en una foto.",
-        "a": "La herramienta de eliminación de metadatos elimina todos los datos EXIF, incluida la ubicación GPS, el modelo del dispositivo y la fecha de captura."
-      },
-      {
-        "q": "Me preocupa que mi ubicación aparezca en fotos que publico en anuncios de venta.",
-        "a": "Sí, procesar una foto con esta herramienta elimina todos los metadatos incrustados, incluida la ubicación, por lo que es seguro compartirla."
-      },
-      {
-        "q": "¿Eliminar los metadatos cambia la calidad o la orientación de la foto?",
-        "a": "No, la calidad de la imagen y la orientación permanecen exactamente igual; solo se elimina la metadata oculta."
-      }
+      { "q": "¿Cómo elimino los datos de ubicación (GPS) incrustados en una foto online y gratis?", "a": "La herramienta de eliminación de metadatos borra todos los datos EXIF, incluida la ubicación GPS, el modelo del dispositivo y la fecha de captura, sin registro ni software necesario." },
+      { "q": "Me preocupa que mi ubicación aparezca en fotos que publico para anuncios en mercados online, ¿puedo solucionarlo?", "a": "Sí, procesar una foto con esta herramienta online gratuita elimina todos los metadatos incrustados, incluida la ubicación, así que es seguro compartirla." },
+      { "q": "¿Eliminar los metadatos online cambia la calidad o la orientación de la foto?", "a": "No, la calidad de la imagen y la orientación se mantienen exactamente iguales — solo se elimina el metadato oculto." }
     ]
   },
   "MergeImagesPage": {
     "title": "Combinar imágenes",
     "description": "Combina varias imágenes en una sola, en horizontal, vertical o en cuadrícula.",
-    "metaDescription": "Combina varias imágenes en una sola online y gratis. Une fotos en horizontal, vertical o en una cuadrícula en segundos. Sin registro ni software.",
     "layoutLabel": "Disposición",
     "layoutHorizontal": "En fila",
     "layoutVertical": "En columna",
@@ -296,18 +215,9 @@
     "converting": "Combinando...",
     "error": "Ocurrió un error al combinar las imágenes.",
     "faq": [
-      {
-        "q": "Quiero combinar varias fotos en una sola imagen para publicar en redes sociales.",
-        "a": "Sí, sube varias imágenes y elige un diseño horizontal, vertical o en cuadrícula para combinarlas en una."
-      },
-      {
-        "q": "¿Puedo hacer un collage con varias fotos?",
-        "a": "Sí, elegir el diseño en cuadrícula organiza automáticamente tus fotos en una cuadrícula estilo collage."
-      },
-      {
-        "q": "¿Puedo ajustar el espacio entre las imágenes?",
-        "a": "Sí, usa la configuración de espacio para controlar la separación entre imágenes de 0 a 40px."
-      }
+      { "q": "¿Cómo combino varias fotos en una sola imagen online y gratis para publicar en redes sociales?", "a": "Sí, sube varias imágenes y elige un diseño horizontal, vertical o en cuadrícula para combinarlas en una, sin registro ni software necesario." },
+      { "q": "¿Puedo hacer un collage de fotos online y gratis con varias imágenes?", "a": "Sí, al elegir el diseño de cuadrícula tus fotos se organizan automáticamente en una cuadrícula estilo collage en segundos." },
+      { "q": "¿Puedo ajustar el espacio entre imágenes al combinarlas online?", "a": "Sí, usa el ajuste de separación para controlar el espacio entre imágenes entre 0 y 40px." }
     ]
   },
   "LanguageSwitcher": {

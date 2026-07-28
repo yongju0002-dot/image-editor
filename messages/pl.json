@@ -79,31 +79,20 @@
   "CompressImagePage": {
     "title": "Kompresuj obraz",
     "description": "Zmniejsz rozmiar plików JPG, PNG, WEBP i TIFF z zachowaniem jakości. Przetwarzaj kilka obrazów naraz.",
-    "metaDescription": "Skompresuj obrazy JPG, PNG, WEBP lub TIFF online i za darmo — zmniejsz rozmiar zdjęcia w kilka sekund bez większej utraty jakości, idealne do stron internetowych i e-maili. Bez rejestracji i oprogramowania, z przetwarzaniem wsadowym wielu obrazów naraz.",
     "qualityLabel": "Jakość kompresji",
     "qualityHint": "Niższe wartości zmniejszają rozmiar pliku, ale też obniżają jakość.",
     "submit": "Kompresuj obraz",
     "converting": "Kompresowanie...",
     "error": "Wystąpił błąd podczas kompresji.",
     "faq": [
-      {
-        "q": "Czy kompresowanie obrazu znacznie obniża jakość?",
-        "a": "Użyj suwaka jakości, aby samodzielnie zrównoważyć rozmiar pliku i jakość. Przy około 70-80% różnica jest niemal niewidoczna gołym okiem, a rozmiar pliku znacznie się zmniejsza."
-      },
-      {
-        "q": "Jak dopasować się do limitu rozmiaru pliku przy zgłoszeniu do urzędu?",
-        "a": "Obniżaj jakość, aż wynik będzie mniejszy niż wymagany rozmiar. Większość limitów (2MB, 5MB itd.) można osiągnąć przy jakości około 70%."
-      },
-      {
-        "q": "Muszę zmniejszyć zdjęcia do e-maila lub komunikatora z limitem załącznika.",
-        "a": "Tak, prześlij kilka zdjęć naraz i skompresuj je wszystkie do wybranej jakości jednocześnie - wynik pobiera się razem jako plik ZIP."
-      }
+      { "q": "Czy kompresowanie obrazu online mocno obniża jakość?", "a": "Użyj suwaka jakości, aby samodzielnie zrównoważyć rozmiar pliku i jakość obrazu — bez rejestracji i oprogramowania. Około 70-80% zwykle wygląda niemal identycznie, znacznie zmniejszając rozmiar pliku." },
+      { "q": "Jak skompresować zdjęcie online i za darmo, aby zmieścić się w limicie rozmiaru pliku do zgłoszenia urzędowego lub oficjalnego?", "a": "Zmniejszaj ustawienie jakości, aż wynik będzie poniżej wymaganego rozmiaru. Większość limitów (2MB, 5MB itd.) można osiągnąć przy jakości około 70%, za darmo i online." },
+      { "q": "Muszę zmniejszyć zdjęcia dla e-maila lub aplikacji do wiadomości z limitami rozmiaru załączników — czy mogę zrobić kilka naraz online?", "a": "Tak, prześlij kilka obrazów jednocześnie i skompresuj je wszystkie do wybranej jakości za jednym razem online i za darmo — wyniki pobierane są razem jako ZIP." }
     ]
   },
   "ResizeImagePage": {
     "title": "Zmień rozmiar obrazu",
     "description": "Zmień rozmiar obrazu w pikselach lub procentach. Przetwarzaj kilka obrazów naraz.",
-    "metaDescription": "Zmień rozmiar obrazów online i za darmo — dostosuj wymiary zdjęcia do dowolnego rozmiaru w pikselach lub procentach w kilka sekund, do mediów społecznościowych, stron internetowych lub druku. Bez rejestracji i oprogramowania, z wsadową zmianą rozmiaru wielu obrazów.",
     "modePixel": "W pikselach",
     "modePercent": "W procentach",
     "widthLabel": "Szerokość (px)",
@@ -118,24 +107,14 @@
     "converting": "Zmienianie rozmiaru...",
     "error": "Wystąpił błąd podczas zmiany rozmiaru.",
     "faq": [
-      {
-        "q": "Jak zmienić rozmiar zdjęcia do konkretnego formatu wydruku, np. zdjęcia do paszportu?",
-        "a": "Przełącz na tryb pikseli i wpisz dokładną szerokość i wysokość - zdjęcia paszportowe mają zwykle około 413x531px."
-      },
-      {
-        "q": "Czy mogę dopasować obraz do wymiarów profilu lub relacji na Instagramie?",
-        "a": "Tak, wystarczy wpisać dokładny rozmiar w pikselach (np. 320x320px dla profilu, 1080x1920px dla relacji)."
-      },
-      {
-        "q": "Czy mogę zmienić rozmiar kilku zdjęć naraz do tego samego formatu?",
-        "a": "Tak, prześlij kilka obrazów, a wszystkie zostaną zmienione z tymi samymi ustawieniami, następnie pobrane razem jako ZIP."
-      }
+      { "q": "Jak zmienić rozmiar zdjęcia online i za darmo do konkretnego formatu druku, na przykład zdjęcia do paszportu?", "a": "Przełącz się na tryb pikselowy i wpisz dokładną szerokość i wysokość, jakiej potrzebujesz — na przykład zdjęcia paszportowe mają zwykle około 413x531px. Bez rejestracji i oprogramowania." },
+      { "q": "Czy mogę zmienić rozmiar obrazu online i za darmo do wymiarów profilu lub relacji na Instagramie?", "a": "Tak, po prostu wpisz dokładny rozmiar w pikselach, jakiego potrzebujesz (np. 320x320px dla zdjęcia profilowego, 1080x1920px dla relacji) i zmień rozmiar w kilka sekund." },
+      { "q": "Czy mogę zmienić rozmiar kilku zdjęć na ten sam rozmiar jednocześnie online?", "a": "Tak, prześlij kilka obrazów, a wszystkie zostaną zmienione przy tych samych ustawieniach, a następnie pobrane razem jako ZIP — bez instalowania oprogramowania." }
     ]
   },
   "CropImagePage": {
     "title": "Przytnij obraz",
     "description": "Przytnij wybrany obszar, podając współrzędne w pikselach.",
-    "metaDescription": "Przytnij obraz online i za darmo — dopasuj zdjęcie do dowolnego obszaru za pomocą współrzędnych pikseli w kilka sekund, idealne do zdjęć profilowych lub miniatur. Bez rejestracji i oprogramowania.",
     "previewAlt": "Podgląd",
     "originalSize": "Oryginalny rozmiar: {width} x {height}px",
     "xLabel": "X (margines lewy)",
@@ -146,47 +125,27 @@
     "cropping": "Przycinanie...",
     "error": "Wystąpił błąd podczas przycinania.",
     "faq": [
-      {
-        "q": "Jak przyciąć zdjęcie do kwadratu, np. na zdjęcie profilowe?",
-        "a": "Wpisz tę samą wartość dla szerokości i wysokości, aby uzyskać idealny kwadrat, i ustaw współrzędne X/Y obszaru do zachowania."
-      },
-      {
-        "q": "Czy mogę wyciąć tylko niepotrzebne tło ze zdjęcia?",
-        "a": "Tak, podaj pozycję X/Y oraz szerokość/wysokość obszaru do zachowania, a reszta zostanie usunięta."
-      },
-      {
-        "q": "Czy mogę przycinać przy użyciu dokładnych współrzędnych w pikselach?",
-        "a": "Tak, możesz ustawić dokładny punkt początkowy X/Y oraz szerokość/wysokość w pikselach dla precyzyjnego kadrowania."
-      }
+      { "q": "Jak przyciąć zdjęcie online i za darmo do kwadratu, na przykład na zdjęcie profilowe?", "a": "Wpisz tę samą wartość dla szerokości i wysokości, aby uzyskać idealny kwadrat, i ustaw współrzędne X/Y obszaru, który chcesz zachować — za darmo i bez rejestracji." },
+      { "q": "Czy mogę wyciąć tylko niechciane tło ze zdjęcia online i za darmo?", "a": "Tak, określ pozycję X/Y oraz szerokość/wysokość obszaru, który chcesz zachować, a wszystko poza nim zostanie usunięte w kilka sekund." },
+      { "q": "Czy mogę przyciąć obraz online, używając dokładnych współrzędnych pikseli?", "a": "Tak, możesz ustawić dokładny punkt początkowy X/Y oraz szerokość/wysokość w pikselach dla precyzyjnego przycinania, bez instalowania oprogramowania." }
     ]
   },
   "ConvertImagePage": {
     "title": "Konwertuj obraz",
     "description": "Konwertuj swobodnie między JPG, PNG, WEBP, GIF, BMP i TIFF. Przetwarzaj kilka obrazów naraz.",
-    "metaDescription": "Konwertuj obrazy między JPG, PNG, WEBP, GIF, BMP i TIFF online i za darmo — zmień format obrazu w kilka sekund bez utraty jakości. Bez rejestracji i oprogramowania, z wsadową konwersją wielu plików naraz.",
     "formatLabel": "Konwertuj na",
     "submit": "Konwertuj na {format}",
     "converting": "Konwertowanie...",
     "error": "Wystąpił błąd podczas konwersji.",
     "faq": [
-      {
-        "q": "Co dzieje się z przezroczystością przy konwersji PNG na JPG?",
-        "a": "JPG nie obsługuje przezroczystości, więc przezroczyste obszary są wypełniane białym tłem."
-      },
-      {
-        "q": "Czy mogę przekonwertować GIF na obraz statyczny?",
-        "a": "Tak, konwersja GIF na PNG lub JPG zapisuje pierwszą klatkę jako obraz statyczny."
-      },
-      {
-        "q": "Dlaczego warto przekonwertować obraz na WEBP dla strony internetowej?",
-        "a": "Pliki WEBP są zwykle mniejsze niż JPG lub PNG przy tej samej jakości, co pomaga szybciej wczytywać stronę."
-      }
+      { "q": "Co dzieje się z przezroczystością podczas konwersji PNG na JPG online i za darmo?", "a": "JPG nie obsługuje przezroczystości, więc przezroczyste obszary są wypełniane białym tłem — konwersja jest darmowa i działa w przeglądarce." },
+      { "q": "Czy mogę przekonwertować GIF na nieruchomy obraz online i za darmo?", "a": "Tak, konwersja GIF na PNG lub JPG zapisuje jego pierwszą klatkę jako statyczny obraz, bez rejestracji i oprogramowania." },
+      { "q": "Dlaczego miałbym konwertować obraz na WEBP online dla mojej strony internetowej?", "a": "Pliki WEBP są zwykle mniejsze niż JPG lub PNG przy tej samej jakości, co pomaga stronie ładować się szybciej — konwertuj online w kilka sekund." }
     ]
   },
   "RotateImagePage": {
     "title": "Obróć obraz",
     "description": "Obróć obraz o dowolny kąt lub odbij go w poziomie/pionie. Przetwarzaj kilka obrazów naraz.",
-    "metaDescription": "Obróć lub odwróć obraz online i za darmo — popraw przekrzywione zdjęcie lub odbij je w poziomie lub pionie w kilka sekund. Bez rejestracji i oprogramowania, z przetwarzaniem wsadowym wielu obrazów.",
     "angleLabel": "Kąt obrotu",
     "flipHLabel": "Odbij w poziomie",
     "flipVLabel": "Odbij w pionie",
@@ -194,24 +153,14 @@
     "converting": "Obracanie...",
     "error": "Wystąpił błąd podczas obracania.",
     "faq": [
-      {
-        "q": "Moje zeskanowane zdjęcie leży bokiem - jak je wyprostować?",
-        "a": "Wybierz obrót o 90, 180 lub 270 stopni, aby natychmiast wyprostować je do potrzebnej orientacji."
-      },
-      {
-        "q": "Czy mogę odbić zdjęcie w poziomie, tworząc efekt lustrzany?",
-        "a": "Tak, opcja odbicia w poziomie odbija obraz od lewej do prawej. Odbicie w pionie jest dostępne osobno."
-      },
-      {
-        "q": "Moje zdjęcia z telefonu wciąż zapisują się w złej orientacji - czy to to naprawi?",
-        "a": "Tak, obróć do właściwego kąta i zapisz nową wersję - orientacja pozostanie ustalona od tego momentu."
-      }
+      { "q": "Moje zeskanowane zdjęcie jest przekrzywione — jak wyprostować je online i za darmo?", "a": "Wybierz obrót o 90, 180 lub 270 stopni, aby natychmiast wyprostować je do potrzebnej orientacji, bez rejestracji i oprogramowania." },
+      { "q": "Czy mogę odbić zdjęcie w poziomie online, aby stworzyć efekt lustrzany?", "a": "Tak, opcja odbicia w poziomie odbija obraz lustrzanie od lewej do prawej w kilka sekund. Odbicie w pionie jest również dostępne osobno." },
+      { "q": "Moje zdjęcia z telefonu wciąż zapisują się w złej orientacji — czy to może to naprawić online i za darmo?", "a": "Tak, obróć je do właściwego kąta i zapisz nową wersję, a orientacja pozostanie już stała." }
     ]
   },
   "WatermarkImagePage": {
     "title": "Dodaj znak wodny",
     "description": "Dodaj tekstowy znak wodny do obrazu z regulowaną przezroczystością i pozycją.",
-    "metaDescription": "Dodaj tekstowy znak wodny do zdjęcia online i za darmo — chroń swoje obrazy przed nieautoryzowanym użyciem dzięki regulowanej przezroczystości i pozycji w kilka sekund. Bez rejestracji i oprogramowania.",
     "textLabel": "Tekst znaku wodnego",
     "positionLabel": "Pozycja",
     "opacityLabel": "Przezroczystość",
@@ -220,24 +169,14 @@
     "converting": "Dodawanie znaku wodnego...",
     "error": "Wystąpił błąd podczas dodawania znaku wodnego.",
     "faq": [
-      {
-        "q": "Chcę dodać znak wodny z prawami autorskimi do moich zdjęć.",
-        "a": "Wpisz tekst znaku wodnego i dostosuj jego pozycję, przezroczystość i rozmiar czcionki, aby wyglądał dokładnie tak, jak chcesz."
-      },
-      {
-        "q": "Czy mogę precyzyjnie dostosować przezroczystość i pozycję znaku wodnego?",
-        "a": "Tak, użyj suwaka przezroczystości i siatki 9 pozycji, aby dokładnie go kontrolować."
-      },
-      {
-        "q": "Chcę uniemożliwić innym ponowne wykorzystanie moich zdjęć bez podania źródła.",
-        "a": "Tak, dodanie widocznego znaku wodnego pomaga oznaczyć własność i zniechęca do nieautoryzowanego użycia."
-      }
+      { "q": "Chcę dodać znak wodny z prawami autorskimi do moich zdjęć online i za darmo.", "a": "Wpisz tekst znaku wodnego i dostosuj jego pozycję, przezroczystość i rozmiar czcionki, aby wystylizować go dokładnie tak, jak chcesz, bez rejestracji i oprogramowania." },
+      { "q": "Czy mogę precyzyjnie dostosować przezroczystość i pozycję znaku wodnego online?", "a": "Tak, użyj suwaka przezroczystości i siatki 9 pozycji, aby precyzyjnie nim sterować, bezpośrednio w przeglądarce." },
+      { "q": "Chcę uniemożliwić innym ponowne wykorzystywanie moich zdjęć bez podania źródła — czy znak wodny online pomoże?", "a": "Tak, dodanie widocznego znaku wodnego online pomaga oznaczyć własność i zniechęca do nieautoryzowanego wykorzystywania Twoich obrazów." }
     ]
   },
   "MemeGeneratorPage": {
     "title": "Generator memów",
     "description": "Dodaj tekst u góry i na dole, aby szybko stworzyć obraz mema.",
-    "metaDescription": "Stwórz mema online i za darmo — dodaj tekst u góry i u dołu dowolnego obrazu w kilka sekund w klasycznej czcionce i stylu mema. Bez rejestracji i oprogramowania.",
     "topTextLabel": "Tekst górny",
     "topTextPlaceholder": "np. WHEN THE CODE",
     "bottomTextLabel": "Tekst dolny",
@@ -246,47 +185,27 @@
     "converting": "Tworzenie mema...",
     "error": "Wystąpił błąd podczas tworzenia mema.",
     "faq": [
-      {
-        "q": "Czy mogę dodać tekst w stylu podpisu do obrazu mema?",
-        "a": "Tak, wpisz tekst w polach górnym i dolnym, a zostanie automatycznie dodany pogrubioną czcionką w stylu mema z białym obramowaniem."
-      },
-      {
-        "q": "Czy mogę użyć tylko górnego lub dolnego podpisu zamiast obu?",
-        "a": "Tak, wypełnienie tylko górnego lub dolnego pola również działa poprawnie."
-      },
-      {
-        "q": "Czy mogę od razu pobrać gotowego mema?",
-        "a": "Tak, kliknięcie przycisku tworzenia od razu pobiera gotowego mema."
-      }
+      { "q": "Czy mogę dodać tekst w stylu podpisu do obrazu mema online i za darmo?", "a": "Tak, wpisz tekst w polach górnym i dolnym, a zostanie automatycznie dodany pogrubioną czcionką w stylu mema z białym obramowaniem, bez rejestracji i oprogramowania." },
+      { "q": "Czy przy tworzeniu mema online mogę użyć tylko górnego lub dolnego podpisu zamiast obu?", "a": "Tak, wypełnienie tylko górnego lub dolnego pola również działa poprawnie." },
+      { "q": "Czy mogę od razu pobrać gotowego mema bez rejestracji?", "a": "Tak, kliknięcie przycisku utwórz pobiera gotowego mema natychmiast, całkowicie za darmo." }
     ]
   },
   "RemoveExifPage": {
     "title": "Usuń metadane",
     "description": "Usuń informacje o lokalizacji i urządzeniu (EXIF) ze zdjęć, aby chronić swoją prywatność. Przetwarzaj kilka obrazów naraz.",
-    "metaDescription": "Usuń dane EXIF ze zdjęć online i za darmo — wymaż lokalizację GPS, model aparatu i metadane urządzenia, aby chronić swoją prywatność przed udostępnieniem, w kilka sekund. Bez rejestracji i oprogramowania, z przetwarzaniem wsadowym wielu obrazów.",
     "infoText": "Lokalizacja GPS, model aparatu, data wykonania zdjęcia i inne ukryte dane zostaną całkowicie usunięte. Jakość i orientacja obrazu pozostaną bez zmian.",
     "submit": "Usuń metadane",
     "converting": "Usuwanie...",
     "error": "Wystąpił błąd podczas usuwania metadanych.",
     "faq": [
-      {
-        "q": "Chcę usunąć dane lokalizacji (GPS) osadzone w zdjęciu.",
-        "a": "Narzędzie do usuwania metadanych usuwa wszystkie dane EXIF, w tym lokalizację GPS, model urządzenia i datę wykonania zdjęcia."
-      },
-      {
-        "q": "Martwię się, że moja lokalizacja pojawia się na zdjęciach publikowanych w ogłoszeniach.",
-        "a": "Tak, przetworzenie zdjęcia tym narzędziem usuwa wszystkie osadzone metadane, w tym lokalizację, więc można je bezpiecznie udostępniać."
-      },
-      {
-        "q": "Czy usunięcie metadanych zmienia jakość lub orientację zdjęcia?",
-        "a": "Nie, jakość obrazu i orientacja pozostają dokładnie takie same - usuwane są tylko ukryte metadane."
-      }
+      { "q": "Jak usunąć dane lokalizacji (GPS) osadzone w zdjęciu online i za darmo?", "a": "Narzędzie do usuwania metadanych usuwa wszystkie dane EXIF, w tym lokalizację GPS, model urządzenia i datę wykonania, bez rejestracji i oprogramowania." },
+      { "q": "Martwię się, że moja lokalizacja pojawia się na zdjęciach, które publikuję w ogłoszeniach na platformach internetowych — czy mogę to naprawić?", "a": "Tak, przetworzenie zdjęcia tym darmowym narzędziem online usuwa wszystkie osadzone metadane, w tym lokalizację, więc bezpiecznie je udostępnić." },
+      { "q": "Czy usuwanie metadanych online zmienia jakość lub orientację zdjęcia?", "a": "Nie, jakość obrazu i orientacja pozostają dokładnie takie same — usuwane są tylko ukryte metadane." }
     ]
   },
   "MergeImagesPage": {
     "title": "Połącz obrazy",
     "description": "Połącz kilka obrazów w jeden - poziomo, pionowo lub w siatce.",
-    "metaDescription": "Połącz wiele obrazów w jeden online i za darmo — połącz zdjęcia poziomo, pionowo lub w układzie siatki w kilka sekund. Bez rejestracji i oprogramowania.",
     "layoutLabel": "Układ",
     "layoutHorizontal": "Obok siebie",
     "layoutVertical": "Jeden pod drugim",
@@ -296,18 +215,9 @@
     "converting": "Łączenie...",
     "error": "Wystąpił błąd podczas łączenia obrazów.",
     "faq": [
-      {
-        "q": "Chcę połączyć kilka zdjęć w jeden obraz do publikacji w mediach społecznościowych.",
-        "a": "Tak, prześlij kilka obrazów i wybierz układ poziomy, pionowy lub siatkowy, aby połączyć je w jeden."
-      },
-      {
-        "q": "Czy mogę zrobić kolaż z kilku zdjęć?",
-        "a": "Tak, wybranie układu siatkowego automatycznie rozmieszcza zdjęcia w siatce w stylu kolażu."
-      },
-      {
-        "q": "Czy mogę dostosować odstęp między obrazami?",
-        "a": "Tak, użyj ustawienia odstępu, aby regulować odstęp między obrazami od 0 do 40px."
-      }
+      { "q": "Jak połączyć kilka zdjęć w jeden obraz online i za darmo, aby opublikować w mediach społecznościowych?", "a": "Tak, prześlij kilka obrazów i wybierz układ poziomy, pionowy lub siatkowy, aby połączyć je w jeden, bez rejestracji i oprogramowania." },
+      { "q": "Czy mogę stworzyć kolaż zdjęć online i za darmo z kilku zdjęć?", "a": "Tak, wybór układu siatkowego automatycznie rozmieszcza Twoje zdjęcia w siatce w stylu kolażu w kilka sekund." },
+      { "q": "Czy mogę dostosować odstępy między obrazami podczas łączenia ich online?", "a": "Tak, użyj ustawienia odstępu, aby kontrolować odstęp między obrazami w zakresie od 0 do 40px." }
     ]
   },
   "LanguageSwitcher": {

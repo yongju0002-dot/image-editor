@@ -79,31 +79,20 @@
   "CompressImagePage": {
     "title": "Görsel Sıkıştır",
     "description": "Kaliteyi koruyarak JPG, PNG, WEBP ve TIFF dosya boyutunu küçültün. Birden fazla görseli tek seferde işleyin.",
-    "metaDescription": "JPG, PNG, WEBP veya TIFF görsellerini çevrimiçi ve ücretsiz olarak sıkıştırın — fazla kalite kaybı olmadan saniyeler içinde fotoğraf dosya boyutunu küçültün, web siteleri ve e-posta için ideal. Kayıt veya yazılım gerekmez, birden fazla görseli toplu işleyin.",
     "qualityLabel": "Sıkıştırma Kalitesi",
     "qualityHint": "Değer düştükçe dosya boyutu küçülür, ancak kalite de düşer.",
     "submit": "Görseli Sıkıştır",
     "converting": "Sıkıştırılıyor...",
     "error": "Sıkıştırma sırasında bir hata oluştu.",
     "faq": [
-      {
-        "q": "Bir görseli sıkıştırmak kaliteyi çok mu düşürür?",
-        "a": "Dosya boyutu ve kaliteyi kendiniz dengelemek için kalite kaydırıcısını kullanın. %70-80 civarı genellikle gözle neredeyse fark edilmezken dosya boyutunu belirgin şekilde azaltır."
-      },
-      {
-        "q": "Resmi kurum başvurusu için dosya boyutu sınırına nasıl uyarım?",
-        "a": "Sonuç gereken boyutun altına inene kadar kaliteyi düşürün. Çoğu sınır (2MB, 5MB vb.) yaklaşık %70 kalite ile karşılanabilir."
-      },
-      {
-        "q": "E-posta veya mesajlaşma uygulamalarındaki ek boyutu sınırı için fotoğrafları küçültmem gerekiyor.",
-        "a": "Evet, birden fazla görseli aynı anda yükleyip hepsini tek seferde istediğiniz kaliteye sıkıştırabilirsiniz; sonuç birlikte ZIP olarak indirilir."
-      }
+      { "q": "Çevrimiçi bir görseli sıkıştırmak kaliteyi çok mu düşürür?", "a": "Dosya boyutu ve görsel kalitesini kendiniz dengelemek için kalite kaydırıcısını kullanın — kayıt veya yazılım gerekmez. Yaklaşık %70-80 genellikle neredeyse aynı görünürken dosya boyutunu önemli ölçüde azaltır." },
+      { "q": "Devlet veya resmi bir başvuru için dosya boyutu sınırını karşılamak üzere bir fotoğrafı çevrimiçi ve ücretsiz olarak nasıl sıkıştırırım?", "a": "Çıktı gereken boyutun altına inene kadar kalite ayarını düşürün. Çoğu sınır (2MB, 5MB vb.) yaklaşık %70 kaliteyle, ücretsiz ve çevrimiçi olarak karşılanabilir." },
+      { "q": "E-posta veya ek boyutu sınırlı mesajlaşma uygulamaları için fotoğrafları küçültmem gerekiyor — çevrimiçi olarak birden fazlasını aynı anda yapabilir miyim?", "a": "Evet, birden fazla görseli aynı anda yükleyin ve hepsini seçtiğiniz kalitede tek seferde çevrimiçi ve ücretsiz olarak sıkıştırın — sonuçlar birlikte ZIP olarak indirilir." }
     ]
   },
   "ResizeImagePage": {
     "title": "Görsel Yeniden Boyutlandır",
     "description": "Görselleri piksel veya yüzde olarak yeniden boyutlandırın. Birden fazla görseli tek seferde işleyin.",
-    "metaDescription": "Görsellerin boyutunu çevrimiçi ve ücretsiz olarak değiştirin — sosyal medya, web siteleri veya baskı için saniyeler içinde istediğiniz piksel boyutuna veya yüzdeye ayarlayın. Kayıt veya yazılım gerekmez, birden fazla görseli toplu olarak yeniden boyutlandırın.",
     "modePixel": "Piksel olarak",
     "modePercent": "Yüzde olarak",
     "widthLabel": "Genişlik (px)",
@@ -118,24 +107,14 @@
     "converting": "Yeniden boyutlandırılıyor...",
     "error": "Yeniden boyutlandırma sırasında bir hata oluştu.",
     "faq": [
-      {
-        "q": "Vesikalık fotoğraf gibi belirli bir baskı boyutuna nasıl yeniden boyutlandırırım?",
-        "a": "Piksel moduna geçin ve ihtiyacınız olan tam genişlik ve yüksekliği girin; örneğin pasaport fotoğrafları genellikle yaklaşık 413x531px'dir."
-      },
-      {
-        "q": "Bir görseli Instagram profil veya hikaye boyutlarına uyacak şekilde ayarlayabilir miyim?",
-        "a": "Evet, ihtiyacınız olan tam piksel boyutunu girmeniz yeterli (örn. profil için 320x320px, hikaye için 1080x1920px)."
-      },
-      {
-        "q": "Birden fazla fotoğrafı aynı anda aynı boyuta getirebilir miyim?",
-        "a": "Evet, birden fazla görsel yükleyin, hepsi aynı ayarlarla yeniden boyutlandırılır, ardından birlikte ZIP olarak indirilir."
-      }
+      { "q": "Bir fotoğrafı çevrimiçi ve ücretsiz olarak vesikalık gibi belirli bir baskı boyutuna nasıl yeniden boyutlandırırım?", "a": "Piksel moduna geçin ve ihtiyacınız olan tam genişlik ve yüksekliği girin — örneğin vesikalık fotoğraflar genellikle yaklaşık 413x531px'dir. Kayıt veya yazılım gerekmez." },
+      { "q": "Bir görseli çevrimiçi ve ücretsiz olarak Instagram profil veya hikaye boyutlarına uyacak şekilde yeniden boyutlandırabilir miyim?", "a": "Evet, ihtiyacınız olan tam piksel boyutunu girmeniz yeterli (örn. profil fotoğrafı için 320x320px, hikaye için 1080x1920px) ve saniyeler içinde yeniden boyutlandırın." },
+      { "q": "Çevrimiçi olarak birden fazla fotoğrafı aynı anda aynı boyuta getirebilir miyim?", "a": "Evet, birden fazla görsel yükleyin, hepsi aynı ayarlarla yeniden boyutlandırılır, ardından birlikte ZIP olarak indirilir — yazılım kurmaya gerek yok." }
     ]
   },
   "CropImagePage": {
     "title": "Görsel Kırp",
     "description": "Piksel koordinatları belirterek istediğiniz alanı kırpın.",
-    "metaDescription": "Bir görseli çevrimiçi ve ücretsiz olarak kırpın — profil fotoğrafları veya küçük resimler için ideal, piksel koordinatlarıyla saniyeler içinde herhangi bir alanı kırpın. Kayıt veya yazılım gerekmez.",
     "previewAlt": "Önizleme",
     "originalSize": "Orijinal boyut: {width} x {height}px",
     "xLabel": "X (sol boşluk)",
@@ -146,47 +125,27 @@
     "cropping": "Kırpılıyor...",
     "error": "Kırpma sırasında bir hata oluştu.",
     "faq": [
-      {
-        "q": "Profil fotoğrafı gibi bir fotoğrafı kare şeklinde nasıl kırparım?",
-        "a": "Mükemmel bir kare için genişlik ve yükseklik için aynı değeri girin ve korumak istediğiniz alanın X/Y koordinatlarını ayarlayın."
-      },
-      {
-        "q": "Bir fotoğraftan sadece istenmeyen arka planı kesebilir miyim?",
-        "a": "Evet, korumak istediğiniz alanın X/Y konumunu ve genişlik/yüksekliğini belirtin, geri kalan her şey kaldırılır."
-      },
-      {
-        "q": "Tam piksel koordinatları kullanarak kırpabilir miyim?",
-        "a": "Evet, hassas kırpma için piksel cinsinden tam X/Y başlangıç noktasını ve genişlik/yüksekliği ayarlayabilirsiniz."
-      }
+      { "q": "Bir fotoğrafı çevrimiçi ve ücretsiz olarak profil fotoğrafı gibi kareye nasıl kırparım?", "a": "Mükemmel bir kare elde etmek için genişlik ve yükseklik için aynı değeri girin ve korumak istediğiniz alanın X/Y koordinatlarını ayarlayın — ücretsiz ve kayıt olmadan." },
+      { "q": "Bir fotoğraftan sadece istenmeyen arka planı çevrimiçi ve ücretsiz olarak kırpabilir miyim?", "a": "Evet, korumak istediğiniz alanın X/Y konumunu ve genişlik/yüksekliğini belirtin, dışındaki her şey saniyeler içinde kaldırılır." },
+      { "q": "Bir görseli çevrimiçi olarak tam piksel koordinatları kullanarak kırpabilir miyim?", "a": "Evet, hassas kırpma için tam X/Y başlangıç noktasını ve piksel cinsinden genişlik/yüksekliği ayarlayabilirsiniz, yazılım kurmadan." }
     ]
   },
   "ConvertImagePage": {
     "title": "Görsel Dönüştür",
     "description": "JPG, PNG, WEBP, GIF, BMP ve TIFF arasında serbestçe dönüştürün. Birden fazla görseli tek seferde işleyin.",
-    "metaDescription": "JPG, PNG, WEBP, GIF, BMP ve TIFF arasında görselleri çevrimiçi ve ücretsiz olarak dönüştürün — kalite kaybı olmadan saniyeler içinde görsel formatını değiştirin. Kayıt veya yazılım gerekmez, birden fazla dosyayı toplu olarak dönüştürün.",
     "formatLabel": "Şuna dönüştür",
     "submit": "{format} olarak dönüştür",
     "converting": "Dönüştürülüyor...",
     "error": "Dönüştürme sırasında bir hata oluştu.",
     "faq": [
-      {
-        "q": "PNG'yi JPG'ye dönüştürdüğümde şeffaflığa ne olur?",
-        "a": "JPG şeffaflığı desteklemez, bu yüzden şeffaf alanlar beyaz arka planla doldurulur."
-      },
-      {
-        "q": "Bir GIF'i durağan bir görsele dönüştürebilir miyim?",
-        "a": "Evet, bir GIF'i PNG veya JPG'ye dönüştürmek ilk karesini durağan bir görsel olarak kaydeder."
-      },
-      {
-        "q": "Web sitem için bir görseli neden WEBP'ye dönüştürmeliyim?",
-        "a": "WEBP dosyaları aynı kalitede genellikle JPG veya PNG'den daha küçüktür, bu da web sitenizin daha hızlı yüklenmesine yardımcı olur."
-      }
+      { "q": "PNG'yi çevrimiçi ve ücretsiz olarak JPG'ye dönüştürdüğümde şeffaflığa ne olur?", "a": "JPG şeffaflığı desteklemez, bu yüzden şeffaf alanlar beyaz bir arka planla doldurulur — dönüştürme ücretsizdir ve tarayıcınızda çalışır." },
+      { "q": "Bir GIF'i çevrimiçi ve ücretsiz olarak sabit bir görsele dönüştürebilir miyim?", "a": "Evet, bir GIF'i PNG veya JPG'ye dönüştürmek ilk karesini statik bir görsel olarak kaydeder, kayıt veya yazılım gerekmez." },
+      { "q": "Web sitem için bir görseli neden çevrimiçi olarak WEBP'ye dönüştürmeliyim?", "a": "WEBP dosyaları aynı kalitede genellikle JPG veya PNG'den daha küçüktür, bu da web sitenizin daha hızlı yüklenmesine yardımcı olur — saniyeler içinde çevrimiçi dönüştürün." }
     ]
   },
   "RotateImagePage": {
     "title": "Görsel Döndür",
     "description": "Görselleri istediğiniz açıyla döndürün veya yatay/dikey çevirin. Birden fazla görseli tek seferde işleyin.",
-    "metaDescription": "Bir görseli çevrimiçi ve ücretsiz olarak döndürün veya çevirin — yana yatmış bir fotoğrafı düzeltin veya saniyeler içinde yatay ya da dikey olarak aynalayın. Kayıt veya yazılım gerekmez, birden fazla görseli toplu işleyin.",
     "angleLabel": "Döndürme Açısı",
     "flipHLabel": "Yatay çevir",
     "flipVLabel": "Dikey çevir",
@@ -194,24 +153,14 @@
     "converting": "Döndürülüyor...",
     "error": "Döndürme sırasında bir hata oluştu.",
     "faq": [
-      {
-        "q": "Taradığım fotoğraf yan duruyor, nasıl düzeltirim?",
-        "a": "İhtiyacınız olan yöne anında düzeltmek için 90, 180 veya 270 derece döndürme seçin."
-      },
-      {
-        "q": "Ayna görüntüsü oluşturmak için bir fotoğrafı yatay çevirebilir miyim?",
-        "a": "Evet, yatay çevirme seçeneği görseli soldan sağa aynalar. Dikey çevirme de ayrıca mevcuttur."
-      },
-      {
-        "q": "Telefon fotoğraflarım hep yanlış yönde kaydediliyor, bu sorunu çözer mi?",
-        "a": "Evet, doğru açıya döndürüp yeni sürümü kaydedin; yön o andan itibaren sabit kalır."
-      }
+      { "q": "Taranan fotoğrafım yan duruyor — çevrimiçi ve ücretsiz olarak nasıl düzeltirim?", "a": "İhtiyacınız olan yöne anında düzeltmek için 90, 180 veya 270 derecelik döndürme seçin, kayıt veya yazılım gerekmez." },
+      { "q": "Bir ayna görüntüsü oluşturmak için bir fotoğrafı çevrimiçi olarak yatay olarak çevirebilir miyim?", "a": "Evet, yatay çevirme seçeneği görseli saniyeler içinde soldan sağa yansıtır. Dikey çevirme de ayrıca mevcuttur." },
+      { "q": "Telefon fotoğraflarım yanlış yönde kaydedilmeye devam ediyor — bu çevrimiçi ve ücretsiz olarak düzeltilebilir mi?", "a": "Evet, doğru açıya döndürün ve yeni sürümü kaydedin, o zamandan sonra yön sabit kalır." }
     ]
   },
   "WatermarkImagePage": {
     "title": "Filigran Ekle",
     "description": "Ayarlanabilir opaklık ve konumla görsele metin filigranı ekleyin.",
-    "metaDescription": "Bir fotoğrafa çevrimiçi ve ücretsiz olarak metin filigranı ekleyin — saniyeler içinde ayarlanabilir opaklık ve konumla görsellerinizi izinsiz kullanıma karşı koruyun. Kayıt veya yazılım gerekmez.",
     "textLabel": "Filigran metni",
     "positionLabel": "Konum",
     "opacityLabel": "Opaklık",
@@ -220,24 +169,14 @@
     "converting": "Filigran ekleniyor...",
     "error": "Filigran eklenirken bir hata oluştu.",
     "faq": [
-      {
-        "q": "Fotoğraflarıma telif hakkı filigranı eklemek istiyorum.",
-        "a": "Filigran metninizi girin ve tam istediğiniz gibi stillendirmek için konumunu, opaklığını ve yazı boyutunu ayarlayın."
-      },
-      {
-        "q": "Filigranın opaklığını ve konumunu hassas şekilde ayarlayabilir miyim?",
-        "a": "Evet, hassas kontrol için opaklık kaydırıcısını ve 9 konumlu yerleşim ızgarasını kullanın."
-      },
-      {
-        "q": "Fotoğraflarımın kaynak belirtilmeden yeniden kullanılmasını engellemek istiyorum.",
-        "a": "Evet, görünür bir filigran eklemek sahipliği belirtmeye yardımcı olur ve izinsiz kullanımı caydırır."
-      }
+      { "q": "Fotoğraflarıma çevrimiçi ve ücretsiz olarak telif hakkı filigranı eklemek istiyorum.", "a": "Filigran metninizi girin ve konumunu, opaklığını ve yazı tipi boyutunu tam istediğiniz gibi stillendirmek için ayarlayın, kayıt veya yazılım gerekmez." },
+      { "q": "Filigranın opaklığını ve konumunu çevrimiçi olarak ince ayar yapabilir miyim?", "a": "Evet, tarayıcınızda doğrudan hassas bir şekilde kontrol etmek için opaklık kaydırıcısını ve 9 konumlu yerleştirme ızgarasını kullanın." },
+      { "q": "Fotoğraflarımın izin verilmeden yeniden kullanılmasını önlemek istiyorum — çevrimiçi bir filigran yardımcı olur mu?", "a": "Evet, çevrimiçi görünür bir filigran eklemek sahipliği belirtmeye yardımcı olur ve görsellerinizin izinsiz kullanımını caydırır." }
     ]
   },
   "MemeGeneratorPage": {
     "title": "Meme Oluşturucu",
     "description": "Üst ve alt metin ekleyerek hızlıca bir meme görseli oluşturun.",
-    "metaDescription": "Çevrimiçi ve ücretsiz olarak meme oluşturun — klasik meme yazı tipi ve stiliyle herhangi bir görsele saniyeler içinde üst ve alt yazı ekleyin. Kayıt veya yazılım gerekmez.",
     "topTextLabel": "Üst metin",
     "topTextPlaceholder": "örn. WHEN THE CODE",
     "bottomTextLabel": "Alt metin",
@@ -246,47 +185,27 @@
     "converting": "Meme oluşturuluyor...",
     "error": "Meme oluşturulurken bir hata oluştu.",
     "faq": [
-      {
-        "q": "Bir meme görseline altyazı tarzı metin ekleyebilir miyim?",
-        "a": "Evet, metninizi üst ve alt alanlara yazın, otomatik olarak beyaz kenarlıklı kalın meme tarzı harflerle eklenir."
-      },
-      {
-        "q": "İkisi yerine sadece üst veya alt altyazı kullanabilir miyim?",
-        "a": "Evet, sadece üst veya alt alanı doldurmak da sorunsuz çalışır."
-      },
-      {
-        "q": "Tamamlanan memeyi hemen indirebilir miyim?",
-        "a": "Evet, oluştur düğmesine tıklamak tamamlanan memenizi hemen indirir."
-      }
+      { "q": "Bir meme görseline çevrimiçi ve ücretsiz olarak altyazı tarzı metin ekleyebilir miyim?", "a": "Evet, metninizi üst ve alt alanlara yazın, otomatik olarak kalın, beyaz kenarlıklı meme tarzı harflerle eklenir, kayıt veya yazılım gerekmez." },
+      { "q": "Çevrimiçi bir meme oluştururken ikisi yerine sadece üst veya alt altyazı kullanabilir miyim?", "a": "Evet, yalnızca üst veya alt alanı doldurmak da sorunsuz çalışır." },
+      { "q": "Kayıt olmadan tamamlanan memeyi hemen indirebilir miyim?", "a": "Evet, oluştur düğmesine tıklamak tamamlanan memenizi anında, tamamen ücretsiz olarak indirir." }
     ]
   },
   "RemoveExifPage": {
     "title": "Meta Verileri Kaldır",
     "description": "Gizliliğinizi korumak için fotoğraflarınızdaki konum ve cihaz bilgilerini (EXIF) kaldırın. Birden fazla görseli tek seferde işleyin.",
-    "metaDescription": "Fotoğraflardan EXIF verilerini çevrimiçi ve ücretsiz olarak kaldırın — paylaşmadan önce gizliliğinizi korumak için GPS konumunu, kamera modelini ve cihaz meta verilerini saniyeler içinde silin. Kayıt veya yazılım gerekmez, birden fazla görseli toplu işleyin.",
     "infoText": "Fotoğraflarınızdaki GPS konumu, kamera modeli, çekim tarihi ve diğer gizli veriler tamamen kaldırılır. Görsel kalitesi ve yönü aynı kalır.",
     "submit": "Meta Verileri Kaldır",
     "converting": "Kaldırılıyor...",
     "error": "Meta veriler kaldırılırken bir hata oluştu.",
     "faq": [
-      {
-        "q": "Bir fotoğrafa gömülü konum (GPS) verilerini kaldırmak istiyorum.",
-        "a": "Meta veri kaldırma aracı, GPS konumu, cihaz modeli ve çekim tarihi dahil tüm EXIF verilerini siler."
-      },
-      {
-        "q": "İkinci el pazar yeri ilanları için paylaştığım fotoğraflarda konumumun görünmesinden endişeleniyorum.",
-        "a": "Evet, bir fotoğrafı bu araçla işlemek konum dahil tüm gömülü meta verileri kaldırır, böylece paylaşmak güvenli olur."
-      },
-      {
-        "q": "Meta veri kaldırmak fotoğrafın kalitesini veya yönünü değiştirir mi?",
-        "a": "Hayır, görüntü kalitesi ve yön tamamen aynı kalır; sadece gizli meta veri kaldırılır."
-      }
+      { "q": "Bir fotoğrafa gömülü konum (GPS) verilerini çevrimiçi ve ücretsiz olarak nasıl kaldırırım?", "a": "Meta veri kaldırma aracı, GPS konumu, cihaz modeli ve çekim tarihi dahil tüm EXIF verilerini siler, kayıt veya yazılım gerekmez." },
+      { "q": "Çevrimiçi pazar yeri ilanları için paylaştığım fotoğraflarda konumumun görünmesinden endişeleniyorum — bunu düzeltebilir miyim?", "a": "Evet, bir fotoğrafı bu ücretsiz çevrimiçi araçla işlemek, konum dahil tüm gömülü meta verileri kaldırır, böylece paylaşmak güvenlidir." },
+      { "q": "Meta verileri çevrimiçi olarak kaldırmak fotoğrafın kalitesini veya yönünü değiştirir mi?", "a": "Hayır, görsel kalitesi ve yönü tamamen aynı kalır — yalnızca gizli meta veriler kaldırılır." }
     ]
   },
   "MergeImagesPage": {
     "title": "Görselleri Birleştir",
     "description": "Birden fazla görseli yatay, dikey veya ızgara şeklinde tek bir görselde birleştirin.",
-    "metaDescription": "Birden fazla görseli çevrimiçi ve ücretsiz olarak tek bir görselde birleştirin — fotoğrafları saniyeler içinde yatay, dikey veya ızgara düzeninde birleştirin. Kayıt veya yazılım gerekmez.",
     "layoutLabel": "Düzen",
     "layoutHorizontal": "Yan yana",
     "layoutVertical": "Alt alta",
@@ -296,18 +215,9 @@
     "converting": "Birleştiriliyor...",
     "error": "Görseller birleştirilirken bir hata oluştu.",
     "faq": [
-      {
-        "q": "Sosyal medyada paylaşmak için birden fazla fotoğrafı tek bir görselde birleştirmek istiyorum.",
-        "a": "Evet, birden fazla görsel yükleyin ve bunları tek bir görselde birleştirmek için yatay, dikey veya ızgara düzeni seçin."
-      },
-      {
-        "q": "Birden fazla fotoğraftan kolaj yapabilir miyim?",
-        "a": "Evet, ızgara düzenini seçmek fotoğraflarınızı otomatik olarak kolaj tarzı bir ızgara halinde düzenler."
-      },
-      {
-        "q": "Görseller arasındaki boşluğu ayarlayabilir miyim?",
-        "a": "Evet, görseller arasındaki boşluğu 0 ile 40px arasında kontrol etmek için boşluk ayarını kullanın."
-      }
+      { "q": "Sosyal medyada paylaşmak için birden fazla fotoğrafı çevrimiçi ve ücretsiz olarak tek bir görselde nasıl birleştiririm?", "a": "Evet, birden fazla görsel yükleyin ve bunları tek bir görselde birleştirmek için yatay, dikey veya ızgara düzeni seçin, kayıt veya yazılım gerekmez." },
+      { "q": "Birden fazla fotoğraftan çevrimiçi ve ücretsiz olarak bir fotoğraf kolajı yapabilir miyim?", "a": "Evet, ızgara düzenini seçmek fotoğraflarınızı saniyeler içinde otomatik olarak kolaj tarzı bir ızgaraya düzenler." },
+      { "q": "Görselleri çevrimiçi birleştirirken aralarındaki boşluğu ayarlayabilir miyim?", "a": "Evet, görseller arasındaki boşluğu 0 ile 40px arasında kontrol etmek için boşluk ayarını kullanın." }
     ]
   },
   "LanguageSwitcher": {

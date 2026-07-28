@@ -79,31 +79,20 @@
   "CompressImagePage": {
     "title": "Afbeelding comprimeren",
     "description": "Verklein JPG-, PNG-, WEBP- en TIFF-bestanden met behoud van kwaliteit. Verwerk meerdere afbeeldingen tegelijk.",
-    "metaDescription": "Comprimeer JPG-, PNG-, WEBP- of TIFF-afbeeldingen online en gratis — verklein de bestandsgrootte van foto's in enkele seconden zonder veel kwaliteitsverlies, ideaal voor websites en e-mail. Zonder registratie of software, met batchverwerking van meerdere afbeeldingen tegelijk.",
     "qualityLabel": "Compressiekwaliteit",
     "qualityHint": "Lagere waarden verkleinen het bestand, maar verlagen ook de kwaliteit.",
     "submit": "Afbeelding comprimeren",
     "converting": "Bezig met comprimeren...",
     "error": "Er is een fout opgetreden tijdens het comprimeren.",
     "faq": [
-      {
-        "q": "Vermindert het comprimeren van een afbeelding de kwaliteit sterk?",
-        "a": "Gebruik de kwaliteitsschuif om zelf de balans tussen bestandsgrootte en kwaliteit te bepalen. Rond de 70-80% ziet er meestal bijna hetzelfde uit terwijl de bestandsgrootte flink afneemt."
-      },
-      {
-        "q": "Hoe voldoe ik aan een bestandsgroottelimiet voor een overheidsinstantie?",
-        "a": "Verlaag de kwaliteit totdat het resultaat onder de vereiste grootte valt. De meeste limieten (2MB, 5MB, enz.) worden gehaald met ongeveer 70% kwaliteit."
-      },
-      {
-        "q": "Ik moet foto's verkleinen voor e-mail of berichten-apps met een bijlagelimiet.",
-        "a": "Ja, upload meerdere afbeeldingen tegelijk en comprimeer ze allemaal in één keer naar de gewenste kwaliteit; het resultaat wordt samen als ZIP gedownload."
-      }
+      { "q": "Vermindert het online comprimeren van een afbeelding de kwaliteit sterk?", "a": "Gebruik de kwaliteitsschuif om zelf bestandsgrootte en beeldkwaliteit te balanceren — zonder registratie of software nodig. Rond 70-80% ziet er meestal bijna identiek uit terwijl de bestandsgrootte flink wordt verkleind." },
+      { "q": "Hoe comprimeer ik een foto online en gratis om aan een bestandsgroottelimiet voor een overheids- of officiële indiening te voldoen?", "a": "Verlaag de kwaliteitsinstelling totdat de uitvoer onder de vereiste grootte valt. De meeste limieten (2MB, 5MB, enz.) kunnen worden gehaald met ongeveer 70% kwaliteit, gratis en online." },
+      { "q": "Ik moet foto's verkleinen voor e-mail of berichten-apps met bijlagelimieten — kan ik er online meerdere tegelijk doen?", "a": "Ja, upload meerdere afbeeldingen tegelijk en comprimeer ze allemaal naar de gekozen kwaliteit in één keer online en gratis — de resultaten worden samen als ZIP gedownload." }
     ]
   },
   "ResizeImagePage": {
     "title": "Afbeelding formaat wijzigen",
     "description": "Wijzig het formaat van afbeeldingen in pixels of percentage. Verwerk meerdere afbeeldingen tegelijk.",
-    "metaDescription": "Wijzig de grootte van afbeeldingen online en gratis — verander de fotoafmetingen naar elke pixelgrootte of elk percentage in enkele seconden, voor social media, websites of afdrukken. Zonder registratie of software, met batch-resizing van meerdere afbeeldingen.",
     "modePixel": "In pixels",
     "modePercent": "In percentage",
     "widthLabel": "Breedte (px)",
@@ -118,24 +107,14 @@
     "converting": "Formaat wordt gewijzigd...",
     "error": "Er is een fout opgetreden bij het wijzigen van het formaat.",
     "faq": [
-      {
-        "q": "Hoe verklein ik een foto naar een specifiek afdrukformaat, zoals een pasfoto?",
-        "a": "Schakel naar pixelmodus en voer de exacte breedte en hoogte in die je nodig hebt; paspoortfoto's zijn bijvoorbeeld meestal rond de 413x531px."
-      },
-      {
-        "q": "Kan ik een afbeelding aanpassen aan Instagram profiel- of storyformaat?",
-        "a": "Ja, voer gewoon de exacte pixelgrootte in die je nodig hebt (bijv. 320x320px voor een profielfoto, 1080x1920px voor een story)."
-      },
-      {
-        "q": "Kan ik meerdere foto's tegelijk naar dezelfde grootte aanpassen?",
-        "a": "Ja, upload meerdere afbeeldingen en ze worden allemaal met dezelfde instellingen aangepast, daarna samen als ZIP gedownload."
-      }
+      { "q": "Hoe verander ik online en gratis de grootte van een foto naar een specifiek afdrukformaat, zoals een pasfoto?", "a": "Schakel over naar pixelmodus en voer de exacte breedte en hoogte in die je nodig hebt — pasfoto's zijn bijvoorbeeld meestal rond 413x531px. Zonder registratie of software vereist." },
+      { "q": "Kan ik een afbeelding online en gratis aanpassen aan Instagram profiel- of storyafmetingen?", "a": "Ja, voer gewoon de exacte pixelgrootte in die je nodig hebt (bijv. 320x320px voor een profielfoto, 1080x1920px voor een story) en wijzig de grootte in enkele seconden." },
+      { "q": "Kan ik meerdere foto's tegelijk online naar dezelfde grootte aanpassen?", "a": "Ja, upload meerdere afbeeldingen en ze worden allemaal met dezelfde instellingen aangepast, daarna samen als ZIP gedownload — zonder software te installeren." }
     ]
   },
   "CropImagePage": {
     "title": "Afbeelding bijsnijden",
     "description": "Snijd het gewenste gebied bij met pixelcoördinaten.",
-    "metaDescription": "Snijd een afbeelding online en gratis bij — pas een foto in enkele seconden aan op elk gebied via pixelcoördinaten, ideaal voor profielfoto's of thumbnails. Zonder registratie of software.",
     "previewAlt": "Voorbeeld",
     "originalSize": "Oorspronkelijke grootte: {width} x {height}px",
     "xLabel": "X (marge links)",
@@ -146,47 +125,27 @@
     "cropping": "Bezig met bijsnijden...",
     "error": "Er is een fout opgetreden tijdens het bijsnijden.",
     "faq": [
-      {
-        "q": "Hoe snijd ik een foto vierkant bij, bijvoorbeeld voor een profielfoto?",
-        "a": "Voer dezelfde waarde in voor breedte en hoogte om een perfect vierkant te krijgen, en stel de X/Y-coördinaten in van het gebied dat je wilt behouden."
-      },
-      {
-        "q": "Kan ik alleen de ongewenste achtergrond uit een foto knippen?",
-        "a": "Ja, geef de X/Y-positie en breedte/hoogte op van het gebied dat je wilt behouden, en al de rest wordt verwijderd."
-      },
-      {
-        "q": "Kan ik bijsnijden met exacte pixelcoördinaten?",
-        "a": "Ja, je kunt het exacte X/Y-startpunt en de breedte/hoogte in pixels instellen voor een precieze uitsnede."
-      }
+      { "q": "Hoe snijd ik een foto online en gratis vierkant bij, bijvoorbeeld voor een profielfoto?", "a": "Voer dezelfde waarde in voor breedte en hoogte om een perfect vierkant te krijgen, en stel de X/Y-coördinaten in van het gebied dat je wilt behouden — gratis en zonder registratie." },
+      { "q": "Kan ik online en gratis alleen de ongewenste achtergrond uit een foto knippen?", "a": "Ja, geef de X/Y-positie en breedte/hoogte op van het gebied dat je wilt behouden, en alles daarbuiten wordt in enkele seconden verwijderd." },
+      { "q": "Kan ik een afbeelding online bijsnijden met exacte pixelcoördinaten?", "a": "Ja, je kunt het exacte X/Y-startpunt en de breedte/hoogte in pixels instellen voor nauwkeurig bijsnijden, zonder software te installeren." }
     ]
   },
   "ConvertImagePage": {
     "title": "Afbeelding converteren",
     "description": "Converteer vrij tussen JPG, PNG, WEBP, GIF, BMP en TIFF. Verwerk meerdere afbeeldingen tegelijk.",
-    "metaDescription": "Converteer afbeeldingen tussen JPG, PNG, WEBP, GIF, BMP en TIFF online en gratis — wijzig het afbeeldingsformaat in enkele seconden zonder kwaliteitsverlies. Zonder registratie of software, met batchconversie van meerdere bestanden tegelijk.",
     "formatLabel": "Converteren naar",
     "submit": "Converteren naar {format}",
     "converting": "Bezig met converteren...",
     "error": "Er is een fout opgetreden tijdens het converteren.",
     "faq": [
-      {
-        "q": "Wat gebeurt er met transparantie als ik PNG naar JPG converteer?",
-        "a": "JPG ondersteunt geen transparantie, dus transparante delen worden opgevuld met een witte achtergrond."
-      },
-      {
-        "q": "Kan ik een GIF omzetten naar een stilstaand beeld?",
-        "a": "Ja, het converteren van een GIF naar PNG of JPG slaat het eerste frame op als een stilstaand beeld."
-      },
-      {
-        "q": "Waarom zou ik een afbeelding naar WEBP converteren voor mijn website?",
-        "a": "WEBP-bestanden zijn bij dezelfde kwaliteit meestal kleiner dan JPG of PNG, wat helpt om je website sneller te laten laden."
-      }
+      { "q": "Wat gebeurt er met transparantie bij het online en gratis omzetten van PNG naar JPG?", "a": "JPG ondersteunt geen transparantie, dus transparante gebieden worden opgevuld met een witte achtergrond — de conversie is gratis en werkt in je browser." },
+      { "q": "Kan ik een GIF online en gratis omzetten naar een stilstaand beeld?", "a": "Ja, het omzetten van een GIF naar PNG of JPG slaat het eerste beeld op als statisch beeld, zonder registratie of software nodig." },
+      { "q": "Waarom zou ik een afbeelding online omzetten naar WEBP voor mijn website?", "a": "WEBP-bestanden zijn bij dezelfde kwaliteit meestal kleiner dan JPG of PNG, wat je website helpt sneller te laden — zet het online in enkele seconden om." }
     ]
   },
   "RotateImagePage": {
     "title": "Afbeelding draaien",
     "description": "Draai afbeeldingen in elke gewenste hoek of spiegel ze horizontaal/verticaal. Verwerk meerdere afbeeldingen tegelijk.",
-    "metaDescription": "Draai of spiegel een afbeelding online en gratis — corrigeer een scheve foto of spiegel deze horizontaal of verticaal in enkele seconden. Zonder registratie of software, met batchverwerking van meerdere afbeeldingen.",
     "angleLabel": "Draaihoek",
     "flipHLabel": "Horizontaal spiegelen",
     "flipVLabel": "Verticaal spiegelen",
@@ -194,24 +153,14 @@
     "converting": "Bezig met draaien...",
     "error": "Er is een fout opgetreden tijdens het draaien.",
     "faq": [
-      {
-        "q": "Mijn gescande foto ligt op zijn kant, hoe zet ik hem recht?",
-        "a": "Kies een rotatie van 90, 180 of 270 graden om hem direct naar de juiste stand te draaien."
-      },
-      {
-        "q": "Kan ik een foto horizontaal spiegelen?",
-        "a": "Ja, de optie voor horizontaal spiegelen keert de afbeelding links-rechts om. Verticaal spiegelen is ook apart beschikbaar."
-      },
-      {
-        "q": "Mijn telefoonfoto's worden steeds in de verkeerde stand opgeslagen, kan dit dit oplossen?",
-        "a": "Ja, draai de foto naar de juiste hoek en sla de nieuwe versie op; de stand blijft daarna vastgezet."
-      }
+      { "q": "Mijn gescande foto staat scheef — hoe recht ik hem online en gratis?", "a": "Kies een rotatie van 90, 180 of 270 graden om hem direct recht te zetten in de gewenste oriëntatie, zonder registratie of software vereist." },
+      { "q": "Kan ik een foto online horizontaal spiegelen om een spiegelbeeld te maken?", "a": "Ja, de optie horizontaal spiegelen spiegelt de afbeelding in enkele seconden van links naar rechts. Verticaal spiegelen is ook apart beschikbaar." },
+      { "q": "Mijn telefoonfoto's blijven in de verkeerde oriëntatie opslaan — kan dit online en gratis worden opgelost?", "a": "Ja, draai hem naar de juiste hoek en sla de nieuwe versie op, en de oriëntatie blijft daarna vast." }
     ]
   },
   "WatermarkImagePage": {
     "title": "Watermerk toevoegen",
     "description": "Voeg een tekstwatermerk toe aan de afbeelding met instelbare dekking en positie.",
-    "metaDescription": "Voeg online en gratis een tekstwatermerk toe aan een foto — bescherm je afbeeldingen tegen onbevoegd gebruik met instelbare dekking en positie in enkele seconden. Zonder registratie of software.",
     "textLabel": "Watermerktekst",
     "positionLabel": "Positie",
     "opacityLabel": "Dekking",
@@ -220,24 +169,14 @@
     "converting": "Watermerk wordt toegevoegd...",
     "error": "Er is een fout opgetreden bij het toevoegen van het watermerk.",
     "faq": [
-      {
-        "q": "Ik wil een copyright-watermerk aan mijn foto's toevoegen.",
-        "a": "Voer je watermerktekst in en pas positie, dekking en lettergrootte aan om het precies te stylen zoals je wilt."
-      },
-      {
-        "q": "Kan ik de dekking en positie van het watermerk nauwkeurig aanpassen?",
-        "a": "Ja, gebruik de dekkingsschuif en het 9-posities rooster om het precies te regelen."
-      },
-      {
-        "q": "Ik wil voorkomen dat anderen mijn foto's zonder bronvermelding hergebruiken.",
-        "a": "Ja, een zichtbaar watermerk toevoegen helpt om eigendom aan te geven en ontmoedigt ongeautoriseerd gebruik."
-      }
+      { "q": "Ik wil een copyright-watermerk online en gratis aan mijn foto's toevoegen.", "a": "Voer je watermerktekst in en pas de positie, dekking en lettergrootte aan om het precies te stylen zoals je wilt, zonder registratie of software nodig." },
+      { "q": "Kan ik de dekking en positie van het watermerk online fijn afstellen?", "a": "Ja, gebruik de dekkingsschuif en het 9-posities plaatsingsraster om het precies te regelen, direct in je browser." },
+      { "q": "Ik wil voorkomen dat mensen mijn foto's zonder bronvermelding hergebruiken — helpt een online watermerk?", "a": "Ja, het online toevoegen van een zichtbaar watermerk helpt om eigendom te markeren en ontmoedigt ongeoorloofd gebruik van je afbeeldingen." }
     ]
   },
   "MemeGeneratorPage": {
     "title": "Memegenerator",
     "description": "Voeg boven- en ondertekst toe om snel een meme-afbeelding te maken.",
-    "metaDescription": "Maak online en gratis een meme — voeg boven- en ondertekst toe aan elke afbeelding in enkele seconden met het klassieke meme-lettertype en de klassieke stijl. Zonder registratie of software.",
     "topTextLabel": "Boventekst",
     "topTextPlaceholder": "bijv. WHEN THE CODE",
     "bottomTextLabel": "Ondertekst",
@@ -246,47 +185,27 @@
     "converting": "Meme wordt gemaakt...",
     "error": "Er is een fout opgetreden bij het maken van de meme.",
     "faq": [
-      {
-        "q": "Kan ik onderschrift-achtige tekst toevoegen aan een meme-afbeelding?",
-        "a": "Ja, typ je tekst in de boven- en ondervelden en deze wordt automatisch toegevoegd in vetgedrukte meme-stijl letters met witte rand."
-      },
-      {
-        "q": "Kan ik alleen een boven- of ondertekst gebruiken in plaats van beide?",
-        "a": "Ja, alleen het boven- of onderveld invullen werkt ook prima."
-      },
-      {
-        "q": "Kan ik de voltooide meme direct downloaden?",
-        "a": "Ja, klikken op de maak-knop downloadt je voltooide meme direct."
-      }
+      { "q": "Kan ik online en gratis onderschrift-stijl tekst aan een memeafbeelding toevoegen?", "a": "Ja, typ je tekst in de boven- en ondervelden en het wordt automatisch toegevoegd in vetgedrukte, wit omrande memestijl-letters, zonder registratie of software nodig." },
+      { "q": "Kan ik online bij het maken van een meme slechts een boven- of onderonderschrift gebruiken in plaats van beide?", "a": "Ja, alleen het boven- of onderveld invullen werkt ook prima." },
+      { "q": "Kan ik de voltooide meme direct downloaden zonder me te registreren?", "a": "Ja, klikken op de maak-knop downloadt je voltooide meme onmiddellijk, volledig gratis." }
     ]
   },
   "RemoveExifPage": {
     "title": "Metadata verwijderen",
     "description": "Verwijder locatie- en apparaatinformatie (EXIF) uit je foto's om je privacy te beschermen. Verwerk meerdere afbeeldingen tegelijk.",
-    "metaDescription": "Verwijder EXIF-gegevens uit foto's online en gratis — wis GPS-locatie, cameramodel en apparaatmetadata om je privacy te beschermen vóór het delen, in enkele seconden. Zonder registratie of software, met batchverwerking van meerdere afbeeldingen.",
     "infoText": "GPS-locatie, cameramodel, opnamedatum en andere verborgen gegevens in je foto's worden volledig verwijderd. Beeldkwaliteit en oriëntatie blijven ongewijzigd.",
     "submit": "Metadata verwijderen",
     "converting": "Bezig met verwijderen...",
     "error": "Er is een fout opgetreden bij het verwijderen van de metadata.",
     "faq": [
-      {
-        "q": "Ik wil de locatiegegevens (GPS) verwijderen die in een foto zijn ingebed.",
-        "a": "De metadata-verwijderingstool wist alle EXIF-gegevens, inclusief GPS-locatie, apparaatmodel en opnamedatum."
-      },
-      {
-        "q": "Ik maak me zorgen dat mijn locatie zichtbaar is in foto's die ik voor advertenties plaats.",
-        "a": "Ja, het verwerken van een foto met deze tool verwijdert alle ingebedde metadata, inclusief locatie, waardoor het veilig is om te delen."
-      },
-      {
-        "q": "Verandert het verwijderen van metadata de kwaliteit of oriëntatie van de foto?",
-        "a": "Nee, de beeldkwaliteit en oriëntatie blijven precies hetzelfde; alleen de verborgen metadata wordt verwijderd."
-      }
+      { "q": "Hoe verwijder ik de locatiegegevens (GPS) die in een foto zijn ingesloten, online en gratis?", "a": "De tool voor het verwijderen van metadata verwijdert alle EXIF-gegevens, inclusief GPS-locatie, apparaatmodel en opnamedatum, zonder registratie of software nodig." },
+      { "q": "Ik maak me zorgen dat mijn locatie zichtbaar is in foto's die ik plaats voor online marktplaatsadvertenties — kan ik dit oplossen?", "a": "Ja, het verwerken van een foto met deze gratis online tool verwijdert alle ingesloten metadata, inclusief locatie, dus het is veilig om te delen." },
+      { "q": "Verandert het online verwijderen van metadata de kwaliteit of oriëntatie van de foto?", "a": "Nee, beeldkwaliteit en oriëntatie blijven precies hetzelfde — alleen de verborgen metadata wordt verwijderd." }
     ]
   },
   "MergeImagesPage": {
     "title": "Afbeeldingen samenvoegen",
     "description": "Combineer meerdere afbeeldingen tot één, horizontaal, verticaal of als raster.",
-    "metaDescription": "Voeg meerdere afbeeldingen samen tot één online en gratis — combineer foto's horizontaal, verticaal of in een rasterindeling in enkele seconden. Zonder registratie of software.",
     "layoutLabel": "Indeling",
     "layoutHorizontal": "Naast elkaar",
     "layoutVertical": "Onder elkaar",
@@ -296,18 +215,9 @@
     "converting": "Bezig met samenvoegen...",
     "error": "Er is een fout opgetreden bij het samenvoegen van de afbeeldingen.",
     "faq": [
-      {
-        "q": "Ik wil meerdere foto's combineren tot één afbeelding om op sociale media te plaatsen.",
-        "a": "Ja, upload meerdere afbeeldingen en kies een horizontale, verticale of raster-indeling om ze tot één te combineren."
-      },
-      {
-        "q": "Kan ik een collage maken van meerdere foto's?",
-        "a": "Ja, het kiezen van de rasterindeling rangschikt je foto's automatisch in een collage-achtig raster."
-      },
-      {
-        "q": "Kan ik de ruimte tussen afbeeldingen aanpassen?",
-        "a": "Ja, gebruik de afstandsinstelling om de ruimte tussen afbeeldingen van 0 tot 40px te regelen."
-      }
+      { "q": "Hoe combineer ik meerdere foto's online en gratis tot één afbeelding om op sociale media te plaatsen?", "a": "Ja, upload meerdere afbeeldingen en kies een horizontale, verticale of rasterindeling om ze tot één samen te voegen, zonder registratie of software vereist." },
+      { "q": "Kan ik online en gratis een fotocollage maken van meerdere foto's?", "a": "Ja, het kiezen van de rasterindeling rangschikt je foto's automatisch in enkele seconden in een collage-achtig raster." },
+      { "q": "Kan ik de ruimte tussen afbeeldingen online aanpassen bij het samenvoegen?", "a": "Ja, gebruik de tussenruimte-instelling om de ruimte tussen afbeeldingen te regelen van 0 tot 40px." }
     ]
   },
   "LanguageSwitcher": {
