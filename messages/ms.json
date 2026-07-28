@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "Mampatkan Imej",
     "description": "Kecilkan saiz fail JPG, PNG, WEBP dan TIFF sambil mengekalkan kualiti. Proses beberapa imej sekali gus.",
+    "metaDescription": "Mampatkan imej JPG, PNG, WEBP atau TIFF secara dalam talian dan percuma — kecilkan saiz fail foto dalam beberapa saat tanpa kehilangan banyak kualiti, sesuai untuk laman web dan e-mel. Tanpa pendaftaran atau perisian, proses banyak imej sekali gus secara kelompok.",
     "qualityLabel": "Kualiti Mampatan",
     "qualityHint": "Nilai lebih rendah mengecilkan saiz fail, tetapi turut menurunkan kualiti imej.",
     "submit": "Mampatkan Imej",
@@ -102,6 +103,7 @@
   "ResizeImagePage": {
     "title": "Ubah Saiz Imej",
     "description": "Ubah saiz imej mengikut piksel atau peratusan. Proses beberapa imej sekali gus.",
+    "metaDescription": "Ubah saiz imej secara dalam talian dan percuma — tukar dimensi foto kepada sebarang saiz piksel atau peratusan dalam beberapa saat, untuk media sosial, laman web atau percetakan. Tanpa pendaftaran atau perisian, ubah saiz banyak imej sekali gus secara kelompok.",
     "modePixel": "Mengikut piksel",
     "modePercent": "Mengikut peratusan",
     "widthLabel": "Lebar (px)",
@@ -133,6 +135,7 @@
   "CropImagePage": {
     "title": "Potong Imej",
     "description": "Potong kawasan yang dikehendaki dengan menetapkan koordinat piksel.",
+    "metaDescription": "Pangkas imej secara dalam talian dan percuma — pangkas foto kepada mana-mana kawasan mengikut koordinat piksel dalam beberapa saat, sesuai untuk gambar profil atau lakaran kecil. Tanpa pendaftaran atau perisian.",
     "previewAlt": "Pratonton",
     "originalSize": "Saiz asal: {width} x {height}px",
     "xLabel": "X (jidar kiri)",
@@ -160,6 +163,7 @@
   "ConvertImagePage": {
     "title": "Tukar Imej",
     "description": "Tukar dengan bebas antara JPG, PNG, WEBP, GIF, BMP dan TIFF. Proses beberapa imej sekali gus.",
+    "metaDescription": "Tukar imej antara JPG, PNG, WEBP, GIF, BMP dan TIFF secara dalam talian dan percuma — tukar format imej dalam beberapa saat tanpa kehilangan kualiti. Tanpa pendaftaran atau perisian, tukar banyak fail sekali gus secara kelompok.",
     "formatLabel": "Tukar kepada",
     "submit": "Tukar kepada {format}",
     "converting": "Sedang menukar...",
@@ -182,6 +186,7 @@
   "RotateImagePage": {
     "title": "Putar Imej",
     "description": "Putar imej pada sudut yang dikehendaki atau terbalikkan secara mendatar/menegak. Proses beberapa imej sekali gus.",
+    "metaDescription": "Putar atau lipat imej secara dalam talian dan percuma — betulkan foto yang senget atau balikkannya secara mendatar atau menegak dalam beberapa saat. Tanpa pendaftaran atau perisian, proses banyak imej sekali gus secara kelompok.",
     "angleLabel": "Sudut Putaran",
     "flipHLabel": "Terbalik mendatar",
     "flipVLabel": "Terbalik menegak",
@@ -206,6 +211,7 @@
   "WatermarkImagePage": {
     "title": "Tambah Tera Air",
     "description": "Tambah tera air teks pada imej dengan kelegapan dan kedudukan yang boleh disesuaikan.",
+    "metaDescription": "Tambah tera air teks pada foto secara dalam talian dan percuma — lindungi imej anda daripada penggunaan tanpa kebenaran dengan kelegapan dan kedudukan yang boleh dilaraskan dalam beberapa saat. Tanpa pendaftaran atau perisian.",
     "textLabel": "Teks tera air",
     "positionLabel": "Kedudukan",
     "opacityLabel": "Kelegapan",
@@ -231,6 +237,7 @@
   "MemeGeneratorPage": {
     "title": "Penjana Meme",
     "description": "Tambah teks di atas dan bawah untuk mencipta imej meme dengan cepat.",
+    "metaDescription": "Cipta meme secara dalam talian dan percuma — tambah teks atas dan bawah pada mana-mana imej dalam beberapa saat dengan fon dan gaya meme klasik. Tanpa pendaftaran atau perisian.",
     "topTextLabel": "Teks atas",
     "topTextPlaceholder": "cth. WHEN THE CODE",
     "bottomTextLabel": "Teks bawah",
@@ -256,6 +263,7 @@
   "RemoveExifPage": {
     "title": "Alih Keluar Metadata",
     "description": "Alih keluar maklumat lokasi dan peranti (EXIF) daripada gambar anda untuk melindungi privasi. Proses beberapa imej sekali gus.",
+    "metaDescription": "Buang data EXIF daripada foto secara dalam talian dan percuma — padam lokasi GPS, model kamera dan metadata peranti untuk melindungi privasi anda sebelum berkongsi, dalam beberapa saat. Tanpa pendaftaran atau perisian, proses banyak imej sekali gus secara kelompok.",
     "infoText": "Lokasi GPS, model kamera, tarikh diambil dan data tersembunyi lain dalam gambar anda akan dialih keluar sepenuhnya. Kualiti dan orientasi imej kekal sama.",
     "submit": "Alih Keluar Metadata",
     "converting": "Sedang mengalih keluar...",
@@ -278,6 +286,7 @@
   "MergeImagesPage": {
     "title": "Cantumkan Imej",
     "description": "Gabungkan beberapa imej menjadi satu, disusun secara mendatar, menegak atau grid.",
+    "metaDescription": "Gabungkan beberapa imej menjadi satu secara dalam talian dan percuma — gabungkan foto secara mendatar, menegak atau dalam susun atur grid dalam beberapa saat. Tanpa pendaftaran atau perisian.",
     "layoutLabel": "Susun atur",
     "layoutHorizontal": "Bersebelahan",
     "layoutVertical": "Bertindan",

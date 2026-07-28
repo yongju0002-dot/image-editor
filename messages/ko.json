@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "이미지 압축",
     "description": "화질은 유지하면서 JPG, PNG, WEBP, TIFF 이미지 용량을 줄여보세요. 아이폰 사진, 구글폼·관공서 제출용 이미지도 화질 저하 없이 용량만 빠르게 줄일 수 있어요. 여러 장을 한 번에 처리할 수 있어요.",
+    "metaDescription": "JPG, PNG, WEBP, TIFF 이미지를 온라인에서 무료로 압축하세요 — 화질 손실 없이 몇 초 만에 사진 용량을 줄일 수 있어 웹사이트나 이메일 첨부에 딱입니다. 회원가입 없이 여러 장을 한 번에 압축할 수 있습니다.",
     "qualityLabel": "압축 품질",
     "qualityHint": "값이 낮을수록 용량은 줄지만 화질도 함께 낮아져요.",
     "submit": "이미지 압축하기",
@@ -93,6 +94,7 @@
   "ResizeImagePage": {
     "title": "이미지 크기 조절",
     "description": "픽셀 또는 퍼센트로 이미지 크기를 원하는 대로 조절하세요. 이력서·증명사진 규격 맞추기에도 딱이에요. 여러 장을 한 번에 처리할 수 있어요.",
+    "metaDescription": "이미지 크기를 온라인에서 무료로 조절하세요 — 소셜미디어, 웹사이트, 인쇄용으로 몇 초 만에 원하는 픽셀 크기나 비율로 사진을 리사이즈할 수 있습니다. 회원가입 없이 여러 장을 한 번에 처리하세요.",
     "modePixel": "픽셀로 지정",
     "modePercent": "퍼센트로 지정",
     "widthLabel": "너비 (px)",
@@ -115,6 +117,7 @@
   "CropImagePage": {
     "title": "이미지 자르기",
     "description": "픽셀 좌표를 지정해 이미지의 원하는 영역만 잘라내세요. 카카오톡 프로필 사진처럼 정사각형으로 자를 때도 편리해요.",
+    "metaDescription": "이미지를 온라인에서 무료로 자르세요 — 프로필 사진이나 썸네일에 딱 맞게 픽셀 좌표로 원하는 영역만 몇 초 만에 잘라낼 수 있습니다. 회원가입 없이 무료로 이용하세요.",
     "previewAlt": "미리보기",
     "originalSize": "원본 크기: {width} x {height}px",
     "xLabel": "X (왼쪽 여백)",
@@ -133,6 +136,7 @@
   "ConvertImagePage": {
     "title": "이미지 형식 변환",
     "description": "JPG, PNG, WEBP, GIF, BMP, TIFF 간에 자유롭게 변환하세요. 여러 장을 한 번에 처리할 수 있어요.",
+    "metaDescription": "JPG, PNG, WEBP, GIF, BMP, TIFF 이미지 형식을 온라인에서 무료로 자유롭게 변환하세요 — 화질 손실 없이 몇 초 만에 이미지 포맷을 바꿀 수 있습니다. 회원가입 없이 여러 장을 한 번에 변환하세요.",
     "formatLabel": "변환할 형식",
     "submit": "{format} 형식으로 변환하기",
     "converting": "변환하는 중...",
@@ -146,6 +150,7 @@
   "RotateImagePage": {
     "title": "이미지 회전",
     "description": "이미지를 원하는 각도로 회전하거나 좌우/상하로 반전하세요. 여러 장을 한 번에 처리할 수 있어요.",
+    "metaDescription": "이미지를 온라인에서 무료로 회전하거나 뒤집으세요 — 옆으로 찍힌 사진을 바로잡거나 좌우/상하로 반전시키는 것을 몇 초 만에 할 수 있습니다. 회원가입 없이 여러 장을 한 번에 처리하세요.",
     "angleLabel": "회전 각도",
     "flipHLabel": "좌우 반전",
     "flipVLabel": "상하 반전",
@@ -161,6 +166,7 @@
   "WatermarkImagePage": {
     "title": "워터마크 추가",
     "description": "텍스트 워터마크로 이미지에 투명도와 위치를 조절해 삽입하세요.",
+    "metaDescription": "이미지에 텍스트 워터마크를 온라인에서 무료로 추가하세요 — 투명도와 위치를 자유롭게 조절해서 몇 초 만에 무단 사용을 방지할 수 있습니다. 회원가입 없이 무료로 이용하세요.",
     "textLabel": "워터마크 텍스트",
     "positionLabel": "위치",
     "opacityLabel": "투명도",
@@ -177,6 +183,7 @@
   "MemeGeneratorPage": {
     "title": "밈 만들기",
     "description": "상단/하단 텍스트를 넣어 간단하게 밈 이미지를 만들어보세요.",
+    "metaDescription": "온라인에서 무료로 밈을 만드세요 — 클래식한 밈 폰트와 스타일로 이미지 위아래에 몇 초 만에 텍스트를 추가할 수 있습니다. 회원가입 없이 무료로 이용하세요.",
     "topTextLabel": "상단 텍스트",
     "topTextPlaceholder": "예: WHEN THE CODE",
     "bottomTextLabel": "하단 텍스트",
@@ -193,6 +200,7 @@
   "RemoveExifPage": {
     "title": "메타데이터 제거",
     "description": "사진에 담긴 위치·기기 정보(GPS EXIF)를 삭제해 프라이버시를 지키세요. 사진 속 위치정보 유출이 걱정될 때 특히 유용해요. 여러 장을 한 번에 처리할 수 있어요.",
+    "metaDescription": "사진의 EXIF 정보를 온라인에서 무료로 제거하세요 — GPS 위치, 카메라 모델, 기기 정보 같은 메타데이터를 몇 초 만에 삭제해서 공유 전 개인정보를 보호할 수 있습니다. 회원가입 없이 여러 장을 한 번에 처리하세요.",
     "infoText": "GPS 위치, 촬영 기기, 촬영 날짜 등 사진에 담긴 부가 정보가 모두 제거됩니다. 사진의 화질과 회전 방향은 그대로 유지돼요.",
     "submit": "메타데이터 제거하기",
     "converting": "제거하는 중...",
@@ -206,6 +214,7 @@
   "MergeImagesPage": {
     "title": "이미지 합치기",
     "description": "여러 장의 사진을 한 장으로 가로, 세로 또는 격자 형태로 쉽게 합쳐보세요.",
+    "metaDescription": "여러 이미지를 하나로 온라인에서 무료로 합치세요 — 가로, 세로, 또는 그리드 레이아웃으로 몇 초 만에 사진을 합칠 수 있습니다. 회원가입 없이 무료로 이용하세요.",
     "layoutLabel": "배치 방식",
     "layoutHorizontal": "가로로 나란히",
     "layoutVertical": "세로로 나란히",

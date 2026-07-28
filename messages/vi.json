@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "Nén ảnh",
     "description": "Giảm dung lượng ảnh JPG, PNG, WEBP, TIFF trong khi vẫn giữ chất lượng. Xử lý nhiều ảnh cùng lúc.",
+    "metaDescription": "Nén ảnh JPG, PNG, WEBP hoặc TIFF trực tuyến và miễn phí — giảm dung lượng ảnh chỉ trong vài giây mà không mất quá nhiều chất lượng, hoàn hảo cho website và email. Không cần đăng ký hay phần mềm, xử lý hàng loạt nhiều ảnh cùng lúc.",
     "qualityLabel": "Chất lượng nén",
     "qualityHint": "Giá trị càng thấp thì dung lượng càng nhỏ, nhưng chất lượng ảnh cũng giảm.",
     "submit": "Nén ảnh",
@@ -102,6 +103,7 @@
   "ResizeImagePage": {
     "title": "Đổi kích thước ảnh",
     "description": "Thay đổi kích thước ảnh theo pixel hoặc phần trăm. Xử lý nhiều ảnh cùng lúc.",
+    "metaDescription": "Thay đổi kích thước ảnh trực tuyến và miễn phí — điều chỉnh kích thước ảnh theo bất kỳ pixel hoặc phần trăm nào chỉ trong vài giây, dùng cho mạng xã hội, website hoặc in ấn. Không cần đăng ký hay phần mềm, thay đổi kích thước hàng loạt nhiều ảnh.",
     "modePixel": "Theo pixel",
     "modePercent": "Theo phần trăm",
     "widthLabel": "Chiều rộng (px)",
@@ -133,6 +135,7 @@
   "CropImagePage": {
     "title": "Cắt ảnh",
     "description": "Cắt vùng bạn muốn bằng cách chỉ định tọa độ pixel.",
+    "metaDescription": "Cắt ảnh trực tuyến và miễn phí — cắt ảnh theo bất kỳ vùng nào bằng tọa độ pixel chỉ trong vài giây, hoàn hảo cho ảnh đại diện hoặc ảnh thu nhỏ. Không cần đăng ký hay phần mềm.",
     "previewAlt": "Xem trước",
     "originalSize": "Kích thước gốc: {width} x {height}px",
     "xLabel": "X (lề trái)",
@@ -160,6 +163,7 @@
   "ConvertImagePage": {
     "title": "Chuyển đổi ảnh",
     "description": "Chuyển đổi tự do giữa JPG, PNG, WEBP, GIF, BMP và TIFF. Xử lý nhiều ảnh cùng lúc.",
+    "metaDescription": "Chuyển đổi ảnh giữa JPG, PNG, WEBP, GIF, BMP và TIFF trực tuyến và miễn phí — thay đổi định dạng ảnh chỉ trong vài giây mà không mất chất lượng. Không cần đăng ký hay phần mềm, chuyển đổi hàng loạt nhiều tệp cùng lúc.",
     "formatLabel": "Chuyển đổi sang",
     "submit": "Chuyển đổi sang {format}",
     "converting": "Đang chuyển đổi...",
@@ -182,6 +186,7 @@
   "RotateImagePage": {
     "title": "Xoay ảnh",
     "description": "Xoay ảnh theo góc bất kỳ hoặc lật ngang/dọc. Xử lý nhiều ảnh cùng lúc.",
+    "metaDescription": "Xoay hoặc lật ảnh trực tuyến và miễn phí — sửa ảnh bị nghiêng hoặc lật ngang, lật dọc chỉ trong vài giây. Không cần đăng ký hay phần mềm, xử lý hàng loạt nhiều ảnh.",
     "angleLabel": "Góc xoay",
     "flipHLabel": "Lật ngang",
     "flipVLabel": "Lật dọc",
@@ -206,6 +211,7 @@
   "WatermarkImagePage": {
     "title": "Thêm hình mờ",
     "description": "Thêm hình mờ dạng chữ vào ảnh với độ mờ và vị trí có thể điều chỉnh.",
+    "metaDescription": "Thêm watermark văn bản vào ảnh trực tuyến và miễn phí — bảo vệ ảnh của bạn khỏi việc sử dụng trái phép với độ mờ và vị trí có thể điều chỉnh chỉ trong vài giây. Không cần đăng ký hay phần mềm.",
     "textLabel": "Nội dung hình mờ",
     "positionLabel": "Vị trí",
     "opacityLabel": "Độ mờ",
@@ -231,6 +237,7 @@
   "MemeGeneratorPage": {
     "title": "Tạo meme",
     "description": "Thêm chữ ở trên và dưới để nhanh chóng tạo ảnh meme.",
+    "metaDescription": "Tạo meme trực tuyến và miễn phí — thêm chú thích trên và dưới cho bất kỳ ảnh nào chỉ trong vài giây với phông chữ và phong cách meme cổ điển. Không cần đăng ký hay phần mềm.",
     "topTextLabel": "Chữ phía trên",
     "topTextPlaceholder": "vd: WHEN THE CODE",
     "bottomTextLabel": "Chữ phía dưới",
@@ -256,6 +263,7 @@
   "RemoveExifPage": {
     "title": "Xóa siêu dữ liệu",
     "description": "Xóa thông tin vị trí và thiết bị (EXIF) khỏi ảnh của bạn để bảo vệ quyền riêng tư. Xử lý nhiều ảnh cùng lúc.",
+    "metaDescription": "Xóa dữ liệu EXIF khỏi ảnh trực tuyến và miễn phí — xóa vị trí GPS, model máy ảnh và metadata thiết bị để bảo vệ quyền riêng tư trước khi chia sẻ, chỉ trong vài giây. Không cần đăng ký hay phần mềm, xử lý hàng loạt nhiều ảnh.",
     "infoText": "Vị trí GPS, model máy ảnh, ngày chụp và các dữ liệu ẩn khác trong ảnh sẽ được xóa hoàn toàn. Chất lượng và hướng của ảnh không thay đổi.",
     "submit": "Xóa siêu dữ liệu",
     "converting": "Đang xóa...",
@@ -278,6 +286,7 @@
   "MergeImagesPage": {
     "title": "Ghép ảnh",
     "description": "Ghép nhiều ảnh thành một, sắp xếp theo hàng ngang, hàng dọc hoặc dạng lưới.",
+    "metaDescription": "Ghép nhiều ảnh thành một trực tuyến và miễn phí — kết hợp ảnh theo chiều ngang, dọc hoặc dạng lưới chỉ trong vài giây. Không cần đăng ký hay phần mềm.",
     "layoutLabel": "Bố cục",
     "layoutHorizontal": "Xếp ngang",
     "layoutVertical": "Xếp dọc",

@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "画像圧縮",
     "description": "画質を保ちながらJPG、PNG、WEBP、TIFF画像の容量を減らします。複数枚を一度に処理できます。",
+    "metaDescription": "JPG、PNG、WEBP、TIFF画像を無料でオンライン圧縮。画質を落とさずに数秒で写真の容量を減らせます。ウェブサイトやメール添付にぴったりです。会員登録・ソフトのインストール不要、複数画像の一括処理も可能です。",
     "qualityLabel": "圧縮品質",
     "qualityHint": "値が低いほど容量は減りますが、画質も低下します。",
     "submit": "画像を圧縮する",
@@ -102,6 +103,7 @@
   "ResizeImagePage": {
     "title": "画像リサイズ",
     "description": "ピクセルまたはパーセントで画像サイズを自由に変更します。複数枚を一度に処理できます。",
+    "metaDescription": "画像サイズを無料でオンラインで変更。SNS・ウェブサイト・印刷用に、好きなピクセルサイズやパーセンテージで数秒でリサイズできます。会員登録・ソフトのインストール不要、複数画像の一括リサイズも可能です。",
     "modePixel": "ピクセルで指定",
     "modePercent": "パーセントで指定",
     "widthLabel": "幅 (px)",
@@ -133,6 +135,7 @@
   "CropImagePage": {
     "title": "画像切り抜き",
     "description": "ピクセル座標を指定して画像の必要な部分だけを切り抜きます。",
+    "metaDescription": "画像を無料でオンラインでトリミング。プロフィール写真やサムネイルにぴったりのピクセル座標で、必要な範囲だけを数秒で切り取れます。会員登録・ソフトのインストール不要です。",
     "previewAlt": "プレビュー",
     "originalSize": "元のサイズ: {width} x {height}px",
     "xLabel": "X (左の余白)",
@@ -160,6 +163,7 @@
   "ConvertImagePage": {
     "title": "画像形式変換",
     "description": "JPG、PNG、WEBP、GIF、BMP、TIFF間で自由に変換します。複数枚を一度に処理できます。",
+    "metaDescription": "JPG、PNG、WEBP、GIF、BMP、TIFF画像形式を無料でオンラインで自由に変換。画質を落とさずに数秒で画像フォーマットを変更できます。会員登録・ソフトのインストール不要、複数ファイルの一括変換も可能です。",
     "formatLabel": "変換する形式",
     "submit": "{format}形式に変換する",
     "converting": "変換中...",
@@ -182,6 +186,7 @@
   "RotateImagePage": {
     "title": "画像回転",
     "description": "画像を好きな角度で回転したり、左右/上下に反転したりします。複数枚を一度に処理できます。",
+    "metaDescription": "画像を無料でオンラインで回転・反転。横向きの写真を直したり、左右・上下に数秒で反転させたりできます。会員登録・ソフトのインストール不要、複数画像の一括処理も可能です。",
     "angleLabel": "回転角度",
     "flipHLabel": "左右反転",
     "flipVLabel": "上下反転",
@@ -206,6 +211,7 @@
   "WatermarkImagePage": {
     "title": "透かしを追加",
     "description": "テキストの透かしを不透明度と位置を調整して画像に挿入します。",
+    "metaDescription": "写真に無料でオンラインでテキスト透かしを追加。不透明度と位置を自由に調整して、数秒で不正利用から画像を守れます。会員登録・ソフトのインストール不要です。",
     "textLabel": "透かしテキスト",
     "positionLabel": "位置",
     "opacityLabel": "不透明度",
@@ -231,6 +237,7 @@
   "MemeGeneratorPage": {
     "title": "ミーム作成",
     "description": "上下にテキストを入れて簡単にミーム画像を作成します。",
+    "metaDescription": "無料でオンラインでミームを作成。クラシックなミームフォントとスタイルで、画像の上下に数秒でキャプションテキストを追加できます。会員登録・ソフトのインストール不要です。",
     "topTextLabel": "上部テキスト",
     "topTextPlaceholder": "例: WHEN THE CODE",
     "bottomTextLabel": "下部テキスト",
@@ -256,6 +263,7 @@
   "RemoveExifPage": {
     "title": "メタデータ削除",
     "description": "写真に含まれる位置情報・機器情報(EXIF)を削除してプライバシーを守ります。複数枚を一度に処理できます。",
+    "metaDescription": "写真のExif情報を無料でオンラインで削除。GPS位置情報、カメラ機種、デバイス情報などのメタデータを数秒で消去し、共有前にプライバシーを守れます。会員登録・ソフトのインストール不要、複数画像の一括処理も可能です。",
     "infoText": "GPS位置情報、撮影機器、撮影日時など、写真に含まれる付加情報がすべて削除されます。画質と回転方向はそのまま維持されます。",
     "submit": "メタデータを削除する",
     "converting": "削除中...",
@@ -278,6 +286,7 @@
   "MergeImagesPage": {
     "title": "画像結合",
     "description": "複数の画像を横、縦、またはグリッドで1枚に結合します。",
+    "metaDescription": "複数の画像を無料でオンラインで1枚に結合。横並び、縦並び、グリッドレイアウトで数秒で写真をまとめられます。会員登録・ソフトのインストール不要です。",
     "layoutLabel": "配置方法",
     "layoutHorizontal": "横に並べる",
     "layoutVertical": "縦に並べる",

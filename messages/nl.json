@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "Afbeelding comprimeren",
     "description": "Verklein JPG-, PNG-, WEBP- en TIFF-bestanden met behoud van kwaliteit. Verwerk meerdere afbeeldingen tegelijk.",
+    "metaDescription": "Comprimeer JPG-, PNG-, WEBP- of TIFF-afbeeldingen online en gratis — verklein de bestandsgrootte van foto's in enkele seconden zonder veel kwaliteitsverlies, ideaal voor websites en e-mail. Zonder registratie of software, met batchverwerking van meerdere afbeeldingen tegelijk.",
     "qualityLabel": "Compressiekwaliteit",
     "qualityHint": "Lagere waarden verkleinen het bestand, maar verlagen ook de kwaliteit.",
     "submit": "Afbeelding comprimeren",
@@ -102,6 +103,7 @@
   "ResizeImagePage": {
     "title": "Afbeelding formaat wijzigen",
     "description": "Wijzig het formaat van afbeeldingen in pixels of percentage. Verwerk meerdere afbeeldingen tegelijk.",
+    "metaDescription": "Wijzig de grootte van afbeeldingen online en gratis — verander de fotoafmetingen naar elke pixelgrootte of elk percentage in enkele seconden, voor social media, websites of afdrukken. Zonder registratie of software, met batch-resizing van meerdere afbeeldingen.",
     "modePixel": "In pixels",
     "modePercent": "In percentage",
     "widthLabel": "Breedte (px)",
@@ -133,6 +135,7 @@
   "CropImagePage": {
     "title": "Afbeelding bijsnijden",
     "description": "Snijd het gewenste gebied bij met pixelcoördinaten.",
+    "metaDescription": "Snijd een afbeelding online en gratis bij — pas een foto in enkele seconden aan op elk gebied via pixelcoördinaten, ideaal voor profielfoto's of thumbnails. Zonder registratie of software.",
     "previewAlt": "Voorbeeld",
     "originalSize": "Oorspronkelijke grootte: {width} x {height}px",
     "xLabel": "X (marge links)",
@@ -160,6 +163,7 @@
   "ConvertImagePage": {
     "title": "Afbeelding converteren",
     "description": "Converteer vrij tussen JPG, PNG, WEBP, GIF, BMP en TIFF. Verwerk meerdere afbeeldingen tegelijk.",
+    "metaDescription": "Converteer afbeeldingen tussen JPG, PNG, WEBP, GIF, BMP en TIFF online en gratis — wijzig het afbeeldingsformaat in enkele seconden zonder kwaliteitsverlies. Zonder registratie of software, met batchconversie van meerdere bestanden tegelijk.",
     "formatLabel": "Converteren naar",
     "submit": "Converteren naar {format}",
     "converting": "Bezig met converteren...",
@@ -182,6 +186,7 @@
   "RotateImagePage": {
     "title": "Afbeelding draaien",
     "description": "Draai afbeeldingen in elke gewenste hoek of spiegel ze horizontaal/verticaal. Verwerk meerdere afbeeldingen tegelijk.",
+    "metaDescription": "Draai of spiegel een afbeelding online en gratis — corrigeer een scheve foto of spiegel deze horizontaal of verticaal in enkele seconden. Zonder registratie of software, met batchverwerking van meerdere afbeeldingen.",
     "angleLabel": "Draaihoek",
     "flipHLabel": "Horizontaal spiegelen",
     "flipVLabel": "Verticaal spiegelen",
@@ -206,6 +211,7 @@
   "WatermarkImagePage": {
     "title": "Watermerk toevoegen",
     "description": "Voeg een tekstwatermerk toe aan de afbeelding met instelbare dekking en positie.",
+    "metaDescription": "Voeg online en gratis een tekstwatermerk toe aan een foto — bescherm je afbeeldingen tegen onbevoegd gebruik met instelbare dekking en positie in enkele seconden. Zonder registratie of software.",
     "textLabel": "Watermerktekst",
     "positionLabel": "Positie",
     "opacityLabel": "Dekking",
@@ -231,6 +237,7 @@
   "MemeGeneratorPage": {
     "title": "Memegenerator",
     "description": "Voeg boven- en ondertekst toe om snel een meme-afbeelding te maken.",
+    "metaDescription": "Maak online en gratis een meme — voeg boven- en ondertekst toe aan elke afbeelding in enkele seconden met het klassieke meme-lettertype en de klassieke stijl. Zonder registratie of software.",
     "topTextLabel": "Boventekst",
     "topTextPlaceholder": "bijv. WHEN THE CODE",
     "bottomTextLabel": "Ondertekst",
@@ -256,6 +263,7 @@
   "RemoveExifPage": {
     "title": "Metadata verwijderen",
     "description": "Verwijder locatie- en apparaatinformatie (EXIF) uit je foto's om je privacy te beschermen. Verwerk meerdere afbeeldingen tegelijk.",
+    "metaDescription": "Verwijder EXIF-gegevens uit foto's online en gratis — wis GPS-locatie, cameramodel en apparaatmetadata om je privacy te beschermen vóór het delen, in enkele seconden. Zonder registratie of software, met batchverwerking van meerdere afbeeldingen.",
     "infoText": "GPS-locatie, cameramodel, opnamedatum en andere verborgen gegevens in je foto's worden volledig verwijderd. Beeldkwaliteit en oriëntatie blijven ongewijzigd.",
     "submit": "Metadata verwijderen",
     "converting": "Bezig met verwijderen...",
@@ -278,6 +286,7 @@
   "MergeImagesPage": {
     "title": "Afbeeldingen samenvoegen",
     "description": "Combineer meerdere afbeeldingen tot één, horizontaal, verticaal of als raster.",
+    "metaDescription": "Voeg meerdere afbeeldingen samen tot één online en gratis — combineer foto's horizontaal, verticaal of in een rasterindeling in enkele seconden. Zonder registratie of software.",
     "layoutLabel": "Indeling",
     "layoutHorizontal": "Naast elkaar",
     "layoutVertical": "Onder elkaar",

@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "Compress Image",
     "description": "Shrink JPG, PNG, WEBP, and TIFF file sizes while keeping the quality. Process multiple images at once.",
+    "metaDescription": "Compress JPG, PNG, WEBP, or TIFF images online for free — shrink photo file size without losing quality in seconds, perfect for websites and email. No sign up, no software to install, batch process multiple images at once.",
     "qualityLabel": "Compression Quality",
     "qualityHint": "Lower values reduce file size but also lower image quality.",
     "submit": "Compress Image",
@@ -93,6 +94,7 @@
   "ResizeImagePage": {
     "title": "Resize Image",
     "description": "Resize images to any pixel size or percentage. Process multiple images at once.",
+    "metaDescription": "Resize images online for free — change photo dimensions to any pixel size or percentage in seconds for social media, websites, or printing. No sign up, no software to install, batch resize multiple images at once.",
     "modePixel": "By pixels",
     "modePercent": "By percentage",
     "widthLabel": "Width (px)",
@@ -115,6 +117,7 @@
   "CropImagePage": {
     "title": "Crop Image",
     "description": "Crop images to any area by specifying pixel coordinates.",
+    "metaDescription": "Crop an image online for free — trim a photo to any area by pixel coordinates in seconds, perfect for profile pictures or thumbnails. No sign up, no software to install.",
     "previewAlt": "Preview",
     "originalSize": "Original size: {width} x {height}px",
     "xLabel": "X (left offset)",
@@ -133,6 +136,7 @@
   "ConvertImagePage": {
     "title": "Convert Image",
     "description": "Convert freely between JPG, PNG, WEBP, GIF, BMP, and TIFF. Process multiple images at once.",
+    "metaDescription": "Convert images between JPG, PNG, WEBP, GIF, BMP, and TIFF online for free — change image format in seconds without losing quality. No sign up, no software to install, batch convert multiple files at once.",
     "formatLabel": "Convert to",
     "submit": "Convert to {format}",
     "converting": "Converting...",
@@ -146,6 +150,7 @@
   "RotateImagePage": {
     "title": "Rotate Image",
     "description": "Rotate images to any angle or flip them horizontally/vertically. Process multiple images at once.",
+    "metaDescription": "Rotate or flip an image online for free — fix a sideways photo or mirror it horizontally or vertically in seconds. No sign up, no software to install, batch process multiple images at once.",
     "angleLabel": "Rotation Angle",
     "flipHLabel": "Flip horizontally",
     "flipVLabel": "Flip vertically",
@@ -161,6 +166,7 @@
   "WatermarkImagePage": {
     "title": "Add Watermark",
     "description": "Add a text watermark to an image with adjustable opacity and position.",
+    "metaDescription": "Add a text watermark to a photo online for free — protect your images from unauthorized use with adjustable opacity and position in seconds. No sign up, no software to install.",
     "textLabel": "Watermark text",
     "positionLabel": "Position",
     "opacityLabel": "Opacity",
@@ -177,6 +183,7 @@
   "MemeGeneratorPage": {
     "title": "Meme Generator",
     "description": "Add top and bottom text to quickly create a meme image.",
+    "metaDescription": "Create a meme online for free — add top and bottom caption text to any image in seconds with the classic meme font and style. No sign up, no software to install.",
     "topTextLabel": "Top text",
     "topTextPlaceholder": "e.g. WHEN THE CODE",
     "bottomTextLabel": "Bottom text",
@@ -193,6 +200,7 @@
   "RemoveExifPage": {
     "title": "Remove Metadata",
     "description": "Strip location and device info (EXIF) from your photos to protect your privacy. Process multiple images at once.",
+    "metaDescription": "Remove EXIF data from photos online for free — strip GPS location, camera model, and device metadata to protect your privacy before sharing in seconds. No sign up, no software to install, batch process multiple images at once.",
     "infoText": "GPS location, camera model, capture date, and other hidden data embedded in your photos will all be removed. Image quality and orientation stay the same.",
     "submit": "Remove Metadata",
     "converting": "Removing...",
@@ -206,6 +214,7 @@
   "MergeImagesPage": {
     "title": "Merge Images",
     "description": "Combine multiple images into one, arranged horizontally, vertically, or in a grid.",
+    "metaDescription": "Merge multiple images into one online for free — combine photos horizontally, vertically, or in a grid layout in seconds. No sign up, no software to install.",
     "layoutLabel": "Layout",
     "layoutHorizontal": "Side by side",
     "layoutVertical": "Stacked",

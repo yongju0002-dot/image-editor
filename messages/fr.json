@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "Compresser une image",
     "description": "Réduisez la taille des images JPG, PNG, WEBP et TIFF tout en conservant la qualité. Traitez plusieurs images à la fois.",
+    "metaDescription": "Compressez des images JPG, PNG, WEBP ou TIFF en ligne et gratuitement. Réduisez la taille des photos en quelques secondes sans perdre en qualité, idéal pour les sites web et les e-mails. Sans inscription ni logiciel, avec traitement par lots de plusieurs images à la fois.",
     "qualityLabel": "Qualité de compression",
     "qualityHint": "Une valeur plus basse réduit la taille du fichier, mais aussi la qualité.",
     "submit": "Compresser l'image",
@@ -102,6 +103,7 @@
   "ResizeImagePage": {
     "title": "Redimensionner une image",
     "description": "Redimensionnez vos images en pixels ou en pourcentage. Traitez plusieurs images à la fois.",
+    "metaDescription": "Redimensionnez des images en ligne et gratuitement. Modifiez les dimensions à n'importe quelle taille en pixels ou en pourcentage en quelques secondes, pour les réseaux sociaux, les sites web ou l'impression. Sans inscription ni logiciel, avec redimensionnement par lots.",
     "modePixel": "En pixels",
     "modePercent": "En pourcentage",
     "widthLabel": "Largeur (px)",
@@ -133,6 +135,7 @@
   "CropImagePage": {
     "title": "Recadrer une image",
     "description": "Recadrez la zone souhaitée en indiquant des coordonnées en pixels.",
+    "metaDescription": "Recadrez une image en ligne et gratuitement. Ajustez une photo à n'importe quelle zone via des coordonnées en pixels en quelques secondes, idéal pour les photos de profil ou les miniatures. Sans inscription ni logiciel.",
     "previewAlt": "Aperçu",
     "originalSize": "Taille d'origine : {width} x {height}px",
     "xLabel": "X (marge gauche)",
@@ -160,6 +163,7 @@
   "ConvertImagePage": {
     "title": "Convertir une image",
     "description": "Convertissez librement entre JPG, PNG, WEBP, GIF, BMP et TIFF. Traitez plusieurs images à la fois.",
+    "metaDescription": "Convertissez des images entre JPG, PNG, WEBP, GIF, BMP et TIFF en ligne et gratuitement. Changez le format d'image en quelques secondes sans perdre en qualité. Sans inscription ni logiciel, avec conversion par lots de plusieurs fichiers.",
     "formatLabel": "Convertir vers",
     "submit": "Convertir en {format}",
     "converting": "Conversion en cours...",
@@ -182,6 +186,7 @@
   "RotateImagePage": {
     "title": "Pivoter une image",
     "description": "Faites pivoter vos images selon l'angle souhaité ou retournez-les horizontalement/verticalement. Traitez plusieurs images à la fois.",
+    "metaDescription": "Faites pivoter ou retournez une image en ligne et gratuitement. Corrigez une photo de travers ou reflétez-la horizontalement ou verticalement en quelques secondes. Sans inscription ni logiciel, avec traitement par lots.",
     "angleLabel": "Angle de rotation",
     "flipHLabel": "Retourner horizontalement",
     "flipVLabel": "Retourner verticalement",
@@ -206,6 +211,7 @@
   "WatermarkImagePage": {
     "title": "Ajouter un filigrane",
     "description": "Ajoutez un filigrane texte à l'image avec opacité et position réglables.",
+    "metaDescription": "Ajoutez un filigrane de texte à une photo en ligne et gratuitement. Protégez vos images contre une utilisation non autorisée avec une opacité et une position ajustables en quelques secondes. Sans inscription ni logiciel.",
     "textLabel": "Texte du filigrane",
     "positionLabel": "Position",
     "opacityLabel": "Opacité",
@@ -231,6 +237,7 @@
   "MemeGeneratorPage": {
     "title": "Générateur de mèmes",
     "description": "Ajoutez du texte en haut et en bas pour créer facilement un mème.",
+    "metaDescription": "Créez un mème en ligne et gratuitement. Ajoutez un texte en haut et en bas de n'importe quelle image en quelques secondes avec la police et le style classiques des mèmes. Sans inscription ni logiciel.",
     "topTextLabel": "Texte du haut",
     "topTextPlaceholder": "ex. WHEN THE CODE",
     "bottomTextLabel": "Texte du bas",
@@ -256,6 +263,7 @@
   "RemoveExifPage": {
     "title": "Supprimer les métadonnées",
     "description": "Supprimez les informations de localisation et d'appareil (EXIF) de vos photos pour protéger votre vie privée. Traitez plusieurs images à la fois.",
+    "metaDescription": "Supprimez les données EXIF des photos en ligne et gratuitement. Effacez la localisation GPS, le modèle d'appareil photo et les métadonnées de l'appareil pour protéger votre vie privée avant de partager, en quelques secondes. Sans inscription ni logiciel, avec traitement par lots.",
     "infoText": "La position GPS, le modèle d'appareil, la date de prise de vue et autres informations cachées de vos photos seront supprimées. La qualité et l'orientation de l'image restent inchangées.",
     "submit": "Supprimer les métadonnées",
     "converting": "Suppression en cours...",
@@ -278,6 +286,7 @@
   "MergeImagesPage": {
     "title": "Fusionner des images",
     "description": "Combinez plusieurs images en une seule, disposées horizontalement, verticalement ou en grille.",
+    "metaDescription": "Fusionnez plusieurs images en une seule en ligne et gratuitement. Combinez des photos horizontalement, verticalement ou en grille en quelques secondes. Sans inscription ni logiciel.",
     "layoutLabel": "Disposition",
     "layoutHorizontal": "Côte à côte",
     "layoutVertical": "Empilées",

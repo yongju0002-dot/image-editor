@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "Comprimir imagem",
     "description": "Reduza o tamanho de imagens JPG, PNG, WEBP e TIFF mantendo a qualidade. Processe várias imagens de uma vez.",
+    "metaDescription": "Comprima imagens JPG, PNG, WEBP ou TIFF online e de graça — reduza o tamanho das fotos em segundos sem perder muita qualidade, ideal para sites e e-mails. Sem cadastro, sem programas, com processamento em lote de várias imagens de uma vez.",
     "qualityLabel": "Qualidade de compressão",
     "qualityHint": "Valores mais baixos reduzem o tamanho do arquivo, mas também a qualidade.",
     "submit": "Comprimir imagem",
@@ -102,6 +103,7 @@
   "ResizeImagePage": {
     "title": "Redimensionar imagem",
     "description": "Redimensione imagens em pixels ou porcentagem. Processe várias imagens de uma vez.",
+    "metaDescription": "Redimensione imagens online e de graça — altere as dimensões da foto para qualquer tamanho em pixels ou porcentagem em segundos, para redes sociais, sites ou impressão. Sem cadastro nem programas, com redimensionamento em lote.",
     "modePixel": "Por pixels",
     "modePercent": "Por porcentagem",
     "widthLabel": "Largura (px)",
@@ -133,6 +135,7 @@
   "CropImagePage": {
     "title": "Cortar imagem",
     "description": "Corte a área desejada informando coordenadas em pixels.",
+    "metaDescription": "Corte uma imagem online e de graça — ajuste uma foto a qualquer área usando coordenadas em pixels em segundos, ideal para fotos de perfil ou miniaturas. Sem cadastro nem programas.",
     "previewAlt": "Pré-visualização",
     "originalSize": "Tamanho original: {width} x {height}px",
     "xLabel": "X (margem esquerda)",
@@ -160,6 +163,7 @@
   "ConvertImagePage": {
     "title": "Converter imagem",
     "description": "Converta livremente entre JPG, PNG, WEBP, GIF, BMP e TIFF. Processe várias imagens de uma vez.",
+    "metaDescription": "Converta imagens entre JPG, PNG, WEBP, GIF, BMP e TIFF online e de graça — mude o formato da imagem em segundos sem perder qualidade. Sem cadastro nem programas, com conversão em lote de vários arquivos.",
     "formatLabel": "Converter para",
     "submit": "Converter para {format}",
     "converting": "Convertendo...",
@@ -182,6 +186,7 @@
   "RotateImagePage": {
     "title": "Girar imagem",
     "description": "Gire imagens no ângulo desejado ou espelhe-as na horizontal/vertical. Processe várias imagens de uma vez.",
+    "metaDescription": "Gire ou inverta uma imagem online e de graça — corrija uma foto torta ou espelhe-a horizontal ou verticalmente em segundos. Sem cadastro nem programas, com processamento em lote de várias imagens.",
     "angleLabel": "Ângulo de rotação",
     "flipHLabel": "Inverter horizontalmente",
     "flipVLabel": "Inverter verticalmente",
@@ -206,6 +211,7 @@
   "WatermarkImagePage": {
     "title": "Adicionar marca d'água",
     "description": "Adicione uma marca d'água de texto à imagem com opacidade e posição ajustáveis.",
+    "metaDescription": "Adicione uma marca d'água de texto a uma foto online e de graça — proteja suas imagens contra uso não autorizado com opacidade e posição ajustáveis em segundos. Sem cadastro nem programas.",
     "textLabel": "Texto da marca d'água",
     "positionLabel": "Posição",
     "opacityLabel": "Opacidade",
@@ -231,6 +237,7 @@
   "MemeGeneratorPage": {
     "title": "Gerador de memes",
     "description": "Adicione texto na parte superior e inferior para criar um meme facilmente.",
+    "metaDescription": "Crie um meme online e de graça — adicione texto superior e inferior a qualquer imagem em segundos com a fonte e o estilo clássicos de meme. Sem cadastro nem programas.",
     "topTextLabel": "Texto superior",
     "topTextPlaceholder": "ex.: WHEN THE CODE",
     "bottomTextLabel": "Texto inferior",
@@ -256,6 +263,7 @@
   "RemoveExifPage": {
     "title": "Remover metadados",
     "description": "Remova informações de localização e do dispositivo (EXIF) das suas fotos para proteger sua privacidade. Processe várias imagens de uma vez.",
+    "metaDescription": "Remova dados EXIF de fotos online e de graça — apague localização GPS, modelo da câmera e metadados do dispositivo para proteger sua privacidade antes de compartilhar em segundos. Sem cadastro nem programas, com processamento em lote de várias imagens.",
     "infoText": "Localização GPS, modelo da câmera, data de captura e outras informações ocultas nas suas fotos serão removidas. A qualidade e a orientação da imagem permanecem as mesmas.",
     "submit": "Remover metadados",
     "converting": "Removendo...",
@@ -278,6 +286,7 @@
   "MergeImagesPage": {
     "title": "Mesclar imagens",
     "description": "Combine várias imagens em uma só, dispostas na horizontal, vertical ou em grade.",
+    "metaDescription": "Combine várias imagens em uma só online e de graça — junte fotos na horizontal, vertical ou em grade em segundos. Sem cadastro nem programas.",
     "layoutLabel": "Disposição",
     "layoutHorizontal": "Lado a lado",
     "layoutVertical": "Empilhadas",

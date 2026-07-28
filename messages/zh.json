@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "压缩图片",
     "description": "在保持画质的同时减小JPG、PNG、WEBP、TIFF图片的体积。支持批量处理多张图片。",
+    "metaDescription": "免费在线压缩JPG、PNG、WEBP、TIFF图片——几秒钟内在不损失画质的情况下缩小照片体积，非常适合网站和邮件附件。无需注册、无需安装软件，支持批量处理多张图片。",
     "qualityLabel": "压缩质量",
     "qualityHint": "数值越低，文件越小，但画质也会随之下降。",
     "submit": "压缩图片",
@@ -102,6 +103,7 @@
   "ResizeImagePage": {
     "title": "调整图片大小",
     "description": "按像素或百分比自由调整图片尺寸。支持批量处理多张图片。",
+    "metaDescription": "免费在线调整图片尺寸——几秒钟内按任意像素大小或百分比更改照片尺寸，适用于社交媒体、网站或打印。无需注册、无需安装软件，支持批量调整多张图片。",
     "modePixel": "按像素指定",
     "modePercent": "按百分比指定",
     "widthLabel": "宽度 (px)",
@@ -133,6 +135,7 @@
   "CropImagePage": {
     "title": "裁剪图片",
     "description": "指定像素坐标，只裁剪出图片中你需要的区域。",
+    "metaDescription": "免费在线裁剪图片——几秒钟内按像素坐标裁剪出任意区域，非常适合头像或缩略图。无需注册、无需安装软件。",
     "previewAlt": "预览",
     "originalSize": "原始尺寸：{width} x {height}px",
     "xLabel": "X（左边距）",
@@ -160,6 +163,7 @@
   "ConvertImagePage": {
     "title": "转换图片格式",
     "description": "在JPG、PNG、WEBP、GIF、BMP、TIFF之间自由转换。支持批量处理多张图片。",
+    "metaDescription": "免费在线转换JPG、PNG、WEBP、GIF、BMP、TIFF图片格式——几秒钟内更改图片格式且不损失画质。无需注册、无需安装软件，支持批量转换多个文件。",
     "formatLabel": "转换为",
     "submit": "转换为{format}格式",
     "converting": "正在转换...",
@@ -182,6 +186,7 @@
   "RotateImagePage": {
     "title": "旋转图片",
     "description": "将图片旋转到任意角度，或进行左右/上下翻转。支持批量处理多张图片。",
+    "metaDescription": "免费在线旋转或翻转图片——几秒钟内修正横向照片，或将其水平、垂直翻转。无需注册、无需安装软件，支持批量处理多张图片。",
     "angleLabel": "旋转角度",
     "flipHLabel": "左右翻转",
     "flipVLabel": "上下翻转",
@@ -206,6 +211,7 @@
   "WatermarkImagePage": {
     "title": "添加水印",
     "description": "为图片添加文字水印，并可调整透明度和位置。",
+    "metaDescription": "免费在线为照片添加文字水印——几秒钟内通过调整透明度和位置来保护图片免遭未经授权的使用。无需注册、无需安装软件。",
     "textLabel": "水印文字",
     "positionLabel": "位置",
     "opacityLabel": "透明度",
@@ -231,6 +237,7 @@
   "MemeGeneratorPage": {
     "title": "表情包生成器",
     "description": "添加上下文字，轻松制作表情包图片。",
+    "metaDescription": "免费在线制作表情包——几秒钟内以经典表情包字体和样式为任意图片添加上下文字说明。无需注册、无需安装软件。",
     "topTextLabel": "上方文字",
     "topTextPlaceholder": "例如：WHEN THE CODE",
     "bottomTextLabel": "下方文字",
@@ -256,6 +263,7 @@
   "RemoveExifPage": {
     "title": "移除元数据",
     "description": "删除照片中的位置和设备信息(EXIF)，保护您的隐私。支持批量处理多张图片。",
+    "metaDescription": "免费在线删除照片的EXIF信息——几秒钟内清除GPS位置、相机型号和设备元数据，在分享前保护你的隐私。无需注册、无需安装软件，支持批量处理多张图片。",
     "infoText": "照片中的 GPS 位置、拍摄设备、拍摄日期等附加信息都将被删除，图片质量和方向保持不变。",
     "submit": "移除元数据",
     "converting": "正在移除...",
@@ -278,6 +286,7 @@
   "MergeImagesPage": {
     "title": "合并图片",
     "description": "将多张图片横向、纵向或以网格方式合并为一张。",
+    "metaDescription": "免费在线合并多张图片为一张——几秒钟内以横向、纵向或网格布局合并照片。无需注册、无需安装软件。",
     "layoutLabel": "排列方式",
     "layoutHorizontal": "横向排列",
     "layoutVertical": "纵向排列",

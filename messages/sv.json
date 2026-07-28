@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "Komprimera bild",
     "description": "Minska filstorleken på JPG-, PNG-, WEBP- och TIFF-bilder med bibehållen kvalitet. Bearbeta flera bilder samtidigt.",
+    "metaDescription": "Komprimera JPG-, PNG-, WEBP- eller TIFF-bilder online och gratis — krymp fotots filstorlek på några sekunder utan att förlora för mycket kvalitet, perfekt för webbplatser och e-post. Utan registrering eller program, med batchbearbetning av flera bilder samtidigt.",
     "qualityLabel": "Komprimeringskvalitet",
     "qualityHint": "Lägre värden minskar filstorleken men sänker även bildkvaliteten.",
     "submit": "Komprimera bild",
@@ -102,6 +103,7 @@
   "ResizeImagePage": {
     "title": "Ändra bildstorlek",
     "description": "Ändra bildstorlek i pixlar eller procent. Bearbeta flera bilder samtidigt.",
+    "metaDescription": "Ändra storlek på bilder online och gratis — ändra fotots mått till valfri pixelstorlek eller procentandel på några sekunder, för sociala medier, webbplatser eller utskrift. Utan registrering eller program, med batchändring av storlek för flera bilder.",
     "modePixel": "I pixlar",
     "modePercent": "I procent",
     "widthLabel": "Bredd (px)",
@@ -133,6 +135,7 @@
   "CropImagePage": {
     "title": "Beskär bild",
     "description": "Beskär önskat område genom att ange pixelkoordinater.",
+    "metaDescription": "Beskär en bild online och gratis — anpassa ett foto till valfritt område med pixelkoordinater på några sekunder, perfekt för profilbilder eller miniatyrer. Utan registrering eller program.",
     "previewAlt": "Förhandsgranskning",
     "originalSize": "Originalstorlek: {width} x {height}px",
     "xLabel": "X (vänstermarginal)",
@@ -160,6 +163,7 @@
   "ConvertImagePage": {
     "title": "Konvertera bild",
     "description": "Konvertera fritt mellan JPG, PNG, WEBP, GIF, BMP och TIFF. Bearbeta flera bilder samtidigt.",
+    "metaDescription": "Konvertera bilder mellan JPG, PNG, WEBP, GIF, BMP och TIFF online och gratis — ändra bildformat på några sekunder utan kvalitetsförlust. Utan registrering eller program, med batchkonvertering av flera filer samtidigt.",
     "formatLabel": "Konvertera till",
     "submit": "Konvertera till {format}",
     "converting": "Konverterar...",
@@ -182,6 +186,7 @@
   "RotateImagePage": {
     "title": "Rotera bild",
     "description": "Rotera bilder i valfri vinkel eller vänd dem horisontellt/vertikalt. Bearbeta flera bilder samtidigt.",
+    "metaDescription": "Rotera eller vänd en bild online och gratis — rätta till ett sidledes foto eller spegla det horisontellt eller vertikalt på några sekunder. Utan registrering eller program, med batchbearbetning av flera bilder.",
     "angleLabel": "Rotationsvinkel",
     "flipHLabel": "Vänd horisontellt",
     "flipVLabel": "Vänd vertikalt",
@@ -206,6 +211,7 @@
   "WatermarkImagePage": {
     "title": "Lägg till vattenstämpel",
     "description": "Lägg till en textvattenstämpel på bilden med justerbar opacitet och position.",
+    "metaDescription": "Lägg till en textvattenstämpel på ett foto online och gratis — skydda dina bilder från obehörig användning med justerbar opacitet och position på några sekunder. Utan registrering eller program.",
     "textLabel": "Vattenstämpeltext",
     "positionLabel": "Position",
     "opacityLabel": "Opacitet",
@@ -231,6 +237,7 @@
   "MemeGeneratorPage": {
     "title": "Memegenerator",
     "description": "Lägg till text upptill och nedtill för att snabbt skapa en memebild.",
+    "metaDescription": "Skapa ett meme online och gratis — lägg till text överst och underst på valfri bild på några sekunder med det klassiska meme-typsnittet och stilen. Utan registrering eller program.",
     "topTextLabel": "Text upptill",
     "topTextPlaceholder": "t.ex. WHEN THE CODE",
     "bottomTextLabel": "Text nedtill",
@@ -256,6 +263,7 @@
   "RemoveExifPage": {
     "title": "Ta bort metadata",
     "description": "Ta bort plats- och enhetsinformation (EXIF) från dina bilder för att skydda din integritet. Bearbeta flera bilder samtidigt.",
+    "metaDescription": "Ta bort EXIF-data från foton online och gratis — radera GPS-plats, kameramodell och enhetsmetadata för att skydda din integritet innan du delar, på några sekunder. Utan registrering eller program, med batchbearbetning av flera bilder.",
     "infoText": "GPS-position, kameramodell, tagningsdatum och annan dold information i dina bilder tas bort helt. Bildkvalitet och orientering förblir oförändrade.",
     "submit": "Ta bort metadata",
     "converting": "Tar bort...",
@@ -278,6 +286,7 @@
   "MergeImagesPage": {
     "title": "Slå ihop bilder",
     "description": "Kombinera flera bilder till en, horisontellt, vertikalt eller i ett rutnät.",
+    "metaDescription": "Slå ihop flera bilder till en online och gratis — kombinera foton horisontellt, vertikalt eller i ett rutnät på några sekunder. Utan registrering eller program.",
     "layoutLabel": "Layout",
     "layoutHorizontal": "Sida vid sida",
     "layoutVertical": "Staplade",

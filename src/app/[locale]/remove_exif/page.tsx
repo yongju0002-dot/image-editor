@@ -13,9 +13,9 @@ export async function generateMetadata({
 
   return {
     title: t("title"),
-    description: t("description"),
+    description: t("metaDescription"),
     alternates: localizedAlternates(locale, "/remove_exif"),
-    openGraph: { title: t("title"), description: t("description") },
+    openGraph: { title: t("title"), description: t("metaDescription") },
   };
 }
 

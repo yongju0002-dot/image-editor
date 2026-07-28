@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "Bild komprimieren",
     "description": "Verkleinere JPG-, PNG-, WEBP- und TIFF-Dateien bei erhaltener Qualität. Mehrere Bilder gleichzeitig verarbeiten.",
+    "metaDescription": "JPG-, PNG-, WEBP- oder TIFF-Bilder online und kostenlos komprimieren — Fotodateigröße in Sekunden ohne großen Qualitätsverlust verkleinern, ideal für Websites und E-Mails. Ohne Anmeldung, ohne Software, mit Stapelverarbeitung mehrerer Bilder gleichzeitig.",
     "qualityLabel": "Komprimierungsqualität",
     "qualityHint": "Niedrigere Werte verkleinern die Datei, verringern aber auch die Bildqualität.",
     "submit": "Bild komprimieren",
@@ -102,6 +103,7 @@
   "ResizeImagePage": {
     "title": "Bildgröße ändern",
     "description": "Ändere die Bildgröße in Pixeln oder Prozent. Mehrere Bilder gleichzeitig verarbeiten.",
+    "metaDescription": "Bilder online und kostenlos in der Größe ändern — Fotoabmessungen in Sekunden auf jede beliebige Pixelgröße oder Prozentzahl ändern, für soziale Medien, Websites oder Druck. Ohne Anmeldung oder Software, mit Stapelverarbeitung mehrerer Bilder.",
     "modePixel": "Nach Pixeln",
     "modePercent": "Nach Prozent",
     "widthLabel": "Breite (px)",
@@ -133,6 +135,7 @@
   "CropImagePage": {
     "title": "Bild zuschneiden",
     "description": "Schneide einen bestimmten Bereich per Pixelkoordinaten zu.",
+    "metaDescription": "Ein Bild online und kostenlos zuschneiden — ein Foto in Sekunden anhand von Pixelkoordinaten auf einen beliebigen Bereich zuschneiden, ideal für Profilbilder oder Miniaturansichten. Ohne Anmeldung oder Software.",
     "previewAlt": "Vorschau",
     "originalSize": "Originalgröße: {width} x {height}px",
     "xLabel": "X (Abstand links)",
@@ -160,6 +163,7 @@
   "ConvertImagePage": {
     "title": "Bild konvertieren",
     "description": "Konvertiere frei zwischen JPG, PNG, WEBP, GIF, BMP und TIFF. Mehrere Bilder gleichzeitig verarbeiten.",
+    "metaDescription": "Bilder zwischen JPG, PNG, WEBP, GIF, BMP und TIFF online und kostenlos konvertieren — Bildformat in Sekunden ohne Qualitätsverlust ändern. Ohne Anmeldung oder Software, mit Stapelkonvertierung mehrerer Dateien gleichzeitig.",
     "formatLabel": "Konvertieren nach",
     "submit": "In {format} konvertieren",
     "converting": "Wird konvertiert...",
@@ -182,6 +186,7 @@
   "RotateImagePage": {
     "title": "Bild drehen",
     "description": "Drehe Bilder um einen beliebigen Winkel oder spiegle sie horizontal/vertikal. Mehrere Bilder gleichzeitig verarbeiten.",
+    "metaDescription": "Ein Bild online und kostenlos drehen oder spiegeln — ein seitlich verdrehtes Foto in Sekunden korrigieren oder horizontal bzw. vertikal spiegeln. Ohne Anmeldung oder Software, mit Stapelverarbeitung mehrerer Bilder.",
     "angleLabel": "Drehwinkel",
     "flipHLabel": "Horizontal spiegeln",
     "flipVLabel": "Vertikal spiegeln",
@@ -206,6 +211,7 @@
   "WatermarkImagePage": {
     "title": "Wasserzeichen hinzufügen",
     "description": "Füge dem Bild ein Text-Wasserzeichen mit einstellbarer Deckkraft und Position hinzu.",
+    "metaDescription": "Einem Foto online und kostenlos ein Text-Wasserzeichen hinzufügen — Ihre Bilder mit einstellbarer Deckkraft und Position in Sekunden vor unbefugter Nutzung schützen. Ohne Anmeldung oder Software.",
     "textLabel": "Wasserzeichentext",
     "positionLabel": "Position",
     "opacityLabel": "Deckkraft",
@@ -231,6 +237,7 @@
   "MemeGeneratorPage": {
     "title": "Meme-Generator",
     "description": "Füge Text oben und unten hinzu, um schnell ein Meme-Bild zu erstellen.",
+    "metaDescription": "Online und kostenlos ein Meme erstellen — jedem Bild in Sekunden oben und unten Bildunterschriften im klassischen Meme-Stil hinzufügen. Ohne Anmeldung oder Software.",
     "topTextLabel": "Text oben",
     "topTextPlaceholder": "z. B. WHEN THE CODE",
     "bottomTextLabel": "Text unten",
@@ -256,6 +263,7 @@
   "RemoveExifPage": {
     "title": "Metadaten entfernen",
     "description": "Entferne Standort- und Geräteinformationen (EXIF) aus deinen Fotos, um deine Privatsphäre zu schützen. Mehrere Bilder gleichzeitig verarbeiten.",
+    "metaDescription": "EXIF-Daten online und kostenlos aus Fotos entfernen — GPS-Standort, Kameramodell und Gerätemetadaten in Sekunden löschen, um Ihre Privatsphäre vor dem Teilen zu schützen. Ohne Anmeldung oder Software, mit Stapelverarbeitung mehrerer Bilder.",
     "infoText": "GPS-Standort, Kameramodell, Aufnahmedatum und andere versteckte Daten in deinen Fotos werden vollständig entfernt. Bildqualität und Ausrichtung bleiben unverändert.",
     "submit": "Metadaten entfernen",
     "converting": "Wird entfernt...",
@@ -278,6 +286,7 @@
   "MergeImagesPage": {
     "title": "Bilder zusammenfügen",
     "description": "Kombiniere mehrere Bilder zu einem - horizontal, vertikal oder als Raster.",
+    "metaDescription": "Mehrere Bilder online und kostenlos zu einem zusammenführen — Fotos in Sekunden horizontal, vertikal oder als Raster kombinieren. Ohne Anmeldung oder Software.",
     "layoutLabel": "Anordnung",
     "layoutHorizontal": "Nebeneinander",
     "layoutVertical": "Übereinander",

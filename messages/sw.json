@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "Punguza Ukubwa wa Picha",
     "description": "Punguza ukubwa wa faili za JPG, PNG, WEBP na TIFF huku ukidumisha ubora. Chakata picha kadhaa kwa wakati mmoja.",
+    "metaDescription": "Punguza picha za JPG, PNG, WEBP au TIFF mtandaoni na bila malipo — punguza ukubwa wa faili ya picha kwa sekunde bila kupoteza ubora mwingi, inafaa kwa tovuti na barua pepe. Bila usajili au programu, chakata picha nyingi kwa wakati mmoja.",
     "qualityLabel": "Ubora wa Ubanaji",
     "qualityHint": "Thamani ya chini hupunguza ukubwa wa faili, lakini pia hupunguza ubora wa picha.",
     "submit": "Punguza Ukubwa wa Picha",
@@ -102,6 +103,7 @@
   "ResizeImagePage": {
     "title": "Badilisha Vipimo vya Picha",
     "description": "Badilisha vipimo vya picha kwa pikseli au asilimia. Chakata picha kadhaa kwa wakati mmoja.",
+    "metaDescription": "Badilisha ukubwa wa picha mtandaoni na bila malipo — badilisha vipimo vya picha kwa ukubwa wowote wa pikseli au asilimia kwa sekunde, kwa mitandao ya kijamii, tovuti au uchapishaji. Bila usajili au programu, badilisha ukubwa wa picha nyingi kwa wakati mmoja.",
     "modePixel": "Kwa pikseli",
     "modePercent": "Kwa asilimia",
     "widthLabel": "Upana (px)",
@@ -133,6 +135,7 @@
   "CropImagePage": {
     "title": "Kata Picha",
     "description": "Kata eneo unalotaka kwa kubainisha kuratibu za pikseli.",
+    "metaDescription": "Punguza picha mtandaoni na bila malipo — punguza picha kwa eneo lolote kwa kutumia kuratibu za pikseli kwa sekunde, inafaa kwa picha za wasifu au vijipicha. Bila usajili au programu.",
     "previewAlt": "Muhtasari",
     "originalSize": "Ukubwa asili: {width} x {height}px",
     "xLabel": "X (pembezoni mwa kushoto)",
@@ -160,6 +163,7 @@
   "ConvertImagePage": {
     "title": "Badilisha Muundo wa Picha",
     "description": "Badilisha kwa uhuru kati ya JPG, PNG, WEBP, GIF, BMP na TIFF. Chakata picha kadhaa kwa wakati mmoja.",
+    "metaDescription": "Badilisha picha kati ya JPG, PNG, WEBP, GIF, BMP na TIFF mtandaoni na bila malipo — badilisha muundo wa picha kwa sekunde bila kupoteza ubora. Bila usajili au programu, badilisha faili nyingi kwa wakati mmoja.",
     "formatLabel": "Badilisha kuwa",
     "submit": "Badilisha kuwa {format}",
     "converting": "Inabadilisha...",
@@ -182,6 +186,7 @@
   "RotateImagePage": {
     "title": "Zungusha Picha",
     "description": "Zungusha picha kwa pembe yoyote au uigeuze kwa mlalo/wima. Chakata picha kadhaa kwa wakati mmoja.",
+    "metaDescription": "Zungusha au geuza picha mtandaoni na bila malipo — rekebisha picha iliyopotoka au uigeuze kwa mlalo au wima kwa sekunde. Bila usajili au programu, chakata picha nyingi kwa wakati mmoja.",
     "angleLabel": "Pembe ya Kuzungusha",
     "flipHLabel": "Geuza kwa mlalo",
     "flipVLabel": "Geuza kwa wima",
@@ -206,6 +211,7 @@
   "WatermarkImagePage": {
     "title": "Ongeza Alama ya Maji",
     "description": "Ongeza alama ya maji ya maandishi kwenye picha na uwazi na nafasi zinazoweza kurekebishwa.",
+    "metaDescription": "Ongeza alama ya maji ya maandishi kwenye picha mtandaoni na bila malipo — linda picha zako dhidi ya matumizi yasiyoidhinishwa kwa kurekebisha uwazi na nafasi kwa sekunde. Bila usajili au programu.",
     "textLabel": "Maandishi ya alama ya maji",
     "positionLabel": "Nafasi",
     "opacityLabel": "Uwazi",
@@ -231,6 +237,7 @@
   "MemeGeneratorPage": {
     "title": "Kitengenezea Meme",
     "description": "Ongeza maandishi juu na chini ili kutengeneza picha ya meme haraka.",
+    "metaDescription": "Tengeneza meme mtandaoni na bila malipo — ongeza maandishi ya juu na chini kwenye picha yoyote kwa sekunde kwa fonti na mtindo wa kawaida wa meme. Bila usajili au programu.",
     "topTextLabel": "Maandishi ya juu",
     "topTextPlaceholder": "mf. WHEN THE CODE",
     "bottomTextLabel": "Maandishi ya chini",
@@ -256,6 +263,7 @@
   "RemoveExifPage": {
     "title": "Ondoa Metadata",
     "description": "Ondoa taarifa za mahali na kifaa (EXIF) kutoka kwenye picha zako ili kulinda faragha yako. Chakata picha kadhaa kwa wakati mmoja.",
+    "metaDescription": "Ondoa data ya EXIF kutoka kwa picha mtandaoni na bila malipo — futa eneo la GPS, aina ya kamera, na data ya kifaa ili kulinda faragha yako kabla ya kushiriki, kwa sekunde. Bila usajili au programu, chakata picha nyingi kwa wakati mmoja.",
     "infoText": "Mahali pa GPS, aina ya kamera, tarehe ya kupiga picha, na data nyingine iliyofichwa kwenye picha zako itaondolewa kabisa. Ubora na mwelekeo wa picha havitabadilika.",
     "submit": "Ondoa Metadata",
     "converting": "Inaondoa...",
@@ -278,6 +286,7 @@
   "MergeImagesPage": {
     "title": "Unganisha Picha",
     "description": "Unganisha picha kadhaa kuwa moja, kwa mpangilio wa mlalo, wima, au gridi.",
+    "metaDescription": "Unganisha picha nyingi kuwa moja mtandaoni na bila malipo — unganisha picha kwa mlalo, wima, au mpangilio wa gridi kwa sekunde. Bila usajili au programu.",
     "layoutLabel": "Mpangilio",
     "layoutHorizontal": "Bega kwa bega",
     "layoutVertical": "Juu ya nyingine",

@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "Comprimir imatge",
     "description": "Redueix la mida d'imatges JPG, PNG, WEBP i TIFF mantenint la qualitat. Processa diverses imatges alhora.",
+    "metaDescription": "Comprimiu imatges JPG, PNG, WEBP o TIFF en línia i gratis — reduïu la mida de la foto en segons sense perdre gaire qualitat, ideal per a webs i correus electrònics. Sense registre ni programari, amb processament per lots de diverses imatges alhora.",
     "qualityLabel": "Qualitat de compressió",
     "qualityHint": "Valors més baixos redueixen la mida del fitxer, però també la qualitat.",
     "submit": "Comprimir imatge",
@@ -102,6 +103,7 @@
   "ResizeImagePage": {
     "title": "Redimensionar imatge",
     "description": "Canvia la mida de les imatges en píxels o percentatge. Processa diverses imatges alhora.",
+    "metaDescription": "Canvieu la mida d'imatges en línia i gratis — ajusteu les dimensions de la foto a qualsevol mida en píxels o percentatge en segons, per a xarxes socials, webs o impressió. Sense registre ni programari, amb canvi de mida per lots.",
     "modePixel": "En píxels",
     "modePercent": "En percentatge",
     "widthLabel": "Amplada (px)",
@@ -133,6 +135,7 @@
   "CropImagePage": {
     "title": "Retallar imatge",
     "description": "Retalla l'àrea que necessitis indicant coordenades en píxels.",
+    "metaDescription": "Retalleu una imatge en línia i gratis — ajusteu una foto a qualsevol àrea mitjançant coordenades de píxels en segons, ideal per a fotos de perfil o miniatures. Sense registre ni programari.",
     "previewAlt": "Vista prèvia",
     "originalSize": "Mida original: {width} x {height}px",
     "xLabel": "X (marge esquerre)",
@@ -160,6 +163,7 @@
   "ConvertImagePage": {
     "title": "Convertir imatge",
     "description": "Converteix lliurement entre JPG, PNG, WEBP, GIF, BMP i TIFF. Processa diverses imatges alhora.",
+    "metaDescription": "Convertiu imatges entre JPG, PNG, WEBP, GIF, BMP i TIFF en línia i gratis — canvieu el format d'imatge en segons sense perdre qualitat. Sense registre ni programari, amb conversió per lots de diversos fitxers.",
     "formatLabel": "Convertir a",
     "submit": "Convertir a {format}",
     "converting": "Convertint...",
@@ -182,6 +186,7 @@
   "RotateImagePage": {
     "title": "Girar imatge",
     "description": "Gira les imatges a l'angle que vulguis o inverteix-les horitzontalment/verticalment. Processa diverses imatges alhora.",
+    "metaDescription": "Gireu o volteu una imatge en línia i gratis — corregiu una foto torta o reflectiu-la horitzontalment o verticalment en segons. Sense registre ni programari, amb processament per lots.",
     "angleLabel": "Angle de gir",
     "flipHLabel": "Invertir horitzontalment",
     "flipVLabel": "Invertir verticalment",
@@ -206,6 +211,7 @@
   "WatermarkImagePage": {
     "title": "Afegir marca d'aigua",
     "description": "Afegeix una marca d'aigua de text a la imatge amb opacitat i posició ajustables.",
+    "metaDescription": "Afegiu una marca d'aigua de text a una foto en línia i gratis — protegiu les vostres imatges de l'ús no autoritzat amb opacitat i posició ajustables en segons. Sense registre ni programari.",
     "textLabel": "Text de la marca d'aigua",
     "positionLabel": "Posició",
     "opacityLabel": "Opacitat",
@@ -231,6 +237,7 @@
   "MemeGeneratorPage": {
     "title": "Generador de mems",
     "description": "Afegeix text a dalt i a baix per crear una imatge de mem fàcilment.",
+    "metaDescription": "Creeu un meme en línia i gratis — afegiu text superior i inferior a qualsevol imatge en segons amb la tipografia i l'estil clàssics dels mems. Sense registre ni programari.",
     "topTextLabel": "Text superior",
     "topTextPlaceholder": "p. ex. WHEN THE CODE",
     "bottomTextLabel": "Text inferior",
@@ -256,6 +263,7 @@
   "RemoveExifPage": {
     "title": "Eliminar metadades",
     "description": "Elimina la ubicació i la informació del dispositiu (EXIF) de les teves fotos per protegir la teva privadesa. Processa diverses imatges alhora.",
+    "metaDescription": "Elimineu les dades EXIF de les fotos en línia i gratis — esborreu la ubicació GPS, el model de càmera i les metadades del dispositiu per protegir la vostra privadesa abans de compartir, en segons. Sense registre ni programari, amb processament per lots.",
     "infoText": "La ubicació GPS, el model de càmera, la data de captura i altres dades ocultes de les teves fotos s'eliminaran completament. La qualitat i l'orientació de la imatge no canvien.",
     "submit": "Eliminar metadades",
     "converting": "Eliminant...",
@@ -278,6 +286,7 @@
   "MergeImagesPage": {
     "title": "Combinar imatges",
     "description": "Combina diverses imatges en una de sola, en horitzontal, vertical o en graella.",
+    "metaDescription": "Combineu diverses imatges en una de sola en línia i gratis — uniu fotos en horitzontal, vertical o en graella en segons. Sense registre ni programari.",
     "layoutLabel": "Disposició",
     "layoutHorizontal": "En fila",
     "layoutVertical": "En columna",

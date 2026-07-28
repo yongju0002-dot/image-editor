@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "壓縮圖片",
     "description": "在保持畫質的同時減少JPG、PNG、WEBP、TIFF圖片的容量。支援批次處理多張圖片。",
+    "metaDescription": "免費線上壓縮JPG、PNG、WEBP、TIFF圖片——幾秒鐘內在不損失畫質的情況下縮小照片體積，非常適合網站和郵件附件。無需註冊、無需安裝軟體，支援批量處理多張圖片。",
     "qualityLabel": "壓縮品質",
     "qualityHint": "數值越低，檔案越小，但畫質也會隨之下降。",
     "submit": "壓縮圖片",
@@ -102,6 +103,7 @@
   "ResizeImagePage": {
     "title": "調整圖片大小",
     "description": "依像素或百分比自由調整圖片尺寸。支援批次處理多張圖片。",
+    "metaDescription": "免費線上調整圖片尺寸——幾秒鐘內按任意像素大小或百分比更改照片尺寸，適用於社群媒體、網站或列印。無需註冊、無需安裝軟體，支援批量調整多張圖片。",
     "modePixel": "以像素指定",
     "modePercent": "以百分比指定",
     "widthLabel": "寬度 (px)",
@@ -133,6 +135,7 @@
   "CropImagePage": {
     "title": "裁切圖片",
     "description": "指定像素座標，只裁切出圖片中你需要的區域。",
+    "metaDescription": "免費線上裁剪圖片——幾秒鐘內按像素座標裁剪出任意區域，非常適合大頭貼或縮圖。無需註冊、無需安裝軟體。",
     "previewAlt": "預覽",
     "originalSize": "原始尺寸：{width} x {height}px",
     "xLabel": "X（左邊距）",
@@ -160,6 +163,7 @@
   "ConvertImagePage": {
     "title": "轉換圖片格式",
     "description": "在JPG、PNG、WEBP、GIF、BMP、TIFF之間自由轉換。支援批次處理多張圖片。",
+    "metaDescription": "免費線上轉換JPG、PNG、WEBP、GIF、BMP、TIFF圖片格式——幾秒鐘內更改圖片格式且不損失畫質。無需註冊、無需安裝軟體，支援批量轉換多個檔案。",
     "formatLabel": "轉換為",
     "submit": "轉換為{format}格式",
     "converting": "轉換中...",
@@ -182,6 +186,7 @@
   "RotateImagePage": {
     "title": "旋轉圖片",
     "description": "將圖片旋轉至任意角度，或進行左右/上下翻轉。支援批次處理多張圖片。",
+    "metaDescription": "免費線上旋轉或翻轉圖片——幾秒鐘內修正橫向照片，或將其水平、垂直翻轉。無需註冊、無需安裝軟體，支援批量處理多張圖片。",
     "angleLabel": "旋轉角度",
     "flipHLabel": "左右翻轉",
     "flipVLabel": "上下翻轉",
@@ -206,6 +211,7 @@
   "WatermarkImagePage": {
     "title": "新增浮水印",
     "description": "為圖片新增文字浮水印，並可調整透明度與位置。",
+    "metaDescription": "免費線上為照片添加文字浮水印——幾秒鐘內透過調整透明度和位置來保護圖片免遭未經授權的使用。無需註冊、無需安裝軟體。",
     "textLabel": "浮水印文字",
     "positionLabel": "位置",
     "opacityLabel": "透明度",
@@ -231,6 +237,7 @@
   "MemeGeneratorPage": {
     "title": "迷因產生器",
     "description": "新增上下文字，輕鬆製作迷因圖片。",
+    "metaDescription": "免費線上製作迷因——幾秒鐘內以經典迷因字體和樣式為任意圖片添加上下文字說明。無需註冊、無需安裝軟體。",
     "topTextLabel": "上方文字",
     "topTextPlaceholder": "例如：WHEN THE CODE",
     "bottomTextLabel": "下方文字",
@@ -256,6 +263,7 @@
   "RemoveExifPage": {
     "title": "移除中繼資料",
     "description": "刪除照片中的位置與裝置資訊(EXIF)，保護您的隱私。支援批次處理多張圖片。",
+    "metaDescription": "免費線上刪除照片的EXIF資訊——幾秒鐘內清除GPS位置、相機型號和裝置中繼資料，在分享前保護你的隱私。無需註冊、無需安裝軟體，支援批量處理多張圖片。",
     "infoText": "照片中的 GPS 位置、拍攝裝置、拍攝日期等附加資訊都會被刪除，圖片畫質與方向保持不變。",
     "submit": "移除中繼資料",
     "converting": "移除中...",
@@ -278,6 +286,7 @@
   "MergeImagesPage": {
     "title": "合併圖片",
     "description": "將多張圖片橫向、縱向或以網格方式合併為一張。",
+    "metaDescription": "免費線上合併多張圖片為一張——幾秒鐘內以橫向、縱向或網格版面合併照片。無需註冊、無需安裝軟體。",
     "layoutLabel": "排列方式",
     "layoutHorizontal": "橫向排列",
     "layoutVertical": "縱向排列",

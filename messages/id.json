@@ -79,6 +79,7 @@
   "CompressImagePage": {
     "title": "Kompres Gambar",
     "description": "Kecilkan ukuran file JPG, PNG, WEBP, dan TIFF tanpa mengurangi kualitas. Proses beberapa gambar sekaligus.",
+    "metaDescription": "Kompres gambar JPG, PNG, WEBP, atau TIFF secara online dan gratis — perkecil ukuran file foto hanya dalam hitungan detik tanpa kehilangan banyak kualitas, cocok untuk situs web dan email. Tanpa daftar atau software, proses banyak gambar sekaligus secara batch.",
     "qualityLabel": "Kualitas Kompresi",
     "qualityHint": "Nilai lebih rendah memperkecil ukuran file, tapi juga menurunkan kualitas gambar.",
     "submit": "Kompres Gambar",
@@ -102,6 +103,7 @@
   "ResizeImagePage": {
     "title": "Ubah Ukuran Gambar",
     "description": "Ubah ukuran gambar dalam piksel atau persentase. Proses beberapa gambar sekaligus.",
+    "metaDescription": "Ubah ukuran gambar secara online dan gratis — ubah dimensi foto ke ukuran piksel atau persentase apa pun hanya dalam hitungan detik, untuk media sosial, situs web, atau pencetakan. Tanpa daftar atau software, ubah ukuran banyak gambar sekaligus secara batch.",
     "modePixel": "Berdasarkan piksel",
     "modePercent": "Berdasarkan persentase",
     "widthLabel": "Lebar (px)",
@@ -133,6 +135,7 @@
   "CropImagePage": {
     "title": "Potong Gambar",
     "description": "Potong area yang diinginkan dengan menentukan koordinat piksel.",
+    "metaDescription": "Potong gambar secara online dan gratis — potong foto ke area mana pun dengan koordinat piksel hanya dalam hitungan detik, cocok untuk foto profil atau thumbnail. Tanpa daftar atau software.",
     "previewAlt": "Pratinjau",
     "originalSize": "Ukuran asli: {width} x {height}px",
     "xLabel": "X (jarak dari kiri)",
@@ -160,6 +163,7 @@
   "ConvertImagePage": {
     "title": "Konversi Gambar",
     "description": "Konversi bebas antara JPG, PNG, WEBP, GIF, BMP, dan TIFF. Proses beberapa gambar sekaligus.",
+    "metaDescription": "Ubah gambar antara JPG, PNG, WEBP, GIF, BMP, dan TIFF secara online dan gratis — ubah format gambar hanya dalam hitungan detik tanpa kehilangan kualitas. Tanpa daftar atau software, konversi banyak file sekaligus secara batch.",
     "formatLabel": "Konversi ke",
     "submit": "Konversi ke {format}",
     "converting": "Mengonversi...",
@@ -182,6 +186,7 @@
   "RotateImagePage": {
     "title": "Putar Gambar",
     "description": "Putar gambar ke sudut mana pun atau balikkan secara horizontal/vertikal. Proses beberapa gambar sekaligus.",
+    "metaDescription": "Putar atau balik gambar secara online dan gratis — perbaiki foto yang miring atau balikkan secara horizontal atau vertikal hanya dalam hitungan detik. Tanpa daftar atau software, proses banyak gambar sekaligus secara batch.",
     "angleLabel": "Sudut Putar",
     "flipHLabel": "Balik horizontal",
     "flipVLabel": "Balik vertikal",
@@ -206,6 +211,7 @@
   "WatermarkImagePage": {
     "title": "Tambahkan Watermark",
     "description": "Tambahkan watermark teks ke gambar dengan opasitas dan posisi yang dapat diatur.",
+    "metaDescription": "Tambahkan watermark teks ke foto secara online dan gratis — lindungi gambar Anda dari penggunaan tanpa izin dengan opasitas dan posisi yang dapat disesuaikan hanya dalam hitungan detik. Tanpa daftar atau software.",
     "textLabel": "Teks watermark",
     "positionLabel": "Posisi",
     "opacityLabel": "Opasitas",
@@ -231,6 +237,7 @@
   "MemeGeneratorPage": {
     "title": "Pembuat Meme",
     "description": "Tambahkan teks atas dan bawah untuk membuat gambar meme dengan cepat.",
+    "metaDescription": "Buat meme secara online dan gratis — tambahkan teks atas dan bawah ke gambar apa pun hanya dalam hitungan detik dengan font dan gaya meme klasik. Tanpa daftar atau software.",
     "topTextLabel": "Teks atas",
     "topTextPlaceholder": "cth. WHEN THE CODE",
     "bottomTextLabel": "Teks bawah",
@@ -256,6 +263,7 @@
   "RemoveExifPage": {
     "title": "Hapus Metadata",
     "description": "Hapus informasi lokasi dan perangkat (EXIF) dari foto Anda untuk melindungi privasi. Proses beberapa gambar sekaligus.",
+    "metaDescription": "Hapus data EXIF dari foto secara online dan gratis — hapus lokasi GPS, model kamera, dan metadata perangkat untuk melindungi privasi Anda sebelum membagikan, hanya dalam hitungan detik. Tanpa daftar atau software, proses banyak gambar sekaligus secara batch.",
     "infoText": "Lokasi GPS, model kamera, tanggal pengambilan, dan data tersembunyi lainnya pada foto Anda akan sepenuhnya dihapus. Kualitas dan orientasi gambar tetap sama.",
     "submit": "Hapus Metadata",
     "converting": "Menghapus...",
@@ -278,6 +286,7 @@
   "MergeImagesPage": {
     "title": "Gabungkan Gambar",
     "description": "Gabungkan beberapa gambar menjadi satu, disusun horizontal, vertikal, atau grid.",
+    "metaDescription": "Gabungkan beberapa gambar menjadi satu secara online dan gratis — gabungkan foto secara horizontal, vertikal, atau dalam tata letak grid hanya dalam hitungan detik. Tanpa daftar atau software.",
     "layoutLabel": "Tata Letak",
     "layoutHorizontal": "Berdampingan",
     "layoutVertical": "Bertumpuk",
