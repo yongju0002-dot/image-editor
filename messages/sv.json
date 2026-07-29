@@ -176,17 +176,19 @@
   },
   "MemeGeneratorPage": {
     "title": "Memegenerator",
-    "description": "Lägg till text upptill och nedtill för att snabbt skapa en memebild.",
-    "topTextLabel": "Text upptill",
-    "topTextPlaceholder": "t.ex. WHEN THE CODE",
-    "bottomTextLabel": "Text nedtill",
-    "bottomTextPlaceholder": "t.ex. FINALLY WORKS",
+    "description": "Lägg till dragbar text och bilder var som helst på ett foto för att skapa ditt meme.",
+    "internalTextLabel": "Intern text",
+    "externalTextLabel": "Extern text",
+    "addImageLabel": "Lägg till bild",
+    "addTextLabel": "Lägg till text",
+    "deleteLayerLabel": "Ta bort",
+    "placeTextHint": "Klicka på fotot för att placera din text",
     "submit": "Skapa meme",
     "converting": "Skapar meme...",
     "error": "Ett fel uppstod när memet skulle skapas.",
     "faq": [
-      { "q": "Kan jag lägga till bildtextliknande text på en memebild online och gratis?", "a": "Ja, skriv din text i de övre och nedre fälten och den läggs till automatiskt i fetstil med vit kontur i memestil, utan registrering eller program." },
-      { "q": "Kan jag använda bara en övre eller nedre bildtext istället för båda när jag skapar ett meme online?", "a": "Ja, att bara fylla i det övre eller nedre fältet fungerar också bra." },
+      { "q": "Kan jag skriva text direkt på fotot online och gratis?", "a": "Ja, klicka på 'Lägg till text' och klicka sedan var som helst på fotot för att placera en textruta och skriva direkt på bilden — utan registrering eller program." },
+      { "q": "Kan jag dra, ändra storlek på och rotera text eller bilder efter att jag lagt till dem online?", "a": "Ja, markera valfritt text- eller bildlager för att dra det till en ny plats, ändra storlek med hörnhandtaget eller rotera med det övre handtaget, allt gratis direkt i din webbläsare." },
       { "q": "Kan jag ladda ner det färdiga memet direkt utan att registrera mig?", "a": "Ja, att klicka på skapa-knappen laddar ner ditt färdiga meme omedelbart, helt gratis." }
     ]
   },

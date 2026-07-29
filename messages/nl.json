@@ -176,17 +176,19 @@
   },
   "MemeGeneratorPage": {
     "title": "Memegenerator",
-    "description": "Voeg boven- en ondertekst toe om snel een meme-afbeelding te maken.",
-    "topTextLabel": "Boventekst",
-    "topTextPlaceholder": "bijv. WHEN THE CODE",
-    "bottomTextLabel": "Ondertekst",
-    "bottomTextPlaceholder": "bijv. FINALLY WORKS",
+    "description": "Voeg sleepbare tekst en afbeeldingen overal op een foto toe om je meme te maken.",
+    "internalTextLabel": "Interne tekst",
+    "externalTextLabel": "Externe tekst",
+    "addImageLabel": "Afbeelding toevoegen",
+    "addTextLabel": "Tekst toevoegen",
+    "deleteLayerLabel": "Verwijderen",
+    "placeTextHint": "Klik op de foto om je tekst te plaatsen",
     "submit": "Meme maken",
     "converting": "Meme wordt gemaakt...",
     "error": "Er is een fout opgetreden bij het maken van de meme.",
     "faq": [
-      { "q": "Kan ik online en gratis onderschrift-stijl tekst aan een memeafbeelding toevoegen?", "a": "Ja, typ je tekst in de boven- en ondervelden en het wordt automatisch toegevoegd in vetgedrukte, wit omrande memestijl-letters, zonder registratie of software nodig." },
-      { "q": "Kan ik online bij het maken van een meme slechts een boven- of onderonderschrift gebruiken in plaats van beide?", "a": "Ja, alleen het boven- of onderveld invullen werkt ook prima." },
+      { "q": "Kan ik online en gratis rechtstreeks tekst op de foto schrijven?", "a": "Ja, klik op 'Tekst toevoegen' en klik dan ergens op de foto om een tekstvak te plaatsen en rechtstreeks op de afbeelding te typen — zonder registratie of software nodig." },
+      { "q": "Kan ik tekst of afbeeldingen na het toevoegen online verslepen, van grootte veranderen en draaien?", "a": "Ja, selecteer een tekst- of afbeeldingslaag om deze naar een nieuwe plek te slepen, met de hoekgreep te vergroten of verkleinen, of met de bovenste greep te draaien, allemaal gratis in je browser." },
       { "q": "Kan ik de voltooide meme direct downloaden zonder me te registreren?", "a": "Ja, klikken op de maak-knop downloadt je voltooide meme onmiddellijk, volledig gratis." }
     ]
   },

@@ -176,17 +176,19 @@
   },
   "MemeGeneratorPage": {
     "title": "Generator memów",
-    "description": "Dodaj tekst u góry i na dole, aby szybko stworzyć obraz mema.",
-    "topTextLabel": "Tekst górny",
-    "topTextPlaceholder": "np. WHEN THE CODE",
-    "bottomTextLabel": "Tekst dolny",
-    "bottomTextPlaceholder": "np. FINALLY WORKS",
+    "description": "Dodaj przeciągalny tekst i obrazy w dowolnym miejscu zdjęcia, aby stworzyć swojego mema.",
+    "internalTextLabel": "Tekst wewnętrzny",
+    "externalTextLabel": "Tekst zewnętrzny",
+    "addImageLabel": "Dodaj obraz",
+    "addTextLabel": "Dodaj tekst",
+    "deleteLayerLabel": "Usuń",
+    "placeTextHint": "Kliknij zdjęcie, aby umieścić tekst",
     "submit": "Stwórz mema",
     "converting": "Tworzenie mema...",
     "error": "Wystąpił błąd podczas tworzenia mema.",
     "faq": [
-      { "q": "Czy mogę dodać tekst w stylu podpisu do obrazu mema online i za darmo?", "a": "Tak, wpisz tekst w polach górnym i dolnym, a zostanie automatycznie dodany pogrubioną czcionką w stylu mema z białym obramowaniem, bez rejestracji i oprogramowania." },
-      { "q": "Czy przy tworzeniu mema online mogę użyć tylko górnego lub dolnego podpisu zamiast obu?", "a": "Tak, wypełnienie tylko górnego lub dolnego pola również działa poprawnie." },
+      { "q": "Czy mogę pisać tekst bezpośrednio na zdjęciu online i za darmo?", "a": "Tak, kliknij „Dodaj tekst”, a następnie kliknij w dowolnym miejscu zdjęcia, aby umieścić tam pole tekstowe i pisać bezpośrednio na obrazie — bez rejestracji i oprogramowania." },
+      { "q": "Czy mogę przeciągać, zmieniać rozmiar i obracać tekst lub obrazy po dodaniu ich online?", "a": "Tak, wybierz dowolną warstwę tekstu lub obrazu, aby przeciągnąć ją w nowe miejsce, zmienić jej rozmiar uchwytem w rogu lub obrócić uchwytem u góry — wszystko za darmo w przeglądarce." },
       { "q": "Czy mogę od razu pobrać gotowego mema bez rejestracji?", "a": "Tak, kliknięcie przycisku utwórz pobiera gotowego mema natychmiast, całkowicie za darmo." }
     ]
   },

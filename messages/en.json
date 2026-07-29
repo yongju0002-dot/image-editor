@@ -176,17 +176,19 @@
   },
   "MemeGeneratorPage": {
     "title": "Meme Generator",
-    "description": "Add top and bottom text to quickly create a meme image.",
-    "topTextLabel": "Top text",
-    "topTextPlaceholder": "e.g. WHEN THE CODE",
-    "bottomTextLabel": "Bottom text",
-    "bottomTextPlaceholder": "e.g. FINALLY WORKS",
+    "description": "Add draggable text and images anywhere on a photo, then export your finished meme.",
+    "internalTextLabel": "Internal text",
+    "externalTextLabel": "External text",
+    "addImageLabel": "Add image",
+    "addTextLabel": "Add text",
+    "deleteLayerLabel": "Delete",
+    "placeTextHint": "Click the photo to place your text",
     "submit": "Make Meme",
     "converting": "Making meme...",
     "error": "Something went wrong while generating the meme.",
     "faq": [
-      { "q": "Can I add caption-style text to a meme image online for free?", "a": "Yes, type your text into the top and bottom fields and it's added in bold, white-outlined meme-style lettering automatically, no sign up or software needed." },
-      { "q": "Can I use just a top or bottom caption instead of both when making a meme online?", "a": "Yes, filling in only the top or bottom field still works fine." },
+      { "q": "Can I write text directly on the photo online and for free?", "a": "Yes, click \"Add text\" and then click anywhere on the photo to place a text box and type right on the image — no sign up or software needed." },
+      { "q": "Can I drag, resize, and rotate the text or images after adding them online?", "a": "Yes, select any text or image layer to drag it to a new spot, resize it with the corner handle, or rotate it with the top handle, all free in your browser." },
       { "q": "Can I download the finished meme right away without signing up?", "a": "Yes, clicking the make button downloads your finished meme immediately, completely free." }
     ]
   },

@@ -176,17 +176,19 @@
   },
   "MemeGeneratorPage": {
     "title": "Tạo meme",
-    "description": "Thêm chữ ở trên và dưới để nhanh chóng tạo ảnh meme.",
-    "topTextLabel": "Chữ phía trên",
-    "topTextPlaceholder": "vd: WHEN THE CODE",
-    "bottomTextLabel": "Chữ phía dưới",
-    "bottomTextPlaceholder": "vd: FINALLY WORKS",
+    "description": "Thêm văn bản và hình ảnh có thể kéo thả vào bất kỳ đâu trên ảnh để tạo meme của bạn.",
+    "internalTextLabel": "Văn bản nội bộ",
+    "externalTextLabel": "Văn bản bên ngoài",
+    "addImageLabel": "Thêm ảnh",
+    "addTextLabel": "Thêm văn bản",
+    "deleteLayerLabel": "Xóa",
+    "placeTextHint": "Nhấp vào ảnh để đặt văn bản của bạn",
     "submit": "Tạo meme",
     "converting": "Đang tạo meme...",
     "error": "Đã xảy ra lỗi khi tạo meme.",
     "faq": [
-      { "q": "Tôi có thể thêm văn bản kiểu chú thích vào ảnh meme trực tuyến và miễn phí không?", "a": "Có, gõ văn bản của bạn vào các ô trên và dưới và nó sẽ tự động được thêm bằng chữ in đậm viền trắng kiểu meme, không cần đăng ký hay phần mềm." },
-      { "q": "Tôi có thể chỉ dùng chú thích trên hoặc dưới thay vì cả hai khi tạo meme trực tuyến không?", "a": "Có, chỉ điền vào ô trên hoặc dưới vẫn hoạt động bình thường." },
+      { "q": "Tôi có thể viết văn bản trực tiếp lên ảnh trực tuyến và miễn phí không?", "a": "Có, nhấp vào 'Thêm văn bản' rồi nhấp vào bất kỳ đâu trên ảnh để đặt một hộp văn bản và gõ trực tiếp lên ảnh — không cần đăng ký hay phần mềm." },
+      { "q": "Tôi có thể kéo, thay đổi kích thước và xoay văn bản hoặc hình ảnh sau khi thêm chúng trực tuyến không?", "a": "Có, chọn bất kỳ lớp văn bản hoặc hình ảnh nào để kéo đến vị trí mới, thay đổi kích thước bằng tay cầm ở góc, hoặc xoay bằng tay cầm ở trên, tất cả đều miễn phí ngay trong trình duyệt." },
       { "q": "Tôi có thể tải xuống meme hoàn thành ngay lập tức mà không cần đăng ký không?", "a": "Có, nhấp vào nút tạo sẽ tải xuống meme hoàn thành của bạn ngay lập tức, hoàn toàn miễn phí." }
     ]
   },

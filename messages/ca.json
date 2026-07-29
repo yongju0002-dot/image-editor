@@ -176,17 +176,19 @@
   },
   "MemeGeneratorPage": {
     "title": "Generador de mems",
-    "description": "Afegeix text a dalt i a baix per crear una imatge de mem fàcilment.",
-    "topTextLabel": "Text superior",
-    "topTextPlaceholder": "p. ex. WHEN THE CODE",
-    "bottomTextLabel": "Text inferior",
-    "bottomTextPlaceholder": "p. ex. FINALLY WORKS",
+    "description": "Afegiu text i imatges arrossegables a qualsevol part d'una foto per crear el vostre mem.",
+    "internalTextLabel": "Text intern",
+    "externalTextLabel": "Text extern",
+    "addImageLabel": "Afegir imatge",
+    "addTextLabel": "Afegir text",
+    "deleteLayerLabel": "Eliminar",
+    "placeTextHint": "Feu clic a la foto per col·locar el vostre text",
     "submit": "Crear mem",
     "converting": "Creant el mem...",
     "error": "S'ha produït un error en generar el mem.",
     "faq": [
-      { "q": "Puc afegir text estil subtítol a una imatge de mem en línia i gratis?", "a": "Sí, escriviu el vostre text als camps superior i inferior i s'afegeix automàticament en lletres estil mem en negreta amb vora blanca, sense registre ni programari necessari." },
-      { "q": "Puc usar només un subtítol superior o inferior en lloc de tots dos en crear un mem en línia?", "a": "Sí, omplir només el camp superior o inferior també funciona bé." },
+      { "q": "Puc escriure text directament sobre la foto en línia i gratis?", "a": "Sí, feu clic a 'Afegir text' i després feu clic a qualsevol part de la foto per col·locar un quadre de text i escriure directament sobre la imatge — sense registre ni programari necessari." },
+      { "q": "Puc arrossegar, redimensionar i girar el text o les imatges després d'afegir-los en línia?", "a": "Sí, seleccioneu qualsevol capa de text o imatge per arrossegar-la a un nou lloc, redimensionar-la amb la nansa de la cantonada, o girar-la amb la nansa superior, tot gratis al vostre navegador." },
       { "q": "Puc baixar el mem acabat immediatament sense registrar-me?", "a": "Sí, fer clic al botó crear baixa el vostre mem acabat a l'instant, totalment gratis." }
     ]
   },

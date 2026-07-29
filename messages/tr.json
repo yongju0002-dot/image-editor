@@ -176,17 +176,19 @@
   },
   "MemeGeneratorPage": {
     "title": "Meme Oluşturucu",
-    "description": "Üst ve alt metin ekleyerek hızlıca bir meme görseli oluşturun.",
-    "topTextLabel": "Üst metin",
-    "topTextPlaceholder": "örn. WHEN THE CODE",
-    "bottomTextLabel": "Alt metin",
-    "bottomTextPlaceholder": "örn. FINALLY WORKS",
+    "description": "Bir fotoğrafın herhangi bir yerine sürüklenebilir metin ve görsel ekleyerek meme'inizi oluşturun.",
+    "internalTextLabel": "İç metin",
+    "externalTextLabel": "Dış metin",
+    "addImageLabel": "Görsel ekle",
+    "addTextLabel": "Metin ekle",
+    "deleteLayerLabel": "Sil",
+    "placeTextHint": "Metninizi yerleştirmek için fotoğrafa tıklayın",
     "submit": "Meme Oluştur",
     "converting": "Meme oluşturuluyor...",
     "error": "Meme oluşturulurken bir hata oluştu.",
     "faq": [
-      { "q": "Bir meme görseline çevrimiçi ve ücretsiz olarak altyazı tarzı metin ekleyebilir miyim?", "a": "Evet, metninizi üst ve alt alanlara yazın, otomatik olarak kalın, beyaz kenarlıklı meme tarzı harflerle eklenir, kayıt veya yazılım gerekmez." },
-      { "q": "Çevrimiçi bir meme oluştururken ikisi yerine sadece üst veya alt altyazı kullanabilir miyim?", "a": "Evet, yalnızca üst veya alt alanı doldurmak da sorunsuz çalışır." },
+      { "q": "Fotoğrafın üzerine çevrimiçi ve ücretsiz olarak doğrudan metin yazabilir miyim?", "a": "Evet, 'Metin ekle'ye tıklayın, ardından fotoğrafın herhangi bir yerine tıklayarak bir metin kutusu yerleştirin ve doğrudan görselin üzerine yazın — kayıt veya yazılım gerekmez." },
+      { "q": "Ekledikten sonra metni veya görselleri çevrimiçi olarak sürükleyebilir, yeniden boyutlandırabilir ve döndürebilir miyim?", "a": "Evet, herhangi bir metin veya görsel katmanını seçerek yeni bir yere sürükleyebilir, köşe tutamacıyla yeniden boyutlandırabilir veya üst tutamaçla döndürebilirsiniz, hepsi tarayıcınızda ücretsiz." },
       { "q": "Kayıt olmadan tamamlanan memeyi hemen indirebilir miyim?", "a": "Evet, oluştur düğmesine tıklamak tamamlanan memenizi anında, tamamen ücretsiz olarak indirir." }
     ]
   },

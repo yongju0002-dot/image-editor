@@ -176,17 +176,19 @@
   },
   "MemeGeneratorPage": {
     "title": "Kitengenezea Meme",
-    "description": "Ongeza maandishi juu na chini ili kutengeneza picha ya meme haraka.",
-    "topTextLabel": "Maandishi ya juu",
-    "topTextPlaceholder": "mf. WHEN THE CODE",
-    "bottomTextLabel": "Maandishi ya chini",
-    "bottomTextPlaceholder": "mf. FINALLY WORKS",
+    "description": "Ongeza maandishi na picha zinazoweza kuburutwa mahali popote kwenye picha ili kutengeneza meme yako.",
+    "internalTextLabel": "Maandishi ya ndani",
+    "externalTextLabel": "Maandishi ya nje",
+    "addImageLabel": "Ongeza picha",
+    "addTextLabel": "Ongeza maandishi",
+    "deleteLayerLabel": "Futa",
+    "placeTextHint": "Bofya picha ili kuweka maandishi yako",
     "submit": "Tengeneza Meme",
     "converting": "Inatengeneza meme...",
     "error": "Hitilafu imetokea wakati wa kutengeneza meme.",
     "faq": [
-      { "q": "Je, ninaweza kuongeza maandishi ya mtindo wa manukuu kwenye picha ya meme mtandaoni na bila malipo?", "a": "Ndiyo, andika maandishi yako kwenye sehemu za juu na chini na yataongezwa kiotomatiki kwa herufi nzito za mtindo wa meme zenye mstari mweupe, bila usajili au programu." },
-      { "q": "Je, ninaweza kutumia manukuu ya juu au chini pekee badala ya zote mbili wakati wa kutengeneza meme mtandaoni?", "a": "Ndiyo, kujaza sehemu ya juu au chini pekee pia hufanya kazi vizuri." },
+      { "q": "Je, ninaweza kuandika maandishi moja kwa moja kwenye picha mtandaoni na bila malipo?", "a": "Ndiyo, bofya 'Ongeza maandishi' kisha ubofye mahali popote kwenye picha ili kuweka kisanduku cha maandishi na kuandika moja kwa moja juu ya picha — bila usajili au programu inayohitajika." },
+      { "q": "Je, ninaweza kuburuta, kubadilisha ukubwa, na kuzungusha maandishi au picha baada ya kuziongeza mtandaoni?", "a": "Ndiyo, chagua tabaka lolote la maandishi au picha ili kuliburuta hadi mahali pengine, kubadilisha ukubwa wake kwa kishikio cha kona, au kulizungusha kwa kishikio cha juu, yote bila malipo moja kwa moja kwenye kivinjari chako." },
       { "q": "Je, ninaweza kupakua meme iliyokamilika mara moja bila kujisajili?", "a": "Ndiyo, kubofya kitufe cha kutengeneza hupakua meme yako iliyokamilika mara moja, bila malipo kabisa." }
     ]
   },

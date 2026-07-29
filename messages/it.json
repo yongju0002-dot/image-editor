@@ -176,17 +176,19 @@
   },
   "MemeGeneratorPage": {
     "title": "Generatore di meme",
-    "description": "Aggiungi testo in alto e in basso per creare facilmente un'immagine meme.",
-    "topTextLabel": "Testo superiore",
-    "topTextPlaceholder": "es. WHEN THE CODE",
-    "bottomTextLabel": "Testo inferiore",
-    "bottomTextPlaceholder": "es. FINALLY WORKS",
+    "description": "Aggiungi testo e immagini trascinabili ovunque su una foto per creare il tuo meme.",
+    "internalTextLabel": "Testo interno",
+    "externalTextLabel": "Testo esterno",
+    "addImageLabel": "Aggiungi immagine",
+    "addTextLabel": "Aggiungi testo",
+    "deleteLayerLabel": "Elimina",
+    "placeTextHint": "Clicca sulla foto per posizionare il testo",
     "submit": "Crea meme",
     "converting": "Creazione del meme in corso...",
     "error": "Si è verificato un errore durante la creazione del meme.",
     "faq": [
-      { "q": "Posso aggiungere testo stile didascalia a un'immagine meme online e gratis?", "a": "Sì, digita il tuo testo nei campi superiore e inferiore e viene aggiunto automaticamente in caratteri grassetto stile meme con bordo bianco, senza registrazione né software necessario." },
-      { "q": "Posso usare solo una didascalia superiore o inferiore invece di entrambe quando creo un meme online?", "a": "Sì, compilare solo il campo superiore o inferiore funziona bene comunque." },
+      { "q": "Posso scrivere testo direttamente sulla foto online e gratis?", "a": "Sì, clicca su 'Aggiungi testo' e poi clicca ovunque sulla foto per posizionare una casella di testo e scrivere direttamente sull'immagine — senza registrazione né software necessario." },
+      { "q": "Posso trascinare, ridimensionare e ruotare il testo o le immagini dopo averli aggiunti online?", "a": "Sì, seleziona qualsiasi livello di testo o immagine per trascinarlo in una nuova posizione, ridimensionarlo con la maniglia d'angolo o ruotarlo con la maniglia superiore, tutto gratis nel tuo browser." },
       { "q": "Posso scaricare subito il meme finito senza registrarmi?", "a": "Sì, cliccando sul pulsante crea scarichi immediatamente il tuo meme finito, completamente gratis." }
     ]
   },

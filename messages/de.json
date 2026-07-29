@@ -176,17 +176,19 @@
   },
   "MemeGeneratorPage": {
     "title": "Meme-Generator",
-    "description": "Füge Text oben und unten hinzu, um schnell ein Meme-Bild zu erstellen.",
-    "topTextLabel": "Text oben",
-    "topTextPlaceholder": "z. B. WHEN THE CODE",
-    "bottomTextLabel": "Text unten",
-    "bottomTextPlaceholder": "z. B. FINALLY WORKS",
+    "description": "Fügen Sie ziehbaren Text und Bilder an beliebiger Stelle auf einem Foto hinzu, um Ihr Meme zu erstellen.",
+    "internalTextLabel": "Interner Text",
+    "externalTextLabel": "Externer Text",
+    "addImageLabel": "Bild hinzufügen",
+    "addTextLabel": "Text hinzufügen",
+    "deleteLayerLabel": "Löschen",
+    "placeTextHint": "Klicken Sie auf das Foto, um Ihren Text zu platzieren",
     "submit": "Meme erstellen",
     "converting": "Meme wird erstellt...",
     "error": "Beim Erstellen des Memes ist ein Fehler aufgetreten.",
     "faq": [
-      { "q": "Kann ich einem Meme-Bild online und kostenlos Untertitel-artigen Text hinzufügen?", "a": "Ja, geben Sie Ihren Text in die oberen und unteren Felder ein, und er wird automatisch in fettem, weiß umrandetem Meme-Stil-Schriftzug hinzugefügt, ohne Anmeldung oder Software erforderlich." },
-      { "q": "Kann ich beim Erstellen eines Memes online nur eine obere oder untere Bildunterschrift statt beider verwenden?", "a": "Ja, nur das obere oder untere Feld auszufüllen, funktioniert ebenfalls einwandfrei." },
+      { "q": "Kann ich online und kostenlos Text direkt auf das Foto schreiben?", "a": "Ja, klicken Sie auf „Text hinzufügen“ und dann an eine beliebige Stelle des Fotos, um ein Textfeld zu platzieren und direkt auf dem Bild zu schreiben — ohne Anmeldung oder Software nötig." },
+      { "q": "Kann ich Text oder Bilder nach dem Hinzufügen online verschieben, in der Größe ändern und drehen?", "a": "Ja, wählen Sie eine beliebige Text- oder Bildebene aus, um sie an eine neue Stelle zu ziehen, mit dem Eckgriff in der Größe zu ändern oder mit dem oberen Griff zu drehen, alles kostenlos direkt in Ihrem Browser." },
       { "q": "Kann ich das fertige Meme sofort ohne Anmeldung herunterladen?", "a": "Ja, ein Klick auf den Erstellen-Button lädt Ihr fertiges Meme sofort herunter, komplett kostenlos." }
     ]
   },

@@ -176,17 +176,19 @@
   },
   "MemeGeneratorPage": {
     "title": "Pembuat Meme",
-    "description": "Tambahkan teks atas dan bawah untuk membuat gambar meme dengan cepat.",
-    "topTextLabel": "Teks atas",
-    "topTextPlaceholder": "cth. WHEN THE CODE",
-    "bottomTextLabel": "Teks bawah",
-    "bottomTextPlaceholder": "cth. FINALLY WORKS",
+    "description": "Tambahkan teks dan gambar yang dapat diseret ke mana saja pada foto untuk membuat meme Anda.",
+    "internalTextLabel": "Teks internal",
+    "externalTextLabel": "Teks eksternal",
+    "addImageLabel": "Tambah gambar",
+    "addTextLabel": "Tambah teks",
+    "deleteLayerLabel": "Hapus",
+    "placeTextHint": "Klik foto untuk menempatkan teks Anda",
     "submit": "Buat Meme",
     "converting": "Membuat meme...",
     "error": "Terjadi kesalahan saat membuat meme.",
     "faq": [
-      { "q": "Bisakah saya menambahkan teks gaya caption ke gambar meme secara online dan gratis?", "a": "Bisa, ketik teks Anda di bidang atas dan bawah dan akan ditambahkan secara otomatis dalam huruf tebal bergaya meme dengan garis luar putih, tanpa daftar atau software diperlukan." },
-      { "q": "Bisakah saya hanya menggunakan caption atas atau bawah alih-alih keduanya saat membuat meme online?", "a": "Bisa, mengisi hanya bidang atas atau bawah juga berfungsi dengan baik." },
+      { "q": "Bisakah saya menulis teks langsung di foto secara online dan gratis?", "a": "Bisa, klik 'Tambah teks' lalu klik di mana saja pada foto untuk menempatkan kotak teks dan mengetik langsung di atas gambar — tanpa daftar atau software diperlukan." },
+      { "q": "Bisakah saya menyeret, mengubah ukuran, dan memutar teks atau gambar setelah menambahkannya secara online?", "a": "Bisa, pilih lapisan teks atau gambar mana pun untuk menyeretnya ke tempat baru, mengubah ukurannya dengan gagang di sudut, atau memutarnya dengan gagang di atas, semuanya gratis langsung di browser Anda." },
       { "q": "Bisakah saya mengunduh meme yang selesai segera tanpa mendaftar?", "a": "Bisa, mengklik tombol buat akan langsung mengunduh meme Anda yang sudah jadi, sepenuhnya gratis." }
     ]
   },

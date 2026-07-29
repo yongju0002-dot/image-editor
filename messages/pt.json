@@ -176,17 +176,19 @@
   },
   "MemeGeneratorPage": {
     "title": "Gerador de memes",
-    "description": "Adicione texto na parte superior e inferior para criar um meme facilmente.",
-    "topTextLabel": "Texto superior",
-    "topTextPlaceholder": "ex.: WHEN THE CODE",
-    "bottomTextLabel": "Texto inferior",
-    "bottomTextPlaceholder": "ex.: FINALLY WORKS",
+    "description": "Adicione texto e imagens arrastáveis em qualquer parte de uma foto para criar seu meme.",
+    "internalTextLabel": "Texto interno",
+    "externalTextLabel": "Texto externo",
+    "addImageLabel": "Adicionar imagem",
+    "addTextLabel": "Adicionar texto",
+    "deleteLayerLabel": "Excluir",
+    "placeTextHint": "Clique na foto para posicionar seu texto",
     "submit": "Criar meme",
     "converting": "Criando meme...",
     "error": "Ocorreu um erro ao gerar o meme.",
     "faq": [
-      { "q": "Posso adicionar texto estilo legenda a uma imagem de meme online e de graça?", "a": "Sim, digite seu texto nos campos superior e inferior e ele é adicionado automaticamente em letras estilo meme em negrito com contorno branco, sem cadastro nem programas necessários." },
-      { "q": "Posso usar apenas uma legenda superior ou inferior em vez de ambas ao criar um meme online?", "a": "Sim, preencher apenas o campo superior ou inferior também funciona bem." },
+      { "q": "Posso escrever texto diretamente na foto online e de graça?", "a": "Sim, clique em 'Adicionar texto' e depois clique em qualquer lugar da foto para posicionar uma caixa de texto e digitar direto na imagem — sem cadastro nem programas necessários." },
+      { "q": "Posso arrastar, redimensionar e girar o texto ou as imagens depois de adicioná-los online?", "a": "Sim, selecione qualquer camada de texto ou imagem para arrastá-la para outro lugar, redimensioná-la com a alça do canto, ou girá-la com a alça superior, tudo de graça no seu navegador." },
       { "q": "Posso baixar o meme finalizado imediatamente sem me cadastrar?", "a": "Sim, clicar no botão de criar baixa seu meme finalizado imediatamente, totalmente de graça." }
     ]
   },

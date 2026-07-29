@@ -176,17 +176,19 @@
   },
   "MemeGeneratorPage": {
     "title": "Penjana Meme",
-    "description": "Tambah teks di atas dan bawah untuk mencipta imej meme dengan cepat.",
-    "topTextLabel": "Teks atas",
-    "topTextPlaceholder": "cth. WHEN THE CODE",
-    "bottomTextLabel": "Teks bawah",
-    "bottomTextPlaceholder": "cth. FINALLY WORKS",
+    "description": "Tambah teks dan imej yang boleh diseret di mana-mana bahagian foto untuk mencipta meme anda.",
+    "internalTextLabel": "Teks dalaman",
+    "externalTextLabel": "Teks luaran",
+    "addImageLabel": "Tambah imej",
+    "addTextLabel": "Tambah teks",
+    "deleteLayerLabel": "Padam",
+    "placeTextHint": "Klik foto untuk meletakkan teks anda",
     "submit": "Cipta Meme",
     "converting": "Sedang mencipta meme...",
     "error": "Ralat berlaku semasa mencipta meme.",
     "faq": [
-      { "q": "Bolehkah saya menambah teks gaya kapsyen pada imej meme dalam talian dan percuma?", "a": "Boleh, taip teks anda dalam medan atas dan bawah dan ia akan ditambah secara automatik dalam huruf tebal gaya meme bergaris putih, tanpa pendaftaran atau perisian diperlukan." },
-      { "q": "Bolehkah saya hanya menggunakan kapsyen atas atau bawah dan bukan kedua-duanya semasa membuat meme dalam talian?", "a": "Boleh, mengisi hanya medan atas atau bawah juga berfungsi dengan baik." },
+      { "q": "Bolehkah saya menulis teks terus pada foto secara dalam talian dan percuma?", "a": "Boleh, klik 'Tambah teks' kemudian klik di mana-mana pada foto untuk meletakkan kotak teks dan menaip terus pada imej — tanpa pendaftaran atau perisian diperlukan." },
+      { "q": "Bolehkah saya menyeret, mengubah saiz, dan memutar teks atau imej selepas menambahkannya secara dalam talian?", "a": "Boleh, pilih mana-mana lapisan teks atau imej untuk menyeretnya ke tempat baharu, mengubah saiznya dengan pemegang di penjuru, atau memutarnya dengan pemegang di atas, semuanya percuma terus dalam pelayar anda." },
       { "q": "Bolehkah saya memuat turun meme yang siap dengan segera tanpa mendaftar?", "a": "Boleh, mengklik butang cipta memuat turun meme siap anda serta-merta, sepenuhnya percuma." }
     ]
   },

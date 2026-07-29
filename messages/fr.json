@@ -176,17 +176,19 @@
   },
   "MemeGeneratorPage": {
     "title": "Générateur de mèmes",
-    "description": "Ajoutez du texte en haut et en bas pour créer facilement un mème.",
-    "topTextLabel": "Texte du haut",
-    "topTextPlaceholder": "ex. WHEN THE CODE",
-    "bottomTextLabel": "Texte du bas",
-    "bottomTextPlaceholder": "ex. FINALLY WORKS",
+    "description": "Ajoutez du texte et des images à faire glisser n'importe où sur une photo pour créer votre mème.",
+    "internalTextLabel": "Texte interne",
+    "externalTextLabel": "Texte externe",
+    "addImageLabel": "Ajouter une image",
+    "addTextLabel": "Ajouter du texte",
+    "deleteLayerLabel": "Supprimer",
+    "placeTextHint": "Cliquez sur la photo pour placer votre texte",
     "submit": "Créer le mème",
     "converting": "Création en cours...",
     "error": "Une erreur est survenue lors de la création du mème.",
     "faq": [
-      { "q": "Puis-je ajouter du texte style légende à une image de mème en ligne et gratuitement ?", "a": "Oui, tapez votre texte dans les champs du haut et du bas et il est ajouté automatiquement en lettres style mème en gras avec contour blanc, sans inscription ni logiciel nécessaire." },
-      { "q": "Puis-je utiliser seulement une légende en haut ou en bas au lieu des deux lors de la création d'un mème en ligne ?", "a": "Oui, remplir seulement le champ du haut ou du bas fonctionne très bien aussi." },
+      { "q": "Puis-je écrire du texte directement sur la photo en ligne et gratuitement ?", "a": "Oui, cliquez sur « Ajouter du texte » puis cliquez n'importe où sur la photo pour placer une zone de texte et écrire directement sur l'image — sans inscription ni logiciel nécessaire." },
+      { "q": "Puis-je faire glisser, redimensionner et faire pivoter le texte ou les images après les avoir ajoutés en ligne ?", "a": "Oui, sélectionnez n'importe quel calque de texte ou d'image pour le faire glisser vers un nouvel endroit, le redimensionner avec la poignée d'angle, ou le faire pivoter avec la poignée du haut, gratuitement dans votre navigateur." },
       { "q": "Puis-je télécharger le mème terminé immédiatement sans m'inscrire ?", "a": "Oui, cliquer sur le bouton créer télécharge votre mème terminé immédiatement, entièrement gratuit." }
     ]
   },
